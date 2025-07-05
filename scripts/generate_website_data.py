@@ -63,32 +63,58 @@ def parse_markdown_file(file_path):
         if summary_match:
             summary_text = summary_match.group(1).strip()
             
-            # Extract the main title/summary (usually the first line or bold text)
-            lines = summary_text.split('\n')
-            pr_info['summary'] = lines[0].strip()
-            
-            # Extract bullet points as details
-            details = []
-            for line in lines:
-                line = line.strip()
-                if line.startswith('- ') or line.startswith('• '):
-                    details.append(line[2:].strip())
-                elif line.startswith('  - ') or line.startswith('  • '):
-                    details.append(line[4:].strip())
-            
-            if details:
-                pr_info['details'] = details
-            else:
-                # If no bullet points, try to extract from the summary text
-                # Look for lines that contain key changes
-                detail_lines = []
-                for line in lines[1:]:  # Skip first line (main summary)
+            # Try to extract structured summary (### Summary section)
+            structured_summary_match = re.search(r'### Summary\n(.+?)(?=\n### |$)', summary_text, re.DOTALL)
+            if structured_summary_match:
+                summary_content = structured_summary_match.group(1).strip()
+                # Extract bullet points as details
+                details = []
+                for line in summary_content.split('\n'):
                     line = line.strip()
-                    if line and not line.startswith('**') and len(line) > 20:
-                        detail_lines.append(line)
+                    if line.startswith('- ') or line.startswith('• '):
+                        details.append(line[2:].strip())
+                    elif line.startswith('  - ') or line.startswith('  • '):
+                        details.append(line[4:].strip())
                 
-                if detail_lines:
-                    pr_info['details'] = detail_lines[:5]  # Limit to 5 details
+                if details:
+                    pr_info['details'] = details
+                    # Use first detail as main summary if available
+                    pr_info['summary'] = details[0] if details else summary_content
+                else:
+                    pr_info['summary'] = summary_content
+            else:
+                # Fallback to old parsing logic
+                lines = summary_text.split('\n')
+                pr_info['summary'] = lines[0].strip()
+                
+                # Extract bullet points as details
+                details = []
+                for line in lines:
+                    line = line.strip()
+                    if line.startswith('- ') or line.startswith('• '):
+                        details.append(line[2:].strip())
+                    elif line.startswith('  - ') or line.startswith('  • '):
+                        details.append(line[4:].strip())
+                
+                if details:
+                    pr_info['details'] = details
+                else:
+                    # If no bullet points, try to extract from the summary text
+                    # Look for lines that contain key changes
+                    detail_lines = []
+                    for line in lines[1:]:  # Skip first line (main summary)
+                        line = line.strip()
+                        if line and not line.startswith('**') and len(line) > 20:
+                            detail_lines.append(line)
+                    
+                    if detail_lines:
+                        pr_info['details'] = detail_lines[:5]  # Limit to 5 details
+            
+            # Try to extract structured title (### Title section)
+            structured_title_match = re.search(r'### Title\n(.+?)(?=\n### |$)', summary_text, re.DOTALL)
+            if structured_title_match:
+                title_content = structured_title_match.group(1).strip()
+                pr_info['generated_title'] = title_content
         
         # Extract commits
         commits_match = re.search(r'## Commits\n\n(.+?)(?=\n## |$)', content, re.DOTALL)
