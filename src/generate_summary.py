@@ -101,6 +101,10 @@ Please provide a summary of what this Pull Request does. Focus on:
 1. Key changes made in the code. Grouped by topic or functionality if applicable.
 2. A short meaningful title describing the gist of these changes. This should be able to give a good understanding of the PR at a glance without additional context.
 
+Your response is formatted in markdown with the following structure:
+### Summary
+### Title
+
 Keep your response concise but informative, suitable for a technical audience. Your response must be extremely concise, no more than 100 words. Answer in bullet points, not in paragraphs.
 
 Commits in this PR:
@@ -113,7 +117,7 @@ Here is the git diff output for analysis:
         headers = {
             "Authorization": f"Bearer {self.openrouter_api_key}",
             "Content-Type": "application/json",
-            "HTTP-Referrer": "GitHub PR Diff Analysis",
+            "HTTP-Referrer": "https://github.com/timmeinerzhagen/llm-pr-summary",
             "X-Title": "GitHub PR Diff Analysis",
         }
         
