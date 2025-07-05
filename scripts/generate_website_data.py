@@ -124,7 +124,7 @@ def parse_markdown_file(file_path):
             for line in commits_text.split('\n'):
                 line = line.strip()
                 if line.startswith('- **'):
-                    commits.append(line[4:])  # Remove '- **' prefix
+                    commits.append("**" +line[4:])
             pr_info['commits'] = commits
         
         return pr_info
