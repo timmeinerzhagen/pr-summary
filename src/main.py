@@ -98,13 +98,10 @@ class GitHubPRAnalyzer:
 You have been given the output of a git diff from a GitHub Pull Request, which shows the differences between the original and modified versions of a set of files.
 
 Please provide a summary of what this Pull Request does. Focus on:
-1. The main purpose or goal of the changes
-2. Key areas of functionality that are being modified
+1. Key changes made in the code. Grouped by topic or functionality if applicable.
+2. A short meaningful title describing the gist of these changes. This should be able to give a good understanding of the PR at a glance without additional context.
 
 Keep your response concise but informative, suitable for a technical audience. Your response must be extremely concise, no more than 100 words. Answer in bullet points, not in paragraphs.
-
-Pull Request Title: {pr_data.get('title', 'N/A')}
-Pull Request Description: {pr_data.get('body', 'N/A')}
 
 Commits in this PR:
 {commits_text}
@@ -171,7 +168,6 @@ Here is the git diff output for analysis:
         # Format commits for markdown
         commits_section = ""
         if commits_data:
-            commits_section = "\n## Commits\n\n"
             for commit in commits_data:
                 commit_msg = commit.get('commit', {}).get('message', 'No message')
                 commit_sha = commit.get('sha', 'Unknown')[:7]  # Short SHA
@@ -197,6 +193,7 @@ Here is the git diff output for analysis:
 ## Commits
 
 {commits_section}
+
 ## Original PR Description
 
 {pr_data.get('body', 'No description provided')}
