@@ -86,8 +86,8 @@
         }
 
         .pr-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            display: flex;
+            flex-direction: column;
             gap: 20px;
         }
 
@@ -365,10 +365,6 @@
             
             .stat-card {
                 padding: 15px;
-            }
-            
-            .pr-grid {
-                grid-template-columns: 1fr;
             }
             
             .pr-meta {
