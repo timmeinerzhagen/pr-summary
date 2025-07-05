@@ -98,11 +98,39 @@
             box-shadow: 0 8px 25px rgba(0,0,0,0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             border-left: 4px solid #667eea;
+            cursor: pointer;
         }
 
         .pr-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+        }
+
+        .pr-card.expanded {
+            transform: none;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+
+        .pr-content {
+            display: none;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .pr-card.expanded .pr-content {
+            display: block;
+        }
+
+        .expand-indicator {
+            float: right;
+            color: #667eea;
+            font-size: 0.9em;
+            transition: transform 0.3s ease;
+        }
+
+        .pr-card.expanded .expand-indicator {
+            transform: rotate(180deg);
         }
 
         .pr-header {
@@ -472,43 +500,54 @@
                 };
 
                 return `
-                    <div class="pr-card">
-                        <div class="pr-header">
-                            <span class="pr-number">#${pr.number}</span>
-                        </div>
-                        <div class="pr-title">${pr.generated_title}</div>
-                        <div class="pr-meta">
-                            <span>👤 ${pr.author}</span>
-                            <span>📅 ${createdDate}</span>
-                            <span>🔖 ${pr.state}</span>
-                        </div>
-                        <div class="pr-summary">
-                            <h3>Summary</h3>
-                            <div class="markdown-content">${renderMarkdown(summary)}</div>
-                            ${pr.details && pr.details.length > 0 ? `
-                                <div class="details-section">
-                                    <h4>Details</h4>
-                                    <div class="details-list">
-                                        ${pr.details.slice(0, 5).map(detail => `<div class="detail-item markdown-content">${renderMarkdown(detail)}</div>`).join('')}
-                                    </div>
+                    <div class="pr-card" onclick="toggleCard(this)">
+                        <div class="pr-basic-info">
+                            <div class="pr-basic-content">
+                                <div class="pr-header">
+                                    <span class="pr-number">#${pr.number}</span>
                                 </div>
-                            ` : ''}
-                            ${pr.commits && pr.commits.length > 0 ? `
-                                <div class="commits-section">
-                                    <h4>Commits</h4>
-                                    <div class="commits-list">
-                                        ${pr.commits.slice(0, 3).map(commit => `<div class="commit-item markdown-content">${renderMarkdown(commit)}</div>`).join('')}
-                                        ${pr.commits.length > 3 ? `<div class="commit-item" style="color: #666;">... and ${pr.commits.length - 3} more</div>` : ''}
-                                    </div>
+                                <div class="pr-title">${pr.generated_title}</div>
+                                <div class="pr-meta">
+                                    <span>� ${createdDate}</span>
+                                    <span>� ${pr.author}</span>
                                 </div>
-                            ` : ''}
+                            </div>
+                            <div class="expand-indicator">▼</div>
                         </div>
-                        <div class="pr-actions">
-                            <a href="${pr.url}" target="_blank" class="btn btn-primary">View on GitHub</a>
+                        <div class="pr-content">
+                            <div class="pr-summary">
+                                <h3>Summary</h3>
+                                <div class="markdown-content">${renderMarkdown(summary)}</div>
+                                ${pr.details && pr.details.length > 0 ? `
+                                    <div class="details-section">
+                                        <h4>Details</h4>
+                                        <div class="details-list">
+                                            ${pr.details.slice(0, 5).map(detail => `<div class="detail-item markdown-content">${renderMarkdown(detail)}</div>`).join('')}
+                                        </div>
+                                    </div>
+                                ` : ''}
+                                ${pr.commits && pr.commits.length > 0 ? `
+                                    <div class="commits-section">
+                                        <h4>Commits</h4>
+                                        <div class="commits-list">
+                                            ${pr.commits.slice(0, 3).map(commit => `<div class="commit-item markdown-content">${renderMarkdown(commit)}</div>`).join('')}
+                                            ${pr.commits.length > 3 ? `<div class="commit-item" style="color: #666;">... and ${pr.commits.length - 3} more</div>` : ''}
+                                        </div>
+                                    </div>
+                                ` : ''}
+                            </div>
+                            <div class="pr-actions">
+                                <a href="${pr.url}" target="_blank" class="btn btn-primary" onclick="event.stopPropagation()">View on GitHub</a>
+                            </div>
                         </div>
                     </div>
                 `;
             }).join('');
+        }
+
+        // Toggle card expansion
+        function toggleCard(card) {
+            card.classList.toggle('expanded');
         }
 
         // Setup search functionality
