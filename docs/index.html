@@ -154,6 +154,110 @@
             font-size: 1.1em;
         }
 
+        .pr-summary h4 {
+            color: #2c3e50;
+            margin: 15px 0 8px 0;
+            font-size: 1em;
+        }
+
+        .markdown-content {
+            line-height: 1.6;
+        }
+
+        .markdown-content p {
+            margin-bottom: 10px;
+        }
+
+        .markdown-content strong {
+            color: #2c3e50;
+        }
+
+        .markdown-content em {
+            color: #4a5568;
+        }
+
+        .markdown-content ul {
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        .markdown-content ol {
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        .markdown-content li {
+            margin-bottom: 3px;
+        }
+
+        .markdown-content code {
+            background: #f1f5f9;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 0.9em;
+        }
+
+        .markdown-content pre {
+            background: #f1f5f9;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin-bottom: 10px;
+        }
+
+        .markdown-content blockquote {
+            border-left: 4px solid #667eea;
+            padding-left: 15px;
+            margin: 10px 0;
+            color: #4a5568;
+            font-style: italic;
+        }
+
+        .details-section {
+            margin-top: 15px;
+        }
+
+        .details-list {
+            margin-left: 0;
+        }
+
+        .detail-item {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .detail-item:before {
+            content: "•";
+            color: #667eea;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        .commits-section {
+            margin-top: 15px;
+        }
+
+        .commits-list {
+            margin-left: 0;
+        }
+
+        .commit-item {
+            margin-bottom: 5px;
+            padding-left: 20px;
+            position: relative;
+            font-size: 0.9em;
+        }
+
+        .commit-item:before {
+            content: "→";
+            color: #667eea;
+            position: absolute;
+            left: 0;
+        }
+
         .pr-summary ul {
             margin-left: 20px;
             margin-bottom: 10px;
@@ -283,8 +387,18 @@
     </div>
 
     <script src="pr-data.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"></script>
     <script>
         let filteredData = [];
+        
+        // Configure marked for safe rendering
+        marked.setOptions({
+            breaks: true,
+            gfm: true,
+            sanitize: false,
+            smartLists: true,
+            smartypants: true
+        });
 
         // DOM elements
         const prGrid = document.getElementById('prGrid');
@@ -351,6 +465,12 @@
                     day: 'numeric'
                 });
 
+                // Helper function to render markdown safely
+                const renderMarkdown = (text) => {
+                    if (!text) return '';
+                    return marked.parse(text);
+                };
+
                 return `
                     <div class="pr-card">
                         <div class="pr-header">
@@ -364,19 +484,22 @@
                         </div>
                         <div class="pr-summary">
                             <h3>Summary</h3>
-                            <p><strong>${summary}</strong></p>
+                            <div class="markdown-content">${renderMarkdown(summary)}</div>
                             ${pr.details && pr.details.length > 0 ? `
-                                <ul>
-                                    ${pr.details.slice(0, 5).map(detail => `<li>${detail}</li>`).join('')}
-                                </ul>
+                                <div class="details-section">
+                                    <h4>Details</h4>
+                                    <div class="details-list">
+                                        ${pr.details.slice(0, 5).map(detail => `<div class="detail-item markdown-content">${renderMarkdown(detail)}</div>`).join('')}
+                                    </div>
+                                </div>
                             ` : ''}
                             ${pr.commits && pr.commits.length > 0 ? `
-                                <div style="margin-top: 10px;">
-                                    <strong>Commits:</strong>
-                                    <ul style="margin-top: 5px;">
-                                        ${pr.commits.slice(0, 3).map(commit => `<li style="font-size: 0.9em;">${commit}</li>`).join('')}
-                                        ${pr.commits.length > 3 ? `<li style="font-size: 0.9em; color: #666;">... and ${pr.commits.length - 3} more</li>` : ''}
-                                    </ul>
+                                <div class="commits-section">
+                                    <h4>Commits</h4>
+                                    <div class="commits-list">
+                                        ${pr.commits.slice(0, 3).map(commit => `<div class="commit-item markdown-content">${renderMarkdown(commit)}</div>`).join('')}
+                                        ${pr.commits.length > 3 ? `<div class="commit-item" style="color: #666;">... and ${pr.commits.length - 3} more</div>` : ''}
+                                    </div>
                                 </div>
                             ` : ''}
                         </div>
