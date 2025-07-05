@@ -23,7 +23,7 @@ jobs:
             - name: List PRs without summaries
               id: list_prs
               run: |
-                python src/list_prs_without_summaries.py > pr_list.txt
+                python src/list_prs_without_summaries.py --owner github --repo docs --token $GITHUB_TOKEN > pr_list.txt
                 cat pr_list.txt
 
             - name: Generate summaries
