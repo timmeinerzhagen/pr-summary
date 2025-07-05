@@ -41,6 +41,7 @@ jobs:
               env: 
                 OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
             - name: Commit and push changes
+              if: always() # Even push changes if generation fails in case one of them was successful
               run: |
                 git config --local user.name "github-actions"
                 git config --local user.email "github-actions@github.com"
