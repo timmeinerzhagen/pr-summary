@@ -33,7 +33,7 @@ jobs:
                         echo "Generating summary for PR: $pr"
                         python src/generate_summary.py --repo github/docs --pr $pr --output "data/analysis/github/docs/$pr.md"
                     done
-                done
+                fi
               env: 
                 OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
             - name: Commit and push changes
