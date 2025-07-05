@@ -111,7 +111,7 @@ def generate_website_data():
     """Generate data for the website from all markdown files"""
     
     # Path to the analysis files
-    analysis_dir = Path('/workspaces/llm-pr-summary/data/analysis/github/docs')
+    analysis_dir = Path('data/analysis/github/docs')
     
     if not analysis_dir.exists():
         print(f"Analysis directory not found: {analysis_dir}")
@@ -147,7 +147,7 @@ if (typeof module !== 'undefined' && module.exports) {{
 """
     
     # Write to docs directory
-    docs_dir = Path('/workspaces/llm-pr-summary/docs')
+    docs_dir = Path('docs')
     docs_dir.mkdir(exist_ok=True)
     
     with open(docs_dir / 'pr-data.js', 'w', encoding='utf-8') as f:
