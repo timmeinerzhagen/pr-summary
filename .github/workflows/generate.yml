@@ -1,3 +1,4 @@
+name: Generate PR Summaries
 on:
     schedule:
         - cron: '0 */12 * * *'
