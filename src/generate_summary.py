@@ -113,7 +113,7 @@ Here is the git diff output for analysis:
         headers = {
             "Authorization": f"Bearer {self.openrouter_api_key}",
             "Content-Type": "application/json",
-            "HTTP-Referer": "GitHub PR Diff Analysis",
+            "HTTP-Referrer": "GitHub PR Diff Analysis",
             "X-Title": "GitHub PR Diff Analysis",
         }
         
