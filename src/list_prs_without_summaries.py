@@ -118,8 +118,7 @@ def main():
             args.owner, args.repo, args.token, args.days
         )
 
-        # Convert PR numbers to string with newlines
-        return '\n'.join(str(pr) for pr in prs_without_summaries)
+        print('\n'.join(str(pr) for pr in prs_without_summaries))
     
     except requests.exceptions.RequestException as e:
         print(f"Error fetching PRs: {e}")
