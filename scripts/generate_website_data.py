@@ -1,131 +1,25 @@
 #!/usr/bin/env python3
 """
-Generate website data from PR analysis markdown files
+Generate website data from PR analysis JSON files
 """
 
 import os
-import re
 import json
 from datetime import datetime
 from pathlib import Path
 
-def parse_markdown_file(file_path):
-    """Parse a markdown file and extract PR information"""
+def parse_json_file(file_path):
+    """Parse a JSON file and extract PR information"""
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
-            content = f.read()
+            pr_info = json.load(f)
         
-        # Extract PR information using regex
-        pr_info = {}
-        
-        # Extract PR number
-        pr_match = re.search(r'- \*\*PR Number\*\*: #(\d+)', content)
-        if pr_match:
-            pr_info['number'] = int(pr_match.group(1))
-        
-        # Extract title
-        title_match = re.search(r'- \*\*Title\*\*: (.+)', content)
-        if title_match:
-            pr_info['title'] = title_match.group(1).strip()
-        
-        # Extract author
-        author_match = re.search(r'- \*\*Author\*\*: (.+)', content)
-        if author_match:
-            pr_info['author'] = author_match.group(1).strip()
-        
-        # Extract state
-        state_match = re.search(r'- \*\*State\*\*: (.+)', content)
-        if state_match:
-            pr_info['state'] = state_match.group(1).strip()
-        
-        # Extract created date
-        created_match = re.search(r'- \*\*Created\*\*: (.+)', content)
-        if created_match:
-            pr_info['created'] = created_match.group(1).strip()
-        
-        # Extract URL
-        url_match = re.search(r'- \*\*URL\*\*: (.+)', content)
-        if url_match:
-            pr_info['url'] = url_match.group(1).strip()
-        
-        # Extract repository
-        repo_match = re.search(r'- \*\*Repository\*\*: (.+)', content)
-        if repo_match:
-            pr_info['repository'] = repo_match.group(1).strip()
-        
-        # Extract analysis date
-        analysis_match = re.search(r'- \*\*Analysis Date\*\*: (.+)', content)
-        if analysis_match:
-            pr_info['analysis_date'] = analysis_match.group(1).strip()
-        
-        # Extract high-level summary
-        summary_match = re.search(r'## High-Level Summary\n\n(.+?)(?=\n## |$)', content, re.DOTALL)
-        if summary_match:
-            summary_text = summary_match.group(1).strip()
-            
-            # Try to extract structured summary (### Summary section)
-            structured_summary_match = re.search(r'### Summary\n(.+?)(?=\n### |$)', summary_text, re.DOTALL)
-            if structured_summary_match:
-                summary_content = structured_summary_match.group(1).strip()
-                # Extract bullet points as details
-                details = []
-                for line in summary_content.split('\n'):
-                    line = line.strip()
-                    if line.startswith('- ') or line.startswith('• '):
-                        details.append(line[2:].strip())
-                    elif line.startswith('  - ') or line.startswith('  • '):
-                        details.append(line[4:].strip())
-                
-                if details:
-                    pr_info['details'] = details
-                    # Use first detail as main summary if available
-                    pr_info['summary'] = details[0] if details else summary_content
-                else:
-                    pr_info['summary'] = summary_content
-            else:
-                # Fallback to old parsing logic
-                lines = summary_text.split('\n')
-                pr_info['summary'] = lines[0].strip()
-                
-                # Extract bullet points as details
-                details = []
-                for line in lines:
-                    line = line.strip()
-                    if line.startswith('- ') or line.startswith('• '):
-                        details.append(line[2:].strip())
-                    elif line.startswith('  - ') or line.startswith('  • '):
-                        details.append(line[4:].strip())
-                
-                if details:
-                    pr_info['details'] = details
-                else:
-                    # If no bullet points, try to extract from the summary text
-                    # Look for lines that contain key changes
-                    detail_lines = []
-                    for line in lines[1:]:  # Skip first line (main summary)
-                        line = line.strip()
-                        if line and not line.startswith('**') and len(line) > 20:
-                            detail_lines.append(line)
-                    
-                    if detail_lines:
-                        pr_info['details'] = detail_lines[:5]  # Limit to 5 details
-            
-            # Try to extract structured title (### Title section)
-            structured_title_match = re.search(r'### Title\n(.+?)(?=\n### |$)', summary_text, re.DOTALL)
-            if structured_title_match:
-                title_content = structured_title_match.group(1).strip()
-                pr_info['generated_title'] = title_content
-        
-        # Extract commits
-        commits_match = re.search(r'## Commits\n\n(.+?)(?=\n## |$)', content, re.DOTALL)
-        if commits_match:
-            commits_text = commits_match.group(1).strip()
-            commits = []
-            for line in commits_text.split('\n'):
-                line = line.strip()
-                if line.startswith('- **'):
-                    commits.append("**" +line[4:])
-            pr_info['commits'] = commits
+        # Ensure all required fields are present
+        required_fields = ['number', 'title', 'author', 'state', 'created', 'url', 'repository']
+        for field in required_fields:
+            if field not in pr_info:
+                print(f"Warning: Missing required field '{field}' in {file_path}")
+                return None
         
         return pr_info
     
@@ -134,7 +28,7 @@ def parse_markdown_file(file_path):
         return None
 
 def generate_website_data():
-    """Generate data for the website from all markdown files"""
+    """Generate data for the website from all JSON files"""
     
     # Path to the analysis files
     analysis_dir = Path('data/analysis/github/docs')
@@ -143,12 +37,12 @@ def generate_website_data():
         print(f"Analysis directory not found: {analysis_dir}")
         return
     
-    # Parse all markdown files
+    # Parse all JSON files
     pr_data = []
     
-    for md_file in analysis_dir.glob('*.md'):
-        print(f"Parsing {md_file.name}...")
-        pr_info = parse_markdown_file(md_file)
+    for json_file in analysis_dir.glob('*.json'):
+        print(f"Parsing {json_file.name}...")
+        pr_info = parse_json_file(json_file)
         if pr_info:
             pr_data.append(pr_info)
     

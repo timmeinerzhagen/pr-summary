@@ -1,0 +1,23 @@
+{
+  "number": 39128,
+  "title": "Adds notice for Nuget ecosystem and other misc corrections",
+  "author": "sachin-sandhu",
+  "state": "closed",
+  "created": "2025-07-01T22:03:31Z",
+  "url": "https://github.com/github/docs/pull/39128",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-05 22:16:43",
+  "details": [
+    "Adds note that cooldown period isn't available for NuGet ecosystem in Dependabot",
+    "Standardizes references to {% data variables.product.prodname_dependabot %} in documentation",
+    "Clarifies cooldown behavior mechanics and configuration examples"
+  ],
+  "summary": "Adds note that cooldown period isn't available for NuGet ecosystem in Dependabot",
+  "generated_title": "Document Dependabot cooldown NuGet exclusion and update branding references",
+  "commits": [
+    "**fcd8bcd**: Adds notice for nuget ecosystem and other misc corrections (by S.Sandhu)",
+    "**170563f**: Update content/code-security/dependabot/working-with-dependabot/dependabot-options-reference.md (by S.Sandhu)"
+  ],
+  "original_description": "<!--\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\n-->\n\n### Why:\n\n<!-- Paste the issue link or number here -->\nCloses: https://github.com/dependabot/dependabot-core/issues/3651 \n\n<!-- If there's an existing issue for your change, please link to it above.\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\n\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\n\n1. As cooldown option for nuget is not yet available, this PR adds a notice to the `content/code-security/dependabot/working-with-dependabot/dependabot-options-reference.md` file for the same\n2. Makes miscellaneous corrections in the `content/code-security/dependabot/working-with-dependabot/dependabot-options-reference.md` file.\n\n<!-- Let us know what you are changing. Share anything that could provide the most context.\nIf you made changes to the `content` directory, a table will populate in a comment below with links to the review and current production articles. -->\n\n### Check off the following:\n\n- [x] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\n- [x] All CI checks are passing and the changes look good in the review environment.\n\n\n---\n*Analysis generated using OpenRouter API*",
+  "raw_analysis": "### Summary\n- Adds note that cooldown period isn't available for NuGet ecosystem in Dependabot  \n- Standardizes references to {% data variables.product.prodname_dependabot %} in documentation  \n- Clarifies cooldown behavior mechanics and configuration examples\n\n### Title\nDocument Dependabot cooldown NuGet exclusion and update branding references"
+}

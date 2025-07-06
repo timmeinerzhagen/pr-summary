@@ -1,0 +1,23 @@
+{
+  "number": 39142,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-03T00:46:07Z",
+  "url": "https://github.com/github/docs/pull/39142",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-05 22:11:21",
+  "details": [
+    "Added `enqueued` and `dequeued` activity types to `pull_request` event triggers (conditional on FPT/GHEC versions)",
+    "Renamed `SENTRY_AUTH_TOKEN` to `SENTRY_ACCESS_TOKEN` in Copilot MCP configuration",
+    "Updated billing guidance for GitHub Models, replacing Azure reference with GitHub billing link"
+  ],
+  "summary": "Added `enqueued` and `dequeued` activity types to `pull_request` event triggers (conditional on FPT/GHEC versions)",
+  "generated_title": "Add PR event types, update Copilot token name, and clarify GitHub Models billing",
+  "commits": [
+    "**92ab19d**: Merge pull request #56461 from github/repo-sync (by docs-bot)",
+    "**1f3120a**: billing-mention (#56462) (by Kate Catlin)"
+  ],
+  "original_description": "This is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n\n\n---\n*Analysis generated using OpenRouter API*",
+  "raw_analysis": "### Summary\n- Added `enqueued` and `dequeued` activity types to `pull_request` event triggers (conditional on FPT/GHEC versions)\n- Renamed `SENTRY_AUTH_TOKEN` to `SENTRY_ACCESS_TOKEN` in Copilot MCP configuration\n- Updated billing guidance for GitHub Models, replacing Azure reference with GitHub billing link\n\n### Title\nAdd PR event types, update Copilot token name, and clarify GitHub Models billing"
+}

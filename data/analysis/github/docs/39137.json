@@ -1,0 +1,21 @@
+{
+  "number": 39137,
+  "title": "Use up-to-date maven domain",
+  "author": "AB-xdev",
+  "state": "closed",
+  "created": "2025-07-02T14:17:16Z",
+  "url": "https://github.com/github/docs/pull/39137",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-05 22:13:34",
+  "details": [
+    "Updated Maven Central repository URL from `https://repo1.maven.org/maven2` to `https://repo.maven.apache.org/maven2` in documentation examples",
+    "Applied consistently across both subdomain isolation configurations (enabled/disabled) in Apache Maven registry setup"
+  ],
+  "summary": "Updated Maven Central repository URL from `https://repo1.maven.org/maven2` to `https://repo.maven.apache.org/maven2` in documentation examples",
+  "generated_title": "Update Maven Central URLs in GitHub Packages documentation",
+  "commits": [
+    "**9e10026**: Use up-to-date maven domain (by AB)"
+  ],
+  "original_description": "See also https://stackoverflow.com/a/36156652\n\n### Why:\n\nCloses: #39136\n\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\n\n``repo1.maven.org`` → ``repo.maven.apache.org``\n\n### Check off the following:\n\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\n- [ ] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\n- [ ] All CI checks are passing and the changes look good in the review environment.\n\n\n---\n*Analysis generated using OpenRouter API*",
+  "raw_analysis": "### Summary\n- Updated Maven Central repository URL from `https://repo1.maven.org/maven2` to `https://repo.maven.apache.org/maven2` in documentation examples\n- Applied consistently across both subdomain isolation configurations (enabled/disabled) in Apache Maven registry setup\n\n### Title\nUpdate Maven Central URLs in GitHub Packages documentation"
+}

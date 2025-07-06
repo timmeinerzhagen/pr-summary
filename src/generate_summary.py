@@ -101,7 +101,7 @@ Please provide a summary of what this Pull Request does. Focus on:
 1. Key changes made in the code. Grouped by topic or functionality if applicable.
 2. A short meaningful title describing the gist of these changes. This should be able to give a good understanding of the PR at a glance without additional context.
 
-Your response is formatted in markdown with the following structure:
+Your response is formatted in markdown with the following structure.
 ### Summary
 ### Title
 
@@ -151,11 +151,11 @@ Here is the git diff output for analysis:
                 print(f"Response content: {e.response.text}")
             sys.exit(1)
     
-    def save_to_markdown(self, analysis: str, pr_data: Dict[str, Any], commits_data: list,
-                        repo_owner: str, repo_name: str, pr_number: int, 
-                        output_file: str = "pr_analysis.md"):
+    def save_to_json(self, analysis: str, pr_data: Dict[str, Any], commits_data: list,
+                     repo_owner: str, repo_name: str, pr_number: int, 
+                     output_file: str = "pr_analysis.json"):
         """
-        Save the analysis to a markdown file
+        Save the analysis to a JSON file
         
         Args:
             analysis: The analysis result from OpenRouter
@@ -164,63 +164,84 @@ Here is the git diff output for analysis:
             repo_owner: GitHub repository owner
             repo_name: GitHub repository name
             pr_number: Pull Request number
-            output_file: Output markdown file path
+            output_file: Output JSON file path
         """
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         pr_url = f"https://github.com/{repo_owner}/{repo_name}/pull/{pr_number}"
         
-        # Format commits for markdown
-        commits_section = ""
+        # Format commits for JSON
+        commits_list = []
         if commits_data:
             for commit in commits_data:
                 commit_msg = commit.get('commit', {}).get('message', 'No message')
                 commit_sha = commit.get('sha', 'Unknown')[:7]  # Short SHA
                 commit_author = commit.get('commit', {}).get('author', {}).get('name', 'Unknown')
-                commits_section += f"- **{commit_sha}**: {commit_msg.split(chr(10))[0]} (by {commit_author})\n"
+                commits_list.append(f"**{commit_sha}**: {commit_msg.split(chr(10))[0]} (by {commit_author})")
         
-        markdown_content = f"""# Pull Request Analysis
+        print(analysis)
 
-## PR Information
-- **Repository**: {repo_owner}/{repo_name}
-- **PR Number**: #{pr_number}
-- **Title**: {pr_data.get('title', 'N/A')}
-- **Author**: {pr_data.get('user', {}).get('login', 'N/A')}
-- **URL**: {pr_url}
-- **State**: {pr_data.get('state', 'N/A')}
-- **Created**: {pr_data.get('created_at', 'N/A')}
-- **Analysis Date**: {timestamp}
-
-## High-Level Summary
-
-{analysis}
-
-## Commits
-
-{commits_section}
-
-## Original PR Description
-
-{pr_data.get('body', 'No description provided')}
-
----
-*Analysis generated using OpenRouter API*
-"""
+        # Parse analysis to extract title and summary
+        # Parse markdown analysis to extract title and summary
+        lines = analysis.strip().split('\n')
+        summary_lines = []
+        title_lines = []
+        current_section = None
+        
+        for line in lines:
+            if line.strip() == "### Summary":
+                current_section = "summary"
+            elif line.strip() == "### Title":
+                current_section = "title"
+            elif current_section == "summary" and line.strip() and not line.startswith("###"):
+                summary_lines.append(line.strip())
+            elif current_section == "title" and line.strip() and not line.startswith("###"):
+                title_lines.append(line.strip())
+        
+        summary_text = '\n'.join(summary_lines) if summary_lines else "No summary available"
+        title_text = ' '.join(title_lines) if title_lines else pr_data.get('title', 'N/A')
+        
+        # Extract details from summary (if it contains bullet points)
+        summary_details = []
+        for line in summary_lines:
+            if line.startswith(('- ', '* ', '• ')):
+                summary_details.append(line[2:].strip())
+            elif summary_details and not line.startswith(('- ', '* ', '• ')):
+                # This might be a continuation of the previous bullet point
+                summary_details[-1] += ' ' + line.strip()
+        
+        # Create JSON structure
+        json_data = {
+            "number": pr_number,
+            "title": pr_data.get('title', 'N/A'),
+            "author": pr_data.get('user', {}).get('login', 'N/A'),
+            "state": pr_data.get('state', 'N/A'),
+            "created": pr_data.get('created_at', 'N/A'),
+            "url": pr_url,
+            "repository": f"{repo_owner}/{repo_name}",
+            "analysis_date": timestamp,
+            "details": summary_details,
+            "summary": summary_text if summary_text else analysis_json.strip(),
+            "generated_title": title_text or pr_data.get('title', 'N/A'),
+            "commits": commits_list,
+            "original_description": pr_data.get('body', 'No description provided'),
+            "raw_analysis": analysis
+        }
         
         try:
             with open(output_file, 'w', encoding='utf-8') as f:
-                f.write(markdown_content)
+                json.dump(json_data, f, indent=2, ensure_ascii=False)
             print(f"Analysis saved to {output_file}")
         except IOError as e:
-            print(f"Error saving markdown file: {e}")
+            print(f"Error saving JSON file: {e}")
             sys.exit(1)
-
 
 def main():
     """Main function to run the PR analyzer"""
     parser = argparse.ArgumentParser(description="Analyze GitHub Pull Request using OpenRouter")
     parser.add_argument("--repo", required=True, help="Repository in format owner/repo")
     parser.add_argument("--pr", required=True, type=int, help="Pull Request number")
-    parser.add_argument("--output", default="pr_analysis.md", help="Output markdown file")
+    parser.add_argument("--output", default="pr_analysis.json", help="Output file (JSON or markdown)")
+    parser.add_argument("--format", choices=["json", "markdown"], default="json", help="Output format")
     parser.add_argument("--api-key", help="OpenRouter API key (or use OPENROUTER_API_KEY env var)")
     
     args = parser.parse_args()
@@ -244,11 +265,11 @@ def main():
     print(f"Fetching PR #{args.pr} from {args.repo}...")
     diff_content, pr_data, commits_data = analyzer.fetch_pr_diff(repo_owner, repo_name, args.pr)
     
-    print("Analyzing diff with OpenRouter...")
+    print(f"Analyzing diff with OpenRouter...")
     analysis = analyzer.analyze_with_openrouter(diff_content, pr_data, commits_data)
     
-    print("Saving analysis to markdown...")
-    analyzer.save_to_markdown(analysis, pr_data, commits_data, repo_owner, repo_name, args.pr, args.output)
+    print("Saving analysis to JSON...")
+    analyzer.save_to_json(analysis, pr_data, commits_data, repo_owner, repo_name, args.pr, args.output)
     
     print("Done!")
 

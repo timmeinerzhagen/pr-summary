@@ -11,6 +11,7 @@ fi
 TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
 
 echo "Analyzing PR..."
-python3 src/main.py --repo github/docs --pr $1 --output "data/analysis/github_docs-$1--$TIMESTAMP.md"
+python3 src/generate_summary.py --repo github/docs --pr $1 --output "data/analysis/github/docs/$1.json"
 
-echo "Analysis complete! Check the generated markdown files."
+echo "Analysis complete! Check the generated JSON file."
+echo "Run 'python scripts/generate_website_data.py' to update the website data."
