@@ -117,7 +117,7 @@ Here is the git diff output for analysis:
         headers = {
             "Authorization": f"Bearer {self.openrouter_api_key}",
             "Content-Type": "application/json",
-            "HTTP-Referrer": "https://github.com/timmeinerzhagen/llm-pr-summary",
+            "HTTP-Referrer": "https://pr.tim.ad",
             "X-Title": "GitHub PR Diff Analysis",
         }
         
