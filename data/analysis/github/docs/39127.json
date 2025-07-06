@@ -1,0 +1,29 @@
+{
+  "number": 39127,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-01T21:33:41Z",
+  "url": "https://github.com/github/docs/pull/39127",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-06 15:53:17",
+  "details": [
+    "Introduces enterprise-level GitHub App installations, allowing apps to be installed directly on enterprise accounts with specific enterprise permissions.",
+    "Adds the role of \"GitHub App manager\" at the enterprise level, enabling delegated app management without full owner privileges.",
+    "Updates app creation and management workflows to support enterprise installations, including permission handling and visibility rules.",
+    "Documents limitations for enterprise-installed apps (e.g., no webhook support, restricted API access).",
+    "Enhances Actions secrets management by granting \"Write and Maintain\" access levels during updates.",
+    "Includes workflow artifacts data in migration documentation."
+  ],
+  "summary": "- Introduces enterprise-level GitHub App installations, allowing apps to be installed directly on enterprise accounts with specific enterprise permissions.\n- Adds the role of \"GitHub App manager\" at the enterprise level, enabling delegated app management without full owner privileges.\n- Updates app creation and management workflows to support enterprise installations, including permission handling and visibility rules.\n- Documents limitations for enterprise-installed apps (e.g., no webhook support, restricted API access).\n- Enhances Actions secrets management by granting \"Write and Maintain\" access levels during updates.\n- Includes workflow artifacts data in migration documentation.",
+  "generated_title": "Enterprise GitHub App Management: Installations and App Managers",
+  "commits": [
+    "**3f72bc3**: Companion PR for early access (#56417) (by Sam Browning)",
+    "**1e40010**: Update OpenAPI Description (#56428) (by docs-bot)",
+    "**fcb5246**: Enterprise installations for GitHub Apps and enterprise app managers (#56338) (by Hirsch Singhal)",
+    "**02e1b60**: Write and Maintain access level on Actions secrets update (#56416) (by Yang Cao)",
+    "**f14604e**: Updated data-not-migrated.md to include workflow artifacts data (#56423) (by Cory Calahan)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Introduces enterprise-level GitHub App installations, allowing apps to be installed directly on enterprise accounts with specific enterprise permissions.\n- Adds the role of \"GitHub App manager\" at the enterprise level, enabling delegated app management without full owner privileges.\n- Updates app creation and management workflows to support enterprise installations, including permission handling and visibility rules.\n- Documents limitations for enterprise-installed apps (e.g., no webhook support, restricted API access).\n- Enhances Actions secrets management by granting \"Write and Maintain\" access levels during updates.\n- Includes workflow artifacts data in migration documentation.\n\n### Title\nEnterprise GitHub App Management: Installations and App Managers"
+}

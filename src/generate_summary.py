@@ -124,6 +124,7 @@ Here is the git diff output for analysis:
         # Use a capable model for code analysis
         data = {
             "model": "deepseek/deepseek-r1-0528:free",
+            "transforms": ["middle-out"],
             "messages": [
                 {
                     "role": "user",
