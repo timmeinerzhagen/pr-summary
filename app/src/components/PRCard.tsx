@@ -59,21 +59,6 @@ const PRCard: React.FC<PRCardProps> = ({ pr }) => {
               dangerouslySetInnerHTML={{ __html: renderMarkdown(summary) }}
             />
             
-            {pr.details && pr.details.length > 0 && (
-              <div className="details-section">
-                <h4>Details</h4>
-                <div className="details-list">
-                  {pr.details.slice(0, 5).map((detail, index) => (
-                    <div 
-                      key={index} 
-                      className="detail-item markdown-content"
-                      dangerouslySetInnerHTML={{ __html: renderMarkdown(detail) }}
-                    />
-                  ))}
-                </div>
-              </div>
-            )}
-            
             {pr.commits && pr.commits.length > 0 && (
               <div className="commits-section">
                 <h4>Commits</h4>
