@@ -31,12 +31,13 @@ const PRCard: React.FC<PRCardProps> = ({ pr }) => {
     <div className={`pr-card ${isExpanded ? 'expanded' : ''}`} onClick={toggleExpanded}>
       <div className="pr-basic-info">
         <div className="pr-basic-content">
-          <div className="pr-meta">            
+          <div className="pr-meta">
             <a 
               href={pr.url} 
               target="_blank" 
               rel="noopener noreferrer" 
               onClick={(e) => e.stopPropagation()}
+              style={{ textDecoration: 'none' }}
             >
               <span className="pr-number">#{pr.number}</span>              
             </a>
