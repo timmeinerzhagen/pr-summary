@@ -1,5 +1,4 @@
 import React from 'react';
-import ThemeToggle from './ThemeToggle';
 
 interface HeaderProps {
   totalPRs: number;
