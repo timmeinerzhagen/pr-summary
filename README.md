@@ -1,85 +1,51 @@
-# llm-pr-summary
+# pr-summary
 
-A tool to analyze GitHub Pull Request diffs using OpenRouter AI and generate high-level summaries.
+`github/docs` Pull Requests have awful titles.
+To make it easier to follow changes, this gives you AI-powered summaries of their Pull Requests
 
-## Quick Start
+Check out the [web dashboard](https://pr.tim.ad) to see it in action!
 
-1. Install dependencies:
+## Overview
+
+* `src` - Python code for fetching PRs, calling OpenRouter to analyze PRs
+   * `generate_summary.py` - Script to generate summaries for a specific PR
+   * `generate_website_data.py` - Script to generate the `pr-data.json` file
+   * `list_prs_without_summaries.py` - Script to list PRs that need summaries
+* `app` - React web app for displaying PR summaries, hosted on GitHub Pages
+* `data` - JSON files containing PR data summaries for `github/docs`
+* `.github/workflows`
+   * `deploy-website.yml` - deploy the React app with the Pull Request data to GitHub Pages
+   * `generate.yml` - list PRs that need summaries and generate them, push them to `data/`
+
+## Local Development
+
+### PR Analysis
+
+1. Install Python dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-
-2. Set your OpenRouter API key:
+2. Set your OpenRouter API key in your environment:
    ```bash
-   export OPENROUTER_API_KEY="your_api_key_here"
+   export OPENROUTER_API_KEY='your_api_key'
+   ```
+3. Run the analysis script:
+   ```bash
+   python3 generate_summary.py --repo github/docs --pr 12345
    ```
 
-3. Analyze a Pull Request:
-   ```bash
-   python3 main.py --repo owner/repo --pr 123
-   ```
-
-## Web Dashboard
-
-The project includes a beautiful web dashboard that displays your PR analyses:
-
-- 📊 **Interactive Interface**: Clean, modern design with search functionality
-- 📱 **Responsive**: Works on desktop and mobile devices
-- 🚀 **Auto-Deploy**: Automatically deploys to GitHub Pages
-- 🔍 **Searchable**: Find PRs by number, title, author, or content
-
-### Quick Setup
+### React app
 
 1. Analyze some PRs to create data files
-2. Run `./scripts/build_website.sh serve` to view locally
-3. Push to GitHub to automatically deploy via GitHub Pages
+2. Run `generate_website_data.py` to generate the `pr-data.json` file
+3. Install Node.js dependencies:
+   ```bash
+   cd app
+   npm install
+   ```
+4. Start the React app:
+   ```bash
+   npm start
+   ```
 
-The website will show all your PR analyses in an easy-to-browse format with statistics and search capabilities.
-
-## Features
-
-- ✅ Fetch diffs from any public GitHub Pull Request
-- ✅ Analyze code changes using OpenRouter AI models
-- ✅ Generate structured markdown summaries
-- ✅ Support for custom output files
-- ✅ Environment variable configuration
-- ✅ Rate limit handling with GitHub tokens
-- ✅ **Web dashboard** for viewing PR summaries
-- ✅ **GitHub Pages** deployment for easy sharing
-
-## Quick Start
-
-### Analyze a Single PR
-
-```bash
-# Basic analysis
-python3 main.py --repo microsoft/vscode --pr 200000
-
-# Custom output file
-python3 main.py --repo facebook/react --pr 25000 --output react_analysis.md
-
-# Test without API key
-python3 test_fetch.py
-```
-
-### Build the Website
-
-```bash
-# Generate website data and serve locally
-./scripts/build_website.sh serve
-
-# Or just generate the data
-./scripts/build_website.sh
-```
-
-The website will be available at `http://localhost:8000` and shows all your PR analyses in a beautiful dashboard format.
-
-## References
-
-* https://github.com/edverma/git-smart-squash
-* https://github.com/behrouz-rad/AI-PR-Summarizer
-
-## Tools
-
-* https://openrouter.ai/
-* https://api.github.com/
+The website will be available at `http://localhost:3000`.
