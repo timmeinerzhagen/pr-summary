@@ -5,6 +5,8 @@ To make it easier to follow changes, this gives you AI-powered summaries of thei
 
 Check out [`pr.tim.ad`](https://pr.tim.ad) to see it in action!
 
+![Compare github/docs PR to pr summary](data/compare-gh-docs-vs-pr-summary.png)
+
 ## Overview
 
 * `src` - Python code for fetching PRs, calling OpenRouter to analyze PRs
