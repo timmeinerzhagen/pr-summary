@@ -3,7 +3,7 @@
 `github/docs` Pull Requests have awful titles.
 To make it easier to follow changes, this gives you AI-powered summaries of their Pull Requests
 
-Check out the [web dashboard](https://pr.tim.ad) to see it in action!
+Check out the [`pr.tim.ad`](https://pr.tim.ad) to see it in action!
 
 ## Overview
 
