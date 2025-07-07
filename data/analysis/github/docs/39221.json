@@ -1,0 +1,25 @@
+{
+  "number": 39221,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-07T21:32:45Z",
+  "url": "https://github.com/github/docs/pull/39221",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-07 22:07:35",
+  "details": [
+    "Renamed and restructured GitHub Actions secrets documentation, moving from \"about-secrets\" to \"secrets\" and adding a new reference page for secrets details.",
+    "Updated variables documentation to mention access policies for organization-level variables.",
+    "Deprecated Copilot models GPT-4.5 and o1 across billing, troubleshooting, and model selection guides.",
+    "Removed references to deprecated Copilot models from pricing tables and feature documentation."
+  ],
+  "summary": "- Renamed and restructured GitHub Actions secrets documentation, moving from \"about-secrets\" to \"secrets\" and adding a new reference page for secrets details.\n- Updated variables documentation to mention access policies for organization-level variables.\n- Deprecated Copilot models GPT-4.5 and o1 across billing, troubleshooting, and model selection guides.\n- Removed references to deprecated Copilot models from pricing tables and feature documentation.",
+  "generated_title": "Deprecate Copilot o1/GPT-4.5; restructure Actions secrets docs",
+  "commits": [
+    "**c6d73d8**: Merge pull request #56508 from github/repo-sync (by docs-bot)",
+    "**4e09b60**: Copilot deprecating o1, GPT-4.5 (#56505) (by Sunbrye Ly)",
+    "**89ef89a**: EDI - Actions secrets (#56467) (by Joe Clark)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Renamed and restructured GitHub Actions secrets documentation, moving from \"about-secrets\" to \"secrets\" and adding a new reference page for secrets details.\n- Updated variables documentation to mention access policies for organization-level variables.\n- Deprecated Copilot models GPT-4.5 and o1 across billing, troubleshooting, and model selection guides.\n- Removed references to deprecated Copilot models from pricing tables and feature documentation.\n\n### Title\nDeprecate Copilot o1/GPT-4.5; restructure Actions secrets docs"
+}
