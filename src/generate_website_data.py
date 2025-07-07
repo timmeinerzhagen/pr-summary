@@ -40,21 +40,11 @@ def generate_website_data(analysis_dir_name: str):
     pr_data.sort(key=lambda x: x.get('number', 0), reverse=True)
     
     print(f"Parsed {len(pr_data)} PR analyses")
-    
-    # Generate JavaScript data file
-    js_data = f"""// Generated PR data - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
-const prData = {json.dumps(pr_data, indent=2)};
-
-// Update the global prData array
-if (typeof window !== 'undefined') {{
-    window.prData = prData;
-}}
-"""
         
     with open(Path(output), 'w', encoding='utf-8') as f:
-        f.write(js_data)
+        f.write(json.dumps(pr_data, indent=2)
     
-    print(f"Generated pr-data.js with {len(pr_data)} PRs")
+    print(f"Generated pr-data.json with {len(pr_data)} PRs")
     
     # Print summary
     print("\n=== Summary ===")
@@ -66,7 +56,7 @@ if (typeof window !== 'undefined') {{
 def main():
     parser = argparse.ArgumentParser(description="Generate website data from PR analyses")
     parser.add_argument("--analysis-folder", default="data/analysis/github/docs", help="Path to analysis folder")
-    parser.add_argument("--output", default="public/pr-data.js", help="Output JavaScript file path")
+    parser.add_argument("--output", default="public/pr-data.json", help="Output file path")
     
     args = parser.parse_args()
 
