@@ -1,0 +1,24 @@
+{
+  "number": 39216,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-07T15:35:19Z",
+  "url": "https://github.com/github/docs/pull/39216",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-07 17:06:28",
+  "details": [
+    "Refactored GitHub Actions metadata documentation: created reusable content and updated references.",
+    "Renamed metadata syntax file and updated its content for clarity.",
+    "Enhanced file attachment support: added new UI images and reorganized supported file types into categories.",
+    "Expanded list of attachable file types for issues/PRs, including OpenDocument formats and development files."
+  ],
+  "summary": "- Refactored GitHub Actions metadata documentation: created reusable content and updated references.\n- Renamed metadata syntax file and updated its content for clarity.\n- Enhanced file attachment support: added new UI images and reorganized supported file types into categories.\n- Expanded list of attachable file types for issues/PRs, including OpenDocument formats and development files.",
+  "generated_title": "Update GitHub Actions metadata docs and expand supported attachment file types",
+  "commits": [
+    "**75b8220**: [EDI] Metadata syntax for GitHub Actions (#56487) (by Ben Ahmady)",
+    "**967b612**: Update supported file types to attach to Issues and PRs (#56470) (by Lukas Spieß)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Refactored GitHub Actions metadata documentation: created reusable content and updated references.\n- Renamed metadata syntax file and updated its content for clarity.\n- Enhanced file attachment support: added new UI images and reorganized supported file types into categories.\n- Expanded list of attachable file types for issues/PRs, including OpenDocument formats and development files.\n\n### Title\nUpdate GitHub Actions metadata docs and expand supported attachment file types"
+}
