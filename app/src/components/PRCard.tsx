@@ -44,7 +44,7 @@ const PRCard: React.FC<PRCardProps> = ({ pr }) => {
       </div>
       
       {isExpanded && (
-        <div className="pr-content">
+        <div className="pr-content" onClick={(e) => e.stopPropagation()}>
           <div className="pr-summary">
             <h3>Summary</h3>
             <div 
