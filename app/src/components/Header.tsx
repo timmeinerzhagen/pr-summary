@@ -21,7 +21,7 @@ const Header: React.FC<HeaderProps> = ({ totalPRs, latestDate }) => {
             target="_blank" 
             rel="noopener noreferrer"
           >
-            📁 View Repository on GitHub
+            📁 View code on GitHub
           </a>
         </p>
       </header>
