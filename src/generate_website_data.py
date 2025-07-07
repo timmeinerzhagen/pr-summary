@@ -4,6 +4,7 @@ import os
 import json
 from datetime import datetime
 from pathlib import Path
+import argparse
 
 def parse_json_file(file_path):
     """Parse a JSON file and extract PR information"""
@@ -17,7 +18,7 @@ def parse_json_file(file_path):
         print(f"Error parsing {file_path}: {e}")
         return None
 
-def generate_website_data(analysis_dir_name: str):
+def generate_website_data(analysis_dir_name: str, output: str):
     """Generate data for the website from all JSON files"""
     
     # Path to the analysis files
@@ -42,7 +43,7 @@ def generate_website_data(analysis_dir_name: str):
     print(f"Parsed {len(pr_data)} PR analyses")
         
     with open(Path(output), 'w', encoding='utf-8') as f:
-        f.write(json.dumps(pr_data, indent=2)
+        f.write(json.dumps(pr_data, indent=2))
     
     print(f"Generated pr-data.json with {len(pr_data)} PRs")
     
@@ -62,7 +63,7 @@ def main():
 
         
     try:        
-        generate_website_data(args.data_folder, args.output)
+        generate_website_data(args.analysis_folder, args.output)
     
     except FileNotFoundError as e:
         print(f"Error: {e}")
