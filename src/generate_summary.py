@@ -179,8 +179,6 @@ Here is the git diff output for analysis:
                 commit_author = commit.get('commit', {}).get('author', {}).get('name', 'Unknown')
                 commits_list.append(f"**{commit_sha}**: {commit_msg.split(chr(10))[0]} (by {commit_author})")
         
-        print(analysis)
-
         # Parse analysis to extract title and summary
         # Parse markdown analysis to extract title and summary
         lines = analysis.strip().split('\n')
