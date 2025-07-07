@@ -42,7 +42,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Generate website data
       run: |
-        python3 src/generate_website_data.py --analysis-folder data/analysis/github/docs --output app/public/pr-data.json   
+        python3 src/generate_website_data.py --analysis-folder data/analysis/github/docs --output app/public/pr-data.json
 
     ## Build the React app ##
     - name: Setup Node.js

@@ -9,3 +9,4 @@ pr-data.js
 
 dist
 node_modules
+*.atom
