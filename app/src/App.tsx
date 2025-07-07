@@ -5,6 +5,7 @@ import SearchBox from './components/SearchBox';
 import PRGrid from './components/PRGrid';
 import { PR } from './types/PR';
 import { PRDataService } from './services/PRDataService';
+import { ThemeProvider } from './contexts/ThemeContext';
 
 function App() {
   const [allPRs, setAllPRs] = useState<PR[]>([]);
@@ -52,13 +53,15 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <div className="container">
-        <Header totalPRs={allPRs.length} latestDate={getLatestDate()} />
-        <SearchBox value={searchQuery} onChange={setSearchQuery} />
-        <PRGrid prs={filteredPRs} loading={loading} error={error} />
+    <ThemeProvider>
+      <div className="App">
+        <div className="container">
+          <Header totalPRs={allPRs.length} latestDate={getLatestDate()} />
+          <SearchBox value={searchQuery} onChange={setSearchQuery} />
+          <PRGrid prs={filteredPRs} loading={loading} error={error} />
+        </div>
       </div>
-    </div>
+    </ThemeProvider>
   );
 }
 
