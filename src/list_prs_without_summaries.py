@@ -72,7 +72,7 @@ def check_summary_exists(owner: str, repo: str, pr_number: int, data_folder: str
     Returns:
         True if summary file exists, False otherwise
     """
-    summary_path = Path(data_folder) / f"{owner}/{repo}/{pr_number}.md"
+    summary_path = Path(data_folder) / f"{owner}/{repo}/{pr_number}.json"
     return summary_path.exists()
 
 
