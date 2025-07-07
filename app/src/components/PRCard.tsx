@@ -31,14 +31,20 @@ const PRCard: React.FC<PRCardProps> = ({ pr }) => {
     <div className={`pr-card ${isExpanded ? 'expanded' : ''}`} onClick={toggleExpanded}>
       <div className="pr-basic-info">
         <div className="pr-basic-content">
-          <div className="pr-header">
-            <span className="pr-number">#{pr.number}</span>
-          </div>
-          <div className="pr-title">{pr.generated_title}</div>
-          <div className="pr-meta">
+          <div className="pr-meta">            
+            <a 
+              href={pr.url} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              onClick={(e) => e.stopPropagation()}
+            >
+              <span className="pr-number">#{pr.number}</span>              
+            </a>
             <span>📅 {formatDate(pr.created)}</span>
             <span>👤 {pr.author}</span>
           </div>
+          <div className="pr-title">{pr.generated_title}</div>
+          
         </div>
         <div className="expand-indicator">▼</div>
       </div>
@@ -97,6 +103,15 @@ const PRCard: React.FC<PRCardProps> = ({ pr }) => {
               onClick={(e) => e.stopPropagation()}
             >
               View on GitHub
+            </a>
+            <a 
+              href={pr.url + "/files"} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="btn btn-primary"
+              onClick={(e) => e.stopPropagation()}
+            >
+              Changed Files
             </a>
           </div>
         </div>
