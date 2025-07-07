@@ -1,0 +1,29 @@
+{
+  "number": 39220,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-07T18:37:04Z",
+  "url": "https://github.com/github/docs/pull/39220",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-07 19:54:02",
+  "details": [
+    "Updated base image in Dockerfile to `gh-base-noble:20250630-232247-g421d4a07a`.",
+    "Added new documentation page for GitHub-hosted runners and restructured Actions documentation hierarchy.",
+    "Enabled push protection pattern configuration for secret scanning at enterprise/organization levels.",
+    "Added Visual Studio license reconciliation section for user account matching.",
+    "Renamed and relocated Actions how-to files for better organization."
+  ],
+  "summary": "- Updated base image in Dockerfile to `gh-base-noble:20250630-232247-g421d4a07a`.\n- Added new documentation page for GitHub-hosted runners and restructured Actions documentation hierarchy.\n- Enabled push protection pattern configuration for secret scanning at enterprise/organization levels.\n- Added Visual Studio license reconciliation section for user account matching.\n- Renamed and relocated Actions how-to files for better organization.",
+  "generated_title": "Documentation restructuring, base image update, and security/licensing enhancements",
+  "commits": [
+    "**ae8c7fe**: Clarify ability to ask CCA to use different base branches from Copilot Chat (#56288) (by Nhu Do)",
+    "**ba3c74f**: Configuration for push protected patterns in secret scanning [Public Preview]  (#55891) (by mc)",
+    "**1658323**: Bump github/gh-base-image/gh-base-noble from 20250625-232939-g2376d80a2 to 20250630-232247-g421d4a07a in the baseimages group (#56466) (by dependabot[bot])",
+    "**c99a6dd**: New licensing subpage for Visual Studio/GHE bundles (#56485) (by Isaac Brown)",
+    "**13e5bb1**: EDI-ify \"About GitHub-hosted runners\" (#56498) (by Sam Browning)",
+    "**dd2c851**: Enable @mentions for attachments within copilot [GA] (#56123) (by Sunbrye Ly)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated base image in Dockerfile to `gh-base-noble:20250630-232247-g421d4a07a`.\n- Added new documentation page for GitHub-hosted runners and restructured Actions documentation hierarchy.\n- Enabled push protection pattern configuration for secret scanning at enterprise/organization levels.\n- Added Visual Studio license reconciliation section for user account matching.\n- Renamed and relocated Actions how-to files for better organization.\n\n### Title\nDocumentation restructuring, base image update, and security/licensing enhancements"
+}
