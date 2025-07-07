@@ -48,7 +48,7 @@ function App() {
   const getLatestDate = (): string => {
     if (allPRs.length === 0) return '-';
     const latestDate = new Date(Math.max(...allPRs.map(pr => new Date(pr.created).getTime())));
-    return latestDate.toLocaleDateString();
+    return latestDate.toISOString().split('T')[0]; // Format as YYYY-MM-DD
   };
 
   return (
