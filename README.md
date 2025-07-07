@@ -19,11 +19,6 @@ A tool to analyze GitHub Pull Request diffs using OpenRouter AI and generate hig
    python3 main.py --repo owner/repo --pr 123
    ```
 
-## Documentation
-
-- **[Usage Guide](docs/USAGE.md)**: Complete guide with examples and troubleshooting
-- **[Website Documentation](docs/README.md)**: Setup and customization for the web dashboard
-
 ## Web Dashboard
 
 The project includes a beautiful web dashboard that displays your PR analyses:
