@@ -10,8 +10,9 @@ const Header: React.FC<HeaderProps> = ({ totalPRs, latestDate }) => {
     <>
       <header>
         <h1>🔍 GitHub PR Analysis Dashboard</h1>
-        <p className="subtitle">AI-powered summaries of GitHub Pull Requests</p>
+        <p className="subtitle">github/docs Pull Requests have awful titles. <br></br>To make it easier to follow changes, this gives you AI-powered summaries of their Pull Requests</p>
         <p className="subtitle">
+          <br />
           <a 
             href="https://github.com/timmeinerzhagen/llm-pr-summary" 
             target="_blank" 
@@ -26,10 +27,6 @@ const Header: React.FC<HeaderProps> = ({ totalPRs, latestDate }) => {
         <div className="stat-card">
           <span className="stat-number">{totalPRs}</span>
           <span className="stat-label">Total PRs</span>
-        </div>
-        <div className="stat-card">
-          <span className="stat-number">1</span>
-          <span className="stat-label">Repository</span>
         </div>
         <div className="stat-card">
           <span className="stat-number">{latestDate}</span>
