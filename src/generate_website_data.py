@@ -17,11 +17,11 @@ def parse_json_file(file_path):
         print(f"Error parsing {file_path}: {e}")
         return None
 
-def generate_website_data():
+def generate_website_data(analysis_dir_name: str):
     """Generate data for the website from all JSON files"""
     
     # Path to the analysis files
-    analysis_dir = Path('data/analysis/github/docs')
+    analysis_dir = Path(analysis_dir_name)
     
     if not analysis_dir.exists():
         print(f"Analysis directory not found: {analysis_dir}")
@@ -49,17 +49,9 @@ const prData = {json.dumps(pr_data, indent=2)};
 if (typeof window !== 'undefined') {{
     window.prData = prData;
 }}
-
-// For Node.js environments
-if (typeof module !== 'undefined' && module.exports) {{
-    module.exports = prData;
-}}
 """
-    
-    # Write to public directory
-    public_dir = Path('public')
-    
-    with open(public_dir / 'pr-data.js', 'w', encoding='utf-8') as f:
+        
+    with open(Path(output), 'w', encoding='utf-8') as f:
         f.write(js_data)
     
     print(f"Generated pr-data.js with {len(pr_data)} PRs")
@@ -71,5 +63,27 @@ if (typeof module !== 'undefined' && module.exports) {{
         print(f"Latest PR: #{pr_data[0].get('number', 'N/A')} - {pr_data[0].get('title', 'N/A')}")
         print(f"Oldest PR: #{pr_data[-1].get('number', 'N/A')} - {pr_data[-1].get('title', 'N/A')}")
 
-if __name__ == '__main__':
-    generate_website_data()
+def main():
+    parser = argparse.ArgumentParser(description="Generate website data from PR analyses")
+    parser.add_argument("--analysis-folder", default="data/analysis/github/docs", help="Path to analysis folder")
+    parser.add_argument("--output", default="public/pr-data.js", help="Output JavaScript file path")
+    
+    args = parser.parse_args()
+
+        
+    try:        
+        generate_website_data(args.data_folder, args.output)
+    
+    except FileNotFoundError as e:
+        print(f"Error: {e}")
+        print("Please ensure the folders exist and contain valid JSON files.")
+        return 1
+    except Exception as e:
+        print(f"Unexpected error: {e}")
+        return 1
+    
+    return 0
+
+
+if __name__ == "__main__":
+    exit(main())
