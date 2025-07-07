@@ -31,6 +31,20 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
+    ## Generate the website data ##
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Generate website data
+      run: |
+        python3 src/generate_website_data.py --analysis-folder data/analysis/github/docs --output app/public/pr-data.json   
+
+    ## Build the React app ##
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
@@ -44,18 +58,7 @@ jobs:
       working-directory: ./app
       run: npm run build
 
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Generate website data
-      run: |
-        python3 src/generate_website_data.py --analysis-folder data/analysis/github/docs --output app/public/pr-data.json
-
+    ## Upload to GitHub Pages ##
     - name: Setup Pages
       uses: actions/configure-pages@v4
 
