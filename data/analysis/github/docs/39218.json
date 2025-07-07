@@ -1,0 +1,20 @@
+{
+  "number": 39218,
+  "title": "Change command to install Git in Termux",
+  "author": "nukhes",
+  "state": "closed",
+  "created": "2025-07-07T16:52:47Z",
+  "url": "https://github.com/github/docs/pull/39218",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-07 19:54:09",
+  "details": [
+    "Updates Git installation command in Termux from `apt install git` to `pkg install git` for Chrome OS setup documentation."
+  ],
+  "summary": "- Updates Git installation command in Termux from `apt install git` to `pkg install git` for Chrome OS setup documentation.",
+  "generated_title": "Update Termux Git installation command in Chrome OS setup guide",
+  "commits": [
+    "**48f6ddd**: Change command to install Git in Termux (by Pedro Henrique)"
+  ],
+  "original_description": "### Why:\r\n\r\n<!-- Paste the issue link or number here -->\r\nCloses: https://github.com/github/docs/issues/39217\r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\nChange `apt install git` to `pkg install git`.\r\n\r\nTermux recommends using pkg instead of apt directly, pkg is a wrapper that performs useful tasks:\r\n\r\n- Provides command shortcuts.\r\n- Automatically runs \"apt update\" before installing a package.\r\n- Performs some client side repository load-balancing by automatically switching mirrors.\r\n\r\n### Check off the following:\r\n\r\n- [x] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [x] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary  \n- Updates Git installation command in Termux from `apt install git` to `pkg install git` for Chrome OS setup documentation.  \n\n### Title  \nUpdate Termux Git installation command in Chrome OS setup guide"
+}
