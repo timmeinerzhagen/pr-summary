@@ -6,3 +6,6 @@ __pycache__
 pr_list.txt
 pr-data.json
 pr-data.js
+
+dist
+node_modules
