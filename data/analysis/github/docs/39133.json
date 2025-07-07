@@ -6,18 +6,18 @@
   "created": "2025-07-02T09:36:30Z",
   "url": "https://github.com/github/docs/pull/39133",
   "repository": "github/docs",
-  "analysis_date": "2025-07-05 22:15:08",
+  "analysis_date": "2025-07-06 18:08:11",
   "details": [
-    "Removed documentation page \"Sharing workflows, secrets, and runners with your organization\".",
-    "Updated index to exclude the deleted page from the table of contents.",
-    "Added redirect from the old page path to \"Using secrets in GitHub Actions\" guide."
+    "Removed documentation page \"Sharing workflows, secrets, and runners with your organization\" and its index entry.",
+    "Added redirect from deleted page to secrets/variables security guide.",
+    "Part of organizational content restructuring for GitHub Actions administration."
   ],
-  "summary": "Removed documentation page \"Sharing workflows, secrets, and runners with your organization\".",
-  "generated_title": "Remove organization sharing documentation and redirect to secrets guide",
+  "summary": "- Removed documentation page \"Sharing workflows, secrets, and runners with your organization\" and its index entry.\n- Added redirect from deleted page to secrets/variables security guide.\n- Part of organizational content restructuring for GitHub Actions administration.",
+  "generated_title": "Remove deprecated documentation on sharing workflows/secrets/runners in organizations",
   "commits": [
     "**769b57a**: Merge pull request #56438 from github/repo-sync (by docs-bot)",
     "**fa443ed**: [EDI] Remove Sharing workflows, secrets, and runners with your organi… (#56419) (by Ben Ahmady)"
   ],
-  "original_description": "This is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n\n\n---\n*Analysis generated using OpenRouter API*",
-  "raw_analysis": "### Summary\n- Removed documentation page \"Sharing workflows, secrets, and runners with your organization\".\n- Updated index to exclude the deleted page from the table of contents.\n- Added redirect from the old page path to \"Using secrets in GitHub Actions\" guide.\n\n### Title\nRemove organization sharing documentation and redirect to secrets guide"
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary  \n- Removed documentation page \"Sharing workflows, secrets, and runners with your organization\" and its index entry.  \n- Added redirect from deleted page to secrets/variables security guide.  \n- Part of organizational content restructuring for GitHub Actions administration.  \n\n### Title  \nRemove deprecated documentation on sharing workflows/secrets/runners in organizations"
 }

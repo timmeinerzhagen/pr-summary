@@ -6,17 +6,16 @@
   "created": "2025-07-03T12:37:49Z",
   "url": "https://github.com/github/docs/pull/39146",
   "repository": "github/docs",
-  "analysis_date": "2025-07-05 22:10:38",
+  "analysis_date": "2025-07-06 16:07:07",
   "details": [
-    "Updated subscription plan requirements for GitHub Copilot in tutorial documentation",
-    "Added **Copilot Pro** and **Copilot Pro Plus** to eligible plans list",
-    "Maintained existing requirements for Maven/Gradle projects and VS Code versions"
+    "Updated subscription plan requirements for GitHub Copilot in project upgrade tutorial.",
+    "Added **Copilot Pro** and **Copilot Pro Plus** to the list of eligible plans alongside existing Business and Enterprise tiers."
   ],
-  "summary": "Updated subscription plan requirements for GitHub Copilot in tutorial documentation",
-  "generated_title": "Update GitHub Copilot subscription tiers in project upgrade tutorial",
+  "summary": "- Updated subscription plan requirements for GitHub Copilot in project upgrade tutorial.\n- Added **Copilot Pro** and **Copilot Pro Plus** to the list of eligible plans alongside existing Business and Enterprise tiers.",
+  "generated_title": "Update GitHub Copilot subscription plan references in project upgrade documentation",
   "commits": [
     "**3b914a2**: Update upgrading projects with GH (#56469) (by Phan Thai Duong)"
   ],
-  "original_description": "This is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n\n\n---\n*Analysis generated using OpenRouter API*",
-  "raw_analysis": "### Summary\n- Updated subscription plan requirements for GitHub Copilot in tutorial documentation\n- Added **Copilot Pro** and **Copilot Pro Plus** to eligible plans list\n- Maintained existing requirements for Maven/Gradle projects and VS Code versions\n\n### Title\nUpdate GitHub Copilot subscription tiers in project upgrade tutorial"
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated subscription plan requirements for GitHub Copilot in project upgrade tutorial.\n- Added **Copilot Pro** and **Copilot Pro Plus** to the list of eligible plans alongside existing Business and Enterprise tiers.\n\n### Title\nUpdate GitHub Copilot subscription plan references in project upgrade documentation"
 }

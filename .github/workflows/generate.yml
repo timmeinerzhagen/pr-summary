@@ -34,7 +34,7 @@ jobs:
                 if [ -n "$(cat pr_list.txt)" ]; then
                     for pr in $(cat pr_list.txt); do
                         echo "Generating summary for PR: $pr"
-                        python src/generate_summary.py --repo github/docs --pr $pr --output "data/analysis/github/docs/$pr.md"
+                        python src/generate_summary.py --repo github/docs --pr $pr --output "data/analysis/github/docs/$pr.json"
                     done
                 fi
               env: 

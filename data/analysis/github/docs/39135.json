@@ -6,18 +6,18 @@
   "created": "2025-07-02T12:38:09Z",
   "url": "https://github.com/github/docs/pull/39135",
   "repository": "github/docs",
-  "analysis_date": "2025-07-05 22:13:44",
+  "analysis_date": "2025-07-06 18:07:59",
   "details": [
-    "Added documentation for managing artifact attestations lifecycle: search, filter, delete, and bulk API operations.",
-    "Introduced new guide on deleting attestations to prevent untrusted artifact usage.",
-    "Included reusable content snippet explaining attestation lifecycle best practices.",
-    "Updated existing provenance documentation with link to new management features."
+    "Added new documentation page for managing artifact attestations lifecycle: search, filter, and delete functionality.",
+    "Introduced reusable content snippet explaining when to delete attestations (e.g., accidental creations, obsolete artifacts).",
+    "Updated existing provenance guide to reference the new lifecycle management page.",
+    "Added navigation link to the attestations documentation index."
   ],
-  "summary": "Added documentation for managing artifact attestations lifecycle: search, filter, delete, and bulk API operations.",
-  "generated_title": "Add artifact attestation lifecycle management (delete, bulk operations, search/filter)",
+  "summary": "- Added new documentation page for managing artifact attestations lifecycle: search, filter, and delete functionality.\n- Introduced reusable content snippet explaining when to delete attestations (e.g., accidental creations, obsolete artifacts).\n- Updated existing provenance guide to reference the new lifecycle management page.\n- Added navigation link to the attestations documentation index.",
+  "generated_title": "Documentation for Artifact Attestations Lifecycle Management: Search, Filter, and Delete [GA]",
   "commits": [
     "**58e7ab7**: Delete and Bulk Management Functionality for Artifact Attestations [GA] (#54958) (by Isaac Brown)"
   ],
-  "original_description": "This is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n\n\n---\n*Analysis generated using OpenRouter API*",
-  "raw_analysis": "### Summary\n- Added documentation for managing artifact attestations lifecycle: search, filter, delete, and bulk API operations.\n- Introduced new guide on deleting attestations to prevent untrusted artifact usage.\n- Included reusable content snippet explaining attestation lifecycle best practices.\n- Updated existing provenance documentation with link to new management features.\n\n### Title\nAdd artifact attestation lifecycle management (delete, bulk operations, search/filter)"
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added new documentation page for managing artifact attestations lifecycle: search, filter, and delete functionality.\n- Introduced reusable content snippet explaining when to delete attestations (e.g., accidental creations, obsolete artifacts).\n- Updated existing provenance guide to reference the new lifecycle management page.\n- Added navigation link to the attestations documentation index.\n\n### Title\nDocumentation for Artifact Attestations Lifecycle Management: Search, Filter, and Delete [GA]"
 }

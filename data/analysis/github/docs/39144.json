@@ -6,21 +6,21 @@
   "created": "2025-07-03T09:35:35Z",
   "url": "https://github.com/github/docs/pull/39144",
   "repository": "github/docs",
-  "analysis_date": "2025-07-05 22:11:10",
+  "analysis_date": "2025-07-06 16:08:09",
   "details": [
-    "**Documentation style**: Added guidelines for em dash usage in parenthetical statements.",
-    "**Security tutorials**: Introduced new Copilot Chat guides for managing dependencies with Dependabot and securing repositories.",
-    "**API documentation**: Filled out REST API endpoints for organization-scoped artifact attestations.",
-    "**Feature availability**: Added reusable note clarifying security feature access by repo type."
+    "Added style guide section on parenthetical dashes usage with examples.",
+    "Created two new Copilot security tutorials: securing repositories and managing dependency updates.",
+    "Updated REST API documentation for artifact attestations.",
+    "Added reusable note on security features availability across repository types."
   ],
-  "summary": "**Documentation style**: Added guidelines for em dash usage in parenthetical statements.",
-  "generated_title": "Update API docs, style guide, and Copilot security tutorials; clarify security feature availability",
+  "summary": "- Added style guide section on parenthetical dashes usage with examples.\n- Created two new Copilot security tutorials: securing repositories and managing dependency updates.\n- Updated REST API documentation for artifact attestations.\n- Added reusable note on security features availability across repository types.",
+  "generated_title": "Add Copilot security tutorials and update documentation standards",
   "commits": [
     "**fd1d9ec**: Merge pull request #56468 from github/repo-sync (by docs-bot)",
     "**01b4751**: Fill out org scoped attestations API doc (#56464) (by Meredith Lancaster)",
     "**cdfadb4**:  [Improvement]: Add more security-related Copilot prompts #17061 (#54881) (by Anne-Marie)",
     "**83ab117**: add parenthetical dashes (#56224) (by Thom Wong)"
   ],
-  "original_description": "This is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n\n\n---\n*Analysis generated using OpenRouter API*",
-  "raw_analysis": "### Summary\n- **Documentation style**: Added guidelines for em dash usage in parenthetical statements.\n- **Security tutorials**: Introduced new Copilot Chat guides for managing dependencies with Dependabot and securing repositories.\n- **API documentation**: Filled out REST API endpoints for organization-scoped artifact attestations.\n- **Feature availability**: Added reusable note clarifying security feature access by repo type.\n\n### Title\nUpdate API docs, style guide, and Copilot security tutorials; clarify security feature availability"
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added style guide section on parenthetical dashes usage with examples.\n- Created two new Copilot security tutorials: securing repositories and managing dependency updates.\n- Updated REST API documentation for artifact attestations.\n- Added reusable note on security features availability across repository types.\n\n### Title\nAdd Copilot security tutorials and update documentation standards"
 }

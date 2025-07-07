@@ -6,16 +6,15 @@
   "created": "2025-07-03T21:32:57Z",
   "url": "https://github.com/github/docs/pull/39152",
   "repository": "github/docs",
-  "analysis_date": "2025-07-05 22:08:09",
+  "analysis_date": "2025-07-06 16:01:22",
   "details": [
-    "Added new reference pages for GitHub Actions variables and contexts.",
-    "Restructured documentation to separate concepts from reference material.",
-    "Updated multiple files to link to new reference pages.",
-    "Enhanced search analytics with `search_client` for external requests.",
-    "Tracked CTA interactions via experiment events."
+    "Restructured GitHub Actions documentation: added dedicated `variables.md` and `contexts.md`, moved content to reference sections.",
+    "Updated REST API documentation for new model embeddings endpoints.",
+    "Added `search_client` parameter to track external search events.",
+    "Implemented analytics for Copilot CTA interactions, distinguishing between popover and footer banners."
   ],
-  "summary": "Added new reference pages for GitHub Actions variables and contexts.",
-  "generated_title": "Restructure Actions variables and contexts docs, add search analytics",
+  "summary": "- Restructured GitHub Actions documentation: added dedicated `variables.md` and `contexts.md`, moved content to reference sections.\n- Updated REST API documentation for new model embeddings endpoints.\n- Added `search_client` parameter to track external search events.\n- Implemented analytics for Copilot CTA interactions, distinguishing between popover and footer banners.",
+  "generated_title": "Documentation restructuring for Actions variables/contexts and search client analytics",
   "commits": [
     "**276a122**: Merge pull request #56480 from github/repo-sync (by docs-bot)",
     "**66c642b**: [EDI] Actions variables (#56456) (by Joe Clark)",
@@ -24,6 +23,6 @@
     "**a0f20c7**: use experiment event to track CTA interaction (#56481) (by Evan Bonsignori)",
     "**63679c4**: EDI - Actions contexts (#56465) (by Joe Clark)"
   ],
-  "original_description": "This is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n\n\n---\n*Analysis generated using OpenRouter API*",
-  "raw_analysis": "### Summary\n- Added new reference pages for GitHub Actions variables and contexts.\n- Restructured documentation to separate concepts from reference material.\n- Updated multiple files to link to new reference pages.\n- Enhanced search analytics with `search_client` for external requests.\n- Tracked CTA interactions via experiment events.\n\n### Title\nRestructure Actions variables and contexts docs, add search analytics"
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Restructured GitHub Actions documentation: added dedicated `variables.md` and `contexts.md`, moved content to reference sections.\n- Updated REST API documentation for new model embeddings endpoints.\n- Added `search_client` parameter to track external search events.\n- Implemented analytics for Copilot CTA interactions, distinguishing between popover and footer banners.\n\n### Title\nDocumentation restructuring for Actions variables/contexts and search client analytics"
 }
