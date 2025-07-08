@@ -1,0 +1,25 @@
+{
+  "number": 39234,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-08T21:33:20Z",
+  "url": "https://github.com/github/docs/pull/39234",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-08 22:07:13",
+  "details": [
+    "Added new concept page `github_token.md` explaining `GITHUB_TOKEN` usage in Actions workflows.",
+    "Replaced `automatic-token-authentication.md` guide with `use-github_token-in-workflows.md`, focusing on token usage examples and permission management.",
+    "Added reference page `github_token-reference.md` detailing token permissions and configuration.",
+    "Updated index files to include new documentation pages.",
+    "Fixed a typo in billing documentation (removed extra parenthesis)."
+  ],
+  "summary": "- Added new concept page `github_token.md` explaining `GITHUB_TOKEN` usage in Actions workflows.\n- Replaced `automatic-token-authentication.md` guide with `use-github_token-in-workflows.md`, focusing on token usage examples and permission management.\n- Added reference page `github_token-reference.md` detailing token permissions and configuration.\n- Updated index files to include new documentation pages.\n- Fixed a typo in billing documentation (removed extra parenthesis).",
+  "generated_title": "Restructure GITHUB_TOKEN documentation and fix typo",
+  "commits": [
+    "**4df047d**: [EDI] Automatic token authorization  (#56515) (by Joe Clark)",
+    "**238770d**: Fix typo in gathering-insights-on-your-spending.md (#56531) (by Melanie Yarbrough)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added new concept page `github_token.md` explaining `GITHUB_TOKEN` usage in Actions workflows.\n- Replaced `automatic-token-authentication.md` guide with `use-github_token-in-workflows.md`, focusing on token usage examples and permission management.\n- Added reference page `github_token-reference.md` detailing token permissions and configuration.\n- Updated index files to include new documentation pages.\n- Fixed a typo in billing documentation (removed extra parenthesis).\n\n### Title\nRestructure GITHUB_TOKEN documentation and fix typo"
+}
