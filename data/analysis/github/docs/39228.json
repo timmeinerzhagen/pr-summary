@@ -1,0 +1,23 @@
+{
+  "number": 39228,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-08T09:36:02Z",
+  "url": "https://github.com/github/docs/pull/39228",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-08 10:07:29",
+  "details": [
+    "Removed tier exclusivity labels for two GitHub Copilot features:",
+    "\"Generate a description of the changes in a pull request\" (previously Enterprise-only)",
+    "\"Work on code changes and create a pull request\" (previously Pro+/Enterprise-only)",
+    "Kept Enterprise-only label for \"Create and manage documentation knowledge bases\""
+  ],
+  "summary": "- Removed tier exclusivity labels for two GitHub Copilot features:\n- \"Generate a description of the changes in a pull request\" (previously Enterprise-only)\n- \"Work on code changes and create a pull request\" (previously Pro+/Enterprise-only)\n- Kept Enterprise-only label for \"Create and manage documentation knowledge bases\"",
+  "generated_title": "Remove Copilot tier exclusivity for PR description and creation features",
+  "commits": [
+    "**3242360**: docs: removing tier exclusivity remarks (#56519) (by Marcos Bergami)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removed tier exclusivity labels for two GitHub Copilot features:\n  - \"Generate a description of the changes in a pull request\" (previously Enterprise-only)\n  - \"Work on code changes and create a pull request\" (previously Pro+/Enterprise-only)\n- Kept Enterprise-only label for \"Create and manage documentation knowledge bases\"\n\n### Title\nRemove Copilot tier exclusivity for PR description and creation features"
+}
