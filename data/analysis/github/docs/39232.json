@@ -1,0 +1,29 @@
+{
+  "number": 39232,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-08T18:36:43Z",
+  "url": "https://github.com/github/docs/pull/39232",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-08 20:08:17",
+  "details": [
+    "Restructured self-hosted runners documentation: moved requirements and supported OS/architectures to a new reference page and added shortTitle metadata.",
+    "Updated dependency graph auto-submission: added .NET/Python support details and internet access requirements for self-hosted runners.",
+    "Copilot: removed GitHub Models section, clarified feature availability, and simplified proxy allowlist.",
+    "GitHub Models: added billing info and improved BYOK documentation with model list management.",
+    "Secret scanning: updated pattern validity checks for several providers."
+  ],
+  "summary": "- Restructured self-hosted runners documentation: moved requirements and supported OS/architectures to a new reference page and added shortTitle metadata.\n- Updated dependency graph auto-submission: added .NET/Python support details and internet access requirements for self-hosted runners.\n- Copilot: removed GitHub Models section, clarified feature availability, and simplified proxy allowlist.\n- GitHub Models: added billing info and improved BYOK documentation with model list management.\n- Secret scanning: updated pattern validity checks for several providers.",
+  "generated_title": "Documentation updates for self-hosted runners, dependency graph, Copilot, GitHub Models, and secret scanning",
+  "commits": [
+    "**8310639**: EDI-ify About self-hosted runners + Supported architectures and operating systems for self-hosted runners (#56510) (by Sam Browning)",
+    "**f88302b**: Restoration to pre-5e957dd (#56524) (by Ben Ahmady)",
+    "**3300020**: Dependency graph docs changes to support recent ships (#56514) (by Eric Sorenson)",
+    "**a5746b7**: Update what-is-github-copilot.md - update agent availability (#56495) (by Felicity Chapman)",
+    "**3fcae04**: [Improvement] GitHub Models docs (#56518) (by Sunbrye Ly)",
+    "**b8c1c1e**: Sync secret scanning data (#56525) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Restructured self-hosted runners documentation: moved requirements and supported OS/architectures to a new reference page and added shortTitle metadata.\n- Updated dependency graph auto-submission: added .NET/Python support details and internet access requirements for self-hosted runners.\n- Copilot: removed GitHub Models section, clarified feature availability, and simplified proxy allowlist.\n- GitHub Models: added billing info and improved BYOK documentation with model list management.\n- Secret scanning: updated pattern validity checks for several providers.\n\n### Title\nDocumentation updates for self-hosted runners, dependency graph, Copilot, GitHub Models, and secret scanning"
+}
