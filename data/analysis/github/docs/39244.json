@@ -1,0 +1,29 @@
+{
+  "number": 39244,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-09T21:33:32Z",
+  "url": "https://github.com/github/docs/pull/39244",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-09 22:06:25",
+  "details": [
+    "**TypeScript Conversion**: Converted multiple JavaScript files to TypeScript including `validator.js`, `all-versions.js`, `languages.js`, and data directory utilities.",
+    "**New Linter Rule**: Added table column integrity rule (GHD047) to ensure consistent column counts in Markdown tables.",
+    "**Lint Report Update**: Modified the lint report script to only include errors and expired content warnings, and renamed it from `post-lints` to `lint-report`.",
+    "**Configuration Changes**: Hard-coded language keys in `next.config.js` to avoid TypeScript import issues and updated GitHub Actions workflow to use the new lint report command."
+  ],
+  "summary": "- **TypeScript Conversion**: Converted multiple JavaScript files to TypeScript including `validator.js`, `all-versions.js`, `languages.js`, and data directory utilities.\n- **New Linter Rule**: Added table column integrity rule (GHD047) to ensure consistent column counts in Markdown tables.\n- **Lint Report Update**: Modified the lint report script to only include errors and expired content warnings, and renamed it from `post-lints` to `lint-report`.\n- **Configuration Changes**: Hard-coded language keys in `next.config.js` to avoid TypeScript import issues and updated GitHub Actions workflow to use the new lint report command.",
+  "generated_title": "Convert files to TypeScript, add table column linter rule, and update lint report",
+  "commits": [
+    "**0dcc58d**: Convert src/graphql/lib/validator.js to TypeScript (#56407) (by Kevin Heis)",
+    "**0db9781**: Add table column integrity checker content linter rule (GHD047) (#56099) (by Kevin Heis)",
+    "**e5e13f8**: Update content linting report to only include errors and expired content warnings (#56479) (by Kevin Heis)",
+    "**8872a88**: Convert additional data-directory files to TypeScript (#56396) (by Kevin Heis)",
+    "**d01b582**: Convert all-versions.js to TypeScript (#56404) (by Kevin Heis)",
+    "**e6d1d29**: Convert languages.js to TypeScript (#56393) (by Kevin Heis)",
+    "**ad1238c**: Phase 1: Convert core validation utility to TypeScript (#56420) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- **TypeScript Conversion**: Converted multiple JavaScript files to TypeScript including `validator.js`, `all-versions.js`, `languages.js`, and data directory utilities.\n- **New Linter Rule**: Added table column integrity rule (GHD047) to ensure consistent column counts in Markdown tables.\n- **Lint Report Update**: Modified the lint report script to only include errors and expired content warnings, and renamed it from `post-lints` to `lint-report`.\n- **Configuration Changes**: Hard-coded language keys in `next.config.js` to avoid TypeScript import issues and updated GitHub Actions workflow to use the new lint report command.\n\n### Title\nConvert files to TypeScript, add table column linter rule, and update lint report"
+}
