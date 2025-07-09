@@ -63,18 +63,13 @@ const PRCard: React.FC<PRCardProps> = ({ pr }) => {
               <div className="commits-section">
                 <h4>Commits</h4>
                 <div className="commits-list">
-                  {pr.commits.slice(0, 3).map((commit, index) => (
+                  {pr.commits.map((commit, index) => (
                     <div 
                       key={index} 
                       className="commit-item markdown-content"
                       dangerouslySetInnerHTML={{ __html: renderMarkdown(commit) }}
                     />
                   ))}
-                  {pr.commits.length > 3 && (
-                    <div className="commit-item" style={{ color: '#666' }}>
-                      ... and {pr.commits.length - 3} more
-                    </div>
-                  )}
                 </div>
               </div>
             )}
