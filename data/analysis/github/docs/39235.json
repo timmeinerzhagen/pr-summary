@@ -1,0 +1,27 @@
+{
+  "number": 39235,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-09T00:46:42Z",
+  "url": "https://github.com/github/docs/pull/39235",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-09 02:41:19",
+  "details": [
+    "Added new documentation for reusable workflows in GitHub Actions, including concept overview and reference details.",
+    "Renamed and restructured the \"reusing-workflows\" how-to guide to \"reuse-workflows\" with content reorganization.",
+    "Updated Copilot usage report documentation to specify 45-day data retention.",
+    "Added `creativecommons.org` to excluded link patterns.",
+    "Updated OpenAPI schema descriptions across multiple files."
+  ],
+  "summary": "- Added new documentation for reusable workflows in GitHub Actions, including concept overview and reference details.\n- Renamed and restructured the \"reusing-workflows\" how-to guide to \"reuse-workflows\" with content reorganization.\n- Updated Copilot usage report documentation to specify 45-day data retention.\n- Added `creativecommons.org` to excluded link patterns.\n- Updated OpenAPI schema descriptions across multiple files.",
+  "generated_title": "Enhance reusable workflows docs and update Copilot usage reporting",
+  "commits": [
+    "**e209bbe**: Update Copilot premium request usage report docs (#56529) (by Greg Mondello)",
+    "**c3e49ed**: Add site to excluded links list (#56516) (by Vanessa)",
+    "**ae22303**: Update OpenAPI Description (#56526) (by docs-bot)",
+    "**f295006**: [EDI] Reusing workflows (#56528) (by Joe Clark)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added new documentation for reusable workflows in GitHub Actions, including concept overview and reference details.\n- Renamed and restructured the \"reusing-workflows\" how-to guide to \"reuse-workflows\" with content reorganization.\n- Updated Copilot usage report documentation to specify 45-day data retention.\n- Added `creativecommons.org` to excluded link patterns.\n- Updated OpenAPI schema descriptions across multiple files.\n\n### Title\nEnhance reusable workflows docs and update Copilot usage reporting"
+}
