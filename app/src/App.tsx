@@ -37,7 +37,6 @@ function App() {
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash;
-      console.log('Hash changed to:', hash);
       
       if (hash.startsWith('#pr-')) {
         const prNumber = parseInt(hash.substring(4));
