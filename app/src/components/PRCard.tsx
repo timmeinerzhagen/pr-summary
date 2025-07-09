@@ -28,7 +28,11 @@ const PRCard: React.FC<PRCardProps> = ({ pr }) => {
   }
 
   return (
-    <div className={`pr-card ${isExpanded ? 'expanded' : ''}`} onClick={toggleExpanded}>
+    <div 
+      id={`pr-${pr.number}`}
+      className={`pr-card ${isExpanded ? 'expanded' : ''}`} 
+      onClick={toggleExpanded}
+    >
       <div className="pr-basic-info">
         <div className="pr-basic-content">
           <div className="pr-meta">
