@@ -1,0 +1,38 @@
+{
+  "number": 39242,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-09T18:37:23Z",
+  "url": "https://github.com/github/docs/pull/39242",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-09 20:07:31",
+  "details": [
+    "Increased retry attempts (8→12) and delay (15→30s) in GitHub Actions' retry-command",
+    "Restructured dependency caching documentation:",
+    "Added new overview page",
+    "Created cache management guide",
+    "Converted caching reference to standalone document",
+    "Improved accessibility:",
+    "Fixed tooltip text spacing",
+    "Enhanced focus indicators for high contrast mode",
+    "Added ARIA attributes to navigation elements",
+    "Added sidebar support for `layout: category-landing` pages",
+    "Extended Copilot Coding Agent to support remote MCP servers",
+    "Updated pre-release license terms to expand indemnity coverage",
+    "Converted redirect utility to TypeScript with improved type safety"
+  ],
+  "summary": "- Increased retry attempts (8→12) and delay (15→30s) in GitHub Actions' retry-command\n- Restructured dependency caching documentation:\n- Added new overview page\n- Created cache management guide\n- Converted caching reference to standalone document\n- Improved accessibility:\n- Fixed tooltip text spacing\n- Enhanced focus indicators for high contrast mode\n- Added ARIA attributes to navigation elements\n- Added sidebar support for `layout: category-landing` pages\n- Extended Copilot Coding Agent to support remote MCP servers\n- Updated pre-release license terms to expand indemnity coverage\n- Converted redirect utility to TypeScript with improved type safety",
+  "generated_title": "Enhance Actions caching, improve accessibility, extend Copilot MCP support, and update legal terms",
+  "commits": [
+    "**b9c5760**: Increase retry duration and attempts in retry-command action (#56454) (by Kevin Heis)",
+    "**b0fcaa8**: Convert get-redirect.js to TypeScript (#56408) (by Kevin Heis)",
+    "**70b98d1**: Support layout: category-landing for sidebar 'All prompts' entry (#56345) (by Kevin Heis)",
+    "**c019961**: Fix accessibility issues in docs control (annotate-option, tooltips, navigation) (#56452) (by Kevin Heis)",
+    "**32756da**: EDI-ify \"Caching dependencies to speed up workflows\" (#56548) (by Sam Browning)",
+    "**d1ea412**: Tweak Pre-Release Terms to expand indemnity (#56539) (by T. Greg Doucette)",
+    "**f7b1aa4**: Update docs to include Remote MCP support in CCA (#56499) (by Nhu Do)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "Based on the git diff, here's a concise summary of the key changes:\n\n### Summary\n- Increased retry attempts (8→12) and delay (15→30s) in GitHub Actions' retry-command\n- Restructured dependency caching documentation:\n  - Added new overview page\n  - Created cache management guide\n  - Converted caching reference to standalone document\n- Improved accessibility:\n  - Fixed tooltip text spacing\n  - Enhanced focus indicators for high contrast mode\n  - Added ARIA attributes to navigation elements\n- Added sidebar support for `layout: category-landing` pages\n- Extended Copilot Coding Agent to support remote MCP servers\n- Updated pre-release license terms to expand indemnity coverage\n- Converted redirect utility to TypeScript with improved type safety\n\n### Title\nEnhance Actions caching, improve accessibility, extend Copilot MCP support, and update legal terms"
+}
