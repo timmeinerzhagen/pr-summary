@@ -98,7 +98,7 @@ def generate_atom_feed(pr_data, output_path, base_url="https://llm-pr-summary.co
         entry_title = ET.SubElement(entry, "title")
         entry_title.text = f"#{pr.get('number', 'N/A')}: {pr.get('title', 'No title')}"
         
-        entry_link = ET.SubElement(entry, "link", href=pr.get('url', ''))
+        entry_link = ET.SubElement(entry, "link", href=f"https://pr.tim.ad/?search={pr.get('number', '')}")
         
         entry_id = ET.SubElement(entry, "id")
         entry_id.text = pr.get('url', f"{base_url}/pr/{pr.get('number', 'unknown')}")
