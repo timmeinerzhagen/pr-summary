@@ -1,0 +1,26 @@
+{
+  "number": 39258,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-10T21:33:52Z",
+  "url": "https://github.com/github/docs/pull/39258",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-10 22:05:52",
+  "details": [
+    "**GitHub Copilot Billing Update**: Changed pricing model for Copilot Coding Agent from 30-50 premium requests per invocation to 1 request per session.",
+    "**Pages Test Improvements**: Enhanced redirect validation to track duplicate sources and provide detailed error messages.",
+    "**OpenAPI Schema Fixes**: Corrected field order in multiple REST API descriptions without functional changes.",
+    "**Secret Scanning Update**: Added new Azure ML Inference Key detection pattern."
+  ],
+  "summary": "- **GitHub Copilot Billing Update**: Changed pricing model for Copilot Coding Agent from 30-50 premium requests per invocation to 1 request per session.\n- **Pages Test Improvements**: Enhanced redirect validation to track duplicate sources and provide detailed error messages.\n- **OpenAPI Schema Fixes**: Corrected field order in multiple REST API descriptions without functional changes.\n- **Secret Scanning Update**: Added new Azure ML Inference Key detection pattern.",
+  "generated_title": "Update Copilot billing model and secret scanning, fix OpenAPI schema order",
+  "commits": [
+    "**458d7ae**: [2025-07-10] GitHub Copilot coding agent price change - 1 job = 1 PRU (#56545) (by Tim Rogers)",
+    "**2191591**: Propose pages test changes (Copilot assisted) (#56568) (by Felicity Chapman)",
+    "**a87c12e**: Sync secret scanning data (#56578) (by docs-bot)",
+    "**3d40626**: Update OpenAPI Description (#56579) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- **GitHub Copilot Billing Update**: Changed pricing model for Copilot Coding Agent from 30-50 premium requests per invocation to 1 request per session.\n- **Pages Test Improvements**: Enhanced redirect validation to track duplicate sources and provide detailed error messages.\n- **OpenAPI Schema Fixes**: Corrected field order in multiple REST API descriptions without functional changes.\n- **Secret Scanning Update**: Added new Azure ML Inference Key detection pattern.\n\n### Title\nUpdate Copilot billing model and secret scanning, fix OpenAPI schema order"
+}
