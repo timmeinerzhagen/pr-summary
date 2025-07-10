@@ -1,0 +1,22 @@
+{
+  "number": 39249,
+  "title": "Fixed link for options",
+  "author": "StefanSpieker",
+  "state": "closed",
+  "created": "2025-07-10T07:20:53Z",
+  "url": "https://github.com/github/docs/pull/39249",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-10 16:08:04",
+  "details": [
+    "Fixed a broken documentation link for Jenkins `options` directive in the migration guide.",
+    "Updated the URL from `#parameters` to `#options` to point to the correct section."
+  ],
+  "summary": "- Fixed a broken documentation link for Jenkins `options` directive in the migration guide.\n- Updated the URL from `#parameters` to `#options` to point to the correct section.",
+  "generated_title": "Fix Jenkins options link in migration documentation",
+  "commits": [
+    "**d182644**: Fixed link for options (by Stefan Spieker)",
+    "**f73ff39**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\nThis is just a typo, the link pointed to the wrong section.\r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\n<!-- Let us know what you are changing. Share anything that could provide the most context.\r\nIf you made changes to the `content` directory, a table will populate in a comment below with links to the review and current production articles. -->\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [ ] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Fixed a broken documentation link for Jenkins `options` directive in the migration guide.\n- Updated the URL from `#parameters` to `#options` to point to the correct section.\n\n### Title\nFix Jenkins options link in migration documentation"
+}

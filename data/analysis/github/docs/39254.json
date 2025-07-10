@@ -1,0 +1,27 @@
+{
+  "number": 39254,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-10T15:35:42Z",
+  "url": "https://github.com/github/docs/pull/39254",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-10 16:07:34",
+  "details": [
+    "Moved deployment guides for Azure, AWS, and GCP from `use-cases-and-examples/deploying` to `managing-workflow-runs-and-deployments/deploying-to-third-party-platforms`",
+    "Added `shortTitle` frontmatter and updated `intro` to start with \"Learn how to\" in all deployment guides",
+    "Removed \"Introduction\" sections and OIDC notes from guides",
+    "Replaced \"Additional resources\" with \"Further reading\" sections",
+    "Added redirects from old paths to new locations",
+    "Added middleware to suppress 404 noise from Next.js assets on archived enterprise versions by returning 204",
+    "Added tests for static asset handling changes"
+  ],
+  "summary": "- Moved deployment guides for Azure, AWS, and GCP from `use-cases-and-examples/deploying` to `managing-workflow-runs-and-deployments/deploying-to-third-party-platforms`\n- Added `shortTitle` frontmatter and updated `intro` to start with \"Learn how to\" in all deployment guides\n- Removed \"Introduction\" sections and OIDC notes from guides\n- Replaced \"Additional resources\" with \"Further reading\" sections\n- Added redirects from old paths to new locations\n- Added middleware to suppress 404 noise from Next.js assets on archived enterprise versions by returning 204\n- Added tests for static asset handling changes",
+  "generated_title": "Reorganize deployment docs and suppress archived enterprise asset noise",
+  "commits": [
+    "**c2ff4d6**: Suppress 404 noise from Next.js assets on archived enterprise versions (#56269) (by Kevin Heis)",
+    "**1e0fbc0**: [EDI] 'Use cases and examples -> Deploying' articles (#56552) (by Ben Ahmady)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "Based on the git diff, here's a concise summary:\n\n### Summary\n- Moved deployment guides for Azure, AWS, and GCP from `use-cases-and-examples/deploying` to `managing-workflow-runs-and-deployments/deploying-to-third-party-platforms`\n- Added `shortTitle` frontmatter and updated `intro` to start with \"Learn how to\" in all deployment guides\n- Removed \"Introduction\" sections and OIDC notes from guides\n- Replaced \"Additional resources\" with \"Further reading\" sections\n- Added redirects from old paths to new locations\n- Added middleware to suppress 404 noise from Next.js assets on archived enterprise versions by returning 204\n- Added tests for static asset handling changes\n\n### Title\nReorganize deployment docs and suppress archived enterprise asset noise"
+}
