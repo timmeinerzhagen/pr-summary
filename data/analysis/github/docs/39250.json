@@ -1,0 +1,27 @@
+{
+  "number": 39250,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-10T09:36:39Z",
+  "url": "https://github.com/github/docs/pull/39250",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-10 09:37:29",
+  "details": [
+    "Added Dependabot documentation for IP allow lists, requiring self-hosted or larger runners for static IPs.",
+    "Updated Copilot docs: coding agent now available for trial users (removed \"coming soon\" note).",
+    "Enhanced secret scanning:",
+    "Added Azure Event Grid Key Identifiable pattern.",
+    "Set conditional validity checks (`fpt`/`ghes` vs others) for multiple patterns (Azure Event Hub, Canva, etc.).",
+    "Updated config SHA hashes for secret scanning data."
+  ],
+  "summary": "- Added Dependabot documentation for IP allow lists, requiring self-hosted or larger runners for static IPs.\n- Updated Copilot docs: coding agent now available for trial users (removed \"coming soon\" note).\n- Enhanced secret scanning:\n- Added Azure Event Grid Key Identifiable pattern.\n- Set conditional validity checks (`fpt`/`ghes` vs others) for multiple patterns (Azure Event Hub, Canva, etc.).\n- Updated config SHA hashes for secret scanning data.",
+  "generated_title": "Update docs for Dependabot IP allow lists, Copilot trial availability, and secret scanning patterns",
+  "commits": [
+    "**41e3569**: Sync secret scanning data (#56549) (by docs-bot)",
+    "**7eb8ba2**: Document that Copilot coding agent is available for Copilot trial users (#56544) (by Tim Rogers)",
+    "**f89b8fd**: Document Dependabot and IP Allow Lists (#56540) (by Ben Webb)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added Dependabot documentation for IP allow lists, requiring self-hosted or larger runners for static IPs.\n- Updated Copilot docs: coding agent now available for trial users (removed \"coming soon\" note).\n- Enhanced secret scanning:\n  - Added Azure Event Grid Key Identifiable pattern.\n  - Set conditional validity checks (`fpt`/`ghes` vs others) for multiple patterns (Azure Event Hub, Canva, etc.).\n- Updated config SHA hashes for secret scanning data.\n\n### Title\nUpdate docs for Dependabot IP allow lists, Copilot trial availability, and secret scanning patterns"
+}
