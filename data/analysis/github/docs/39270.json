@@ -1,0 +1,22 @@
+{
+  "number": 39270,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-11T15:35:46Z",
+  "url": "https://github.com/github/docs/pull/39270",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-11 16:07:23",
+  "details": [
+    "Updated `eslint-plugin-primer-react` from v6.1.6 to v7.0.2 in `package.json` and `package-lock.json`.",
+    "Removed obsolete transitive dependencies (`ts-api-utils`, `array-union`, `dir-glob`).",
+    "Updated internal dependencies for `eslint-plugin-primer-react` (e.g., `@typescript-eslint/utils` to v8.35.0, `typescript` to ^5.8.2)."
+  ],
+  "summary": "- Updated `eslint-plugin-primer-react` from v6.1.6 to v7.0.2 in `package.json` and `package-lock.json`.\n- Removed obsolete transitive dependencies (`ts-api-utils`, `array-union`, `dir-glob`).\n- Updated internal dependencies for `eslint-plugin-primer-react` (e.g., `@typescript-eslint/utils` to v8.35.0, `typescript` to ^5.8.2).",
+  "generated_title": "chore(deps): bump eslint-plugin-primer-react to v7.0.2",
+  "commits": [
+    "**c6615eb**: Bump eslint-plugin-primer-react from 6.1.6 to 7.0.2 (#56536) (by dependabot[bot])"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated `eslint-plugin-primer-react` from v6.1.6 to v7.0.2 in `package.json` and `package-lock.json`.\n- Removed obsolete transitive dependencies (`ts-api-utils`, `array-union`, `dir-glob`).\n- Updated internal dependencies for `eslint-plugin-primer-react` (e.g., `@typescript-eslint/utils` to v8.35.0, `typescript` to ^5.8.2).\n\n### Title\nchore(deps): bump eslint-plugin-primer-react to v7.0.2"
+}
