@@ -1,0 +1,25 @@
+{
+  "number": 39264,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-11T09:36:13Z",
+  "url": "https://github.com/github/docs/pull/39264",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-11 10:06:19",
+  "details": [
+    "Added GitHub Mobile support for Copilot Code Review, including usage instructions.",
+    "Centralized documentation for availability, organization enablement, and premium quota requirements using reusable files.",
+    "Added redirect for `/copilot/code-review`.",
+    "Included 'Mobile' in tools list (`all-tools.ts`).",
+    "Removed redundant heading in web UI section."
+  ],
+  "summary": "- Added GitHub Mobile support for Copilot Code Review, including usage instructions.\n- Centralized documentation for availability, organization enablement, and premium quota requirements using reusable files.\n- Added redirect for `/copilot/code-review`.\n- Included 'Mobile' in tools list (`all-tools.ts`).\n- Removed redundant heading in web UI section.",
+  "generated_title": "Add GitHub Mobile support for Copilot Code Review and refactor documentation",
+  "commits": [
+    "**2bcb702**: Merge pull request #56585 from github/repo-sync (by docs-bot)",
+    "**beb4290**: Document Copilot Code Review in GitHub Mobile (#56496) (by hubwriter)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added GitHub Mobile support for Copilot Code Review, including usage instructions.\n- Centralized documentation for availability, organization enablement, and premium quota requirements using reusable files.\n- Added redirect for `/copilot/code-review`.\n- Included 'Mobile' in tools list (`all-tools.ts`).\n- Removed redundant heading in web UI section.\n\n### Title\nAdd GitHub Mobile support for Copilot Code Review and refactor documentation"
+}
