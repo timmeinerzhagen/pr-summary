@@ -1,0 +1,23 @@
+{
+  "number": 39269,
+  "title": "Fix typo in reviewing-a-pull-request-created-by-copilot.md",
+  "author": "dasevilla",
+  "state": "closed",
+  "created": "2025-07-11T14:47:16Z",
+  "url": "https://github.com/github/docs/pull/39269",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-11 18:07:57",
+  "details": [
+    "Fixed a grammatical error in GitHub Copilot documentation by changing \"comment\" to \"comments\" for plural consistency.",
+    "Corrected the sentence: \"It will not respond to comments that were added while it was not assigned.\"",
+    "Documentation update only, no functional code changes."
+  ],
+  "summary": "- Fixed a grammatical error in GitHub Copilot documentation by changing \"comment\" to \"comments\" for plural consistency.\n- Corrected the sentence: \"It will not respond to comments that were added while it was not assigned.\"\n- Documentation update only, no functional code changes.",
+  "generated_title": "Fix typo in Copilot PR review documentation",
+  "commits": [
+    "**7038703**: Fix typo in reviewing-a-pull-request-created-by-copilot.md (by Devin Sevilla)",
+    "**f862932**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "### Why:\r\n\r\nThere is a minor grammatical typo in reviewing-a-pull-request-created-by-copilot.md\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nUpdate the text of the tip.\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Fixed a grammatical error in GitHub Copilot documentation by changing \"comment\" to \"comments\" for plural consistency.\n- Corrected the sentence: \"It will not respond to comments that were added while it was not assigned.\"\n- Documentation update only, no functional code changes.\n\n### Title\nFix typo in Copilot PR review documentation"
+}
