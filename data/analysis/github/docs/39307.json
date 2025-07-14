@@ -1,0 +1,22 @@
+{
+  "number": 39307,
+  "title": "Correct misspelling of \"owner\"",
+  "author": "hicksjacobp",
+  "state": "closed",
+  "created": "2025-07-14T13:58:11Z",
+  "url": "https://github.com/github/docs/pull/39307",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-14 18:08:07",
+  "details": [
+    "Fixed a typo in billing documentation: changed \"onwer\" to \"owner\" in budget creation instructions.",
+    "Updated documentation for clarity regarding account ownership roles."
+  ],
+  "summary": "- Fixed a typo in billing documentation: changed \"onwer\" to \"owner\" in budget creation instructions.\n- Updated documentation for clarity regarding account ownership roles.",
+  "generated_title": "Fix \"owner\" spelling in budget documentation",
+  "commits": [
+    "**edf018d**: Correct misspelling of \"owner\" (by Jacob Hicks)",
+    "**b0b7c90**: Merge branch 'main' into fix-budget-owner-spelling (by Sharra-writes)"
+  ],
+  "original_description": "### Why:\r\n\r\nThis is a simple spelling correction in the billing/budget docs.\r\n\r\n> [!NOTE]\r\n> I assume opening an issue for a minor misspelling is unnecessary.\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nI noticed there was a misspelling in this section: <https://docs.github.com/en/billing/managing-your-billing/using-budgets-control-spending#creating-a-budget>\r\n\r\n<img width=\"411\" height=\"75\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d4857dd5-5c3c-4d68-8231-5622aac60a4d\" />\r\n\r\n\"onwer\" should be \"owner\"\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [ ] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Fixed a typo in billing documentation: changed \"onwer\" to \"owner\" in budget creation instructions.\n- Updated documentation for clarity regarding account ownership roles.\n\n### Title\nFix \"owner\" spelling in budget documentation"
+}
