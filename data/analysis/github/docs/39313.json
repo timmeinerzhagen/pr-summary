@@ -1,0 +1,28 @@
+{
+  "number": 39313,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-14T18:36:48Z",
+  "url": "https://github.com/github/docs/pull/39313",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-14 20:07:38",
+  "details": [
+    "**Actions Runner Controller (ARC) Documentation**: Restructured ARC articles into a new `tutorials` section, added a new concept file for runner scale sets, and updated navigation.",
+    "**PKCE Support**: Added documentation for Proof Key for Code Exchange (PKCE) in GitHub Apps and OAuth Apps authorization flows.",
+    "**GitHub Pages**: Clarified visibility rules for Enterprise Managed Users (EMUs).",
+    "**Dockerfile**: Updated base image version for `gh-base-noble`.",
+    "**Copilot Tutorial**: Added a hands-on exercise link for Model Context Protocol (MCP) integration."
+  ],
+  "summary": "- **Actions Runner Controller (ARC) Documentation**: Restructured ARC articles into a new `tutorials` section, added a new concept file for runner scale sets, and updated navigation.\n- **PKCE Support**: Added documentation for Proof Key for Code Exchange (PKCE) in GitHub Apps and OAuth Apps authorization flows.\n- **GitHub Pages**: Clarified visibility rules for Enterprise Managed Users (EMUs).\n- **Dockerfile**: Updated base image version for `gh-base-noble`.\n- **Copilot Tutorial**: Added a hands-on exercise link for Model Context Protocol (MCP) integration.",
+  "generated_title": "ARC docs restructure, PKCE support, and minor updates",
+  "commits": [
+    "**a9d12be**: Update changing-the-visibility-of-your-github-pages-site.md (#56520) (by Ryosuke Nakayama)",
+    "**d12a9b2**: [EDI] \"Managing self-hosted runners with Actions Runner Controller\" articles  (#56621) (by Ben Ahmady)",
+    "**2002fe2**: Bump github/gh-base-image/gh-base-noble from 20250711-151843-g9ff1d29c5 to 20250711-165924-g6f92253c7 in the baseimages group (#56611) (by dependabot[bot])",
+    "**aa28509**: Add PKCE documentation (#56506) (by Hirsch Singhal)",
+    "**027a1db**: create a hands-on heading to call out the skills exercise (#56620) (by Ari LiVigni)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- **Actions Runner Controller (ARC) Documentation**: Restructured ARC articles into a new `tutorials` section, added a new concept file for runner scale sets, and updated navigation.\n- **PKCE Support**: Added documentation for Proof Key for Code Exchange (PKCE) in GitHub Apps and OAuth Apps authorization flows.\n- **GitHub Pages**: Clarified visibility rules for Enterprise Managed Users (EMUs).\n- **Dockerfile**: Updated base image version for `gh-base-noble`.\n- **Copilot Tutorial**: Added a hands-on exercise link for Model Context Protocol (MCP) integration.\n\n### Title\nARC docs restructure, PKCE support, and minor updates"
+}
