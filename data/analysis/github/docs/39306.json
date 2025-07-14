@@ -1,0 +1,32 @@
+{
+  "number": 39306,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-14T12:38:10Z",
+  "url": "https://github.com/github/docs/pull/39306",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-14 14:07:37",
+  "details": [
+    "Updated billing payment methods and added troubleshooting steps for payment issues.",
+    "Clarified Copilot coding agent's behavior regarding public code matching and expanded PR creation methods.",
+    "Added content exclusion concepts and updated how-to guides.",
+    "Introduced OIDC for Copilot Extensions with setup instructions.",
+    "Moved proxy settings to reference section.",
+    "Removed preview labels from chat features and updated terminology (e.g., \"profile photo\" → \"profile picture\")."
+  ],
+  "summary": "- Updated billing payment methods and added troubleshooting steps for payment issues.\n- Clarified Copilot coding agent's behavior regarding public code matching and expanded PR creation methods.\n- Added content exclusion concepts and updated how-to guides.\n- Introduced OIDC for Copilot Extensions with setup instructions.\n- Moved proxy settings to reference section.\n- Removed preview labels from chat features and updated terminology (e.g., \"profile photo\" → \"profile picture\").",
+  "generated_title": "Copilot: Agent, Billing, Content Exclusion, and OIDC Updates",
+  "commits": [
+    "**c315f5b**: Update profile photo reference to profile picture in usage... (by hubwriter)",
+    "**6450eea**: [EDI - Builders] - Copilot \"How-Tos\" (\"Exclude content from Copilot\") #5527 (#56586) (by Anne-Marie)",
+    "**a3ecef8**: Update managing-your-payment-and-billing-information.md (#54935) (by Aleah Dawson)",
+    "**1b43507**: New dotcom chat conversational features (#56169) (by Sophie)",
+    "**16c8466**: Clarify that Copilot coding agent doesn't observe the \"Suggestions matching public code\" policy (#56569) (by Tim Rogers)",
+    "**2225c5b**: [EDI - Drivers] Move Copilot allow list article to Reference (#56594) (by mc)",
+    "**756f0da**: Document Copilot coding agent integration's into VS Code with the GitHub Pull Requests extension (#56590) (by Tim Rogers)",
+    "**17c45e5**: [EDI - Builders] - Copilot Extensions \"How-Tos\" (\"Using OIDC with Copilot Extensions\") #5523 (#56522) (by Anne-Marie)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated billing payment methods and added troubleshooting steps for payment issues.\n- Clarified Copilot coding agent's behavior regarding public code matching and expanded PR creation methods.\n- Added content exclusion concepts and updated how-to guides.\n- Introduced OIDC for Copilot Extensions with setup instructions.\n- Moved proxy settings to reference section.\n- Removed preview labels from chat features and updated terminology (e.g., \"profile photo\" → \"profile picture\").\n\n### Title\nCopilot: Agent, Billing, Content Exclusion, and OIDC Updates"
+}
