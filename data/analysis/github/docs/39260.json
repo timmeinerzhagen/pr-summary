@@ -1,0 +1,26 @@
+{
+  "number": 39260,
+  "title": "Improve Account and Profile Documentation Frontmatter and Intro Wording",
+  "author": "NirajDN",
+  "state": "closed",
+  "created": "2025-07-11T04:40:19Z",
+  "url": "https://github.com/github/docs/pull/39260",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-15 00:26:35",
+  "details": [
+    "Updated intro text for clarity: replaced \"adjusting the settings for your personal account\" with \"customizing your personal account settings\".",
+    "Restructured `quickstart` link from a direct string to a list format for consistency."
+  ],
+  "summary": "- Updated intro text for clarity: replaced \"adjusting the settings for your personal account\" with \"customizing your personal account settings\".\n- Restructured `quickstart` link from a direct string to a list format for consistency.",
+  "generated_title": "Refine account profile documentation intro and link structure",
+  "commits": [
+    "**91c4043**: Update index.md (by Niraj Nillawar)",
+    "**a520e41**: Update content/account-and-profile/index.md (by Sharra-writes)",
+    "**a7bc96b**: Update content/account-and-profile/index.md (by Sharra-writes)",
+    "**bc693f4**: Update content/account-and-profile/index.md (by Sharra-writes)",
+    "**8f1b645**: Update content/account-and-profile/index.md (by Sharra-writes)",
+    "**1ab9467**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\nThe current account and profile documentation frontmatter and intro text were a bit wordy and could be clearer. Improving these will help users understand the purpose of the page quickly and improve the maintainability of the YAML frontmatter for future edits.\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\n- Reworded the intro to use more concise and natural language:\r\n  - Changed \"adjusting the settings\" to \"customizing your personal account settings\"\r\n  - Changed \"managing the notifications you receive\" to \"managing your notification preferences\"\r\n- Converted the intro string from single-quoted to multi-line YAML format for easier readability and editing.\r\n- Cleaned up YAML formatting and indentation for better consistency.\r\n- No visual UI changes; documentation metadata improvements only.\r\n\r\n### Check off the following:\r\n\r\n- [x] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [x] All CI checks are passing and the changes look good in the review environment.\r\n\r\n**Contributor:** NirajDN\r\n",
+  "raw_analysis": "### Summary\n- Updated intro text for clarity: replaced \"adjusting the settings for your personal account\" with \"customizing your personal account settings\".\n- Restructured `quickstart` link from a direct string to a list format for consistency.\n\n### Title  \nRefine account profile documentation intro and link structure"
+}
