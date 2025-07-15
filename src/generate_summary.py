@@ -147,9 +147,9 @@ Here is the git diff output for analysis:
             
         except requests.exceptions.RequestException as e:
             print(f"Error calling OpenRouter API: {e}")
-            if hasattr(e, 'response') and e.response is not None:
-                print(f"Response status: {e.response.status_code}")
-                print(f"Response content: {e.response.text}")
+            if response is not None:
+                print(f"Response status: {response.status_code}")
+                print(f"Response content: {response.text}")
             sys.exit(1)
     
     def save_to_json(self, analysis: str, pr_data: Dict[str, Any], commits_data: list,
