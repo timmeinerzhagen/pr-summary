@@ -1,0 +1,25 @@
+{
+  "number": 39326,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-15T12:38:02Z",
+  "url": "https://github.com/github/docs/pull/39326",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-15 14:07:26",
+  "details": [
+    "Added enterprise guide for managing Copilot premium request allowances, including budget configuration and user upgrades.",
+    "Moved detailed `last_activity_at` Copilot property explanation to a reference article.",
+    "Simplified package deletion instructions by removing redundant navigation steps.",
+    "Clarified premium request reporting differences and updated plan allowance details."
+  ],
+  "summary": "- Added enterprise guide for managing Copilot premium request allowances, including budget configuration and user upgrades.\n- Moved detailed `last_activity_at` Copilot property explanation to a reference article.\n- Simplified package deletion instructions by removing redundant navigation steps.\n- Clarified premium request reporting differences and updated plan allowance details.",
+  "generated_title": "Enterprise Copilot premium request management and documentation updates",
+  "commits": [
+    "**6e2abdd**: Create a guide for enterprises to enable Copilot premium requests beyond the plan's allowance (#56376) (by Isaac Brown)",
+    "**8970450**: Remove redundant instructions when deleting package versions (#56622) (by Jamie Cansdale)",
+    "**bc36811**: [EDI] Move content about `last_activity_at` Copilot property to Reference article (#56615) (by Isaac Brown)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added enterprise guide for managing Copilot premium request allowances, including budget configuration and user upgrades.\n- Moved detailed `last_activity_at` Copilot property explanation to a reference article.\n- Simplified package deletion instructions by removing redundant navigation steps.\n- Clarified premium request reporting differences and updated plan allowance details.\n\n### Title\nEnterprise Copilot premium request management and documentation updates"
+}
