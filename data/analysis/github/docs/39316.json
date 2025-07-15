@@ -1,0 +1,26 @@
+{
+  "number": 39316,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-15T00:48:39Z",
+  "url": "https://github.com/github/docs/pull/39316",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-15 02:44:40",
+  "details": [
+    "Added a fix note for kafka-lite service timeouts to multiple Enterprise Server release notes (versions 3.13-3.17).",
+    "Enhanced audit logs UI by adding a \"Reference\" column with auto-resolved documentation links.",
+    "Implemented title resolution for audit log reference links using page data and redirects.",
+    "Converted `processor.js` to TypeScript and added type definitions for content rendering."
+  ],
+  "summary": "- Added a fix note for kafka-lite service timeouts to multiple Enterprise Server release notes (versions 3.13-3.17).\n- Enhanced audit logs UI by adding a \"Reference\" column with auto-resolved documentation links.\n- Implemented title resolution for audit log reference links using page data and redirects.\n- Converted `processor.js` to TypeScript and added type definitions for content rendering.",
+  "generated_title": "Add audit log reference links and kafka-lite fix notes",
+  "commits": [
+    "**dbebcc3**: Merge pull request #56634 from github/repo-sync (by docs-bot)",
+    "**011df84**: [Release note update]: Release notes bug fixes (#56613) (by Vanessa)",
+    "**dbbc1e2**: Add AUTOTITLE-like functionality for audit log reference links (#56232) (by Kevin Heis)",
+    "**97173c4**: Convert unified/processor.js to TypeScript (Phase 1 - Core Processor) (#56426) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added a fix note for kafka-lite service timeouts to multiple Enterprise Server release notes (versions 3.13-3.17).\n- Enhanced audit logs UI by adding a \"Reference\" column with auto-resolved documentation links.\n- Implemented title resolution for audit log reference links using page data and redirects.\n- Converted `processor.js` to TypeScript and added type definitions for content rendering.\n\n### Title\nAdd audit log reference links and kafka-lite fix notes"
+}
