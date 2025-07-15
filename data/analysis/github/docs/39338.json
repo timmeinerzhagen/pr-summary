@@ -1,0 +1,34 @@
+{
+  "number": 39338,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-15T21:34:00Z",
+  "url": "https://github.com/github/docs/pull/39338",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-15 22:07:21",
+  "details": [
+    "**Audit Log Improvements**: Updated audit log event display to show fields in a definition list instead of a table. Added field data to event definitions and tests.",
+    "**Workflows Documentation**: Renamed \"About workflows\" to \"Workflows\" and restructured content for clarity, removing advanced features and adding a \"Next steps\" section.",
+    "**Copilot Billing Update**: Clarified that only user prompts (not tool calls) count toward premium request usage in agent mode.",
+    "**EMUs SAML SSO**: Corrected initial setup instructions to emphasize signing in as the setup user (`SHORTCODE_admin`).",
+    "**GraphQL Schema**: Removed deprecation from `ClosedEvent.stateReason` and `Issue.stateReason`, and added an upcoming change notice for `Issue.stateReason.enableDuplicate`.",
+    "**GHES Patches**: Added release notes for versions 3.14–3.17 with security fixes, bug fixes, and known issues.",
+    "**Search UI**: Removed the AI search CTA popover from the search bar."
+  ],
+  "summary": "- **Audit Log Improvements**: Updated audit log event display to show fields in a definition list instead of a table. Added field data to event definitions and tests.\n- **Workflows Documentation**: Renamed \"About workflows\" to \"Workflows\" and restructured content for clarity, removing advanced features and adding a \"Next steps\" section.\n- **Copilot Billing Update**: Clarified that only user prompts (not tool calls) count toward premium request usage in agent mode.\n- **EMUs SAML SSO**: Corrected initial setup instructions to emphasize signing in as the setup user (`SHORTCODE_admin`).\n- **GraphQL Schema**: Removed deprecation from `ClosedEvent.stateReason` and `Issue.stateReason`, and added an upcoming change notice for `Issue.stateReason.enableDuplicate`.\n- **GHES Patches**: Added release notes for versions 3.14–3.17 with security fixes, bug fixes, and known issues.\n- **Search UI**: Removed the AI search CTA popover from the search bar.",
+  "generated_title": "Update audit logs, workflows docs, Copilot billing, EMUs, GraphQL, and GHES patches",
+  "commits": [
+    "**dcf6e17**: Update OpenAPI Description (#56649) (by docs-bot)",
+    "**89df927**: Update audit log event data (#56648) (by docs-bot)",
+    "**8a116f7**: Updating Visual Studio docs on agent mode request counting (#56610) (by Andy Sterland)",
+    "**d0fe048**: EDI-ify \"About workflows\" (#56631) (by Sam Browning)",
+    "**4442df8**: GraphQL schema update (#56651) (by docs-bot)",
+    "**4d38e79**: Display event fields on audit log pages (#56332) (by Kevin Heis)",
+    "**03e227c**: remove search popover (#56639) (by Evan Bonsignori)",
+    "**52464b7**: Correct initial paragraph for configuring SAML SSO for EMUs (#56644) (by Colin Seymour)",
+    "**370b4e4**: Patch release notes for GitHub Enterprise Server (#56608) (by release-controller[bot])"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- **Audit Log Improvements**: Updated audit log event display to show fields in a definition list instead of a table. Added field data to event definitions and tests.\n- **Workflows Documentation**: Renamed \"About workflows\" to \"Workflows\" and restructured content for clarity, removing advanced features and adding a \"Next steps\" section.\n- **Copilot Billing Update**: Clarified that only user prompts (not tool calls) count toward premium request usage in agent mode.\n- **EMUs SAML SSO**: Corrected initial setup instructions to emphasize signing in as the setup user (`SHORTCODE_admin`).\n- **GraphQL Schema**: Removed deprecation from `ClosedEvent.stateReason` and `Issue.stateReason`, and added an upcoming change notice for `Issue.stateReason.enableDuplicate`.\n- **GHES Patches**: Added release notes for versions 3.14–3.17 with security fixes, bug fixes, and known issues.\n- **Search UI**: Removed the AI search CTA popover from the search bar.\n\n### Title\nUpdate audit logs, workflows docs, Copilot billing, EMUs, GraphQL, and GHES patches"
+}
