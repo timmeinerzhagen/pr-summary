@@ -1,0 +1,23 @@
+{
+  "number": 39321,
+  "title": "Optimize and clean up YAML frontmatter to fix redirects and link check errors",
+  "author": "NirajDN",
+  "state": "closed",
+  "created": "2025-07-15T04:32:09Z",
+  "url": "https://github.com/github/docs/pull/39321",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-15 20:09:03",
+  "details": [
+    "Fixed Liquid template syntax in title by adding a space in `{% ifversion ... %}` tag.",
+    "Added `gh-wa` to the `externalProducts` list under the GitHub group.",
+    "Removed trailing newline at end of file."
+  ],
+  "summary": "- Fixed Liquid template syntax in title by adding a space in `{% ifversion ... %}` tag.\n- Added `gh-wa` to the `externalProducts` list under the GitHub group.\n- Removed trailing newline at end of file.",
+  "generated_title": "Add gh-wa to external products and fix template syntax in index.md",
+  "commits": [
+    "**ac70a13**: Update index.md(content) (by Niraj Nillawar)",
+    "**a6a4132**: Merge branch 'main' into patch-3 (by Sharra-writes)"
+  ],
+  "original_description": "<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\nThis PR addresses the failing CI checks related to redirects and link validation by cleaning up duplicate and outdated entries in the YAML frontmatter of the documentation file. \r\n\r\nThe previous frontmatter contained multiple duplicate redirects which caused link checker and redirect tests to fail.\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\n- Removed duplicate and unnecessary redirect entries.\r\n- Simplified the YAML frontmatter to follow current GitHub Docs guidelines.\r\n- Ensured links in the frontmatter are unique and valid.\r\n\r\nThese changes improve the accuracy of redirect paths and fix link validation errors during automated tests.\r\n\r\n### Check off the following:\r\n\r\n- [x] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [x] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Fixed Liquid template syntax in title by adding a space in `{% ifversion ... %}` tag.\n- Added `gh-wa` to the `externalProducts` list under the GitHub group.\n- Removed trailing newline at end of file.\n\n### Title\nAdd gh-wa to external products and fix template syntax in index.md"
+}

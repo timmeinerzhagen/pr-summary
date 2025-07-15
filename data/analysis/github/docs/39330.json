@@ -1,0 +1,26 @@
+{
+  "number": 39330,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-15T18:37:07Z",
+  "url": "https://github.com/github/docs/pull/39330",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-15 20:07:36",
+  "details": [
+    "Added social login (Google) authentication support for GitHub accounts, including sign-up, sign-in, and sudo mode verification.",
+    "Updated authentication documentation to include social login options and limitations (free and enterprise cloud only).",
+    "Added mobile app sign-in instructions for social login users (Android and iOS).",
+    "Added `ChangeType.DirectiveUsageFieldDefinitionRemoved` to GraphQL changelog reporting.",
+    "Synced secret scanning patterns with new Azure and Buildkite token types."
+  ],
+  "summary": "- Added social login (Google) authentication support for GitHub accounts, including sign-up, sign-in, and sudo mode verification.\n- Updated authentication documentation to include social login options and limitations (free and enterprise cloud only).\n- Added mobile app sign-in instructions for social login users (Android and iOS).\n- Added `ChangeType.DirectiveUsageFieldDefinitionRemoved` to GraphQL changelog reporting.\n- Synced secret scanning patterns with new Azure and Buildkite token types.",
+  "generated_title": "Add social login authentication and update secret scanning patterns",
+  "commits": [
+    "**6457d10**: add ChangeType.DirectiveUsageFieldDefinitionRemoved to ignore for graphql workflow (#56650) (by Robert Sese)",
+    "**2d2ad59**: Update about-authentication-to-github.md (#56532) (by Usha N)",
+    "**48502ac**: Sync secret scanning data (#56647) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added social login (Google) authentication support for GitHub accounts, including sign-up, sign-in, and sudo mode verification.\n- Updated authentication documentation to include social login options and limitations (free and enterprise cloud only).\n- Added mobile app sign-in instructions for social login users (Android and iOS).\n- Added `ChangeType.DirectiveUsageFieldDefinitionRemoved` to GraphQL changelog reporting.\n- Synced secret scanning patterns with new Azure and Buildkite token types.\n\n### Title\nAdd social login authentication and update secret scanning patterns"
+}
