@@ -1,0 +1,25 @@
+{
+  "number": 39327,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-15T15:35:01Z",
+  "url": "https://github.com/github/docs/pull/39327",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-15 18:08:15",
+  "details": [
+    "Added new documentation files for Copilot completions: code referencing, IDE code suggestions, and text completion for PR descriptions.",
+    "Updated existing Copilot guides to reference new concept files, removing redundant content.",
+    "Removed VividCortex from GitHub's subprocessor list in privacy policy.",
+    "Skipped a flaky test in guides test suite."
+  ],
+  "summary": "- Added new documentation files for Copilot completions: code referencing, IDE code suggestions, and text completion for PR descriptions.\n- Updated existing Copilot guides to reference new concept files, removing redundant content.\n- Removed VividCortex from GitHub's subprocessor list in privacy policy.\n- Skipped a flaky test in guides test suite.",
+  "generated_title": "Add Copilot completions documentation and update subprocessors",
+  "commits": [
+    "**e1cb0af**: [EDI - Builders] - Copilot \"How-Tos\" (\"Completions\") #5524  (#56523) (by Anne-Marie)",
+    "**815f14d**: Skip a flakey test (by Kevin Heis)",
+    "**39dfe83**: Remove VividCortex from GitHub subprocessors list (#56604) (by Kayla Reiman)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added new documentation files for Copilot completions: code referencing, IDE code suggestions, and text completion for PR descriptions.\n- Updated existing Copilot guides to reference new concept files, removing redundant content.\n- Removed VividCortex from GitHub's subprocessor list in privacy policy.\n- Skipped a flaky test in guides test suite.\n\n### Title\nAdd Copilot completions documentation and update subprocessors"
+}
