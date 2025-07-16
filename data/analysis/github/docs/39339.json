@@ -1,0 +1,26 @@
+{
+  "number": 39339,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-16T00:47:37Z",
+  "url": "https://github.com/github/docs/pull/39339",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-16 02:42:30",
+  "details": [
+    "**Dependency update**: Bumped base Docker image to `gh-base-noble:20250715-152201-gef17a3886`",
+    "**TypeScript migration**: Converted `src/rest/lib/index.js` to TypeScript with type annotations, interfaces, and strict null checks",
+    "**Content updates**: Added `gh-wa` product to documentation index and fixed Liquid template spacing",
+    "**API structure changes**: Refactored REST data handling to use typed maps and improved type safety",
+    "**Testing updates**: Adjusted REST rendering tests to match new TypeScript data access patterns"
+  ],
+  "summary": "- **Dependency update**: Bumped base Docker image to `gh-base-noble:20250715-152201-gef17a3886`\n- **TypeScript migration**: Converted `src/rest/lib/index.js` to TypeScript with type annotations, interfaces, and strict null checks\n- **Content updates**: Added `gh-wa` product to documentation index and fixed Liquid template spacing\n- **API structure changes**: Refactored REST data handling to use typed maps and improved type safety\n- **Testing updates**: Adjusted REST rendering tests to match new TypeScript data access patterns",
+  "generated_title": "Migrate REST lib to TypeScript, update base image, and enhance documentation structure",
+  "commits": [
+    "**b8975c2**: Merge pull request #56654 from github/repo-sync (by docs-bot)",
+    "**64edc9b**: Convert src/rest/lib/index.js to TypeScript (#56410) (by Kevin Heis)",
+    "**77ac78e**: Bump github/gh-base-image/gh-base-noble from 20250711-165924-g6f92253c7 to 20250715-152201-gef17a3886 in the baseimages group (#56656) (by dependabot[bot])"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "<think>Okay, let's tackle this. The user provided a git diff and wants a summary of the PR. First, I need to look through the diff to identify key changes.\n\nLooking at the Dockerfile, there's a version bump for the base image. That's a dependency update. Then in content/index.md, there's a whitespace fix in a Liquid tag and a new 'gh-wa' product added. That's content and configuration changes.\n\nThe big change is renaming index.js to index.ts. The diff shows TypeScript conversion: adding type annotations, interfaces, and stricter type checks. Also, the imports in category.tsx and subcategory.tsx were updated to remove the .js extension, which makes sense when moving to TypeScript.\n\nThe tests in rendering.js were adjusted to match the new TS structure, accessing data through restData instead of direct function calls. That's a test update for the TypeScript changes.\n\nThe commits mention converting to TypeScript, bumping the base image, and a repo sync. The title should reflect the main changes: TypeScript conversion, dependency update, and content tweaks. Grouping these into key points: TypeScript migration with type safety, base image version bump, content/config updates, and test adjustments.\n\nNeed to make sure the summary is concise, bullet points, under 100 words. The title should capture the essence: TypeScript conversion and dependency update.\n</think>\n\n### Summary\n- **Dependency update**: Bumped base Docker image to `gh-base-noble:20250715-152201-gef17a3886`\n- **TypeScript migration**: Converted `src/rest/lib/index.js` to TypeScript with type annotations, interfaces, and strict null checks\n- **Content updates**: Added `gh-wa` product to documentation index and fixed Liquid template spacing\n- **API structure changes**: Refactored REST data handling to use typed maps and improved type safety\n- **Testing updates**: Adjusted REST rendering tests to match new TypeScript data access patterns\n\n### Title\nMigrate REST lib to TypeScript, update base image, and enhance documentation structure"
+}
