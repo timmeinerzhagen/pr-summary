@@ -1,0 +1,22 @@
+{
+  "number": 39344,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-16T06:37:00Z",
+  "url": "https://github.com/github/docs/pull/39344",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-16 08:08:07",
+  "details": [
+    "Updated secret scanning push protection documentation to specify user access requirements.",
+    "Added note that the blocked push URL must be visited by the same user who performed the push.",
+    "Clarified that other users attempting to access the URL will receive a `404` error."
+  ],
+  "summary": "- Updated secret scanning push protection documentation to specify user access requirements.\n- Added note that the blocked push URL must be visited by the same user who performed the push.\n- Clarified that other users attempting to access the URL will receive a `404` error.",
+  "generated_title": "Clarify user requirement for accessing push protection URL",
+  "commits": [
+    "**7904ce4**: Add note about user requirements for visiting blocked push URL (#56614) (by Ben Webb)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated secret scanning push protection documentation to specify user access requirements.\n- Added note that the blocked push URL must be visited by the same user who performed the push.\n- Clarified that other users attempting to access the URL will receive a `404` error.\n\n### Title\nClarify user requirement for accessing push protection URL"
+}
