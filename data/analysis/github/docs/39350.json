@@ -1,0 +1,31 @@
+{
+  "number": 39350,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-16T15:35:53Z",
+  "url": "https://github.com/github/docs/pull/39350",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-16 16:08:33",
+  "details": [
+    "Added new security guides: \"Compromised runners\" and \"Script injections\" explaining risks and mitigations.",
+    "Restructured security documentation:",
+    "Consolidated security best practices into a new \"Secure use reference\" guide.",
+    "Removed standalone `GITHUB_TOKEN` reference, integrated permissions into workflow syntax docs.",
+    "Moved secrets and variables guides to workflow tutorials section.",
+    "Enhanced Copilot coding agent content:",
+    "Added security protections section and benefits over traditional AI workflows.",
+    "Restructured usage guide into a tutorial format.",
+    "Updated OAuth apps documentation to clarify PKCE support status.",
+    "Improved cross-linking between related topics."
+  ],
+  "summary": "- Added new security guides: \"Compromised runners\" and \"Script injections\" explaining risks and mitigations.\n- Restructured security documentation:\n- Consolidated security best practices into a new \"Secure use reference\" guide.\n- Removed standalone `GITHUB_TOKEN` reference, integrated permissions into workflow syntax docs.\n- Moved secrets and variables guides to workflow tutorials section.\n- Enhanced Copilot coding agent content:\n- Added security protections section and benefits over traditional AI workflows.\n- Restructured usage guide into a tutorial format.\n- Updated OAuth apps documentation to clarify PKCE support status.\n- Improved cross-linking between related topics.",
+  "generated_title": "Restructure security docs, integrate token permissions, and enhance Copilot content",
+  "commits": [
+    "**a9c98fc**: [EDI] Actions security guides (#56583) (by Joe Clark)",
+    "**229350f**: Remove PKCE note from oauth apps page (#56659) (by Hirsch Singhal)",
+    "**ba76300**: [EDI] Rewrite \"Using Copilot coding agent effectively in your organization\" as a tutorial (#56645) (by Isaac Brown)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "Based on the git diff, here's a concise summary of the Pull Request:\n\n### Summary\n- Added new security guides: \"Compromised runners\" and \"Script injections\" explaining risks and mitigations.\n- Restructured security documentation:\n  - Consolidated security best practices into a new \"Secure use reference\" guide.\n  - Removed standalone `GITHUB_TOKEN` reference, integrated permissions into workflow syntax docs.\n  - Moved secrets and variables guides to workflow tutorials section.\n- Enhanced Copilot coding agent content:\n  - Added security protections section and benefits over traditional AI workflows.\n  - Restructured usage guide into a tutorial format.\n- Updated OAuth apps documentation to clarify PKCE support status.\n- Improved cross-linking between related topics.\n\n### Title\nRestructure security docs, integrate token permissions, and enhance Copilot content"
+}
