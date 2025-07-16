@@ -1,0 +1,25 @@
+{
+  "number": 39343,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-16T03:51:13Z",
+  "url": "https://github.com/github/docs/pull/39343",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-16 04:18:30",
+  "details": [
+    "Added optional `categoryNote` prop to `GroupedEvents` component to display category-specific notes",
+    "Defined category notes in `config.json` with contextual information for specific audit log categories",
+    "Implemented `getCategoryNotes()` function to retrieve notes from config",
+    "Passed category notes to `GroupedEvents` in audit log events page",
+    "Added rendering tests for category note display and unit tests for config validation"
+  ],
+  "summary": "- Added optional `categoryNote` prop to `GroupedEvents` component to display category-specific notes\n- Defined category notes in `config.json` with contextual information for specific audit log categories\n- Implemented `getCategoryNotes()` function to retrieve notes from config\n- Passed category notes to `GroupedEvents` in audit log events page\n- Added rendering tests for category note display and unit tests for config validation",
+  "generated_title": "Add category notes functionality to audit log events display",
+  "commits": [
+    "**d87b294**: Merge pull request #56658 from github/repo-sync (by docs-bot)",
+    "**1f0d51b**: Add category notes functionality to audit log events (#56268) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added optional `categoryNote` prop to `GroupedEvents` component to display category-specific notes\n- Defined category notes in `config.json` with contextual information for specific audit log categories\n- Implemented `getCategoryNotes()` function to retrieve notes from config\n- Passed category notes to `GroupedEvents` in audit log events page\n- Added rendering tests for category note display and unit tests for config validation\n\n### Title\nAdd category notes functionality to audit log events display"
+}
