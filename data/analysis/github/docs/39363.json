@@ -1,0 +1,28 @@
+{
+  "number": 39363,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-17T12:38:43Z",
+  "url": "https://github.com/github/docs/pull/39363",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-17 16:08:08",
+  "details": [
+    "Added Dependabot support for Helm private registries in documentation.",
+    "Updated Copilot setup guides to use shared next steps content and clarified preview terms.",
+    "Simplified Actions workflow trigger documentation by moving details to a reusable.",
+    "Added new content linter rules (GHD046, GHD051) for release phase terminology and frontmatter whitespace.",
+    "Documented API permission changes in GHES 3.14 release notes.",
+    "Enhanced filename reconciliation to consider `shortTitle`."
+  ],
+  "summary": "- Added Dependabot support for Helm private registries in documentation.\n- Updated Copilot setup guides to use shared next steps content and clarified preview terms.\n- Simplified Actions workflow trigger documentation by moving details to a reusable.\n- Added new content linter rules (GHD046, GHD051) for release phase terminology and frontmatter whitespace.\n- Documented API permission changes in GHES 3.14 release notes.\n- Enhanced filename reconciliation to consider `shortTitle`.",
+  "generated_title": "Add Helm registry docs, update Copilot setup, and improve content linting",
+  "commits": [
+    "**e48b53c**: Merge pull request #56678 from github/repo-sync (by docs-bot)",
+    "**bd52536**: Add content linter rule for versions frontmatter whitespace validation (GHD051) (#56131) (by Kevin Heis)",
+    "**2cadd3a**: Add helm-registry in docs page for :dependabot: private registries (#56682) (by Ricardo Kreyhsig)",
+    "**70f9fe3**: [EDI - Drivers] Align \"Setting up Copilot in your organization/enterprise\" (#56617) (by mc)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added Dependabot support for Helm private registries in documentation.\n- Updated Copilot setup guides to use shared next steps content and clarified preview terms.\n- Simplified Actions workflow trigger documentation by moving details to a reusable.\n- Added new content linter rules (GHD046, GHD051) for release phase terminology and frontmatter whitespace.\n- Documented API permission changes in GHES 3.14 release notes.\n- Enhanced filename reconciliation to consider `shortTitle`.\n\n### Title\nAdd Helm registry docs, update Copilot setup, and improve content linting"
+}
