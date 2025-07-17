@@ -1,0 +1,32 @@
+{
+  "number": 39377,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-17T18:37:07Z",
+  "url": "https://github.com/github/docs/pull/39377",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-17 20:07:47",
+  "details": [
+    "Restructured Copilot content: Moved spending management articles to a dedicated section and relocated \"Choosing the right AI tool\" to concepts",
+    "Reorganized GitHub Actions documentation: Consolidated billing/usage content, moved concurrency controls to workflow triggers section",
+    "Updated security content: Clarified GHAS requirement for Dependabot Metrics Dashboard",
+    "Enhanced tooling: Added Slack notifications for ignored GraphQL schema changes and a linter rule for third-party action disclaimers",
+    "Improved compatibility: Made GraphQL changelog script resilient to new change types",
+    "Synced secret scanning patterns with latest updates"
+  ],
+  "summary": "- Restructured Copilot content: Moved spending management articles to a dedicated section and relocated \"Choosing the right AI tool\" to concepts\n- Reorganized GitHub Actions documentation: Consolidated billing/usage content, moved concurrency controls to workflow triggers section\n- Updated security content: Clarified GHAS requirement for Dependabot Metrics Dashboard\n- Enhanced tooling: Added Slack notifications for ignored GraphQL schema changes and a linter rule for third-party action disclaimers\n- Improved compatibility: Made GraphQL changelog script resilient to new change types\n- Synced secret scanning patterns with latest updates",
+  "generated_title": "Restructure Copilot/actions docs, enhance tooling, update security content",
+  "commits": [
+    "**2e97570**: [EDI] Move \"Managing your company's spending on Copilot\" to \"How to\" (#56692) (by John Clement)",
+    "**53931eb**: Mention GHAS (Code Security in fact) is required for the Dependabot Metrics Dashboard (#56642) (by mc)",
+    "**946ebf0**: [EDI] Copilot EDI audit - Choosing the right AI tool for your task (#56670) (by Sunbrye Ly)",
+    "**6e22310**: Add content linter rule for third-party actions disclaimer enforcement (GHD054) (#56133) (by Kevin Heis)",
+    "**0045ae3**: Make GraphQL changelog script future-compatible with new change types (#56276) (by Kevin Heis)",
+    "**4018c3b**: EDI-ify \"Control the concurrency of workflows and jobs\" (#56674) (by Sam Browning)",
+    "**2487bee**: EDI-ify Actions limits and billing content (#56665) (by Sam Browning)",
+    "**d4fc73f**: Sync secret scanning data (#56696) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "Based on the git diff and commit messages, here's a concise summary:\n\n### Summary\n- Restructured Copilot content: Moved spending management articles to a dedicated section and relocated \"Choosing the right AI tool\" to concepts\n- Reorganized GitHub Actions documentation: Consolidated billing/usage content, moved concurrency controls to workflow triggers section\n- Updated security content: Clarified GHAS requirement for Dependabot Metrics Dashboard\n- Enhanced tooling: Added Slack notifications for ignored GraphQL schema changes and a linter rule for third-party action disclaimers\n- Improved compatibility: Made GraphQL changelog script resilient to new change types\n- Synced secret scanning patterns with latest updates\n\n### Title\nRestructure Copilot/actions docs, enhance tooling, update security content"
+}
