@@ -1,0 +1,24 @@
+{
+  "number": 39345,
+  "title": "Clarify upgrade process for multi-node environments",
+  "author": "Fuzzwah",
+  "state": "closed",
+  "created": "2025-07-16T08:29:46Z",
+  "url": "https://github.com/github/docs/pull/39345",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-17 02:43:30",
+  "details": [
+    "Clarified multi-node upgrade process: must wait for primary node configuration to complete before upgrading replicas.",
+    "Added explicit warning that upgrading other nodes prematurely causes failures.",
+    "Updated terminology to \"multi-node {% data variables.product.prodname_ghe_server %} environment\"."
+  ],
+  "summary": "- Clarified multi-node upgrade process: must wait for primary node configuration to complete before upgrading replicas.\n- Added explicit warning that upgrading other nodes prematurely causes failures.\n- Updated terminology to \"multi-node {% data variables.product.prodname_ghe_server %} environment\".",
+  "generated_title": "Enforce primary node completion requirement in multi-node upgrade docs",
+  "commits": [
+    "**3f5ad23**: Clarify upgrade process for multi-node environments (by Fuzzwah)",
+    "**a18ce0d**: Update content/admin/upgrading-your-instance/performing-an-upgrade/upgrading-with-an-upgrade-package.md (by Sharra-writes)",
+    "**2c49a73**: Merge branch 'main' into patch-2 (by Vanessa)"
+  ],
+  "original_description": "<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\nThe docs need to emphasise that the upgrade of the primary needs to fully complete before doing other nodes; trying to upgrade a replica will result in errors if the configuration run hasn't fully completed on the primary.\r\n\r\n### Check off the following:\r\n\r\n- [x] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [x] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Clarified multi-node upgrade process: must wait for primary node configuration to complete before upgrading replicas.\n- Added explicit warning that upgrading other nodes prematurely causes failures.\n- Updated terminology to \"multi-node {% data variables.product.prodname_ghe_server %} environment\".\n\n### Title  \nEnforce primary node completion requirement in multi-node upgrade docs"
+}

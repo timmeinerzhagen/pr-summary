@@ -1,0 +1,32 @@
+{
+  "number": 39356,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-17T00:47:49Z",
+  "url": "https://github.com/github/docs/pull/39356",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-17 02:43:19",
+  "details": [
+    "Restructured workflow trigger documentation, moving details to a reusable.",
+    "Updated Copilot MCP note to clarify pre-release terms.",
+    "Added release note about API permission change for org membership.",
+    "Introduced linter rule (GHD046) to flag outdated release phase terms.",
+    "Updated ruleset history note for version conditions.",
+    "Allowed filenames to match short titles in content rendering.",
+    "Synced secret scanning data."
+  ],
+  "summary": "- Restructured workflow trigger documentation, moving details to a reusable.\n- Updated Copilot MCP note to clarify pre-release terms.\n- Added release note about API permission change for org membership.\n- Introduced linter rule (GHD046) to flag outdated release phase terms.\n- Updated ruleset history note for version conditions.\n- Allowed filenames to match short titles in content rendering.\n- Synced secret scanning data.",
+  "generated_title": "Add linter rule for release terminology and update workflow docs",
+  "commits": [
+    "**c0851f6**: [EDI] Triggering a workflow (#56663) (by Felix Guntrip)",
+    "**fac329f**: Update preview terms note in MCP article (#56671) (by Sarita Iyer)",
+    "**bd35bcb**: Sync secret scanning data (#56666) (by docs-bot)",
+    "**5f60d48**: Add content linter rule for outdated release phase terminology (GHD046) (#56093) (by Kevin Heis)",
+    "**b6d1105**: Allow filename to match short title (#56673) (by Sarah Schneider)",
+    "**3a068c9**: Update ruleset-beta-note.md for version conditions... (#56675) (by Patrick Knight)",
+    "**c9e7677**: Add Changes section and note to 3.14.0 release notes for change in scope for user org membership (#56660) (by Colin Seymour)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Restructured workflow trigger documentation, moving details to a reusable.\n- Updated Copilot MCP note to clarify pre-release terms.\n- Added release note about API permission change for org membership.\n- Introduced linter rule (GHD046) to flag outdated release phase terms.\n- Updated ruleset history note for version conditions.\n- Allowed filenames to match short titles in content rendering.\n- Synced secret scanning data.\n\n### Title\nAdd linter rule for release terminology and update workflow docs"
+}
