@@ -1,0 +1,23 @@
+{
+  "number": 39378,
+  "title": "#39301: Update manage-caches.md to use ${{ github.token }} in the example",
+  "author": "DrEsteban",
+  "state": "closed",
+  "created": "2025-07-17T19:53:47Z",
+  "url": "https://github.com/github/docs/pull/39378",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-18 20:07:35",
+  "details": [
+    "Updated the GitHub Actions cache management example in `manage-caches.md`.",
+    "Replaced `secrets.GITHUB_TOKEN` with `github.token` for the `GH_TOKEN` environment variable.",
+    "Ensures the example uses the recommended `github.token` context for authentication."
+  ],
+  "summary": "- Updated the GitHub Actions cache management example in `manage-caches.md`.\n- Replaced `secrets.GITHUB_TOKEN` with `github.token` for the `GH_TOKEN` environment variable.\n- Ensures the example uses the recommended `github.token` context for authentication.",
+  "generated_title": "Update cache management example to use `github.token`",
+  "commits": [
+    "**5135979**: Update manage-caches.md to use ${{ github.token }} in the example (by Steven Ryland)",
+    "**0cf623d**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\nThis is better than implying/asking the user to create a secret called GITHUB_TOKEN, which is kinda the legacy way of giving Actions the ability to call back to Github APIs.\r\n\r\n<!-- Paste the issue link or number here -->\r\nCloses: #39301 \r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nUsage of `${{ secrets.GITHUB_TOKEN }}` to `${{ github.token }}`.\r\n\r\n<!-- Let us know what you are changing. Share anything that could provide the most context.\r\nIf you made changes to the `content` directory, a table will populate in a comment below with links to the review and current production articles. -->\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Updated the GitHub Actions cache management example in `manage-caches.md`.\n- Replaced `secrets.GITHUB_TOKEN` with `github.token` for the `GH_TOKEN` environment variable.\n- Ensures the example uses the recommended `github.token` context for authentication.\n\n### Title\nUpdate cache management example to use `github.token`"
+}

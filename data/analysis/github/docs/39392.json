@@ -1,0 +1,27 @@
+{
+  "number": 39392,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-18T18:36:35Z",
+  "url": "https://github.com/github/docs/pull/39392",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-18 20:07:10",
+  "details": [
+    "Renamed and updated continuous deployment overview document, moving OIDC info to \"Next steps\".",
+    "Added new document comparing GitHub Actions and GitHub Apps.",
+    "Split custom actions content: moved management topics to new file.",
+    "Updated self-hosted runners troubleshooting section title.",
+    "Enhanced TODOCS linter to detect placeholders in frontmatter."
+  ],
+  "summary": "- Renamed and updated continuous deployment overview document, moving OIDC info to \"Next steps\".\n- Added new document comparing GitHub Actions and GitHub Apps.\n- Split custom actions content: moved management topics to new file.\n- Updated self-hosted runners troubleshooting section title.\n- Enhanced TODOCS linter to detect placeholders in frontmatter.",
+  "generated_title": "Restructure GitHub Actions docs and enhance linter",
+  "commits": [
+    "**8e946ef**: [EDI] About continuous deployment with GitHub Actions (#56720) (by Ben Ahmady)",
+    "**0371bcb**: [EDI] Monitoring and troubleshooting self-hosted runners (#56723) (by Ben Ahmady)",
+    "**ff23c7b**: Fix TODOCS linter rule to catch placeholders in frontmatter (#56248) (by Kevin Heis)",
+    "**be399cb**: [EDI] About custom actions (#56725) (by Ben Ahmady)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Renamed and updated continuous deployment overview document, moving OIDC info to \"Next steps\".\n- Added new document comparing GitHub Actions and GitHub Apps.\n- Split custom actions content: moved management topics to new file.\n- Updated self-hosted runners troubleshooting section title.\n- Enhanced TODOCS linter to detect placeholders in frontmatter.\n\n### Title\nRestructure GitHub Actions docs and enhance linter"
+}
