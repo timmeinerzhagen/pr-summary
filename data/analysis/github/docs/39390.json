@@ -1,0 +1,33 @@
+{
+  "number": 39390,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-18T15:36:09Z",
+  "url": "https://github.com/github/docs/pull/39390",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-18 16:08:29",
+  "details": [
+    "**Self-hosted runners**: Consolidated autoscaling and communication topics into the reference guide. Updated adding runners documentation.",
+    "**GitHub Actions**: Revised \"Using jobs\" and \"Passing information between jobs\" articles for clarity.",
+    "**Copilot**: Added documentation for changing the code completion model, consolidated troubleshooting content, and introduced a rate limits concept.",
+    "**Repository management**: Enhanced repository limits documentation with detailed guidelines.",
+    "**Content quality**: Added linter rules to prevent invalid Liquid syntax and enforce frontmatter standards.",
+    "**Tooling**: Fixed tool picker display in Markdown API responses."
+  ],
+  "summary": "- **Self-hosted runners**: Consolidated autoscaling and communication topics into the reference guide. Updated adding runners documentation.\n- **GitHub Actions**: Revised \"Using jobs\" and \"Passing information between jobs\" articles for clarity.\n- **Copilot**: Added documentation for changing the code completion model, consolidated troubleshooting content, and introduced a rate limits concept.\n- **Repository management**: Enhanced repository limits documentation with detailed guidelines.\n- **Content quality**: Added linter rules to prevent invalid Liquid syntax and enforce frontmatter standards.\n- **Tooling**: Fixed tool picker display in Markdown API responses.",
+  "generated_title": "Update docs: Self-hosted runners, Copilot, repository limits, and content linting",
+  "commits": [
+    "**a4fc67f**: EDI-ify \"Using jobs in a workflow\" (#56700) (by Sam Browning)",
+    "**ad6f889**: EDI-ify \"Passing information between jobs\" (#56699) (by Sam Browning)",
+    "**544457e**: EDI-ify more self-hosted runners content (#56702) (by Sam Browning)",
+    "**6d0ac15**: Update repository limits documentation with detailed guidelines... (#56580) (by chiph)",
+    "**ee0f515**: [EDI 5521 - Builders] Update docs for switching the Copilot code completion LLM (#56693) (by hubwriter)",
+    "**7d24657**: [EDI 5529 - Builders] Update Copilot troubleshooting docs in light of EDI audit (#56687) (by hubwriter)",
+    "**a4c76bc**: Add content linter rule to prevent `not` with feature-based versions (#56679) (by Kevin Heis)",
+    "**6164dc2**: Fix tool picker shows all options in Markdown API (#56335) (by Kevin Heis)",
+    "**cdecbb4**: Add frontmatter validation linter rule (GHD055) (#56150) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- **Self-hosted runners**: Consolidated autoscaling and communication topics into the reference guide. Updated adding runners documentation.\n- **GitHub Actions**: Revised \"Using jobs\" and \"Passing information between jobs\" articles for clarity.\n- **Copilot**: Added documentation for changing the code completion model, consolidated troubleshooting content, and introduced a rate limits concept.\n- **Repository management**: Enhanced repository limits documentation with detailed guidelines.\n- **Content quality**: Added linter rules to prevent invalid Liquid syntax and enforce frontmatter standards.\n- **Tooling**: Fixed tool picker display in Markdown API responses.\n\n### Title\nUpdate docs: Self-hosted runners, Copilot, repository limits, and content linting"
+}
