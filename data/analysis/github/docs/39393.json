@@ -1,0 +1,30 @@
+{
+  "number": 39393,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-18T21:34:06Z",
+  "url": "https://github.com/github/docs/pull/39393",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-18 22:06:15",
+  "details": [
+    "Added Copilot activity report documentation with new images and updated metrics reference.",
+    "Restructured Actions docs: moved \"Publishing packages\" to tutorials and updated links.",
+    "Updated self-hosted runners content: moved routing precedence to reference docs.",
+    "Fixed GitHub token reference in cache management example.",
+    "Enhanced secret scanning with new Azure secret patterns.",
+    "Improved GitHub Apps sync script to handle comma-separated operation IDs and added tests."
+  ],
+  "summary": "- Added Copilot activity report documentation with new images and updated metrics reference.\n- Restructured Actions docs: moved \"Publishing packages\" to tutorials and updated links.\n- Updated self-hosted runners content: moved routing precedence to reference docs.\n- Fixed GitHub token reference in cache management example.\n- Enhanced secret scanning with new Azure secret patterns.\n- Improved GitHub Apps sync script to handle comma-separated operation IDs and added tests.",
+  "generated_title": "Add Copilot activity report, restructure docs, update secret scanning, and fix sync script",
+  "commits": [
+    "**1be70be**: Merge pull request #56727 from github/repo-sync (by docs-bot)",
+    "**4c9684f**: Update user activity data section for GitHub Copilot... (#56708) (by David Opatrny)",
+    "**52f1c2f**: Sync secret scanning data (#56722) (by docs-bot)",
+    "**5f872b7**: [EDI - Actions] Move \"Publishing packages\" under tutorials (#56653) (by Steve Ward)",
+    "**23e4f98**: EDI-ify \"Using self-hosted runners in a workflow\" (#56728) (by Sam Browning)",
+    "**79d5c90**: Fix `operationIds` handling in programmatic_access.yaml pipeline (#56176) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added Copilot activity report documentation with new images and updated metrics reference.\n- Restructured Actions docs: moved \"Publishing packages\" to tutorials and updated links.\n- Updated self-hosted runners content: moved routing precedence to reference docs.\n- Fixed GitHub token reference in cache management example.\n- Enhanced secret scanning with new Azure secret patterns.\n- Improved GitHub Apps sync script to handle comma-separated operation IDs and added tests.\n\n### Title\nAdd Copilot activity report, restructure docs, update secret scanning, and fix sync script"
+}
