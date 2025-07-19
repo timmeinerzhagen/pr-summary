@@ -1,0 +1,28 @@
+{
+  "number": 39394,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-19T00:47:16Z",
+  "url": "https://github.com/github/docs/pull/39394",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-19 02:39:27",
+  "details": [
+    "Clarified preview behavior of remote GitHub MCP server in Copilot docs.",
+    "Added new permissions for secret scanning bypass requests in GitHub Apps.",
+    "Introduced `allow_advanced` option for code scanning in security config.",
+    "Removed \"merge_queue\" from branch protection rules.",
+    "Added new private registry repository types (Hex, Pub, Python, Terraform).",
+    "Updated OpenAPI descriptions and examples."
+  ],
+  "summary": "- Clarified preview behavior of remote GitHub MCP server in Copilot docs.\n- Added new permissions for secret scanning bypass requests in GitHub Apps.\n- Introduced `allow_advanced` option for code scanning in security config.\n- Removed \"merge_queue\" from branch protection rules.\n- Added new private registry repository types (Hex, Pub, Python, Terraform).\n- Updated OpenAPI descriptions and examples.",
+  "generated_title": "Add secret scanning bypass permissions and code scanning options",
+  "commits": [
+    "**acb11a7**: Merge pull request #56732 from github/repo-sync (by docs-bot)",
+    "**98e35ea**: Clarify preview behavior of remote GitHub MCP server (#56731) (by Sarita Iyer)",
+    "**7b5022b**: Update OpenAPI Description (#56697) (by docs-bot)",
+    "**6d64842**: Update OpenAPI Description (#56724) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Clarified preview behavior of remote GitHub MCP server in Copilot docs.\n- Added new permissions for secret scanning bypass requests in GitHub Apps.\n- Introduced `allow_advanced` option for code scanning in security config.\n- Removed \"merge_queue\" from branch protection rules.\n- Added new private registry repository types (Hex, Pub, Python, Terraform).\n- Updated OpenAPI descriptions and examples.\n\n### Title\nAdd secret scanning bypass permissions and code scanning options"
+}
