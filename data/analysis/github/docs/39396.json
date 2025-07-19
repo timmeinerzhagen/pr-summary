@@ -1,0 +1,22 @@
+{
+  "number": 39396,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-19T06:37:33Z",
+  "url": "https://github.com/github/docs/pull/39396",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-19 08:07:20",
+  "details": [
+    "Added detailed documentation for Dependabot's `cooldown` option including configuration parameters and SemVer support",
+    "Specified cooldown days ranges (1-90), include/exclude syntax with wildcards, and package manager compatibility table",
+    "Provided YAML examples demonstrating cooldown application with dependency filtering"
+  ],
+  "summary": "- Added detailed documentation for Dependabot's `cooldown` option including configuration parameters and SemVer support\n- Specified cooldown days ranges (1-90), include/exclude syntax with wildcards, and package manager compatibility table\n- Provided YAML examples demonstrating cooldown application with dependency filtering",
+  "generated_title": "Document Dependabot cooldown configuration options and SemVer support",
+  "commits": [
+    "**b536d39**: Improve the documentation about the Dependabot `cooldown` option (#56646) (by mc)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "<think>Okay, let me start by looking at the git diff provided. The user wants a summary of the Pull Request based on the changes in the documentation files.\n\nFirst, I notice that the main file being modified is about optimizing PR creation for Dependabot version updates. The diff shows a new section added called \"Setting up a cooldown period for dependency updates.\" This includes a YAML example and details about how the cooldown works, including parameters like default-days and semver-specific days. There's also a note about using include and exclude lists with wildcards.\n\nLooking at the second file, the options reference, there's a significant addition under the `cooldown` section. It explains how cooldown works, the configuration parameters, and a table listing which package managers support SemVer. The previous content about cooldown at the end of the file has been removed, suggesting a restructuring or moving that information to a more appropriate section.\n\nThe commit message mentions improving documentation about the cooldown option, which aligns with these changes. The key points are the addition of detailed documentation on the cooldown feature, including configuration options, SemVer support, and examples.\n\nI need to summarize these changes concisely. The main topics are the addition of cooldown documentation, configuration parameters, SemVer details, and include/exclude syntax. The title should reflect that this PR enhances the cooldown option docs for Dependabot.\n</think>\n\n### Summary\n- Added detailed documentation for Dependabot's `cooldown` option including configuration parameters and SemVer support\n- Specified cooldown days ranges (1-90), include/exclude syntax with wildcards, and package manager compatibility table\n- Provided YAML examples demonstrating cooldown application with dependency filtering\n\n### Title\nDocument Dependabot cooldown configuration options and SemVer support"
+}
