@@ -1,0 +1,22 @@
+{
+  "number": 39413,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-21T00:51:04Z",
+  "url": "https://github.com/github/docs/pull/39413",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-21 02:48:24",
+  "details": [
+    "Added a new \"Hands-on practice\" section to repository best practices documentation",
+    "Included a link to the \"Introduction to Repository Management\" GitHub Skills exercise",
+    "Provides practical experience for repository management concepts"
+  ],
+  "summary": "- Added a new \"Hands-on practice\" section to repository best practices documentation\n- Included a link to the \"Introduction to Repository Management\" GitHub Skills exercise\n- Provides practical experience for repository management concepts",
+  "generated_title": "Add hands-on repository management exercise to documentation",
+  "commits": [
+    "**3ae0bc6**: Add hands-on practice section for repository management (#56695) (by Ari LiVigni)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added a new \"Hands-on practice\" section to repository best practices documentation  \n- Included a link to the \"Introduction to Repository Management\" GitHub Skills exercise  \n- Provides practical experience for repository management concepts  \n\n### Title  \nAdd hands-on repository management exercise to documentation"
+}
