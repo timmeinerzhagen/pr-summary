@@ -1,0 +1,37 @@
+{
+  "number": 39417,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-21T15:36:46Z",
+  "url": "https://github.com/github/docs/pull/39417",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-21 16:06:56",
+  "details": [
+    "**EDI Documentation Updates**:",
+    "Restructured \"About larger runners\" content for clarity, moving detailed specs to reference docs.",
+    "Updated \"Re-running workflows and jobs\" and troubleshooting/monitoring content.",
+    "Added workflow template guidance and custom instructions documentation.",
+    "**Technical Improvements**:",
+    "Updated GHES deprecation instructions with corrected search hiding approach.",
+    "Converted `page.js` and `src/languages/lib` files to TypeScript.",
+    "**Content Refinements**:",
+    "Added `shortTitle` to custom actions documentation.",
+    "Removed standalone monitoring/troubleshooting overviews, integrating into how-to guides."
+  ],
+  "summary": "- **EDI Documentation Updates**:\n- Restructured \"About larger runners\" content for clarity, moving detailed specs to reference docs.\n- Updated \"Re-running workflows and jobs\" and troubleshooting/monitoring content.\n- Added workflow template guidance and custom instructions documentation.\n- **Technical Improvements**:\n- Updated GHES deprecation instructions with corrected search hiding approach.\n- Converted `page.js` and `src/languages/lib` files to TypeScript.\n- **Content Refinements**:\n- Added `shortTitle` to custom actions documentation.\n- Removed standalone monitoring/troubleshooting overviews, integrating into how-to guides.",
+  "generated_title": "\"Restructure docs, update EDI content, and migrate JS to TS\"",
+  "commits": [
+    "**c0d9cd5**: EDI-ify \"About larger runners\" (#56726) (by Sam Browning)",
+    "**7f73515**: EDI-ify \"Re-running workflows and jobs\" (#56729) (by Sam Browning)",
+    "**86bb097**: [EDI] Actions - reorg troubleshooting/monitoring content (#56736) (by Ben Ahmady)",
+    "**97dc910**: [EDI] Using workflow templates (#56739) (by Felix Guntrip)",
+    "**ca9d36a**: [EDI - Builders] Update custom instructions docs in light of EDI audit (#56698) (by Sarita Iyer)",
+    "**dcca53d**: Update GHES deprecation instructions with correct search hiding approach (#56704) (by Kevin Heis)",
+    "**551da4e**: Convert page.js to TypeScript (Phase 1) (#56424) (by Kevin Heis)",
+    "**de311a7**: Convert src/languages/lib to TypeScript (#56572) (by Kevin Heis)",
+    "**b75f87f**: [EDI] Moves larger runner content around (#56740) (by Ben Ahmady)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "Based on the provided git diff and commit messages, here's a concise summary of the Pull Request:\n\n### Summary\n- **EDI Documentation Updates**: \n  - Restructured \"About larger runners\" content for clarity, moving detailed specs to reference docs.\n  - Updated \"Re-running workflows and jobs\" and troubleshooting/monitoring content.\n  - Added workflow template guidance and custom instructions documentation.\n- **Technical Improvements**:\n  - Updated GHES deprecation instructions with corrected search hiding approach.\n  - Converted `page.js` and `src/languages/lib` files to TypeScript.\n- **Content Refinements**:\n  - Added `shortTitle` to custom actions documentation.\n  - Removed standalone monitoring/troubleshooting overviews, integrating into how-to guides.\n\n### Title\n\"Restructure docs, update EDI content, and migrate JS to TS\""
+}
