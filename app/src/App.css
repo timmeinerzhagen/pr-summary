@@ -188,6 +188,32 @@ h1 {
   gap: 16px;
 }
 
+.new-indicator {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 8px 0;
+  opacity: 0.7;
+}
+
+.new-indicator-line {
+  flex: 1;
+  height: 1px;
+  background: var(--border-secondary);
+}
+
+.new-indicator-text {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-quaternary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 4px 8px;
+  background: var(--bg-tertiary);
+  border-radius: 4px;
+  border: 1px solid var(--border-primary);
+}
+
 .pr-card {
   background: var(--bg-secondary);
   border-radius: 8px;
