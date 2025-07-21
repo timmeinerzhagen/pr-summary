@@ -1,0 +1,30 @@
+{
+  "number": 39424,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-21T21:34:14Z",
+  "url": "https://github.com/github/docs/pull/39424",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-21 22:07:22",
+  "details": [
+    "Removed all references to the deprecated Copilot `o3-mini` model across documentation.",
+    "Added documentation for handling GitHub Sponsors with Azure billing in enterprise organizations.",
+    "Added note about additional rate limit penalties for GraphQL API timeouts.",
+    "Deleted orphaned features and files; converted asset/image processing and observability code to TypeScript."
+  ],
+  "summary": "- Removed all references to the deprecated Copilot `o3-mini` model across documentation.\n- Added documentation for handling GitHub Sponsors with Azure billing in enterprise organizations.\n- Added note about additional rate limit penalties for GraphQL API timeouts.\n- Deleted orphaned features and files; converted asset/image processing and observability code to TypeScript.",
+  "generated_title": "Remove Copilot o3-mini model, update Azure Sponsors and GraphQL docs",
+  "commits": [
+    "**c090f3a**: Merge pull request #56750 from github/repo-sync (by docs-bot)",
+    "**c0e0886**: Removes o3-mini model references (#56411) (by Jules)",
+    "**5bb4a95**: Complete TypeScript migration for src/redirects - Convert all test files (#56633) (by Kevin Heis)",
+    "**23cf2e3**: docs(graphql): Add note about primary rate limit timeout penalty (#56476) (by Johanan)",
+    "**e517943**: Delete orphaned features (2025-07-21-16-29) (#56745) (by docs-bot)",
+    "**fec3cf2**: Delete orphaned files (2025-07-21-16-29) (#56746) (by docs-bot)",
+    "**98af4cf**: Convert Phase 4: Asset and Image Processing files to TypeScript (#56638) (by Kevin Heis)",
+    "**2816166**: Convert src/observability to TypeScript (#56391) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removed all references to the deprecated Copilot `o3-mini` model across documentation.\n- Added documentation for handling GitHub Sponsors with Azure billing in enterprise organizations.\n- Added note about additional rate limit penalties for GraphQL API timeouts.\n- Deleted orphaned features and files; converted asset/image processing and observability code to TypeScript.\n\n### Title\nRemove Copilot o3-mini model, update Azure Sponsors and GraphQL docs"
+}
