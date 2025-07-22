@@ -1,0 +1,26 @@
+{
+  "number": 39436,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-22T09:37:04Z",
+  "url": "https://github.com/github/docs/pull/39436",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-22 10:06:58",
+  "details": [
+    "Added new documentation page \"About runner groups\" explaining access control for self-hosted runners.",
+    "Restructured self-hosted runners documentation:",
+    "Moved \"Managing self-hosted runners\" to top-level how-to section.",
+    "Updated paths and redirects for all self-hosted runner management files.",
+    "Updated links across documentation to reflect new paths.",
+    "Removed outdated \"Hosting your own runners\" index.",
+    "Enhanced frontmatter with `shortTitle` in self-hosted runner guides."
+  ],
+  "summary": "- Added new documentation page \"About runner groups\" explaining access control for self-hosted runners.\n- Restructured self-hosted runners documentation:\n- Moved \"Managing self-hosted runners\" to top-level how-to section.\n- Updated paths and redirects for all self-hosted runner management files.\n- Updated links across documentation to reflect new paths.\n- Removed outdated \"Hosting your own runners\" index.\n- Enhanced frontmatter with `shortTitle` in self-hosted runner guides.",
+  "generated_title": "Restructure self-hosted runners docs and add runner groups concept",
+  "commits": [
+    "**7747981**: [EDI] Runner group and managing self-hosted runner content (#56741) (by Ben Ahmady)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added new documentation page \"About runner groups\" explaining access control for self-hosted runners.\n- Restructured self-hosted runners documentation:\n  - Moved \"Managing self-hosted runners\" to top-level how-to section.\n  - Updated paths and redirects for all self-hosted runner management files.\n- Updated links across documentation to reflect new paths.\n- Removed outdated \"Hosting your own runners\" index.\n- Enhanced frontmatter with `shortTitle` in self-hosted runner guides.\n\n### Title\nRestructure self-hosted runners docs and add runner groups concept"
+}
