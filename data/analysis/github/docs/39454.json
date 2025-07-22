@@ -1,0 +1,25 @@
+{
+  "number": 39454,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-22T21:34:31Z",
+  "url": "https://github.com/github/docs/pull/39454",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-22 22:07:08",
+  "details": [
+    "Documented that Copilot coding agent requires repositories to be hosted on GitHub.",
+    "Changed GitHub Apps code-security permissions from write to read for several endpoints.",
+    "Removed project-related permissions (cards, columns, collaborators) from GitHub Apps definitions.",
+    "Updated webhook schemas for secret scanning with new event types and detailed exemption structures."
+  ],
+  "summary": "- Documented that Copilot coding agent requires repositories to be hosted on GitHub.\n- Changed GitHub Apps code-security permissions from write to read for several endpoints.\n- Removed project-related permissions (cards, columns, collaborators) from GitHub Apps definitions.\n- Updated webhook schemas for secret scanning with new event types and detailed exemption structures.",
+  "generated_title": "Update Copilot docs, adjust app permissions, and sync secret scanning data",
+  "commits": [
+    "**da5daa2**: Update OpenAPI Description (#56779) (by docs-bot)",
+    "**661fa13**: Sync secret scanning data (#56778) (by docs-bot)",
+    "**361d769**: Document that Copilot coding agent requires code to be stored on GitHub (#56764) (by Tim Rogers)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Documented that Copilot coding agent requires repositories to be hosted on GitHub.\n- Changed GitHub Apps code-security permissions from write to read for several endpoints.\n- Removed project-related permissions (cards, columns, collaborators) from GitHub Apps definitions.\n- Updated webhook schemas for secret scanning with new event types and detailed exemption structures.\n\n### Title\nUpdate Copilot docs, adjust app permissions, and sync secret scanning data"
+}
