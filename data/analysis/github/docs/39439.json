@@ -1,0 +1,23 @@
+{
+  "number": 39439,
+  "title": "docs: update branch name to `main` from `master`",
+  "author": "JamBalaya56562",
+  "state": "closed",
+  "created": "2025-07-22T11:57:49Z",
+  "url": "https://github.com/github/docs/pull/39439",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-22 20:07:19",
+  "details": [
+    "Updated GitHub Actions CI workflow template URL to reference `main` branch instead of `master`.",
+    "Changed example repository URL in repository limits documentation to use `main` branch.",
+    "Modified VS Code debugging recipe link to point to `main` branch."
+  ],
+  "summary": "- Updated GitHub Actions CI workflow template URL to reference `main` branch instead of `master`.\n- Changed example repository URL in repository limits documentation to use `main` branch.\n- Modified VS Code debugging recipe link to point to `main` branch.",
+  "generated_title": "Update documentation links to reference `main` branch instead of `master`",
+  "commits": [
+    "**392d031**: docs: update branch name to `main` from `master` (by JamBalaya56562)",
+    "**19b9304**: Merge branch 'main' into branch (by Sharra-writes)"
+  ],
+  "original_description": "### Why:\r\n\r\nSome repository branches were renamed from `master` to `main`.\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nUpdate default branch references in documentation from `master` to `main`.\r\n\r\nDocumentation:\r\n- Replace `master` branch with `main` in the GitHub Actions CI workflow template link.\r\n- Update raw repository URL example to use `main` branch in repository limits documentation.\r\n- Change VS Code recipe link to point to the `main` branch in debugging guide.\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [x] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Updated GitHub Actions CI workflow template URL to reference `main` branch instead of `master`.\n- Changed example repository URL in repository limits documentation to use `main` branch.\n- Modified VS Code debugging recipe link to point to `main` branch.\n\n### Title\nUpdate documentation links to reference `main` branch instead of `master`"
+}

@@ -1,0 +1,23 @@
+{
+  "number": 39438,
+  "title": "docs: update `rust` organization name to `rust-lang`",
+  "author": "JamBalaya56562",
+  "state": "closed",
+  "created": "2025-07-22T11:43:18Z",
+  "url": "https://github.com/github/docs/pull/39438",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-22 20:07:32",
+  "details": [
+    "Updated GitHub links in documentation from `mozilla/rust` to `rust-lang/rust` organization.",
+    "Affected two URLs showing commit history views: repository-wide and file-specific.",
+    "Reflects the Rust project's organizational change on GitHub."
+  ],
+  "summary": "- Updated GitHub links in documentation from `mozilla/rust` to `rust-lang/rust` organization.\n- Affected two URLs showing commit history views: repository-wide and file-specific.\n- Reflects the Rust project's organizational change on GitHub.",
+  "generated_title": "Update Rust organization links from mozilla to rust-lang",
+  "commits": [
+    "**d727829**: docs: update `rust` organization name to `rust-lang` (by JamBalaya56562)",
+    "**9c86784**: Merge branch 'main' into rust (by Sharra-writes)"
+  ],
+  "original_description": "### Why:\r\n\r\nThe organization of [rust](https://github.com/rust-lang/rust/) repository was renamed to `rust-lang`\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nDocumentation:\r\n- Replace instances of the ‘mozilla/rust’ repository path with ‘rust-lang/rust’ in commit history URLs\r\n\r\n| Before | After |\r\n|--------|--------|\r\n| https://github.com/mozilla/rust/ | https://github.com/rust-lang/rust/ | \r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [x] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Updated GitHub links in documentation from `mozilla/rust` to `rust-lang/rust` organization.  \n- Affected two URLs showing commit history views: repository-wide and file-specific.  \n- Reflects the Rust project's organizational change on GitHub.  \n\n### Title  \nUpdate Rust organization links from mozilla to rust-lang"
+}
