@@ -1,0 +1,38 @@
+{
+  "number": 39475,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-23T18:36:41Z",
+  "url": "https://github.com/github/docs/pull/39475",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-23 20:07:11",
+  "details": [
+    "Renamed and restructured Actions Runner documentation files for clarity.",
+    "Added documentation for Artifact Attestations in security concepts.",
+    "Consolidated workflow run approval for forks into a single guide.",
+    "Enhanced Copilot documentation with new features, custom instructions, and billing info for GitHub Spark.",
+    "Added support for `contentType` frontmatter property."
+  ],
+  "summary": "- Renamed and restructured Actions Runner documentation files for clarity.\n- Added documentation for Artifact Attestations in security concepts.\n- Consolidated workflow run approval for forks into a single guide.\n- Enhanced Copilot documentation with new features, custom instructions, and billing info for GitHub Spark.\n- Added support for `contentType` frontmatter property.",
+  "generated_title": "Update Actions Runner docs, add Artifact Attestations, and enhance Copilot features",
+  "commits": [
+    "**dfa5ffc**: [DO NOT MERGE]: Megabranch for \"GitHub Spark\" (public preview) (#55441) (by Anne-Marie)",
+    "**a60120c**: [EDI] Actions Runner Controller content (#56805) (by Ben Ahmady)",
+    "**6ef49a3**: [EDI] Sharing actions and workflows with your enterprise (#56807) (by Ben Ahmady)",
+    "**af6dbd1**: [2025-07-23] Customize the base branch when delegating a task to Copilot coding agent from the Agents page (#56761) (by Tim Rogers)",
+    "**39a2400**: [2025-07-23] GitHub Copilot coding agent supports custom instructions with `.instructions.md` files (#56762) (by Tim Rogers)",
+    "**45c42cf**: EDI-ify artifact attestations content (#56801) (by Sam Browning)",
+    "**2b0e25a**: Support a new contentType frontmatter property (#56715) (by Sarah Schneider)",
+    "**157e5aa**: [EDI - Actions] Approving workflow runs (#56804) (by Steve Ward)",
+    "**031e0e4**: [EDI - Builders] Update short titles for Copilot \"How-tos\" (part 1) (#56769) (by Sophie)",
+    "**b81f7b0**: [EDI - Builders] Update short titles for Copilot \"How-tos\" (part 2) (#56773) (by Sophie)",
+    "**fc005eb**: [EDI] Expand GHEC-only Copilot articles to FPT (#56685) (by Isaac Brown)",
+    "**ef372e1**: Update rate limit instructions for live update service (#56713) (by Miguel D. Salcedo)",
+    "**2c4d5d8**: Update OpenAPI Description (#56796) (by docs-bot)",
+    "**6f80224**: Bump csv-parse from 5.5.6 to 6.1.0 (#56790) (by dependabot[bot])",
+    "**0e16da5**: Clarify premium request quota renewal date (#56718) (by astropedrito)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Renamed and restructured Actions Runner documentation files for clarity.\n- Added documentation for Artifact Attestations in security concepts.\n- Consolidated workflow run approval for forks into a single guide.\n- Enhanced Copilot documentation with new features, custom instructions, and billing info for GitHub Spark.\n- Added support for `contentType` frontmatter property.\n\n### Title\nUpdate Actions Runner docs, add Artifact Attestations, and enhance Copilot features"
+}
