@@ -1,0 +1,23 @@
+{
+  "number": 39465,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-23T09:37:08Z",
+  "url": "https://github.com/github/docs/pull/39465",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-23 18:07:43",
+  "details": [
+    "Added CoreWeave, Inc. as a new subprocessor for Cloud Hosted Infrastructure.",
+    "Removed trailing whitespace in Google Cloud Platform's location field.",
+    "Standardized formatting for Microsoft's Technical Services location entry."
+  ],
+  "summary": "- Added CoreWeave, Inc. as a new subprocessor for Cloud Hosted Infrastructure.\n- Removed trailing whitespace in Google Cloud Platform's location field.\n- Standardized formatting for Microsoft's Technical Services location entry.",
+  "generated_title": "Update Subprocessor List: Add CoreWeave and Format Locations",
+  "commits": [
+    "**7c61652**: Merge pull request #56792 from github/repo-sync (by docs-bot)",
+    "**7eae77a**: Subprocessor List Update (#56780) (by Dani Brooks)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added CoreWeave, Inc. as a new subprocessor for Cloud Hosted Infrastructure.\n- Removed trailing whitespace in Google Cloud Platform's location field.\n- Standardized formatting for Microsoft's Technical Services location entry.\n\n### Title  \nUpdate Subprocessor List: Add CoreWeave and Format Locations"
+}
