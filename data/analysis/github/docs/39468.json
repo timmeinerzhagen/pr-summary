@@ -1,0 +1,31 @@
+{
+  "number": 39468,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-23T15:36:24Z",
+  "url": "https://github.com/github/docs/pull/39468",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-23 16:07:27",
+  "details": [
+    "**Security Enhancements**: Added Kubernetes admission controller documentation for enforcing artifact attestations, including trust root configuration and image verification processes.",
+    "**Documentation Restructuring**: Moved use case examples to tutorials, streamlined workflow cancellation instructions into a reference guide, and simplified content on sharing private actions.",
+    "**Content Updates**: Revised action definitions, added script for path updates, retired namespace articles, and adjusted Copilot documentation links.",
+    "**API Improvements**: Introduced request content type display in REST API example dropdowns for clarity."
+  ],
+  "summary": "- **Security Enhancements**: Added Kubernetes admission controller documentation for enforcing artifact attestations, including trust root configuration and image verification processes.\n- **Documentation Restructuring**: Moved use case examples to tutorials, streamlined workflow cancellation instructions into a reference guide, and simplified content on sharing private actions.\n- **Content Updates**: Revised action definitions, added script for path updates, retired namespace articles, and adjusted Copilot documentation links.\n- **API Improvements**: Introduced request content type display in REST API example dropdowns for clarity.",
+  "generated_title": "Enhance security docs, streamline content structure, and improve API examples",
+  "commits": [
+    "**8d6e215**: EDI-ify \"Using pre-written building blocks in your workflow\" (#56783) (by Sam Browning)",
+    "**90d7176**: EDI-ify \"Canceling a workflow\" (#56787) (by Sam Browning)",
+    "**d67dd51**: EDI-ify content on sharing actions from private repos (#56786) (by Sam Browning)",
+    "**68355b8**: [EDI - Copilot] Update the links under GitHub Copilot on the docs home page (#56784) (by Sophie)",
+    "**94b56e8**: Script to update filepaths to match short titles (#56749) (by Sarah Schneider)",
+    "**10975b7**: [EDI] Retired namespaces (#56798) (by Ben Ahmady)",
+    "**971118f**: [EDI] Enforcing artifact attestations with a Kubernetes admissions co… (#56799) (by Ben Ahmady)",
+    "**71a8eb3**: Show request content type in REST API example dropdown (#56275) (by Kevin Heis)",
+    "**3b59285**: [EDI] How tos->Use cases and examples content (#56777) (by Ben Ahmady)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "<think>Okay, let's tackle this problem. The user provided a git diff from a GitHub Pull Request and wants a summary of the changes. The summary should include key changes grouped by topic and a short title. The answer needs to be concise, in bullet points, and under 100 words.\n\nFirst, I'll look at the commits listed. They mention EDI-ifying several documentation pages, updating links for GitHub Copilot, a script for filepaths, retired namespaces, enforcing artifact attestations with Kubernetes, showing request content types in REST API examples, and moving some how-tos to tutorials.\n\nLooking at the git diff, the main changes are:\n\n1. **Kubernetes Admissions Controller Documentation**: A new file `kubernetes-admissions-controller.md` is added under security concepts. It explains using Sigstore Policy Controller to enforce artifact attestations in Kubernetes. The how-to guide was updated to remove redundant info and link to the new concept page.\n\n2. **Workflow Cancellation Process**: The cancellation documentation was moved to a new reference page. The original how-to now links to this reference, streamlining the content.\n\n3. **Sharing Actions from Private Repos**: The documentation was simplified. Steps to configure repository access were made more direct, removing some explanations and linking to reuse workflows.\n\n4. **Pre-written Building Blocks**: The guide was condensed, focusing on practical steps without detailed explanations. Removed sections on overview and next steps.\n\n5. **Content Reorganization**: Moved use cases and examples to tutorials, updated internal links, and adjusted the docs homepage to reflect new structure.\n\n6. **REST API Examples**: Added display of request content types in dropdowns when they differ between examples.\n\nNow, grouping these by topic:\n\n- **Security Enhancements**: Added Kubernetes admissions controller docs for artifact attestation enforcement.\n- **Documentation Improvements**: Streamlined cancellation, private action sharing, and pre-written blocks guides; reorganized content into tutorials.\n- **API Usability**: Enhanced REST examples with request content type visibility.\n\nThe title should encapsulate the main themes: security, docs restructuring, and API updates.\n\nFinal checks: Ensure each bullet is concise, keywords are highlighted, and the title is descriptive yet brief.\n</think>\n\n### Summary\n- **Security Enhancements**: Added Kubernetes admission controller documentation for enforcing artifact attestations, including trust root configuration and image verification processes.\n- **Documentation Restructuring**: Moved use case examples to tutorials, streamlined workflow cancellation instructions into a reference guide, and simplified content on sharing private actions.\n- **Content Updates**: Revised action definitions, added script for path updates, retired namespace articles, and adjusted Copilot documentation links.\n- **API Improvements**: Introduced request content type display in REST API example dropdowns for clarity.\n\n### Title\nEnhance security docs, streamline content structure, and improve API examples"
+}
