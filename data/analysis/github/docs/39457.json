@@ -1,0 +1,23 @@
+{
+  "number": 39457,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-23T00:48:18Z",
+  "url": "https://github.com/github/docs/pull/39457",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-23 02:44:16",
+  "details": [
+    "Updated GitHub Actions CI workflow template link to use `main` branch instead of `master`.",
+    "Changed repository references from `mozilla/rust` to `rust-lang/rust` in commit history examples.",
+    "Modified raw file URL example to use `main` branch in repository limits documentation.",
+    "Updated VS Code debugging recipe link to `main` branch."
+  ],
+  "summary": "- Updated GitHub Actions CI workflow template link to use `main` branch instead of `master`.\n- Changed repository references from `mozilla/rust` to `rust-lang/rust` in commit history examples.\n- Modified raw file URL example to use `main` branch in repository limits documentation.\n- Updated VS Code debugging recipe link to `main` branch.",
+  "generated_title": "Update branch references to `main` and fix repository paths",
+  "commits": [
+    "**003d6b9**: Merge pull request #56789 from github/repo-sync (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated GitHub Actions CI workflow template link to use `main` branch instead of `master`.\n- Changed repository references from `mozilla/rust` to `rust-lang/rust` in commit history examples.\n- Modified raw file URL example to use `main` branch in repository limits documentation.\n- Updated VS Code debugging recipe link to `main` branch.\n\n### Title\nUpdate branch references to `main` and fix repository paths"
+}
