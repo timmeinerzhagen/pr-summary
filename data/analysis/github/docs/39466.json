@@ -1,0 +1,22 @@
+{
+  "number": 39466,
+  "title": "docs: update branch name to github-actions-auto-update from master",
+  "author": "adi-ray",
+  "state": "closed",
+  "created": "2025-07-23T12:44:29Z",
+  "url": "https://github.com/github/docs/pull/39466",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-24 00:26:53",
+  "details": [
+    "Updated the branch name in the emoji cheat sheet link from `master` to `github-actions-auto-update`",
+    "Modified URL in documentation to reference the new branch for emoji codes"
+  ],
+  "summary": "- Updated the branch name in the emoji cheat sheet link from `master` to `github-actions-auto-update`\n- Modified URL in documentation to reference the new branch for emoji codes",
+  "generated_title": "Update emoji cheat sheet link to use `github-actions-auto-update` branch",
+  "commits": [
+    "**8d4a026**: docs: update branch name to github-actions-auto-update from master (by Aditya Ray)",
+    "**3790aff**: Merge branch 'main' into main (by Sharra-writes)"
+  ],
+  "original_description": "<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n<!-- Paste the issue link or number here -->\r\nCloses #39351 \r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\nUpdate default branch reference in documentation from `master` to `github-actions-auto-update`.\r\n<!-- Let us know what you are changing. Share anything that could provide the most context.\r\nIf you made changes to the `content` directory, a table will populate in a comment below with links to the review and current production articles. -->\r\n\r\n### Check off the following:\r\n\r\n- [x] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [x] All CI checks are passing and the changes look good in the review environment.",
+  "raw_analysis": "### Summary\n- Updated the branch name in the emoji cheat sheet link from `master` to `github-actions-auto-update`  \n- Modified URL in documentation to reference the new branch for emoji codes  \n\n### Title  \nUpdate emoji cheat sheet link to use `github-actions-auto-update` branch"
+}

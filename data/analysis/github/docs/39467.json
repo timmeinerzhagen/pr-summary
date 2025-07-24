@@ -1,0 +1,23 @@
+{
+  "number": 39467,
+  "title": "docs: clarify Label reference page to emphasize examples, not exhaustive list",
+  "author": "adi-ray",
+  "state": "closed",
+  "created": "2025-07-23T14:18:55Z",
+  "url": "https://github.com/github/docs/pull/39467",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-24 00:26:42",
+  "details": [
+    "Reworded intro text to clarify that the table shows example labels and each links to filtered issues.",
+    "Added a link to the full labels page for comprehensive reference."
+  ],
+  "summary": "- Reworded intro text to clarify that the table shows example labels and each links to filtered issues.\n- Added a link to the full labels page for comprehensive reference.",
+  "generated_title": "Improve label reference docs with examples clarification and full labels link",
+  "commits": [
+    "**2e51a69**: Update label-reference.md (by Aditya Ray)",
+    "**6afe1b2**: Update content/contributing/collaborating-on-github-docs/label-reference.md (by Sharra-writes)",
+    "**65b4272**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\n<!-- Paste the issue link or number here -->\r\nCloses #39246 \r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\nUpdated content acc. to https://github.com/github/docs/issues/39246#issuecomment-3058217898 :\r\n\r\n1. Clarified the intro to emphasize these are examples of commonly used labels, not an exhaustive list\r\n2. Added explicit quote that the repository uses 85 labels with a link to the complete labels page\r\n\r\n<!-- Let us know what you are changing. Share anything that could provide the most context.\r\nIf you made changes to the `content` directory, a table will populate in a comment below with links to the review and current production articles. -->\r\n\r\n### Check off the following:\r\n\r\n- [x] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [x] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Reworded intro text to clarify that the table shows example labels and each links to filtered issues.\n- Added a link to the full labels page for comprehensive reference.\n\n### Title\nImprove label reference docs with examples clarification and full labels link"
+}
