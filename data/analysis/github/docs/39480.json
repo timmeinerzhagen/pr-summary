@@ -1,0 +1,22 @@
+{
+  "number": 39480,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-24T00:48:36Z",
+  "url": "https://github.com/github/docs/pull/39480",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-24 02:43:45",
+  "details": [
+    "Added a known issue warning for GitHub Enterprise Server 3.16 and 3.17 about potential performance degradation under high-scale operations.",
+    "Symptoms include slow response times, background job queue spikes, elevated CPU usage, and increased MySQL load.",
+    "Advises caution when upgrading near capacity limits."
+  ],
+  "summary": "- Added a known issue warning for GitHub Enterprise Server 3.16 and 3.17 about potential performance degradation under high-scale operations.\n- Symptoms include slow response times, background job queue spikes, elevated CPU usage, and increased MySQL load.\n- Advises caution when upgrading near capacity limits.",
+  "generated_title": "Add performance degradation warning to GHES 3.16 & 3.17 release notes",
+  "commits": [
+    "**5330434**: Updating release notes for 3.16 and 3.17 with a known issue. (#56817) (by Pallavi)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added a known issue warning for GitHub Enterprise Server 3.16 and 3.17 about potential performance degradation under high-scale operations.  \n- Symptoms include slow response times, background job queue spikes, elevated CPU usage, and increased MySQL load.  \n- Advises caution when upgrading near capacity limits.  \n\n### Title  \nAdd performance degradation warning to GHES 3.16 & 3.17 release notes"
+}
