@@ -1,0 +1,23 @@
+{
+  "number": 39437,
+  "title": "docs: replace the all `docker-compose.yml` with `compose.yaml`",
+  "author": "JamBalaya56562",
+  "state": "closed",
+  "created": "2025-07-22T10:54:53Z",
+  "url": "https://github.com/github/docs/pull/39437",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-24 18:07:45",
+  "details": [
+    "Updated documentation to replace `docker-compose.yml` with `compose.yaml` in development container configuration references",
+    "Modified style guide and Codespaces configuration files to reflect Docker's new default filename",
+    "Ensured consistent terminology for Docker Compose files across documentation"
+  ],
+  "summary": "- Updated documentation to replace `docker-compose.yml` with `compose.yaml` in development container configuration references\n- Modified style guide and Codespaces configuration files to reflect Docker's new default filename\n- Ensured consistent terminology for Docker Compose files across documentation",
+  "generated_title": "Update Docker Compose filename references to `compose.yaml` in docs",
+  "commits": [
+    "**9a1b980**: docs: replace the all `docker-compose.yml` with `compose.yaml` (by JamBalaya56562)",
+    "**25b3334**: Merge branch 'main' into compose (by Sharra-writes)"
+  ],
+  "original_description": "### Why:\r\n\r\nAccording to [official manuals](https://docs.docker.com/compose/intro/compose-application-model/#the-compose-file),\r\n\r\n> The default path for a Compose file is `compose.yaml` (preferred) or `compose.yml` that is placed in the working directory.\r\n> Compose also supports `docker-compose.yaml` and `docker-compose.yml` for backwards compatibility of earlier versions.\r\n> If both files exist, Compose prefers the canonical `compose.yaml`.\r\n\r\nSo `compose.yaml` is preferred to `docker-compose.yml`.\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nUpdate documentation to replace references to `docker-compose.yml` with `compose.yaml` for consistency across content.\r\n\r\nDocumentation:\r\n- Replace occurrences of `docker-compose.yml` with `compose.yaml` in the style guide\r\n- Update codespaces additional container config documentation to reference `compose.yaml` instead of `docker-compose.yml`\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [x] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Updated documentation to replace `docker-compose.yml` with `compose.yaml` in development container configuration references  \n- Modified style guide and Codespaces configuration files to reflect Docker's new default filename  \n- Ensured consistent terminology for Docker Compose files across documentation  \n\n### Title  \nUpdate Docker Compose filename references to `compose.yaml` in docs"
+}
