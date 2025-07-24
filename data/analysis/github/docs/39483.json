@@ -1,0 +1,22 @@
+{
+  "number": 39483,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-24T03:52:39Z",
+  "url": "https://github.com/github/docs/pull/39483",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-24 04:19:55",
+  "details": [
+    "Added a new known issue to GitHub Enterprise Server 3.16.6 and 3.17.3 release notes.",
+    "Warns high-scale customers about potential performance degradation during upgrades, including slow response times, queue spikes, high CPU usage, and increased MySQL load.",
+    "Includes a cautionary note to upgrade carefully and adds an update timestamp (2025-07-23)."
+  ],
+  "summary": "- Added a new known issue to GitHub Enterprise Server 3.16.6 and 3.17.3 release notes.\n- Warns high-scale customers about potential performance degradation during upgrades, including slow response times, queue spikes, high CPU usage, and increased MySQL load.\n- Includes a cautionary note to upgrade carefully and adds an update timestamp (2025-07-23).",
+  "generated_title": "Add performance degradation warning to 3.16.6 and 3.17.3 release notes",
+  "commits": [
+    "**bb3b9a1**: Merge pull request #56819 from github/repo-sync (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added a new known issue to GitHub Enterprise Server 3.16.6 and 3.17.3 release notes.\n- Warns high-scale customers about potential performance degradation during upgrades, including slow response times, queue spikes, high CPU usage, and increased MySQL load.\n- Includes a cautionary note to upgrade carefully and adds an update timestamp (2025-07-23).\n\n### Title\nAdd performance degradation warning to 3.16.6 and 3.17.3 release notes"
+}
