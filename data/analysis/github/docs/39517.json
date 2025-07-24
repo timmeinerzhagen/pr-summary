@@ -1,0 +1,28 @@
+{
+  "number": 39517,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-24T21:34:37Z",
+  "url": "https://github.com/github/docs/pull/39517",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-24 22:06:34",
+  "details": [
+    "Renamed multiple Copilot documentation files to shorter, consistent titles (e.g., `choosing-the-right-ai-tool-for-your-task.md` to `ai-tools.md`).",
+    "Added `contentType` frontmatter to Copilot files for consistent metadata.",
+    "Updated redirects and index files to reflect new paths and structure.",
+    "Refactored shared content type utilities to reduce code duplication.",
+    "Modified style guide to reference `compose.yaml` instead of `docker-compose.yml`.",
+    "Added an empty `.nvmrc` file."
+  ],
+  "summary": "- Renamed multiple Copilot documentation files to shorter, consistent titles (e.g., `choosing-the-right-ai-tool-for-your-task.md` to `ai-tools.md`).\n- Added `contentType` frontmatter to Copilot files for consistent metadata.\n- Updated redirects and index files to reflect new paths and structure.\n- Refactored shared content type utilities to reduce code duplication.\n- Modified style guide to reference `compose.yaml` instead of `docker-compose.yml`.\n- Added an empty `.nvmrc` file.",
+  "generated_title": "Refactor Copilot docs structure and update content types",
+  "commits": [
+    "**8f172c3**: Merge pull request #56835 from github/repo-sync (by docs-bot)",
+    "**877ffc6**: Sync secret scanning data (#56830) (by docs-bot)",
+    "**bbd6ab4**: Update filenames to match short titles, add contentType frontmatter (#56836) (by Siara)",
+    "**8093c4b**: Refactor: Extract shared content type utilities to reduce code duplication (#56803) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Renamed multiple Copilot documentation files to shorter, consistent titles (e.g., `choosing-the-right-ai-tool-for-your-task.md` to `ai-tools.md`).\n- Added `contentType` frontmatter to Copilot files for consistent metadata.\n- Updated redirects and index files to reflect new paths and structure.\n- Refactored shared content type utilities to reduce code duplication.\n- Modified style guide to reference `compose.yaml` instead of `docker-compose.yml`.\n- Added an empty `.nvmrc` file.\n\n### Title\nRefactor Copilot docs structure and update content types"
+}
