@@ -1,0 +1,34 @@
+{
+  "number": 39493,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-24T09:36:54Z",
+  "url": "https://github.com/github/docs/pull/39493",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-24 10:07:33",
+  "details": [
+    "Fixed indentation in YAML examples for runner pod configuration in Actions Runner Controller troubleshooting.",
+    "Updated links and documentation for Copilot code review, including:",
+    "Added new concept files for code review and coding guidelines.",
+    "Restructured code review documentation with automatic review configuration.",
+    "Restructured Copilot coding agent documentation:",
+    "Moved enabling instructions to concepts.",
+    "Added Model Context Protocol (MCP) integration guide.",
+    "Consolidated Copilot Extensions documentation:",
+    "Merged FAQ content into main concepts.",
+    "Clarified differences between extensions and VS Code chat participants.",
+    "Moved coding agent best practices to tutorials section."
+  ],
+  "summary": "- Fixed indentation in YAML examples for runner pod configuration in Actions Runner Controller troubleshooting.\n- Updated links and documentation for Copilot code review, including:\n- Added new concept files for code review and coding guidelines.\n- Restructured code review documentation with automatic review configuration.\n- Restructured Copilot coding agent documentation:\n- Moved enabling instructions to concepts.\n- Added Model Context Protocol (MCP) integration guide.\n- Consolidated Copilot Extensions documentation:\n- Merged FAQ content into main concepts.\n- Clarified differences between extensions and VS Code chat participants.\n- Moved coding agent best practices to tutorials section.",
+  "generated_title": "Restructure Copilot docs, fix YAML examples, and update links",
+  "commits": [
+    "**05d7903**: Merge pull request #56821 from github/repo-sync (by docs-bot)",
+    "**45fe37e**: Revise YAML examples for runner pod configuration (#56820) (by Ben Webb)",
+    "**a709705**: [EDI 5500 - Builders] Update Copilot code review docs in light of EDI audit (#56662) (by hubwriter)",
+    "**eb23007**: [EDI 5516 - Builders] Update Copilot coding agent docs in light of EDI audit (#56721) (by hubwriter)",
+    "**53f925f**: [EDI 5520 - Builders] Remove Copilot Extensions FAQ in light of EDI audit (#56744) (by hubwriter)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Fixed indentation in YAML examples for runner pod configuration in Actions Runner Controller troubleshooting.\n- Updated links and documentation for Copilot code review, including:\n  - Added new concept files for code review and coding guidelines.\n  - Restructured code review documentation with automatic review configuration.\n- Restructured Copilot coding agent documentation:\n  - Moved enabling instructions to concepts.\n  - Added Model Context Protocol (MCP) integration guide.\n- Consolidated Copilot Extensions documentation:\n  - Merged FAQ content into main concepts.\n  - Clarified differences between extensions and VS Code chat participants.\n- Moved coding agent best practices to tutorials section.\n\n### Title\nRestructure Copilot docs, fix YAML examples, and update links"
+}
