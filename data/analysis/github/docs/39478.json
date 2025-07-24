@@ -1,0 +1,22 @@
+{
+  "number": 39478,
+  "title": "Fix input parameter typo in `uploading-a-sarif-file-to-github.md`",
+  "author": "SimonMarquis",
+  "state": "closed",
+  "created": "2025-07-23T20:55:40Z",
+  "url": "https://github.com/github/docs/pull/39478",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-24 20:05:57",
+  "details": [
+    "Fixed a typo in the `upload-sarif` action documentation: changed `sarif-file` to `sarif_file` input parameter.",
+    "Corrected the parameter name to match the expected underscore format in GitHub Actions workflows."
+  ],
+  "summary": "- Fixed a typo in the `upload-sarif` action documentation: changed `sarif-file` to `sarif_file` input parameter.\n- Corrected the parameter name to match the expected underscore format in GitHub Actions workflows.",
+  "generated_title": "Fix typo in SARIF upload parameter name (`sarif-file` → `sarif_file`)",
+  "commits": [
+    "**4d09c95**: Fix input parameter typo in `uploading-a-sarif-file-to-github.md` (by Simon Marquis)",
+    "**61eaa68**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "### Why:\r\n\r\nCloses: #39477\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nChanging input parameter name to reflect the actual name described in:\r\n\r\n- https://github.com/github/codeql-action/blob/701df0e49d84a24bd8f0d01f80c0dbf69ab07674/upload-sarif/action.yml#L4-L11\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [X] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Fixed a typo in the `upload-sarif` action documentation: changed `sarif-file` to `sarif_file` input parameter.\n- Corrected the parameter name to match the expected underscore format in GitHub Actions workflows.\n\n### Title\nFix typo in SARIF upload parameter name (`sarif-file` → `sarif_file`)"
+}

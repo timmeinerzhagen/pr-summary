@@ -1,0 +1,30 @@
+{
+  "number": 39516,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-24T18:36:37Z",
+  "url": "https://github.com/github/docs/pull/39516",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-24 20:05:42",
+  "details": [
+    "Restructured GitHub Actions \"Concepts\" and \"Get started\" documentation sections",
+    "Renamed and reorganized files for consistency (e.g., `about-github-actions-metrics.md` → `metrics.md`)",
+    "Added redirects for moved content and updated navigation",
+    "Added documentation for local storage migrations option",
+    "Updated Model Context Protocol (MCP) documentation for Copilot",
+    "Added table accessibility labels plugin"
+  ],
+  "summary": "- Restructured GitHub Actions \"Concepts\" and \"Get started\" documentation sections\n- Renamed and reorganized files for consistency (e.g., `about-github-actions-metrics.md` → `metrics.md`)\n- Added redirects for moved content and updated navigation\n- Added documentation for local storage migrations option\n- Updated Model Context Protocol (MCP) documentation for Copilot\n- Added table accessibility labels plugin",
+  "generated_title": "Restructure Actions docs, update MCP docs, and add accessibility plugin",
+  "commits": [
+    "**10dbb58**: [EDI - Builders] Update shortTitles for Get started category (#56806) (by Sarita Iyer)",
+    "**36c3a04**: Add missing redirect (#56828) (by Ben Ahmady)",
+    "**7b7bbaf**: Docs for local storage migrations option (#56145) (by Isaac Brown)",
+    "**df973ee**: [EDI - Builders] Update MCP docs in light of EDI audit (#56751) (by Sarita Iyer)",
+    "**f1d43aa**: EDI-ify \"Concepts\" and \"Get started\" in the Actions docs (#56827) (by Sam Browning)",
+    "**ddcb11d**: Add table accessibility labels plugin (#56474) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "Here's a concise summary of the pull request changes:\n\n### Summary\n- Restructured GitHub Actions \"Concepts\" and \"Get started\" documentation sections\n- Renamed and reorganized files for consistency (e.g., `about-github-actions-metrics.md` → `metrics.md`)\n- Added redirects for moved content and updated navigation\n- Added documentation for local storage migrations option\n- Updated Model Context Protocol (MCP) documentation for Copilot\n- Added table accessibility labels plugin\n\n### Title\nRestructure Actions docs, update MCP docs, and add accessibility plugin"
+}
