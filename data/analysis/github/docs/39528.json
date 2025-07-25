@@ -1,0 +1,26 @@
+{
+  "number": 39528,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-25T18:37:05Z",
+  "url": "https://github.com/github/docs/pull/39528",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-25 20:06:57",
+  "details": [
+    "Restructured Actions reference documentation into subcategories: workflows and actions, runners, security, limits, and GitHub Actions Importer.",
+    "Moved GitHub Actions Importer docs to a dedicated directory and updated redirects.",
+    "Added a note in runner controller docs that the runner container must be named `runner`.",
+    "Updated secret scanning patterns for Polar and enabled push protection.",
+    "Adjusted learning track links to match new doc structure."
+  ],
+  "summary": "- Restructured Actions reference documentation into subcategories: workflows and actions, runners, security, limits, and GitHub Actions Importer.\n- Moved GitHub Actions Importer docs to a dedicated directory and updated redirects.\n- Added a note in runner controller docs that the runner container must be named `runner`.\n- Updated secret scanning patterns for Polar and enabled push protection.\n- Adjusted learning track links to match new doc structure.",
+  "generated_title": "Restructure Actions reference docs, update runner note, and sync secret scanning",
+  "commits": [
+    "**00ac397**: EDI-ify \"Reference\" in the Actions docs (#56847) (by Sam Browning)",
+    "**7273433**: Sync secret scanning data (#56849) (by docs-bot)",
+    "**fbc7cca**: Update Docs on runner image to clarify that runner container must be named `runner` (#56794) (by Wechuli)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Restructured Actions reference documentation into subcategories: workflows and actions, runners, security, limits, and GitHub Actions Importer.\n- Moved GitHub Actions Importer docs to a dedicated directory and updated redirects.\n- Added a note in runner controller docs that the runner container must be named `runner`.\n- Updated secret scanning patterns for Polar and enabled push protection.\n- Adjusted learning track links to match new doc structure.\n\n### Title\nRestructure Actions reference docs, update runner note, and sync secret scanning"
+}
