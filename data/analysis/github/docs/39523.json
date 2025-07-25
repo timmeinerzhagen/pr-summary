@@ -1,0 +1,30 @@
+{
+  "number": 39523,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-25T15:35:35Z",
+  "url": "https://github.com/github/docs/pull/39523",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-25 16:07:29",
+  "details": [
+    "Renamed directories and files for brevity and consistency (e.g., `administering-github-actions` → `administer`, `creating-and-publishing-actions` → `create-and-publish-actions`)",
+    "Consolidated deployment-related content under new `deploy` directory with subcategories",
+    "Reorganized runner management into `manage-runners` with subdirectories for GitHub-hosted, self-hosted, and larger runners",
+    "Updated workflow run management under `manage-workflow-runs`",
+    "Renamed security section to `secure-your-work` and updated artifact attestations",
+    "Moved building/testing content to tutorials and updated titles",
+    "Added redirects (`redirect_from`) for backward compatibility",
+    "Updated `shortTitle` fields for conciseness (e.g., \"View metrics\" instead of \"GitHub Actions metrics\")",
+    "Synchronized Dependabot supported versions in documentation"
+  ],
+  "summary": "- Renamed directories and files for brevity and consistency (e.g., `administering-github-actions` → `administer`, `creating-and-publishing-actions` → `create-and-publish-actions`)\n- Consolidated deployment-related content under new `deploy` directory with subcategories\n- Reorganized runner management into `manage-runners` with subdirectories for GitHub-hosted, self-hosted, and larger runners\n- Updated workflow run management under `manage-workflow-runs`\n- Renamed security section to `secure-your-work` and updated artifact attestations\n- Moved building/testing content to tutorials and updated titles\n- Added redirects (`redirect_from`) for backward compatibility\n- Updated `shortTitle` fields for conciseness (e.g., \"View metrics\" instead of \"GitHub Actions metrics\")\n- Synchronized Dependabot supported versions in documentation",
+  "generated_title": "Restructure Actions how-to documentation for clarity and consistency",
+  "commits": [
+    "**6c48627**: [EDI - Drivers] Align \"About billing for GitHub Copilot\" in your organization/enterprise  (#56711) (by mc)",
+    "**95ad776**: EDI-ify \"How-tos\" in the Actions docs (#56838) (by Sam Browning)",
+    "**427c965**: Sync docs with dependabot supported versions (#56844) (by S.Sandhu)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "Based on the provided git diff output, here's a concise summary of the Pull Request:\n\n### Summary\n- Renamed directories and files for brevity and consistency (e.g., `administering-github-actions` → `administer`, `creating-and-publishing-actions` → `create-and-publish-actions`)\n- Consolidated deployment-related content under new `deploy` directory with subcategories\n- Reorganized runner management into `manage-runners` with subdirectories for GitHub-hosted, self-hosted, and larger runners\n- Updated workflow run management under `manage-workflow-runs`\n- Renamed security section to `secure-your-work` and updated artifact attestations\n- Moved building/testing content to tutorials and updated titles\n- Added redirects (`redirect_from`) for backward compatibility\n- Updated `shortTitle` fields for conciseness (e.g., \"View metrics\" instead of \"GitHub Actions metrics\")\n- Synchronized Dependabot supported versions in documentation\n\n### Title\nRestructure Actions how-to documentation for clarity and consistency"
+}
