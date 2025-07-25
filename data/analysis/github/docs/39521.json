@@ -1,0 +1,28 @@
+{
+  "number": 39521,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-25T09:36:31Z",
+  "url": "https://github.com/github/docs/pull/39521",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-25 10:06:33",
+  "details": [
+    "Added new redirect paths for GitHub Actions documentation files to maintain backward compatibility.",
+    "Modified five markdown files in `content/actions/how-tos/monitor-workflows/`:",
+    "`adding-a-workflow-status-badge.md`",
+    "`enabling-debug-logging.md`",
+    "`using-the-visualization-graph.md`",
+    "`viewing-job-execution-time.md`",
+    "`viewing-workflow-run-history.md`",
+    "Each file received an identical change: a new entry in the `redirect_from` section under `/actions/how-tos/monitoring-and-troubleshooting-workflows/...`."
+  ],
+  "summary": "- Added new redirect paths for GitHub Actions documentation files to maintain backward compatibility.\n- Modified five markdown files in `content/actions/how-tos/monitor-workflows/`:\n- `adding-a-workflow-status-badge.md`\n- `enabling-debug-logging.md`\n- `using-the-visualization-graph.md`\n- `viewing-job-execution-time.md`\n- `viewing-workflow-run-history.md`\n- Each file received an identical change: a new entry in the `redirect_from` section under `/actions/how-tos/monitoring-and-troubleshooting-workflows/...`.",
+  "generated_title": "Add redirects for GitHub Actions monitoring documentation",
+  "commits": [
+    "**7d8e765**: Merge pull request #56845 from github/repo-sync (by docs-bot)",
+    "**8941f8e**: Fix some redirects (#56842) (by Ben Ahmady)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added new redirect paths for GitHub Actions documentation files to maintain backward compatibility.\n- Modified five markdown files in `content/actions/how-tos/monitor-workflows/`:\n  - `adding-a-workflow-status-badge.md`\n  - `enabling-debug-logging.md`\n  - `using-the-visualization-graph.md`\n  - `viewing-job-execution-time.md`\n  - `viewing-workflow-run-history.md`\n- Each file received an identical change: a new entry in the `redirect_from` section under `/actions/how-tos/monitoring-and-troubleshooting-workflows/...`.\n\n### Title\nAdd redirects for GitHub Actions monitoring documentation"
+}
