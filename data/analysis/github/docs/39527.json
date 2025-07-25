@@ -1,0 +1,22 @@
+{
+  "number": 39527,
+  "title": "Fix typo in coding-agent/index.md",
+  "author": "maiwald",
+  "state": "closed",
+  "created": "2025-07-25T18:18:08Z",
+  "url": "https://github.com/github/docs/pull/39527",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-25 22:06:32",
+  "details": [
+    "Fixed a typo in the Copilot Coding Agent documentation: changed \"for your to review\" to \"for you to review\" in the introductory description.",
+    "No functional code changes; only documentation text correction."
+  ],
+  "summary": "- Fixed a typo in the Copilot Coding Agent documentation: changed \"for your to review\" to \"for you to review\" in the introductory description.\n- No functional code changes; only documentation text correction.",
+  "generated_title": "Fix typo in Copilot Coding Agent documentation",
+  "commits": [
+    "**9370196**: Fix typo in coding-agent/index.md (by Luciano Maiwald)",
+    "**4ef445e**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "This PR fixes a minor typo in the sub header of https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent\r\n",
+  "raw_analysis": "### Summary\n- Fixed a typo in the Copilot Coding Agent documentation: changed \"for your to review\" to \"for you to review\" in the introductory description.\n- No functional code changes; only documentation text correction.\n\n### Title\nFix typo in Copilot Coding Agent documentation"
+}

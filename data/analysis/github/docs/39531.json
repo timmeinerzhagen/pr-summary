@@ -1,0 +1,26 @@
+{
+  "number": 39531,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-25T21:34:05Z",
+  "url": "https://github.com/github/docs/pull/39531",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-25 22:06:19",
+  "details": [
+    "Lowered Eclipse version requirement for Copilot extension from 2024-09 to 2024-03.",
+    "Updated audit log event titles from \"Canceling a workflow\" to \"Canceling a workflow run\" across multiple environments.",
+    "Renamed GitHub Apps permissions for pre-receive hooks to \"Organization pre-receive hooks\" and \"Repository pre-receive hooks\" for clarity.",
+    "Updated OpenAPI schema descriptions and endpoint documentation formatting."
+  ],
+  "summary": "- Lowered Eclipse version requirement for Copilot extension from 2024-09 to 2024-03.\n- Updated audit log event titles from \"Canceling a workflow\" to \"Canceling a workflow run\" across multiple environments.\n- Renamed GitHub Apps permissions for pre-receive hooks to \"Organization pre-receive hooks\" and \"Repository pre-receive hooks\" for clarity.\n- Updated OpenAPI schema descriptions and endpoint documentation formatting.",
+  "generated_title": "Update Copilot requirements, audit logs, and permissions naming",
+  "commits": [
+    "**606458c**: Update OpenAPI Description (#56851) (by docs-bot)",
+    "**013a735**: Update OpenAPI Description (#56831) (by docs-bot)",
+    "**35a4d5f**: Update audit log event data (#56850) (by docs-bot)",
+    "**9b9a451**: Update Eclipse version requirement for Copilot extension (#56788) (by Claire W)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Lowered Eclipse version requirement for Copilot extension from 2024-09 to 2024-03.\n- Updated audit log event titles from \"Canceling a workflow\" to \"Canceling a workflow run\" across multiple environments.\n- Renamed GitHub Apps permissions for pre-receive hooks to \"Organization pre-receive hooks\" and \"Repository pre-receive hooks\" for clarity.\n- Updated OpenAPI schema descriptions and endpoint documentation formatting.\n\n### Title  \nUpdate Copilot requirements, audit logs, and permissions naming"
+}
