@@ -1,0 +1,23 @@
+{
+  "number": 39532,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-26T00:46:51Z",
+  "url": "https://github.com/github/docs/pull/39532",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-26 02:40:23",
+  "details": [
+    "Renamed and reorganized GitHub Actions tutorial files to a flatter structure (e.g., `building-and-testing-go.md` → `go.md`), updated index files, and added redirects for old URLs.",
+    "Added documentation for resetting the root user password for the enterprise management console using `ghe-set-password`.",
+    "Created new index files for restructured categories (e.g., `create-actions`)."
+  ],
+  "summary": "- Renamed and reorganized GitHub Actions tutorial files to a flatter structure (e.g., `building-and-testing-go.md` → `go.md`), updated index files, and added redirects for old URLs.\n- Added documentation for resetting the root user password for the enterprise management console using `ghe-set-password`.\n- Created new index files for restructured categories (e.g., `create-actions`).",
+  "generated_title": "Restructure Actions tutorials and add management console password reset",
+  "commits": [
+    "**a99e5cb**: [Improvement]: Include a Section on Resetting Password for the Root user to Access the Management Console (#56823) (by Justin Alex)",
+    "**95e1a9e**: EDI-ify \"Tutorials\" in the Actions docs (#56848) (by Sam Browning)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Renamed and reorganized GitHub Actions tutorial files to a flatter structure (e.g., `building-and-testing-go.md` → `go.md`), updated index files, and added redirects for old URLs.\n- Added documentation for resetting the root user password for the enterprise management console using `ghe-set-password`.\n- Created new index files for restructured categories (e.g., `create-actions`).\n\n### Title\nRestructure Actions tutorials and add management console password reset"
+}
