@@ -1,0 +1,24 @@
+{
+  "number": 39537,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-26T18:37:13Z",
+  "url": "https://github.com/github/docs/pull/39537",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-26 20:06:02",
+  "details": [
+    "Updated GraphQL schema documentation for `automaticCopilotCodeReviewEnabled` field",
+    "Changed description from \"Automatically request review from Copilot...\" to \"Request Copilot code review... automatically\"",
+    "Applied to both `PullRequestParameters` type and `PullRequestParametersInput` input",
+    "Modified in both .graphql and .json schema files for FPT and GHEC environments"
+  ],
+  "summary": "- Updated GraphQL schema documentation for `automaticCopilotCodeReviewEnabled` field\n- Changed description from \"Automatically request review from Copilot...\" to \"Request Copilot code review... automatically\"\n- Applied to both `PullRequestParameters` type and `PullRequestParametersInput` input\n- Modified in both .graphql and .json schema files for FPT and GHEC environments",
+  "generated_title": "Rephrase Copilot code review automation description in GraphQL schema",
+  "commits": [
+    "**4255a6a**: Merge pull request #56859 from github/repo-sync (by docs-bot)",
+    "**a43df6a**: GraphQL schema update (#56860) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated GraphQL schema documentation for `automaticCopilotCodeReviewEnabled` field\n- Changed description from \"Automatically request review from Copilot...\" to \"Request Copilot code review... automatically\"\n- Applied to both `PullRequestParameters` type and `PullRequestParametersInput` input\n- Modified in both .graphql and .json schema files for FPT and GHEC environments\n\n### Title\nRephrase Copilot code review automation description in GraphQL schema"
+}
