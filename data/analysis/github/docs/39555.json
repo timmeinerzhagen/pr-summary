@@ -1,0 +1,31 @@
+{
+  "number": 39555,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-28T18:37:06Z",
+  "url": "https://github.com/github/docs/pull/39555",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-28 20:07:23",
+  "details": [
+    "**Billing Documentation Restructure**: Major reorganization of billing documentation into `concepts` and `how-tos` directories for improved clarity and navigation.",
+    "**Content Updates**:",
+    "Renamed files and updated titles for consistency (e.g., \"Git Large File Storage billing\" instead of \"About billing for Git Large File Storage\").",
+    "Added new conceptual files (e.g., `billing-for-enterprises.md`, `index.md` for sections).",
+    "Updated content in files like `billing-for-enterprises.md` with new sections (e.g., \"Invoiced customers\").",
+    "**Navigation & Metadata**:",
+    "Added redirects from old paths to new locations.",
+    "Standardized front matter (e.g., `contentType: concepts` or `how-tos`).",
+    "**Dependency Update**: Bumped the base Docker image version in `Dockerfile`."
+  ],
+  "summary": "- **Billing Documentation Restructure**: Major reorganization of billing documentation into `concepts` and `how-tos` directories for improved clarity and navigation.\n- **Content Updates**:\n- Renamed files and updated titles for consistency (e.g., \"Git Large File Storage billing\" instead of \"About billing for Git Large File Storage\").\n- Added new conceptual files (e.g., `billing-for-enterprises.md`, `index.md` for sections).\n- Updated content in files like `billing-for-enterprises.md` with new sections (e.g., \"Invoiced customers\").\n- **Navigation & Metadata**:\n- Added redirects from old paths to new locations.\n- Standardized front matter (e.g., `contentType: concepts` or `how-tos`).\n- **Dependency Update**: Bumped the base Docker image version in `Dockerfile`.",
+  "generated_title": "Restructure billing documentation into concepts and how-tos",
+  "commits": [
+    "**d0a86a5**: EDI restructure MVP for Billing docs set (#56543) (by Felicity Chapman)",
+    "**f6f8615**: Bump github/gh-base-image/gh-base-noble from 20250715-152201-gef17a3886 to 20250725-133358-gd7fe7b016 in the baseimages group (#56857) (by dependabot[bot])",
+    "**1bc5f41**: Patch release notes for GitHub Enterprise Server (#56841) (by release-controller[bot])",
+    "**cfa45be**: Revert \"Patch release notes for GitHub Enterprise Server\" (#56874) (by Sunbrye Ly)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- **Billing Documentation Restructure**: Major reorganization of billing documentation into `concepts` and `how-tos` directories for improved clarity and navigation.\n- **Content Updates**: \n  - Renamed files and updated titles for consistency (e.g., \"Git Large File Storage billing\" instead of \"About billing for Git Large File Storage\").\n  - Added new conceptual files (e.g., `billing-for-enterprises.md`, `index.md` for sections).\n  - Updated content in files like `billing-for-enterprises.md` with new sections (e.g., \"Invoiced customers\").\n- **Navigation & Metadata**: \n  - Added redirects from old paths to new locations.\n  - Standardized front matter (e.g., `contentType: concepts` or `how-tos`).\n- **Dependency Update**: Bumped the base Docker image version in `Dockerfile`.\n\n### Title\nRestructure billing documentation into concepts and how-tos"
+}

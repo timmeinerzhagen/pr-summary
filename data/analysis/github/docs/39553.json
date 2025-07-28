@@ -1,0 +1,21 @@
+{
+  "number": 39553,
+  "title": "Update feature overview for GitHub Enterprise Cloud",
+  "author": "eyalgal",
+  "state": "closed",
+  "created": "2025-07-28T17:03:26Z",
+  "url": "https://github.com/github/docs/pull/39553",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-28 20:07:47",
+  "details": [
+    "Removed two Copilot-related features (Workspaces and Extensions) from the list of unavailable features in GitHub Enterprise Cloud with Data Residency documentation.",
+    "Maintains other entries for unavailable features like macOS runners, Maven/Gradle support, and Copilot Metrics API."
+  ],
+  "summary": "- Removed two Copilot-related features (Workspaces and Extensions) from the list of unavailable features in GitHub Enterprise Cloud with Data Residency documentation.\n- Maintains other entries for unavailable features like macOS runners, Maven/Gradle support, and Copilot Metrics API.",
+  "generated_title": "Docs: Remove Copilot Workspaces/Extensions from unavailable features list",
+  "commits": [
+    "**73b43c8**: Update feature overview for GitHub Enterprise Cloud (by Eyal Gal)"
+  ],
+  "original_description": "Removed references to unavailable features for GitHub Copilot and related services (workspaces, extensions).\r\n\r\n<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\n<!-- Paste the issue link or number here -->\r\nCloses: \r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\n<!-- Let us know what you are changing. Share anything that could provide the most context.\r\nIf you made changes to the `content` directory, a table will populate in a comment below with links to the review and current production articles. -->\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [ ] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Removed two Copilot-related features (Workspaces and Extensions) from the list of unavailable features in GitHub Enterprise Cloud with Data Residency documentation.\n- Maintains other entries for unavailable features like macOS runners, Maven/Gradle support, and Copilot Metrics API.\n\n### Title\nDocs: Remove Copilot Workspaces/Extensions from unavailable features list"
+}
