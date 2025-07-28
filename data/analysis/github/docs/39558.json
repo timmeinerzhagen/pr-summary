@@ -1,0 +1,22 @@
+{
+  "number": 39558,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-28T21:33:42Z",
+  "url": "https://github.com/github/docs/pull/39558",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-28 22:05:57",
+  "details": [
+    "Fixed a typo by removing duplicate \"your\" in the intro section",
+    "Improved Liquid template formatting by removing extra spaces in conditional organization/enterprise access note",
+    "Simplified trial cancellation instructions by removing \"Add-ons\" reference and deleting an outdated screenshot"
+  ],
+  "summary": "- Fixed a typo by removing duplicate \"your\" in the intro section\n- Improved Liquid template formatting by removing extra spaces in conditional organization/enterprise access note\n- Simplified trial cancellation instructions by removing \"Add-ons\" reference and deleting an outdated screenshot",
+  "generated_title": "Update Copilot account management docs: fix typos and simplify trial cancellation",
+  "commits": [
+    "**a21fb9f**: Merge pull request #56876 from github/repo-sync (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Fixed a typo by removing duplicate \"your\" in the intro section\n- Improved Liquid template formatting by removing extra spaces in conditional organization/enterprise access note\n- Simplified trial cancellation instructions by removing \"Add-ons\" reference and deleting an outdated screenshot\n\n### Title\nUpdate Copilot account management docs: fix typos and simplify trial cancellation"
+}
