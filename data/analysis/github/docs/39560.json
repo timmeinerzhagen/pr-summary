@@ -1,0 +1,25 @@
+{
+  "number": 39560,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-29T06:37:32Z",
+  "url": "https://github.com/github/docs/pull/39560",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-29 08:08:49",
+  "details": [
+    "Added new changelog entry for 28 July 2025",
+    "Restructured billing documentation to align with Copilot/Actions",
+    "Combined \"About\" articles into two new guides:",
+    "\"How GitHub billing works\"",
+    "\"Introduction to billing and licensing\"",
+    "Updated links to reflect new documentation paths"
+  ],
+  "summary": "- Added new changelog entry for 28 July 2025\n- Restructured billing documentation to align with Copilot/Actions\n- Combined \"About\" articles into two new guides:\n- \"How GitHub billing works\"\n- \"Introduction to billing and licensing\"\n- Updated links to reflect new documentation paths",
+  "generated_title": "Update billing documentation structure in changelog",
+  "commits": [
+    "**96edc65**: Update docs changelog (for PR #56543) (#56872) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added new changelog entry for 28 July 2025  \n- Restructured billing documentation to align with Copilot/Actions  \n- Combined \"About\" articles into two new guides:  \n  - \"How GitHub billing works\"  \n  - \"Introduction to billing and licensing\"  \n- Updated links to reflect new documentation paths  \n\n### Title  \nUpdate billing documentation structure in changelog"
+}
