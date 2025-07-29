@@ -1,0 +1,26 @@
+{
+  "number": 39572,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-29T15:38:51Z",
+  "url": "https://github.com/github/docs/pull/39572",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-29 16:07:58",
+  "details": [
+    "Updated internal links and added redirects in Copilot Cookbook documentation.",
+    "Fixed indentation in a numbered list within code exploration tutorial.",
+    "Deleted 15 unused YAML feature files and 12 Markdown reusable files.",
+    "Removed 3 unused Copilot-related image assets."
+  ],
+  "summary": "- Updated internal links and added redirects in Copilot Cookbook documentation.\n- Fixed indentation in a numbered list within code exploration tutorial.\n- Deleted 15 unused YAML feature files and 12 Markdown reusable files.\n- Removed 3 unused Copilot-related image assets.",
+  "generated_title": "Update Copilot docs links, fix indentation, and remove orphaned files",
+  "commits": [
+    "**7b56ac3**: Update links on Copilot Cookbook page (#56887) (by Sophie)",
+    "**c88bb51**: Fixes indentation in numbered list (#56888) (by Sophie)",
+    "**65af872**: Delete orphaned features (2025-07-28-16-29) (#56868) (by docs-bot)",
+    "**47ec8cc**: Delete orphaned files (2025-07-28-16-29) (#56869) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated internal links and added redirects in Copilot Cookbook documentation.\n- Fixed indentation in a numbered list within code exploration tutorial.\n- Deleted 15 unused YAML feature files and 12 Markdown reusable files.\n- Removed 3 unused Copilot-related image assets.\n\n### Title\nUpdate Copilot docs links, fix indentation, and remove orphaned files"
+}
