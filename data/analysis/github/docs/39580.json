@@ -1,0 +1,31 @@
+{
+  "number": 39580,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-29T21:34:49Z",
+  "url": "https://github.com/github/docs/pull/39580",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-29 22:07:06",
+  "details": [
+    "Consolidated Copilot MCP policy statements into a reusable component and emphasized license restrictions.",
+    "Added GraphQL endpoint documentation for GitHub Enterprise Cloud with Data Residency.",
+    "Published patch release notes for GitHub Enterprise Server versions 3.14, 3.15, 3.16, and 3.17.",
+    "Updated CodeQL query tables: added Rust support, adjusted query inclusions, and removed deprecated JavaScript queries.",
+    "Updated GitHub IP ranges for GitHub Enterprise Importer with new addresses.",
+    "Fixed audit log references and REST API schema descriptions."
+  ],
+  "summary": "- Consolidated Copilot MCP policy statements into a reusable component and emphasized license restrictions.\n- Added GraphQL endpoint documentation for GitHub Enterprise Cloud with Data Residency.\n- Published patch release notes for GitHub Enterprise Server versions 3.14, 3.15, 3.16, and 3.17.\n- Updated CodeQL query tables: added Rust support, adjusted query inclusions, and removed deprecated JavaScript queries.\n- Updated GitHub IP ranges for GitHub Enterprise Importer with new addresses.\n- Fixed audit log references and REST API schema descriptions.",
+  "generated_title": "Update docs: Copilot MCP policy, GraphQL endpoints, GHES release notes, CodeQL tables, and IP ranges",
+  "commits": [
+    "**5a18691**: Merge pull request #56893 from github/repo-sync (by docs-bot)",
+    "**f64b803**: Update CodeQL query tables (#56758) (by docs-bot)",
+    "**a1b7a51**: Update GitHub IP ranges for GitHub Enterprise Importer (#56890) (by Jim Boyle)",
+    "**98ead74**: Copilot metrics (#56676) (by Shin)",
+    "**ea6680c**: Revert \"Revert \"Patch release notes for GitHub Enterprise Server\"\" (#56875) (by Sunbrye Ly)",
+    "**1659c36**: Add ghe.com to graphql doc (#56785) (by Hirsch Singhal)",
+    "**eff11ee**: Fix MCP policy statement (#56880) (by Sarita Iyer)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Consolidated Copilot MCP policy statements into a reusable component and emphasized license restrictions.\n- Added GraphQL endpoint documentation for GitHub Enterprise Cloud with Data Residency.\n- Published patch release notes for GitHub Enterprise Server versions 3.14, 3.15, 3.16, and 3.17.\n- Updated CodeQL query tables: added Rust support, adjusted query inclusions, and removed deprecated JavaScript queries.\n- Updated GitHub IP ranges for GitHub Enterprise Importer with new addresses.\n- Fixed audit log references and REST API schema descriptions.\n\n### Title\nUpdate docs: Copilot MCP policy, GraphQL endpoints, GHES release notes, CodeQL tables, and IP ranges"
+}
