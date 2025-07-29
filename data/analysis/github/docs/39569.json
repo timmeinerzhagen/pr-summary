@@ -1,0 +1,28 @@
+{
+  "number": 39569,
+  "title": "Clarify Python autosubmission prerequisites",
+  "author": "ljones140",
+  "state": "closed",
+  "created": "2025-07-29T11:44:24Z",
+  "url": "https://github.com/github/docs/pull/39569",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-29 20:07:47",
+  "details": [
+    "Added a note specifying that Python autosubmission requires a `.python-version` file to define the Python version, as it uses `actions/setup-python` for installation.",
+    "Clarified prerequisites for Python dependency autosubmission to prevent action failures."
+  ],
+  "summary": "- Added a note specifying that Python autosubmission requires a `.python-version` file to define the Python version, as it uses `actions/setup-python` for installation.\n- Clarified prerequisites for Python dependency autosubmission to prevent action failures.",
+  "generated_title": "Clarify Python version requirement for dependency autosubmission",
+  "commits": [
+    "**4e9622d**: Clarify Python autosubmission prerequisites (by Lewis Jones)",
+    "**7fb0b65**: Fix link formatting for Python autosubmission note (by Lewis Jones)",
+    "**9ac2fcd**: Update content/code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-automatic-dependency-submission-for-your-repository.md (by Sharra-writes)",
+    "**3be0d9b**: Update content/code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-automatic-dependency-submission-for-your-repository.md (by Sharra-writes)",
+    "**fb455fa**: Update content/code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-automatic-dependency-submission-for-your-repository.md (by Sharra-writes)",
+    "**37f5b38**: Update content/code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-automatic-dependency-submission-for-your-repository.md (by Sharra-writes)",
+    "**e2c0cad**: Update content/code-security/supply-chain-security/understanding-your-software-supply-chain/configuring-automatic-dependency-submission-for-your-repository.md (by Sharra-writes)",
+    "**1c7d76d**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "Added note about .python-version file requirement for Python autosubmission.\r\n\r\n<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\n<!-- Paste the issue link or number here -->\r\nCloses: https://github.com/github/docs-content/issues/19067\r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\n<!-- Let us know what you are changing. Share anything that could provide the most context.\r\nIf you made changes to the `content` directory, a table will populate in a comment below with links to the review and current production articles. -->\r\n\r\nAdding a line to python auto submission docs.\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [ ] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Added a note specifying that Python autosubmission requires a `.python-version` file to define the Python version, as it uses `actions/setup-python` for installation.\n- Clarified prerequisites for Python dependency autosubmission to prevent action failures.\n\n### Title  \nClarify Python version requirement for dependency autosubmission"
+}
