@@ -1,0 +1,26 @@
+{
+  "number": 39586,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-30T15:35:58Z",
+  "url": "https://github.com/github/docs/pull/39586",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-30 16:08:03",
+  "details": [
+    "Removed preview notes for EMU repo access feature, indicating it's now generally available.",
+    "Updated rate limit documentation: WebSockets rate limit now applies when primary limits are enabled, removed reference to `app.github.rate-limiting-enabled`.",
+    "Simplified billing access roles: clarified that organization/enterprise owners/billing managers can view usage data.",
+    "Updated OpenAPI schemas: fixed field ordering and revised Copilot code review descriptions from \"Automatically request review\" to \"Request Copilot code review automatically\"."
+  ],
+  "summary": "- Removed preview notes for EMU repo access feature, indicating it's now generally available.\n- Updated rate limit documentation: WebSockets rate limit now applies when primary limits are enabled, removed reference to `app.github.rate-limiting-enabled`.\n- Simplified billing access roles: clarified that organization/enterprise owners/billing managers can view usage data.\n- Updated OpenAPI schemas: fixed field ordering and revised Copilot code review descriptions from \"Automatically request review\" to \"Request Copilot code review automatically\".",
+  "generated_title": "Update docs: EMU GA, rate limits, billing roles, and OpenAPI fixes",
+  "commits": [
+    "**a1f2d6a**: Update access roles for usage data in documentation (#56882) (by astropedrito)",
+    "**a43a69c**: Remove preview notes for EMU repo access feature (#56904) (by Isaac Brown)",
+    "**d8660c5**: Update OpenAPI Description (#56891) (by docs-bot)",
+    "**b92e53d**: Remove mention of app.github.rate-limiting-enabled (#56853) (by Miguel Jimenez)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removed preview notes for EMU repo access feature, indicating it's now generally available.\n- Updated rate limit documentation: WebSockets rate limit now applies when primary limits are enabled, removed reference to `app.github.rate-limiting-enabled`.\n- Simplified billing access roles: clarified that organization/enterprise owners/billing managers can view usage data.\n- Updated OpenAPI schemas: fixed field ordering and revised Copilot code review descriptions from \"Automatically request review\" to \"Request Copilot code review automatically\".\n\n### Title\nUpdate docs: EMU GA, rate limits, billing roles, and OpenAPI fixes"
+}
