@@ -1,0 +1,27 @@
+{
+  "number": 39583,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-30T09:37:27Z",
+  "url": "https://github.com/github/docs/pull/39583",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-30 10:07:13",
+  "details": [
+    "Updated GitHub App security best practices: clarified credential storage, differentiated between confidential and public clients, and added warnings about shipping client secrets in public clients.",
+    "Added guidance against enabling device flow without reason due to phishing risks.",
+    "Similarly updated OAuth App security documentation with client type distinctions and device flow warnings.",
+    "Fixed minor note formatting in audit log documentation."
+  ],
+  "summary": "- Updated GitHub App security best practices: clarified credential storage, differentiated between confidential and public clients, and added warnings about shipping client secrets in public clients.\n- Added guidance against enabling device flow without reason due to phishing risks.\n- Similarly updated OAuth App security documentation with client type distinctions and device flow warnings.\n- Fixed minor note formatting in audit log documentation.",
+  "generated_title": "Update security best practices for GitHub and OAuth Apps regarding client secrets and device flow",
+  "commits": [
+    "**f136edd**: Merge pull request #56895 from github/repo-sync (by docs-bot)",
+    "**18ca42b**: Create docs-internal PR for Early Access preview (#56896) (by Sunbrye Ly)",
+    "**a140875**: Create docs-internal PR for Early Access preview (#56901) (by Sunbrye Ly)",
+    "**314bf1e**: Fix \"Note\" formatting (#56903) (by Anne-Marie)",
+    "**34d68f7**: Explicitly note that client secrets can be shipped in code (#56892) (by Hirsch Singhal)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated GitHub App security best practices: clarified credential storage, differentiated between confidential and public clients, and added warnings about shipping client secrets in public clients.\n- Added guidance against enabling device flow without reason due to phishing risks.\n- Similarly updated OAuth App security documentation with client type distinctions and device flow warnings.\n- Fixed minor note formatting in audit log documentation.\n\n### Title\nUpdate security best practices for GitHub and OAuth Apps regarding client secrets and device flow"
+}
