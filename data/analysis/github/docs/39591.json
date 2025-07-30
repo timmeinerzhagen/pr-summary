@@ -1,0 +1,28 @@
+{
+  "number": 39591,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-30T21:35:28Z",
+  "url": "https://github.com/github/docs/pull/39591",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-30 22:06:19",
+  "details": [
+    "Updated GitHub Actions: `actions/labeler@v4` to `v5`, `actions/create-github-app-token@v1` to `v2`, and `actions/go-dependency-submission@v1` to `v2`.",
+    "Fixed typo in GitHub Advanced Security billing documentation (\"need pay\" → \"need to pay\").",
+    "Simplified billing UI instructions: removed redundant scrolling step in product usage view.",
+    "Restructured billing overview page: removed metered usage graph, repositioned repository/organization usage cards, and updated prepaid credits/promotions sections.",
+    "Enhanced Copilot metrics documentation: added new features (Copilot Edits, Spaces, Spark), clarified retention, and noted IDE telemetry limitations.",
+    "Added Azure Blob Storage virtual network firewall rules for GitHub Enterprise Importer migrations."
+  ],
+  "summary": "- Updated GitHub Actions: `actions/labeler@v4` to `v5`, `actions/create-github-app-token@v1` to `v2`, and `actions/go-dependency-submission@v1` to `v2`.\n- Fixed typo in GitHub Advanced Security billing documentation (\"need pay\" → \"need to pay\").\n- Simplified billing UI instructions: removed redundant scrolling step in product usage view.\n- Restructured billing overview page: removed metered usage graph, repositioned repository/organization usage cards, and updated prepaid credits/promotions sections.\n- Enhanced Copilot metrics documentation: added new features (Copilot Edits, Spaces, Spark), clarified retention, and noted IDE telemetry limitations.\n- Added Azure Blob Storage virtual network firewall rules for GitHub Enterprise Importer migrations.",
+  "generated_title": "Update docs: Billing UI, Copilot metrics, Actions versions, and GEI firewall rules",
+  "commits": [
+    "**a3f402b**: Merge pull request #56912 from github/repo-sync (by docs-bot)",
+    "**63fcce3**: Update Overview page documentation for enhanced clarity (#56772) (by Holly 🦒)",
+    "**b40addb**: Update GEI documentation to include virtual network firewall rules when using Azure Blob Storage (#56908) (by Jim Boyle)",
+    "**2cebe1a**: Update metrics-data.md with included/excluded features (#56855) (by Lauren)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated GitHub Actions: `actions/labeler@v4` to `v5`, `actions/create-github-app-token@v1` to `v2`, and `actions/go-dependency-submission@v1` to `v2`.\n- Fixed typo in GitHub Advanced Security billing documentation (\"need pay\" → \"need to pay\").\n- Simplified billing UI instructions: removed redundant scrolling step in product usage view.\n- Restructured billing overview page: removed metered usage graph, repositioned repository/organization usage cards, and updated prepaid credits/promotions sections.\n- Enhanced Copilot metrics documentation: added new features (Copilot Edits, Spaces, Spark), clarified retention, and noted IDE telemetry limitations.\n- Added Azure Blob Storage virtual network firewall rules for GitHub Enterprise Importer migrations.\n\n### Title\nUpdate docs: Billing UI, Copilot metrics, Actions versions, and GEI firewall rules"
+}
