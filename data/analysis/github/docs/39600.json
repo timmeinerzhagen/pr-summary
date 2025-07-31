@@ -1,0 +1,26 @@
+{
+  "number": 39600,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-07-31T18:38:28Z",
+  "url": "https://github.com/github/docs/pull/39600",
+  "repository": "github/docs",
+  "analysis_date": "2025-07-31 20:07:12",
+  "details": [
+    "Updated Dockerfile to use newer base image version `20250730-174526-g48ad667e7`.",
+    "Changed Autofix documentation to reference GPT-4.1 instead of GPT-4o.",
+    "Added new GitHub Models quickstart guide with playground, API, and Actions examples.",
+    "Extended GraphQL schema with new issue/PR timeline events (`BLOCKED_BY_REMOVED_EVENT`, `BLOCKING_ADDED_EVENT`, `BLOCKING_REMOVED_EVENT`)."
+  ],
+  "summary": "- Updated Dockerfile to use newer base image version `20250730-174526-g48ad667e7`.\n- Changed Autofix documentation to reference GPT-4.1 instead of GPT-4o.\n- Added new GitHub Models quickstart guide with playground, API, and Actions examples.\n- Extended GraphQL schema with new issue/PR timeline events (`BLOCKED_BY_REMOVED_EVENT`, `BLOCKING_ADDED_EVENT`, `BLOCKING_REMOVED_EVENT`).",
+  "generated_title": "Base image update, Autofix model upgrade, GitHub Models quickstart, and GraphQL schema extension",
+  "commits": [
+    "**ce3228c**: Bump github/gh-base-image/gh-base-noble from 20250725-133358-gd7fe7b016 to 20250730-174526-g48ad667e7 in the baseimages group (#56916) (by dependabot[bot])",
+    "**2614631**: GraphQL schema update (#56925) (by docs-bot)",
+    "**cbd7779**: Add and update GitHub Models quickstart guide (#56791) (by Kate Catlin)",
+    "**51e0fe1**: Update responsible-use-autofix-code-scanning.md to use GPT-4.1 (#55807) (by Jon Janego)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated Dockerfile to use newer base image version `20250730-174526-g48ad667e7`.\n- Changed Autofix documentation to reference GPT-4.1 instead of GPT-4o.\n- Added new GitHub Models quickstart guide with playground, API, and Actions examples.\n- Extended GraphQL schema with new issue/PR timeline events (`BLOCKED_BY_REMOVED_EVENT`, `BLOCKING_ADDED_EVENT`, `BLOCKING_REMOVED_EVENT`).\n\n### Title\nBase image update, Autofix model upgrade, GitHub Models quickstart, and GraphQL schema extension"
+}
