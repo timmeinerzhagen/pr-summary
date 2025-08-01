@@ -1,0 +1,25 @@
+{
+  "number": 39616,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-01T21:34:34Z",
+  "url": "https://github.com/github/docs/pull/39616",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-01 22:05:54",
+  "details": [
+    "Restructured documentation into new `concepts` and `reference` categories under `account-and-profile`.",
+    "Moved 9 documentation files to `concepts` (e.g., about profiles, memberships) and 4 to `reference` (e.g., permissions, troubleshooting).",
+    "Added new index files for both categories with organized topic listings.",
+    "Updated parent index files to reference new locations and removed old links.",
+    "Added redirects (`redirect_from`) in moved files to preserve URL compatibility."
+  ],
+  "summary": "- Restructured documentation into new `concepts` and `reference` categories under `account-and-profile`.\n- Moved 9 documentation files to `concepts` (e.g., about profiles, memberships) and 4 to `reference` (e.g., permissions, troubleshooting).\n- Added new index files for both categories with organized topic listings.\n- Updated parent index files to reference new locations and removed old links.\n- Added redirects (`redirect_from`) in moved files to preserve URL compatibility.",
+  "generated_title": "Restructure account/profile docs into concepts and reference categories",
+  "commits": [
+    "**14990ba**: [EDI] Create Account and profile reference category (#56940) (by Joe Clark)",
+    "**02de784**: [EDI] Create concepts category for Account and profile docs (#56943) (by Joe Clark)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Restructured documentation into new `concepts` and `reference` categories under `account-and-profile`.\n- Moved 9 documentation files to `concepts` (e.g., about profiles, memberships) and 4 to `reference` (e.g., permissions, troubleshooting).\n- Added new index files for both categories with organized topic listings.\n- Updated parent index files to reference new locations and removed old links.\n- Added redirects (`redirect_from`) in moved files to preserve URL compatibility.\n\n### Title\nRestructure account/profile docs into concepts and reference categories"
+}
