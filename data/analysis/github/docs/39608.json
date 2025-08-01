@@ -1,0 +1,23 @@
+{
+  "number": 39608,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-01T12:37:40Z",
+  "url": "https://github.com/github/docs/pull/39608",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-01 14:07:29",
+  "details": [
+    "Updated troubleshooting article for repositories with advanced setup: clarified behavior when applying security configurations to active vs. inactive setups.",
+    "Added new troubleshooting article for unexpected default setup overrides, explaining activation criteria and solutions.",
+    "Refined reusable content to define inactive advanced setup conditions (e.g., outdated scans, deleted configurations).",
+    "Updated index to include new article and adjusted short titles."
+  ],
+  "summary": "- Updated troubleshooting article for repositories with advanced setup: clarified behavior when applying security configurations to active vs. inactive setups.\n- Added new troubleshooting article for unexpected default setup overrides, explaining activation criteria and solutions.\n- Refined reusable content to define inactive advanced setup conditions (e.g., outdated scans, deleted configurations).\n- Updated index to include new article and adjusted short titles.",
+  "generated_title": "Add troubleshooting for unexpected default setup and refine advanced setup documentation",
+  "commits": [
+    "**30c1bb4**: Security configurations: Add new troubleshooting article for advanced setup (#56913) (by Felicity Chapman)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated troubleshooting article for repositories with advanced setup: clarified behavior when applying security configurations to active vs. inactive setups.\n- Added new troubleshooting article for unexpected default setup overrides, explaining activation criteria and solutions.\n- Refined reusable content to define inactive advanced setup conditions (e.g., outdated scans, deleted configurations).\n- Updated index to include new article and adjusted short titles.\n\n### Title\nAdd troubleshooting for unexpected default setup and refine advanced setup documentation"
+}
