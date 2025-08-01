@@ -1,0 +1,26 @@
+{
+  "number": 39606,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-01T04:04:59Z",
+  "url": "https://github.com/github/docs/pull/39606",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-01 04:28:15",
+  "details": [
+    "Added call-to-action links and product references for secret risk assessment across multiple documentation pages.",
+    "Updated navigation instructions for generating secret risk assessment reports using reusable variables.",
+    "Revised Azure Blob Storage virtual network firewall rules for GitHub Enterprise Importer migrations.",
+    "Adjusted feature visibility with version conditionals in security documentation."
+  ],
+  "summary": "- Added call-to-action links and product references for secret risk assessment across multiple documentation pages.\n- Updated navigation instructions for generating secret risk assessment reports using reusable variables.\n- Revised Azure Blob Storage virtual network firewall rules for GitHub Enterprise Importer migrations.\n- Adjusted feature visibility with version conditionals in security documentation.",
+  "generated_title": "Enhance secret risk assessment docs and update Azure firewall rules",
+  "commits": [
+    "**7ba7636**: Merge pull request #56934 from github/repo-sync (by docs-bot)",
+    "**d1ec88b**: Secret risk assessment - Add more CTAs (#56918) (by Vanessa)",
+    "**e28e99a**: Update GEI documentation to use correct virtual network firewall rules when using Azure Blob Storage (#56933) (by Daniel Perez)",
+    "**63a325e**: Secret risk assessment - Add more cross-links (#56919) (by Vanessa)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added call-to-action links and product references for secret risk assessment across multiple documentation pages.\n- Updated navigation instructions for generating secret risk assessment reports using reusable variables.\n- Revised Azure Blob Storage virtual network firewall rules for GitHub Enterprise Importer migrations.\n- Adjusted feature visibility with version conditionals in security documentation.\n\n### Title\nEnhance secret risk assessment docs and update Azure firewall rules"
+}
