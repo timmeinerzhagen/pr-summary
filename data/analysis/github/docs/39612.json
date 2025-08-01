@@ -1,0 +1,23 @@
+{
+  "number": 39612,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-01T18:37:16Z",
+  "url": "https://github.com/github/docs/pull/39612",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-01 20:07:27",
+  "details": [
+    "Simplified GitHub Models workflow: Removed checkout step, replaced with fixed prompt and direct curl call using `gpt-4o`.",
+    "Updated prompt file structure: Added system role, template variables, and model parameters (temperature) for summarization tasks.",
+    "Enhanced evaluation examples: Added test cases with structured output requirements (\"Summary -\" prefix) and new string evaluator.",
+    "Model updates: Replaced `gpt-4.1` with `gpt-4o` in workflow and `gpt-4o-mini` in prompt files."
+  ],
+  "summary": "- Simplified GitHub Models workflow: Removed checkout step, replaced with fixed prompt and direct curl call using `gpt-4o`.\n- Updated prompt file structure: Added system role, template variables, and model parameters (temperature) for summarization tasks.\n- Enhanced evaluation examples: Added test cases with structured output requirements (\"Summary -\" prefix) and new string evaluator.\n- Model updates: Replaced `gpt-4.1` with `gpt-4o` in workflow and `gpt-4o-mini` in prompt files.",
+  "generated_title": "Update GitHub Models quickstart with simplified examples and enhanced prompt structure",
+  "commits": [
+    "**97e4733**: Fix prompt files (#56932) (by Kate Catlin)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Simplified GitHub Models workflow: Removed checkout step, replaced with fixed prompt and direct curl call using `gpt-4o`.\n- Updated prompt file structure: Added system role, template variables, and model parameters (temperature) for summarization tasks.\n- Enhanced evaluation examples: Added test cases with structured output requirements (\"Summary -\" prefix) and new string evaluator.\n- Model updates: Replaced `gpt-4.1` with `gpt-4o` in workflow and `gpt-4o-mini` in prompt files.\n\n### Title\nUpdate GitHub Models quickstart with simplified examples and enhanced prompt structure"
+}
