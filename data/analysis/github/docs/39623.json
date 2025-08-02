@@ -1,0 +1,25 @@
+{
+  "number": 39623,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-02T09:35:38Z",
+  "url": "https://github.com/github/docs/pull/39623",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-02 10:05:56",
+  "details": [
+    "Added a consistent warning about performance issues in GHES versions 3.15, 3.16, and 3.17 to all patch release notes",
+    "Replaced existing upgrade instructions with the warning in major release notes (3.15.0, 3.17.0)",
+    "Retained existing warnings (e.g., GCP hotpatch issue in 3.15.3) while adding the new performance alert",
+    "Fixed trailing whitespace and newline issues in some YAML files"
+  ],
+  "summary": "- Added a consistent warning about performance issues in GHES versions 3.15, 3.16, and 3.17 to all patch release notes\n- Replaced existing upgrade instructions with the warning in major release notes (3.15.0, 3.17.0)\n- Retained existing warnings (e.g., GCP hotpatch issue in 3.15.3) while adding the new performance alert\n- Fixed trailing whitespace and newline issues in some YAML files",
+  "generated_title": "Add performance warning to GHES 3.15/3.16/3.17 release notes",
+  "commits": [
+    "**fac355c**: Updating 3.15, 3.16 and 3.17 release notes with a warning about upgrades (#56954) (by Pallavi)",
+    "**de8738f**: Minor fix to GHES 15.3 release notes (#56955) (by mc)",
+    "**395e7ae**: YOLO merge (by mc)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added a consistent warning about performance issues in GHES versions 3.15, 3.16, and 3.17 to all patch release notes\n- Replaced existing upgrade instructions with the warning in major release notes (3.15.0, 3.17.0)\n- Retained existing warnings (e.g., GCP hotpatch issue in 3.15.3) while adding the new performance alert\n- Fixed trailing whitespace and newline issues in some YAML files\n\n### Title\nAdd performance warning to GHES 3.15/3.16/3.17 release notes"
+}
