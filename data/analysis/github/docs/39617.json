@@ -1,0 +1,22 @@
+{
+  "number": 39617,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-02T00:46:33Z",
+  "url": "https://github.com/github/docs/pull/39617",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-02 02:40:47",
+  "details": [
+    "Added a reusable note (`{% data reusables.pages.actions-is-preferred %}`) to 7 Jekyll documentation files, recommending GitHub Actions over the `github-pages` gem for deployment.",
+    "Removed outdated build process details from `gated-features/pages.md`.",
+    "Created new reusable file `actions-is-preferred.md` containing the note."
+  ],
+  "summary": "- Added a reusable note (`{% data reusables.pages.actions-is-preferred %}`) to 7 Jekyll documentation files, recommending GitHub Actions over the `github-pages` gem for deployment.\n- Removed outdated build process details from `gated-features/pages.md`.\n- Created new reusable file `actions-is-preferred.md` containing the note.",
+  "generated_title": "Recommend GitHub Actions for Pages deployment in Jekyll docs",
+  "commits": [
+    "**18eccfb**: Merge pull request #56948 from github/repo-sync (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added a reusable note (`{% data reusables.pages.actions-is-preferred %}`) to 7 Jekyll documentation files, recommending GitHub Actions over the `github-pages` gem for deployment.\n- Removed outdated build process details from `gated-features/pages.md`.\n- Created new reusable file `actions-is-preferred.md` containing the note.\n\n### Title\nRecommend GitHub Actions for Pages deployment in Jekyll docs"
+}
