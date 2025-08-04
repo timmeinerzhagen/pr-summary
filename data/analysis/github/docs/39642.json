@@ -1,0 +1,27 @@
+{
+  "number": 39642,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-04T12:38:08Z",
+  "url": "https://github.com/github/docs/pull/39642",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-04 14:08:59",
+  "details": [
+    "Updated billing documentation to clarify default budget behavior, removing outdated $0 references and adding notes for migrated accounts.",
+    "Clarified `check_run` and `check_suite` event triggers to prevent recursive workflows by excluding Actions-associated head SHAs.",
+    "Added new article: \"Remediating a leaked secret\" with detailed incident response steps.",
+    "Supported new secret patterns (Elastic, Langchain, Openweather) in secret scanning.",
+    "Revised Codespaces/Packages billing sections to reference updated budget guidance."
+  ],
+  "summary": "- Updated billing documentation to clarify default budget behavior, removing outdated $0 references and adding notes for migrated accounts.\n- Clarified `check_run` and `check_suite` event triggers to prevent recursive workflows by excluding Actions-associated head SHAs.\n- Added new article: \"Remediating a leaked secret\" with detailed incident response steps.\n- Supported new secret patterns (Elastic, Langchain, Openweather) in secret scanning.\n- Revised Codespaces/Packages billing sections to reference updated budget guidance.",
+  "generated_title": "Update billing docs, clarify Actions events, and add secret remediation guide",
+  "commits": [
+    "**98134e4**: Sync secret scanning data (#56957) (by docs-bot)",
+    "**54648d7**: Clarify edge-case behavior for check runs and suites (#56958) (by Kensuke Nagae)",
+    "**769eaed**: Update information on default budgets with more accurate and maintainable information (#56936) (by Felicity Chapman)",
+    "**26ab383**: New article: Remediating a leaked secret (#56500) (by Anne-Marie)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated billing documentation to clarify default budget behavior, removing outdated $0 references and adding notes for migrated accounts.\n- Clarified `check_run` and `check_suite` event triggers to prevent recursive workflows by excluding Actions-associated head SHAs.\n- Added new article: \"Remediating a leaked secret\" with detailed incident response steps.\n- Supported new secret patterns (Elastic, Langchain, Openweather) in secret scanning.\n- Revised Codespaces/Packages billing sections to reference updated budget guidance.\n\n### Title\nUpdate billing docs, clarify Actions events, and add secret remediation guide"
+}
