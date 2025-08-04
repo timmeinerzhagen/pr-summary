@@ -1,0 +1,23 @@
+{
+  "number": 39641,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-04T09:38:33Z",
+  "url": "https://github.com/github/docs/pull/39641",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-04 10:08:07",
+  "details": [
+    "Removed the word \"additional\" from Copilot premium request report description for clarity.",
+    "Deleted outdated caveats stating that metered billing reports only show costs beyond the allowance (3 instances).",
+    "Removed redundant contrast between premium request reports and metered billing reports.",
+    "Eliminated obsolete tip about report content differences."
+  ],
+  "summary": "- Removed the word \"additional\" from Copilot premium request report description for clarity.\n- Deleted outdated caveats stating that metered billing reports only show costs beyond the allowance (3 instances).\n- Removed redundant contrast between premium request reports and metered billing reports.\n- Eliminated obsolete tip about report content differences.",
+  "generated_title": "Remove outdated distinctions in Copilot premium request reporting docs",
+  "commits": [
+    "**3ffed79**: Remove outdated caveat about usage reports for Copilot Premium Requests (#56959) (by Felicity Chapman)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removed the word \"additional\" from Copilot premium request report description for clarity.\n- Deleted outdated caveats stating that metered billing reports only show costs beyond the allowance (3 instances).\n- Removed redundant contrast between premium request reports and metered billing reports.\n- Eliminated obsolete tip about report content differences.\n\n### Title\nRemove outdated distinctions in Copilot premium request reporting docs"
+}
