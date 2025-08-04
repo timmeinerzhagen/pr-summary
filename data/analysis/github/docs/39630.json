@@ -1,0 +1,23 @@
+{
+  "number": 39630,
+  "title": "Change awkward phrasing in `automatically-merging-a-pull-request.md`",
+  "author": "InSyncWithFoo",
+  "state": "closed",
+  "created": "2025-08-03T12:31:06Z",
+  "url": "https://github.com/github/docs/pull/39630",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-04 20:07:14",
+  "details": [
+    "Updated phrasing in auto-merge documentation for clarity",
+    "Changed \"prevents you from waiting\" to \"helps you avoid waiting\"",
+    "Minor wording improvement in `automatically-merging-a-pull-request.md`"
+  ],
+  "summary": "- Updated phrasing in auto-merge documentation for clarity\n- Changed \"prevents you from waiting\" to \"helps you avoid waiting\"\n- Minor wording improvement in `automatically-merging-a-pull-request.md`",
+  "generated_title": "Improve auto-merge documentation phrasing",
+  "commits": [
+    "**47a9c05**: Change awkward phrasing in `automatically-merging-a-pull-request.md` (by InSync)",
+    "**34d1c0e**: Merge branch 'main' into main (by Sharra-writes)"
+  ],
+  "original_description": "Full diff:\r\n\r\n```diff\r\n-Auto-merge prevents you from waiting around for requirements to be met\r\n+Auto-merge helps you avoid waiting around for requirements to be met\r\n```",
+  "raw_analysis": "### Summary\n- Updated phrasing in auto-merge documentation for clarity  \n- Changed \"prevents you from waiting\" to \"helps you avoid waiting\"  \n- Minor wording improvement in `automatically-merging-a-pull-request.md`  \n\n### Title  \nImprove auto-merge documentation phrasing"
+}
