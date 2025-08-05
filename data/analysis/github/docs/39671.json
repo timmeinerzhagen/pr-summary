@@ -1,0 +1,25 @@
+{
+  "number": 39671,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-05T21:34:26Z",
+  "url": "https://github.com/github/docs/pull/39671",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-05 22:06:11",
+  "details": [
+    "Changed Copilot coding agent interaction: now only responds to explicit `@copilot` mentions in PR comments",
+    "Updated documentation to instruct users to use `@copilot` for change requests",
+    "Removed previous behavior where Copilot automatically considered all comments",
+    "Added clarification that Copilot requires write access and explicit mentions to trigger actions",
+    "Streamlined troubleshooting steps to focus on `@copilot` requirement"
+  ],
+  "summary": "- Changed Copilot coding agent interaction: now only responds to explicit `@copilot` mentions in PR comments\n- Updated documentation to instruct users to use `@copilot` for change requests\n- Removed previous behavior where Copilot automatically considered all comments\n- Added clarification that Copilot requires write access and explicit mentions to trigger actions\n- Streamlined troubleshooting steps to focus on `@copilot` requirement",
+  "generated_title": "Require @copilot mention for coding agent to respond in PRs",
+  "commits": [
+    "**f3f5726**: [2025-08-05] GitHub Copilot coding agent now only responds to `@copilot` mentions in PR comments (#56766) (by Tim Rogers)",
+    "**498ea90**: Updating the Copilot metrics docs  (#56997) (by Shin)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Changed Copilot coding agent interaction: now only responds to explicit `@copilot` mentions in PR comments\n- Updated documentation to instruct users to use `@copilot` for change requests\n- Removed previous behavior where Copilot automatically considered all comments\n- Added clarification that Copilot requires write access and explicit mentions to trigger actions\n- Streamlined troubleshooting steps to focus on `@copilot` requirement\n\n### Title\nRequire @copilot mention for coding agent to respond in PRs"
+}
