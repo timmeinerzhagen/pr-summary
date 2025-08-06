@@ -1,0 +1,22 @@
+{
+  "number": 39679,
+  "title": "tweak wording in `actions-is-preferred.md` to be more generically applicable",
+  "author": "0xdevalias",
+  "state": "closed",
+  "created": "2025-08-05T23:16:43Z",
+  "url": "https://github.com/github/docs/pull/39679",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-06 18:08:34",
+  "details": [
+    "Replaced \"this `github-pages` gem\" with \"the `github-pages` gem\" in a documentation note",
+    "Made language more generically applicable without changing technical meaning",
+    "Maintained the recommendation for GitHub Actions as the preferred deployment method"
+  ],
+  "summary": "- Replaced \"this `github-pages` gem\" with \"the `github-pages` gem\" in a documentation note\n- Made language more generically applicable without changing technical meaning\n- Maintained the recommendation for GitHub Actions as the preferred deployment method",
+  "generated_title": "Update docs: Generic reference to github-pages gem in note",
+  "commits": [
+    "**430b048**: tweak wording in actions-is-preferred.md to be more generically applicable (by Glenn 'devalias' Grant)"
+  ],
+  "original_description": "### Why:\r\n\r\n> I was just clicking through some of the pages this reusable is included on, and I think in most places it's used the wording would probably be better as:\r\n> \r\n> > While **the** `github-pages` gem remains...\r\n> \r\n> Instead of:\r\n> \r\n> > While **this** `github-pages` gem remains...\r\n> \r\n> As many places it's used are seemingly talking about Jekyll more generically; so 'this' doesn't make as much sense as 'the' RE: the `pages-gem` IMO.\r\n> \r\n> _Originally posted by @0xdevalias in https://github.com/github/docs/pull/39148#discussion_r2252923151_\r\n\r\n> Nooooo, I changed that thinking it would read better, but I was wrong. 😢 If you feel like opening a PR to fix it that would probably be fastest, because it takes a while for small PRs to get reviewed internally, but I can also open it if you don't feel like doing it.\r\n> \r\n> _Originally posted by @Sharra-writes in https://github.com/github/docs/pull/39148#discussion_r2255275599_\r\n\r\nFollowup to: https://github.com/github/docs/pull/39148\r\nCloses: https://github.com/github/docs/issues/36740\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nChanges the word 'this' to 'the' in the `actions-is-preferred.md` reusable that @Sharra-writes created to better / more generically fit the vibe/flow where the reusable it being used.\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Replaced \"this `github-pages` gem\" with \"the `github-pages` gem\" in a documentation note  \n- Made language more generically applicable without changing technical meaning  \n- Maintained the recommendation for GitHub Actions as the preferred deployment method  \n\n### Title  \nUpdate docs: Generic reference to github-pages gem in note"
+}
