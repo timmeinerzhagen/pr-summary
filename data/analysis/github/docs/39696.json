@@ -1,0 +1,32 @@
+{
+  "number": 39696,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-06T18:37:20Z",
+  "url": "https://github.com/github/docs/pull/39696",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-06 20:07:12",
+  "details": [
+    "Updated base Docker image to newer version",
+    "Removed public preview labels and organization opt-in requirements for Copilot custom instructions, marking GA",
+    "Added Copilot coding agent instructions generation via prompt",
+    "Extended GHES 3.14 deprecation date to 2026-01-27",
+    "Fixed GitHub CLI nested object parameter generation using JSON for complex arrays",
+    "Removed deprecated secret scanning patterns (Airtable, Cohere, Mistral AI, Openweather API keys)",
+    "Updated pre-release license terms to clarify non-production use restrictions"
+  ],
+  "summary": "- Updated base Docker image to newer version\n- Removed public preview labels and organization opt-in requirements for Copilot custom instructions, marking GA\n- Added Copilot coding agent instructions generation via prompt\n- Extended GHES 3.14 deprecation date to 2026-01-27\n- Fixed GitHub CLI nested object parameter generation using JSON for complex arrays\n- Removed deprecated secret scanning patterns (Airtable, Cohere, Mistral AI, Openweather API keys)\n- Updated pre-release license terms to clarify non-production use restrictions",
+  "generated_title": "Copilot custom instructions GA, GHES deprecation update, and CLI codegen fix",
+  "commits": [
+    "**81e1a7a**: Bump github/gh-base-image/gh-base-noble from 20250730-174526-g48ad667e7 to 20250805-204228-g50c20871f in the baseimages group (#57001) (by dependabot[bot])",
+    "**500cc2e**: Tweak Pre-Release terms to clarify meaning of non-production use (#56973) (by T. Greg Doucette)",
+    "**3b83de1**: Fix GitHub CLI nested object parameter generation (#56235) (by Kevin Heis)",
+    "**bb4839c**: Remove deprecation banner for 3.14 versioned documentation pages (#56999) (by Pallavi)",
+    "**1ad37db**: Sync secret scanning data (#57009) (by docs-bot)",
+    "**0a62061**: [2025-08-05] Automatically generate custom instructions for GitHub Copilot coding agent (#56961) (by Tim Rogers)",
+    "**b753dff**: Copilot custom instructions GA (#57003) (by hubwriter)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated base Docker image to newer version\n- Removed public preview labels and organization opt-in requirements for Copilot custom instructions, marking GA\n- Added Copilot coding agent instructions generation via prompt\n- Extended GHES 3.14 deprecation date to 2026-01-27\n- Fixed GitHub CLI nested object parameter generation using JSON for complex arrays\n- Removed deprecated secret scanning patterns (Airtable, Cohere, Mistral AI, Openweather API keys)\n- Updated pre-release license terms to clarify non-production use restrictions\n\n### Title\nCopilot custom instructions GA, GHES deprecation update, and CLI codegen fix"
+}
