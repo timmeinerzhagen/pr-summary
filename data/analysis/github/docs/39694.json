@@ -1,0 +1,22 @@
+{
+  "number": 39694,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-06T15:36:32Z",
+  "url": "https://github.com/github/docs/pull/39694",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-06 16:08:01",
+  "details": [
+    "Added a step to set read permissions (`chmod 644`) for the migration archive file (`MIGRATION-GUID.tar.gz`)",
+    "Ensures the migration tool can access the archive during import",
+    "Inserted after SSH step in the migration documentation"
+  ],
+  "summary": "- Added a step to set read permissions (`chmod 644`) for the migration archive file (`MIGRATION-GUID.tar.gz`)\n- Ensures the migration tool can access the archive during import\n- Inserted after SSH step in the migration documentation",
+  "generated_title": "Add read permission step for migration archive in docs",
+  "commits": [
+    "**1b05bcc**: Add read permission instructions for migration archive (#56996) (by SKi)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added a step to set read permissions (`chmod 644`) for the migration archive file (`MIGRATION-GUID.tar.gz`)\n- Ensures the migration tool can access the archive during import\n- Inserted after SSH step in the migration documentation\n\n### Title\nAdd read permission step for migration archive in docs"
+}
