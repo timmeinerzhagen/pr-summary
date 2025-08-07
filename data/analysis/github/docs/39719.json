@@ -1,0 +1,31 @@
+{
+  "number": 39719,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-07T18:39:42Z",
+  "url": "https://github.com/github/docs/pull/39719",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-07 20:08:20",
+  "details": [
+    "Added GPT-5 model support across Copilot documentation (chat, comparison, hosting, and client compatibility)",
+    "Replaced static model multipliers table with reusable include for consistency",
+    "Fixed Visual Studio proxy authentication instructions formatting",
+    "Enhanced custom instructions documentation with repository-wide and path-specific examples",
+    "Added link to custom security configuration article",
+    "Updated pre-release license terms to include \"private preview\"",
+    "Added 7 new secret scanning patterns and updated validity checks for existing patterns",
+    "Improved frontmatter validation to ignore liquid variables in character counts"
+  ],
+  "summary": "- Added GPT-5 model support across Copilot documentation (chat, comparison, hosting, and client compatibility)\n- Replaced static model multipliers table with reusable include for consistency\n- Fixed Visual Studio proxy authentication instructions formatting\n- Enhanced custom instructions documentation with repository-wide and path-specific examples\n- Added link to custom security configuration article\n- Updated pre-release license terms to include \"private preview\"\n- Added 7 new secret scanning patterns and updated validity checks for existing patterns\n- Improved frontmatter validation to ignore liquid variables in character counts",
+  "generated_title": "Add GPT-5 support, enhance Copilot docs, fix proxy instructions, and update secret scanning patterns",
+  "commits": [
+    "**7d61290**: Fix frontmatter validation to handle liquid variables (#57011) (by Kevin Heis)",
+    "**2d0274d**: Tented (#57008) (by Sunbrye Ly)",
+    "**16236c3**: Added content about .instructions (#56852) (by Christopher Harrison)",
+    "**838532a**: Bug Fix - add link to help with a 404 being displayed when a link is clicked on (GHES) (#57004) (by mc)",
+    "**e0a2c31**: Sync secret scanning data (#57027) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added GPT-5 model support across Copilot documentation (chat, comparison, hosting, and client compatibility)\n- Replaced static model multipliers table with reusable include for consistency\n- Fixed Visual Studio proxy authentication instructions formatting\n- Enhanced custom instructions documentation with repository-wide and path-specific examples\n- Added link to custom security configuration article\n- Updated pre-release license terms to include \"private preview\"\n- Added 7 new secret scanning patterns and updated validity checks for existing patterns\n- Improved frontmatter validation to ignore liquid variables in character counts\n\n### Title\nAdd GPT-5 support, enhance Copilot docs, fix proxy instructions, and update secret scanning patterns"
+}
