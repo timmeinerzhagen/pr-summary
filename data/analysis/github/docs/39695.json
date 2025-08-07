@@ -1,0 +1,24 @@
+{
+  "number": 39695,
+  "title": "Update using-yaml-frontmatter.md",
+  "author": "vit100-trader",
+  "state": "closed",
+  "created": "2025-08-06T16:44:30Z",
+  "url": "https://github.com/github/docs/pull/39695",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-07 18:08:23",
+  "details": [
+    "Changed the `title` frontmatter property from optional to **required** in documentation guidelines",
+    "Updated the description to remove note about fallback behavior when omitted",
+    "No changes to `shortTitle` or other frontmatter properties"
+  ],
+  "summary": "- Changed the `title` frontmatter property from optional to **required** in documentation guidelines\n- Updated the description to remove note about fallback behavior when omitted\n- No changes to `shortTitle` or other frontmatter properties",
+  "generated_title": "Require `title` in YAML frontmatter for docs",
+  "commits": [
+    "**593a7e9**: Update using-yaml-frontmatter.md (by vit100-trader)",
+    "**4fdc43b**: Update content/contributing/writing-for-github-docs/using-yaml-frontmatter.md (by vit100-trader)",
+    "**67aadbe**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "### Why:\r\n\r\n**title** tag is required according to this code:\r\n\r\nhttps://github.com/github/docs/blob/f584b8f16867a48d2268deb733acce68484299d4/src/frame/lib/frontmatter.js#L40\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\n* The `title` field in YAML frontmatter is now marked as **required** instead of optional, making it clear that every page must specify a human-friendly title.",
+  "raw_analysis": "### Summary\n- Changed the `title` frontmatter property from optional to **required** in documentation guidelines  \n- Updated the description to remove note about fallback behavior when omitted  \n- No changes to `shortTitle` or other frontmatter properties  \n\n### Title  \nRequire `title` in YAML frontmatter for docs"
+}
