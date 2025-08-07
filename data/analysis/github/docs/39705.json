@@ -1,0 +1,26 @@
+{
+  "number": 39705,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-07T03:57:20Z",
+  "url": "https://github.com/github/docs/pull/39705",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-07 04:22:36",
+  "details": [
+    "Added Rust built-in queries documentation and query table for CodeQL analysis.",
+    "Updated CodeQL CLI manual pages:",
+    "Removed redundant markdown links in command references.",
+    "Added new `overlay` cleanup mode for database operations.",
+    "Minor text corrections and clarifications."
+  ],
+  "summary": "- Added Rust built-in queries documentation and query table for CodeQL analysis.\n- Updated CodeQL CLI manual pages:\n- Removed redundant markdown links in command references.\n- Added new `overlay` cleanup mode for database operations.\n- Minor text corrections and clarifications.",
+  "generated_title": "Add Rust CodeQL queries and update CLI documentation",
+  "commits": [
+    "**ed12446**: Merge pull request #57016 from github/repo-sync (by docs-bot)",
+    "**80cfae3**: Update CodeQL CLI manual (#56976) (by docs-bot)",
+    "**5f0006d**: Update CodeQL query tables (#56978) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added Rust built-in queries documentation and query table for CodeQL analysis.\n- Updated CodeQL CLI manual pages:\n  - Removed redundant markdown links in command references.\n  - Added new `overlay` cleanup mode for database operations.\n  - Minor text corrections and clarifications.\n\n### Title\nAdd Rust CodeQL queries and update CLI documentation"
+}
