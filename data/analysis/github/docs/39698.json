@@ -1,0 +1,22 @@
+{
+  "number": 39698,
+  "title": "Fix template variables in pass-job-outputs.md",
+  "author": "ab",
+  "state": "closed",
+  "created": "2025-08-06T21:06:00Z",
+  "url": "https://github.com/github/docs/pull/39698",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-07 16:07:45",
+  "details": [
+    "Fixed GitHub Actions template syntax escaping in documentation examples.",
+    "Wrapped `${{ ... }}` expressions with `{% raw %}` tags to prevent unintended Liquid templating during Jekyll processing.",
+    "Applied changes to both job output definitions and environment variable usage examples."
+  ],
+  "summary": "- Fixed GitHub Actions template syntax escaping in documentation examples.\n- Wrapped `${{ ... }}` expressions with `{% raw %}` tags to prevent unintended Liquid templating during Jekyll processing.\n- Applied changes to both job output definitions and environment variable usage examples.",
+  "generated_title": "Escape Liquid syntax in Actions workflow examples",
+  "commits": [
+    "**39a036b**: Fix template variables in pass-job-outputs.md (by Andy Brody)"
+  ],
+  "original_description": "These were rendered as just `$` in the output HTML.\r\n\r\nSee https://github.com/github/docs/commit/ad6f8893d3f87b5ff50fb0585fd6947b739f217a#diff-60d2ad0fd3412116cc786ec81cf58060a950d1605eff32c64cb5bc2324e42b17\r\n\r\n<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\nCloses: https://github.com/github/docs/issues/39697\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nAdd `{% raw %}` blocks to wrap variables to fix rendering.\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [ ] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Fixed GitHub Actions template syntax escaping in documentation examples.\n- Wrapped `${{ ... }}` expressions with `{% raw %}` tags to prevent unintended Liquid templating during Jekyll processing.\n- Applied changes to both job output definitions and environment variable usage examples.\n\n### Title\nEscape Liquid syntax in Actions workflow examples"
+}

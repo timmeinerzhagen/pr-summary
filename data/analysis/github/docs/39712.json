@@ -1,0 +1,22 @@
+{
+  "number": 39712,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-07T15:36:39Z",
+  "url": "https://github.com/github/docs/pull/39712",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-07 16:07:34",
+  "details": [
+    "Removed \"[Public preview]\" labels from Linux and Windows arm64 runners in documentation table",
+    "Deleted note about arm64 runners being in public preview",
+    "Indicates these runners are now generally available"
+  ],
+  "summary": "- Removed \"[Public preview]\" labels from Linux and Windows arm64 runners in documentation table\n- Deleted note about arm64 runners being in public preview\n- Indicates these runners are now generally available",
+  "generated_title": "Remove \"Public preview\" status for arm64 Linux/Windows runners",
+  "commits": [
+    "**c82c0a1**: Change runner labels to remove 'Public preview' (#56952) (by Larissa Fortuna)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removed \"[Public preview]\" labels from Linux and Windows arm64 runners in documentation table  \n- Deleted note about arm64 runners being in public preview  \n- Indicates these runners are now generally available  \n\n### Title  \nRemove \"Public preview\" status for arm64 Linux/Windows runners"
+}
