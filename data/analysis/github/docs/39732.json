@@ -1,0 +1,21 @@
+{
+  "number": 39732,
+  "title": "docs: Remove redundant \"apps\"",
+  "author": "kwentine",
+  "state": "closed",
+  "created": "2025-08-08T16:06:05Z",
+  "url": "https://github.com/github/docs/pull/39732",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-08 18:07:23",
+  "details": [
+    "Fixed a minor typo in OAuth app documentation by removing a redundant \"apps\" after \"privileged {% data variables.product.prodname_oauth_apps %}\"",
+    "Maintained all surrounding content and link references without alterations"
+  ],
+  "summary": "- Fixed a minor typo in OAuth app documentation by removing a redundant \"apps\" after \"privileged {% data variables.product.prodname_oauth_apps %}\"\n- Maintained all surrounding content and link references without alterations",
+  "generated_title": "Fix redundant wording in OAuth app restrictions documentation",
+  "commits": [
+    "**6338131**: Update about-oauth-app-access-restrictions.md (by Quentin Ågren)"
+  ],
+  "original_description": "Remove redundant \"apps\" word.",
+  "raw_analysis": "### Summary\n- Fixed a minor typo in OAuth app documentation by removing a redundant \"apps\" after \"privileged {% data variables.product.prodname_oauth_apps %}\"\n- Maintained all surrounding content and link references without alterations\n\n### Title\nFix redundant wording in OAuth app restrictions documentation"
+}
