@@ -1,0 +1,22 @@
+{
+  "number": 39742,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-08T21:33:20Z",
+  "url": "https://github.com/github/docs/pull/39742",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-08 22:05:51",
+  "details": [
+    "Removed redundant word \"apps\" in documentation about OAuth access restrictions",
+    "Clarified phrasing regarding privileged OAuth app authorization",
+    "Maintained all links and surrounding content unchanged"
+  ],
+  "summary": "- Removed redundant word \"apps\" in documentation about OAuth access restrictions\n- Clarified phrasing regarding privileged OAuth app authorization\n- Maintained all links and surrounding content unchanged",
+  "generated_title": "Fix redundant wording in OAuth app restrictions documentation",
+  "commits": [
+    "**37f6458**: Merge pull request #57054 from github/repo-sync (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removed redundant word \"apps\" in documentation about OAuth access restrictions  \n- Clarified phrasing regarding privileged OAuth app authorization  \n- Maintained all links and surrounding content unchanged  \n\n### Title  \nFix redundant wording in OAuth app restrictions documentation"
+}
