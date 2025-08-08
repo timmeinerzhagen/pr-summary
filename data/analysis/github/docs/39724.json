@@ -1,0 +1,22 @@
+{
+  "number": 39724,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-08T03:58:10Z",
+  "url": "https://github.com/github/docs/pull/39724",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-08 04:22:19",
+  "details": [
+    "Updated deprecation date for GitHub Enterprise Server (GHES) version 3.14",
+    "Changed from `2026-01-27` to `2025-08-27` in release metadata",
+    "No other versions or fields modified"
+  ],
+  "summary": "- Updated deprecation date for GitHub Enterprise Server (GHES) version 3.14\n- Changed from `2026-01-27` to `2025-08-27` in release metadata\n- No other versions or fields modified",
+  "generated_title": "Update GHES 3.14 deprecation date to 2025-08-27",
+  "commits": [
+    "**70af4f7**: Change deprecation date for version 3.14 (#57012) (by Pallavi)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated deprecation date for GitHub Enterprise Server (GHES) version 3.14\n- Changed from `2026-01-27` to `2025-08-27` in release metadata\n- No other versions or fields modified\n\n### Title  \nUpdate GHES 3.14 deprecation date to 2025-08-27"
+}
