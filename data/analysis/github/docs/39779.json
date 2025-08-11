@@ -1,0 +1,28 @@
+{
+  "number": 39779,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-11T15:36:14Z",
+  "url": "https://github.com/github/docs/pull/39779",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-11 16:07:40",
+  "details": [
+    "Added Eclipse IDE support for Copilot custom instructions in documentation.",
+    "Created \"extracting information\" Copilot cookbook article.",
+    "Added known issues to GHES release notes (autolink references missing, draft PR plan upgrade prompt).",
+    "Warned data residency users about SSH over HTTPS unavailability.",
+    "Replaced `gray-matter` with `@gr2m/gray-matter` for frontmatter quote control."
+  ],
+  "summary": "- Added Eclipse IDE support for Copilot custom instructions in documentation.\n- Created \"extracting information\" Copilot cookbook article.\n- Added known issues to GHES release notes (autolink references missing, draft PR plan upgrade prompt).\n- Warned data residency users about SSH over HTTPS unavailability.\n- Replaced `gray-matter` with `@gr2m/gray-matter` for frontmatter quote control.",
+  "generated_title": "Add Eclipse Copilot support, release note issues, SSH warning, and update gray-matter",
+  "commits": [
+    "**7528c41**: Add known issues to the release notes for the latest releases of 3.14 , 3.15, 3.16 and 3.17 (#57042) (by Junko Suzuki)",
+    "**6b15caf**: SSH over HTTPS port is not available for Cloud with DR as well (#57019) (by Matthias Wiesen)",
+    "**c1577ff**: Replace gray-matter with @gr2m/gray-matter to control quotes in frontmatter (#57049) (by Kevin Heis)",
+    "**70a590b**: [3rd-party IDE] Add Eclipse IDE to Copilot custom instructions documentation (#57007) (by Sophie)",
+    "**f8e1c52**: Creates \"extracting information\" cookbook article (#57005) (by Jules)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added Eclipse IDE support for Copilot custom instructions in documentation.\n- Created \"extracting information\" Copilot cookbook article.\n- Added known issues to GHES release notes (autolink references missing, draft PR plan upgrade prompt).\n- Warned data residency users about SSH over HTTPS unavailability.\n- Replaced `gray-matter` with `@gr2m/gray-matter` for frontmatter quote control.\n\n### Title\nAdd Eclipse Copilot support, release note issues, SSH warning, and update gray-matter"
+}
