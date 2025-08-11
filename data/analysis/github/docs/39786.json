@@ -1,0 +1,23 @@
+{
+  "number": 39786,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-11T21:37:16Z",
+  "url": "https://github.com/github/docs/pull/39786",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-11 22:05:56",
+  "details": [
+    "Restructured organization profile intro into bullet points for clarity, removed \"Further reading\" section.",
+    "Added short title to personal profile, rephrased intro, consolidated visitor info into bullet list, added pronouns/status mentions.",
+    "Replaced \"Further reading\" with \"Next steps\" in personal profile.",
+    "Reordered index children to list personal profile before organization profile."
+  ],
+  "summary": "- Restructured organization profile intro into bullet points for clarity, removed \"Further reading\" section.\n- Added short title to personal profile, rephrased intro, consolidated visitor info into bullet list, added pronouns/status mentions.\n- Replaced \"Further reading\" with \"Next steps\" in personal profile.\n- Reordered index children to list personal profile before organization profile.",
+  "generated_title": "Restructure and clarify profile documentation",
+  "commits": [
+    "**638aae4**: EDI-ify \"About your organization's profile\" and \"About your profile\" (#57066) (by Sam Browning)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Restructured organization profile intro into bullet points for clarity, removed \"Further reading\" section.\n- Added short title to personal profile, rephrased intro, consolidated visitor info into bullet list, added pronouns/status mentions.\n- Replaced \"Further reading\" with \"Next steps\" in personal profile.\n- Reordered index children to list personal profile before organization profile.\n\n### Title\nRestructure and clarify profile documentation"
+}
