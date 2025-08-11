@@ -1,0 +1,32 @@
+{
+  "number": 39780,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-11T18:37:13Z",
+  "url": "https://github.com/github/docs/pull/39780",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-11 20:07:01",
+  "details": [
+    "Restructured enterprise billing documentation: Added new files for Azure DevOps licenses and GHES license files, updated existing content to clarify licensing models (usage-based vs volume), and reorganized concepts.",
+    "Updated license synchronization documentation: Clarified automatic and manual sync processes, added setup steps, and linked to new license file concepts.",
+    "Updated GraphQL schema: Added upcoming breaking changes for `NotificationThread` fields by 2026-01-01.",
+    "Enhanced search analytics: Added logic to detect external API requests and enforce `client_name` parameter for analytics.",
+    "Synced secret scanning data: Updated validity checks for Sourcegraph tokens.",
+    "Fixed OpenAPI schema descriptions: Corrected ordering of `descriptionHTML` and `statusCodes` fields."
+  ],
+  "summary": "- Restructured enterprise billing documentation: Added new files for Azure DevOps licenses and GHES license files, updated existing content to clarify licensing models (usage-based vs volume), and reorganized concepts.\n- Updated license synchronization documentation: Clarified automatic and manual sync processes, added setup steps, and linked to new license file concepts.\n- Updated GraphQL schema: Added upcoming breaking changes for `NotificationThread` fields by 2026-01-01.\n- Enhanced search analytics: Added logic to detect external API requests and enforce `client_name` parameter for analytics.\n- Synced secret scanning data: Updated validity checks for Sourcegraph tokens.\n- Fixed OpenAPI schema descriptions: Corrected ordering of `descriptionHTML` and `statusCodes` fields.",
+  "generated_title": "Restructure enterprise billing docs, update license sync, and enhance search analytics",
+  "commits": [
+    "**d0d05be**: [EDI billing] Restructure enterprise billing conceptual category (#57061) (by Isaac Brown)",
+    "**f822d06**: [EDI billing] Update \"Syncing license usage\" (#57065) (by Isaac Brown)",
+    "**8e524ba**: GraphQL schema update (#57071) (by docs-bot)",
+    "**da4caab**: try to detect external sources without using host (#57033) (by Evan Bonsignori)",
+    "**135a842**: allow 'client_name' query parameter (#57073) (by Evan Bonsignori)",
+    "**891df16**: Sync secret scanning data (#57069) (by docs-bot)",
+    "**9f6cdff**: Update OpenAPI Description (#57072) (by docs-bot)",
+    "**976008d**: Delete orphaned files (2025-08-11-16-29) (#57070) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Restructured enterprise billing documentation: Added new files for Azure DevOps licenses and GHES license files, updated existing content to clarify licensing models (usage-based vs volume), and reorganized concepts.\n- Updated license synchronization documentation: Clarified automatic and manual sync processes, added setup steps, and linked to new license file concepts.\n- Updated GraphQL schema: Added upcoming breaking changes for `NotificationThread` fields by 2026-01-01.\n- Enhanced search analytics: Added logic to detect external API requests and enforce `client_name` parameter for analytics.\n- Synced secret scanning data: Updated validity checks for Sourcegraph tokens.\n- Fixed OpenAPI schema descriptions: Corrected ordering of `descriptionHTML` and `statusCodes` fields.\n\n### Title\nRestructure enterprise billing docs, update license sync, and enhance search analytics"
+}
