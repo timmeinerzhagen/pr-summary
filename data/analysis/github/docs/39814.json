@@ -1,0 +1,35 @@
+{
+  "number": 39814,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-12T18:37:22Z",
+  "url": "https://github.com/github/docs/pull/39814",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-12 20:07:13",
+  "details": [
+    "Added GitHub Actions workflow to prompt for changelog updates when PRs are merged.",
+    "Updated billing documentation: restructured content, added license management guides, and clarified Visual Studio subscription behavior.",
+    "Added Dependabot support for vcpkg package manager.",
+    "Clarified searchable repository criteria (excludes archived repos).",
+    "Updated security-events permission description in Actions docs.",
+    "Synced secret scanning data and updated changelog entries."
+  ],
+  "summary": "- Added GitHub Actions workflow to prompt for changelog updates when PRs are merged.\n- Updated billing documentation: restructured content, added license management guides, and clarified Visual Studio subscription behavior.\n- Added Dependabot support for vcpkg package manager.\n- Clarified searchable repository criteria (excludes archived repos).\n- Updated security-events permission description in Actions docs.\n- Synced secret scanning data and updated changelog entries.",
+  "generated_title": "Add changelog prompt workflow, update billing docs, and support vcpkg in Dependabot",
+  "commits": [
+    "**54459f5**: Add an Actions workflow to prompt folks to update the docs changelog (#57067) (by hubwriter)",
+    "**2525e1b**: Clarify searchable repositories criteria (#57081) (by MikaelaMcGrath)",
+    "**7d9012b**: docs: update security-events permission description in Actions documentation (#57047) (by Josh Johanning)",
+    "**b107a85**: Clarify unaffiliated EMU matching behavior (#57074) (by Kevin Glowacz)",
+    "**b59f2a7**: Add Dependabot ecosystem support for vcpkg (#56946) (by Jamie Magee)",
+    "**964b95d**: [EDI billing] Updates to Reference section (#57068) (by Isaac Brown)",
+    "**e8b3e83**: [EDI billing] Move some info around in the `manage-plan-and-licenses` category (#57046) (by Isaac Brown)",
+    "**3cf03ff**: Sync secret scanning data (#57090) (by docs-bot)",
+    "**15adae5**: Update docs changelog (for PR #56907) (#57083) (by docs-bot)",
+    "**f271795**: [EDI billing] Create a reference article from \"License consumption by organization members\" (#57044) (by Isaac Brown)",
+    "**470770b**: EDI implementation: Billing how-tos, setting up payment, part 2 (#57045) (by Felicity Chapman)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added GitHub Actions workflow to prompt for changelog updates when PRs are merged.\n- Updated billing documentation: restructured content, added license management guides, and clarified Visual Studio subscription behavior.\n- Added Dependabot support for vcpkg package manager.\n- Clarified searchable repository criteria (excludes archived repos).\n- Updated security-events permission description in Actions docs.\n- Synced secret scanning data and updated changelog entries.\n\n### Title\nAdd changelog prompt workflow, update billing docs, and support vcpkg in Dependabot"
+}
