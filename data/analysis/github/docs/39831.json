@@ -1,0 +1,27 @@
+{
+  "number": 39831,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-13T18:36:39Z",
+  "url": "https://github.com/github/docs/pull/39831",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-13 20:06:45",
+  "details": [
+    "Added GPT-5 mini model to Copilot, updating model comparison, hosting, and support documentation.",
+    "Restructured account and profile email documentation, adding concept and reference pages, and splitting troubleshooting content.",
+    "Updated Azure DevOps licensing documentation to include data residency support.",
+    "Moved and updated marketing email preferences article to notifications section.",
+    "Updated changelog with GPT-5 in Copilot announcement."
+  ],
+  "summary": "- Added GPT-5 mini model to Copilot, updating model comparison, hosting, and support documentation.\n- Restructured account and profile email documentation, adding concept and reference pages, and splitting troubleshooting content.\n- Updated Azure DevOps licensing documentation to include data residency support.\n- Moved and updated marketing email preferences article to notifications section.\n- Updated changelog with GPT-5 in Copilot announcement.",
+  "generated_title": "Add GPT-5 mini to Copilot, restructure email docs, and update Azure DevOps licensing",
+  "commits": [
+    "**724ab1e**: Update docs changelog (for PR #57008) (#57092) (by docs-bot)",
+    "**16c64c9**: Update Azure DevOps licenses documentation to account for data residency support (#57082) (by Kathleen)",
+    "**1b716dd**: GPT-5 mini reasoning model docs (non-tented) (#57096) (by Sarita Iyer)",
+    "**c81a72a**: [EDI] Account and profile `Managing email preferences` (#57076) (by Joe Clark)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added GPT-5 mini model to Copilot, updating model comparison, hosting, and support documentation.\n- Restructured account and profile email documentation, adding concept and reference pages, and splitting troubleshooting content.\n- Updated Azure DevOps licensing documentation to include data residency support.\n- Moved and updated marketing email preferences article to notifications section.\n- Updated changelog with GPT-5 in Copilot announcement.\n\n### Title\nAdd GPT-5 mini to Copilot, restructure email docs, and update Azure DevOps licensing"
+}
