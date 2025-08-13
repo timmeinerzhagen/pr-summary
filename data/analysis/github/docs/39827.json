@@ -1,0 +1,26 @@
+{
+  "number": 39827,
+  "title": "Update managing-labels.md",
+  "author": "dlheide",
+  "state": "closed",
+  "created": "2025-08-13T14:08:12Z",
+  "url": "https://github.com/github/docs/pull/39827",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-13 18:08:38",
+  "details": [
+    "Added clarification that label operations (addition, modification, deletion) in one repository do not affect labels in other repositories.",
+    "Updated documentation to explicitly state the repository-scoped nature of label management."
+  ],
+  "summary": "- Added clarification that label operations (addition, modification, deletion) in one repository do not affect labels in other repositories.\n- Updated documentation to explicitly state the repository-scoped nature of label management.",
+  "generated_title": "Clarify repository-specific behavior of label operations",
+  "commits": [
+    "**76ce4f3**: Update managing-labels.md (by dlheide)",
+    "**ca6fb37**: Update content/issues/using-labels-and-milestones-to-track-work/managing-labels.md (by Sharra-writes)",
+    "**1ac6c86**: Update content/issues/using-labels-and-milestones-to-track-work/managing-labels.md (by Sharra-writes)",
+    "**8d3de38**: Update content/issues/using-labels-and-milestones-to-track-work/managing-labels.md (by Sharra-writes)",
+    "**647591a**: Merge branch 'main' into patch-1 (by Sharra-writes)",
+    "**268c74a**: Update content/issues/using-labels-and-milestones-to-track-work/managing-labels.md (by Sharra-writes)"
+  ],
+  "original_description": "Clarifying that labels are unique to a repo.\r\n\r\n<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\n<!-- Paste the issue link or number here -->\r\nCloses: https://github.com/github/docs/compare/main...dlheide:docs:patch-1\r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\nThis page _suggests_ that labels are unique to a repo. Empirical tests seem to support this. Adding text to clarify this.\r\n<!-- Let us know what you are changing. Share anything that could provide the most context.\r\nIf you made changes to the `content` directory, a table will populate in a comment below with links to the review and current production articles. -->\r\n\r\n### Check off the following:\r\n\r\n- [X] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [X] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [X] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Added clarification that label operations (addition, modification, deletion) in one repository do not affect labels in other repositories.\n- Updated documentation to explicitly state the repository-scoped nature of label management.\n\n### Title  \nClarify repository-specific behavior of label operations"
+}
