@@ -1,0 +1,29 @@
+{
+  "number": 39744,
+  "title": "Adding .ghe support ticket creation steps",
+  "author": "adamrr724",
+  "state": "closed",
+  "created": "2025-08-08T21:47:23Z",
+  "url": "https://github.com/github/docs/pull/39744",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-13 00:25:34",
+  "details": [
+    "Fixed minor formatting in the \"About support tickets\" header",
+    "Added detailed sign-in instructions for enterprise users with `.ghe` accounts",
+    "Specified steps for SAML authentication during support ticket creation",
+    "Clarified process for organizations using GitHub Enterprise Data Residency or Managed Users"
+  ],
+  "summary": "- Fixed minor formatting in the \"About support tickets\" header\n- Added detailed sign-in instructions for enterprise users with `.ghe` accounts\n- Specified steps for SAML authentication during support ticket creation\n- Clarified process for organizations using GitHub Enterprise Data Residency or Managed Users",
+  "generated_title": "Update support ticket docs for enterprise sign-in flow",
+  "commits": [
+    "**7614410**: Fix formatting in support ticket documentation (by Adam Ross Russell)",
+    "**923af97**: Update support ticket creation instructions (by Adam Ross Russell)",
+    "**97a9b5a**: Update content/support/contacting-github-support/creating-a-support-ticket.md (by Sharra-writes)",
+    "**a58763b**: Merge branch 'main' into patch-10 (by Sharra-writes)",
+    "**35cb108**: Merge branch 'main' into patch-10 (by Evan Bonsignori)",
+    "**f475ddd**: Merge branch 'main' into patch-10 (by Sharra-writes)",
+    "**0a760a3**: Merge branch 'main' into patch-10 (by Sharra-writes)"
+  ],
+  "original_description": "<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\n<!-- Paste the issue link or number here -->\r\nCloses: https://github.com/github/docs-content/issues/19210\r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\n<!-- Let us know what you are changing. Share anything that could provide the most context.\r\nIf you made changes to the `content` directory, a table will populate in a comment below with links to the review and current production articles. -->\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [ ] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Fixed minor formatting in the \"About support tickets\" header  \n- Added detailed sign-in instructions for enterprise users with `.ghe` accounts  \n- Specified steps for SAML authentication during support ticket creation  \n- Clarified process for organizations using GitHub Enterprise Data Residency or Managed Users  \n\n### Title  \nUpdate support ticket docs for enterprise sign-in flow"
+}

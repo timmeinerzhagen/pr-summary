@@ -1,0 +1,24 @@
+{
+  "number": 39766,
+  "title": "fix the application timeline information",
+  "author": "fykaa",
+  "state": "closed",
+  "created": "2025-08-10T15:05:54Z",
+  "url": "https://github.com/github/docs/pull/39766",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-13 00:25:25",
+  "details": [
+    "Updated the application timeline for the GitHub Student Leader Program",
+    "Changed application opening from \"February and August\" to \"every July\"",
+    "Maintained the 1-month application window"
+  ],
+  "summary": "- Updated the application timeline for the GitHub Student Leader Program\n- Changed application opening from \"February and August\" to \"every July\"\n- Maintained the 1-month application window",
+  "generated_title": "Update GitHub Student Leader Program application period to July",
+  "commits": [
+    "**1522d4c**: fix the application timeline information (by Faeka Ansari)",
+    "**4f28a1d**: Merge branch 'main' into patch-1 (by Sharra-writes)",
+    "**049988d**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\nthe docs has incorrect information about the program application timelines, you can find the accurate info here:\r\nAuthentic source 1: https://education.github.com/campus_experts\r\nAuthentic source 2: https://github.com/campus-experts/.github/blob/master/profile/README.md?plain=1#L19\r\n<!-- Paste the issue link or number here -->\r\nCloses: \r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\n<!-- Let us know what you are changing. Share anything that could provide the most context.\r\nIf you made changes to the `content` directory, a table will populate in a comment below with links to the review and current production articles. -->\r\n\r\n### Check off the following:\r\n\r\n- [x] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [x] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Updated the application timeline for the GitHub Student Leader Program  \n- Changed application opening from \"February and August\" to \"every July\"  \n- Maintained the 1-month application window  \n\n### Title  \nUpdate GitHub Student Leader Program application period to July"
+}
