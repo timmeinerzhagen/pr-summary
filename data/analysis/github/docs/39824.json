@@ -1,0 +1,31 @@
+{
+  "number": 39824,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-13T09:36:26Z",
+  "url": "https://github.com/github/docs/pull/39824",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-13 10:06:57",
+  "details": [
+    "Updated Copilot documentation for Eclipse IDE in changelog.",
+    "Clarified SCIM setup user license consumption: `scim-admin` frees license after enabling SCIM.",
+    "Restructured client account management docs (enterprise/organization setup) with clearer prerequisites and steps.",
+    "Merged renewal processes into `manage-client-org.md` and `manage-payment-info.md`.",
+    "Added note about 50-field limit in projects.",
+    "Added `release-assets.githubusercontent.com` and `api.snapcraft.io` to runner essential communications.",
+    "Updated GHES release dates file formatting."
+  ],
+  "summary": "- Updated Copilot documentation for Eclipse IDE in changelog.\n- Clarified SCIM setup user license consumption: `scim-admin` frees license after enabling SCIM.\n- Restructured client account management docs (enterprise/organization setup) with clearer prerequisites and steps.\n- Merged renewal processes into `manage-client-org.md` and `manage-payment-info.md`.\n- Added note about 50-field limit in projects.\n- Added `release-assets.githubusercontent.com` and `api.snapcraft.io` to runner essential communications.\n- Updated GHES release dates file formatting.",
+  "generated_title": "Revise client billing docs, note project field limit, and update runner domains",
+  "commits": [
+    "**2d9a58b**: Note 50 field project limit (#57095) (by Riley Broughten)",
+    "**04d94dd**: 🤖 src/ghes-releases/lib/enterprise-dates.json update (#57091) (by docs-bot)",
+    "**48fc737**: Adds two functions to \"Accessible domains by function\" (#57025) (by Sophie)",
+    "**0ebf408**: Clarify license consumption scenarios for SCIM setup user (#57043) (by Deepu Issac Martin)",
+    "**0b509b3**: [EDI] Audit and implement: /billing/how-tos/manage-for-client/* (#57052) (by Felicity Chapman)",
+    "**7065595**: Update docs changelog (for PR #57007) (#57084) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated Copilot documentation for Eclipse IDE in changelog.\n- Clarified SCIM setup user license consumption: `scim-admin` frees license after enabling SCIM.\n- Restructured client account management docs (enterprise/organization setup) with clearer prerequisites and steps.\n- Merged renewal processes into `manage-client-org.md` and `manage-payment-info.md`.\n- Added note about 50-field limit in projects.\n- Added `release-assets.githubusercontent.com` and `api.snapcraft.io` to runner essential communications.\n- Updated GHES release dates file formatting.\n\n### Title\nRevise client billing docs, note project field limit, and update runner domains"
+}
