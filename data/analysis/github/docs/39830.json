@@ -1,0 +1,21 @@
+{
+  "number": 39830,
+  "title": "fix: remove duplicated word aka typo",
+  "author": "shaman-apprentice",
+  "state": "closed",
+  "created": "2025-08-13T18:17:50Z",
+  "url": "https://github.com/github/docs/pull/39830",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-13 22:06:30",
+  "details": [
+    "Fixed a typo in documentation by removing a duplicated word (\"and\") in a sentence describing Copilot Spaces functionality.",
+    "No functional code changes; purely a documentation correction."
+  ],
+  "summary": "- Fixed a typo in documentation by removing a duplicated word (\"and\") in a sentence describing Copilot Spaces functionality.\n- No functional code changes; purely a documentation correction.",
+  "generated_title": "Fix typo in Copilot Spaces documentation",
+  "commits": [
+    "**01a1d0f**: fix: remove duplicated word aka typo (by Torsten Severing)"
+  ],
+  "original_description": "### Why:\r\n\r\nFix single  typo / duplicated word for better readability\r\n\r\nCloses: \r\n-\r\nIf required, I can create an Issue for this typo before merging.\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nFix single typo / duplicated word for better readability\r\n\r\n### Check off the following:\r\n\r\nThe checklist is for the official team to work on, right?\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [ ] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Fixed a typo in documentation by removing a duplicated word (\"and\") in a sentence describing Copilot Spaces functionality.\n- No functional code changes; purely a documentation correction.\n\n### Title\nFix typo in Copilot Spaces documentation"
+}

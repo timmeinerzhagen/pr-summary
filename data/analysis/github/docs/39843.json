@@ -1,0 +1,25 @@
+{
+  "number": 39843,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-13T21:33:03Z",
+  "url": "https://github.com/github/docs/pull/39843",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-13 22:06:23",
+  "details": [
+    "Added comprehensive documentation on email addresses, including concepts, troubleshooting guides, and reference material.",
+    "Clarified Azure DevOps licensing for Enterprise Managed Users and data residency requirements.",
+    "Introduced GPT-5 mini model in Copilot with updates to model comparison, hosting, and availability docs.",
+    "Restructured email preference content and moved marketing emails article to notifications section.",
+    "Updated CHANGELOG for GPT-5 public preview in Copilot."
+  ],
+  "summary": "- Added comprehensive documentation on email addresses, including concepts, troubleshooting guides, and reference material.\n- Clarified Azure DevOps licensing for Enterprise Managed Users and data residency requirements.\n- Introduced GPT-5 mini model in Copilot with updates to model comparison, hosting, and availability docs.\n- Restructured email preference content and moved marketing emails article to notifications section.\n- Updated CHANGELOG for GPT-5 public preview in Copilot.",
+  "generated_title": "Documentation updates: Email management, Copilot GPT-5 mini, and Azure DevOps licensing",
+  "commits": [
+    "**6e09863**: Merge pull request #57116 from github/repo-sync (by docs-bot)",
+    "**47360b4**: send event to `publish` correctly and add logging (#57117) (by Evan Bonsignori)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added comprehensive documentation on email addresses, including concepts, troubleshooting guides, and reference material.\n- Clarified Azure DevOps licensing for Enterprise Managed Users and data residency requirements.\n- Introduced GPT-5 mini model in Copilot with updates to model comparison, hosting, and availability docs.\n- Restructured email preference content and moved marketing emails article to notifications section.\n- Updated CHANGELOG for GPT-5 public preview in Copilot.\n\n### Title\nDocumentation updates: Email management, Copilot GPT-5 mini, and Azure DevOps licensing"
+}
