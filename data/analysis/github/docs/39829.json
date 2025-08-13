@@ -1,0 +1,25 @@
+{
+  "number": 39829,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-13T15:33:59Z",
+  "url": "https://github.com/github/docs/pull/39829",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-13 16:06:12",
+  "details": [
+    "Added push protection for GitHub MCP server interactions to block secrets in AI responses and actions (public repositories only).",
+    "Created a new guide for resolving push protection blocks with the GitHub MCP server.",
+    "Standardized all Copilot documentation titles and filenames to use \"GitHub Copilot\".",
+    "Clarified billing continues for removed seats until the current cycle ends."
+  ],
+  "summary": "- Added push protection for GitHub MCP server interactions to block secrets in AI responses and actions (public repositories only).\n- Created a new guide for resolving push protection blocks with the GitHub MCP server.\n- Standardized all Copilot documentation titles and filenames to use \"GitHub Copilot\".\n- Clarified billing continues for removed seats until the current cycle ends.",
+  "generated_title": "Integrate push protection with GitHub MCP server and standardize Copilot docs",
+  "commits": [
+    "**bb4dc57**: [Improvement]: Standardize all Copilot article titles and filenames to use 'GitHub Copilot' (#57087) (by Sophie)",
+    "**1211c2e**: Secret scanning push protection integration with MCP Remote Server #19052 (#57020) (by Anne-Marie)",
+    "**f8e1d6d**: Update Copilot billing cycle details for seat management documentation (#57002) (by Eboni)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added push protection for GitHub MCP server interactions to block secrets in AI responses and actions (public repositories only).\n- Created a new guide for resolving push protection blocks with the GitHub MCP server.\n- Standardized all Copilot documentation titles and filenames to use \"GitHub Copilot\".\n- Clarified billing continues for removed seats until the current cycle ends.\n\n### Title\nIntegrate push protection with GitHub MCP server and standardize Copilot docs"
+}
