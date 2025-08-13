@@ -1,0 +1,22 @@
+{
+  "number": 39821,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-13T03:47:41Z",
+  "url": "https://github.com/github/docs/pull/39821",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-13 04:13:00",
+  "details": [
+    "Updated `actions/checkout` from `v4.2.2` to `v5.0.0` across 50+ GitHub Actions workflow files.",
+    "Replaced pinned commit hash references and version tags (`v4` → `v5`) consistently."
+  ],
+  "summary": "- Updated `actions/checkout` from `v4.2.2` to `v5.0.0` across 50+ GitHub Actions workflow files.\n- Replaced pinned commit hash references and version tags (`v4` → `v5`) consistently.",
+  "generated_title": "Upgrade `actions/checkout` from v4 to v5 in workflows",
+  "commits": [
+    "**57d197a**: Merge pull request #57101 from github/repo-sync (by docs-bot)",
+    "**a9628b5**: Bump actions/checkout from 4 to 5 (#57099) (by dependabot[bot])"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated `actions/checkout` from `v4.2.2` to `v5.0.0` across 50+ GitHub Actions workflow files.\n- Replaced pinned commit hash references and version tags (`v4` → `v5`) consistently.\n\n### Title\nUpgrade `actions/checkout` from v4 to v5 in workflows"
+}
