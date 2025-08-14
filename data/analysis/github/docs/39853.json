@@ -1,0 +1,39 @@
+{
+  "number": 39853,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-14T18:36:46Z",
+  "url": "https://github.com/github/docs/pull/39853",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-14 20:07:20",
+  "details": [
+    "**Personal Repository Access**: Added new documentation on managing access to personal repositories, including collaboration and successors.",
+    "**Troubleshooting Workflows**: Expanded GitHub Actions troubleshooting with networking guidance (DNS, firewalls, proxies, etc.).",
+    "**Admin Tools**: Added `ghe-repl-decommission` command for high availability setups.",
+    "**Log Forwarding**: Clarified SSL connection setup for log forwarding.",
+    "**File Attachments**: Expanded supported file types for uploads in comments and discussions.",
+    "**OAuth Flow**: Emphasized `code_verifier` as strongly recommended in PKCE.",
+    "**Cost Centers**: GA for adding users to cost centers via UI/API.",
+    "**Copilot Updates**: MCP support GA for JetBrains, Eclipse, XCode with OAuth."
+  ],
+  "summary": "- **Personal Repository Access**: Added new documentation on managing access to personal repositories, including collaboration and successors.\n- **Troubleshooting Workflows**: Expanded GitHub Actions troubleshooting with networking guidance (DNS, firewalls, proxies, etc.).\n- **Admin Tools**: Added `ghe-repl-decommission` command for high availability setups.\n- **Log Forwarding**: Clarified SSL connection setup for log forwarding.\n- **File Attachments**: Expanded supported file types for uploads in comments and discussions.\n- **OAuth Flow**: Emphasized `code_verifier` as strongly recommended in PKCE.\n- **Cost Centers**: GA for adding users to cost centers via UI/API.\n- **Copilot Updates**: MCP support GA for JetBrains, Eclipse, XCode with OAuth.",
+  "generated_title": "Enhance docs for access, troubleshooting, admin tools, and Copilot",
+  "commits": [
+    "**70214c6**: [EDI] Ensure `/billing/how-tos/troubleshooting/*` complies with EDI requirements (#57021) (by mc)",
+    "**18adf06**: Add additional self-help/troubleshooting suggestions in the Actions about-troubleshooting-workflows.md documentation (#56971) (by Cory Calahan)",
+    "**0b6b836**: Repositories can be added to Spaces (#57104) (by Sophie)",
+    "**5f063bf**: [EDI] Managing access to your personal repositories (#57121) (by Joe Clark)",
+    "**a435db3**: GraphQL schema update (#57134) (by docs-bot)",
+    "**7002328**: Update attaching-files.md (#57006) (by Tadas Labudis)",
+    "**51bf0be**: Update log forwarding SSL connection description - GHES (#57105) (by Panagiotis Lithadiotis)",
+    "**491ac85**: Match column count for `code_verifier ` in OAuth exchange code flow table to prevent description from being cut off (#57124) (by Greg Ose)",
+    "**9bd048e**: docs: ghe-repl-decommission (#57034) (by Tyler Chong)",
+    "**39bf8e8**: Customers can add users to a cost center via both the UI and API [GA] (#57077) (by Holly 🦒)",
+    "**1f86a1d**: Update audit log event data (#57112) (by docs-bot)",
+    "**b6302d1**: MCP support in GA for JetBrains, Eclipse, and XCode + OAuth remote GitHub server support (#57123) (by Sarita Iyer)",
+    "**38427b7**: Add contentType frontmatter functionality to move-content script (#57050) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- **Personal Repository Access**: Added new documentation on managing access to personal repositories, including collaboration and successors.\n- **Troubleshooting Workflows**: Expanded GitHub Actions troubleshooting with networking guidance (DNS, firewalls, proxies, etc.).\n- **Admin Tools**: Added `ghe-repl-decommission` command for high availability setups.\n- **Log Forwarding**: Clarified SSL connection setup for log forwarding.\n- **File Attachments**: Expanded supported file types for uploads in comments and discussions.\n- **OAuth Flow**: Emphasized `code_verifier` as strongly recommended in PKCE.\n- **Cost Centers**: GA for adding users to cost centers via UI/API.\n- **Copilot Updates**: MCP support GA for JetBrains, Eclipse, XCode with OAuth.\n\n### Title\nEnhance docs for access, troubleshooting, admin tools, and Copilot"
+}
