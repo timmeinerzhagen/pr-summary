@@ -1,0 +1,29 @@
+{
+  "number": 39854,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-14T21:33:25Z",
+  "url": "https://github.com/github/docs/pull/39854",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-14 22:06:02",
+  "details": [
+    "Restructured billing documentation for Git LFS, GitHub Actions, GitHub Advanced Security, GitHub Codespaces, GitHub Models, and GitHub Packages to follow a consistent format.",
+    "Added detailed explanations of usage measurement, free quotas, overage handling, and payment processes for each product.",
+    "Created new reference files: `actions-minute-multipliers.md` and `models-multipliers-and-costs.md` for pricing details.",
+    "Clarified cost calculation examples and included token-based billing for GitHub Models.",
+    "Added redirects and fixed missing links across documentation files."
+  ],
+  "summary": "- Restructured billing documentation for Git LFS, GitHub Actions, GitHub Advanced Security, GitHub Codespaces, GitHub Models, and GitHub Packages to follow a consistent format.\n- Added detailed explanations of usage measurement, free quotas, overage handling, and payment processes for each product.\n- Created new reference files: `actions-minute-multipliers.md` and `models-multipliers-and-costs.md` for pricing details.\n- Clarified cost calculation examples and included token-based billing for GitHub Models.\n- Added redirects and fixed missing links across documentation files.",
+  "generated_title": "Restructure and enhance billing documentation for GitHub products",
+  "commits": [
+    "**ab13127**: Update OpenAPI Description (#57135) (by docs-bot)",
+    "**9075b64**: [EDI] Audit and implement: /billing/concepts/products/ Actions, Git LFS, and Packages (#57075) (by Felicity Chapman)",
+    "**fd3fbf5**: [EDI] Audit and implement: /billing/concepts/products/ GitHub Codespaces (#57106) (by Felicity Chapman)",
+    "**c4d1569**: [EDI] Audit and implement: /billing/concepts/products/ GitHub Models and GHAS (#57109) (by Felicity Chapman)",
+    "**e291c9f**: Fix missing redirect (#57136) (by Sarah Schneider)",
+    "**ccf0856**: Update security overview documentation to include missing filters (#56984) (by Vanessa)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Restructured billing documentation for Git LFS, GitHub Actions, GitHub Advanced Security, GitHub Codespaces, GitHub Models, and GitHub Packages to follow a consistent format.\n- Added detailed explanations of usage measurement, free quotas, overage handling, and payment processes for each product.\n- Created new reference files: `actions-minute-multipliers.md` and `models-multipliers-and-costs.md` for pricing details.\n- Clarified cost calculation examples and included token-based billing for GitHub Models.\n- Added redirects and fixed missing links across documentation files.\n\n### Title\nRestructure and enhance billing documentation for GitHub products"
+}
