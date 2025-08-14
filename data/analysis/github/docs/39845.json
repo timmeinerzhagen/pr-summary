@@ -1,0 +1,23 @@
+{
+  "number": 39845,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-14T00:46:34Z",
+  "url": "https://github.com/github/docs/pull/39845",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-14 02:38:29",
+  "details": [
+    "Added logging for external search analytics requests, capturing client details and sanitized user agent.",
+    "Introduced `sanitizeUserAgent` function to simplify user agent strings to common client types (e.g., curl, browser).",
+    "Removed redundant `type: 'search'` from analytics payload and restructured payload creation.",
+    "Cleaned up localhost handling comments."
+  ],
+  "summary": "- Added logging for external search analytics requests, capturing client details and sanitized user agent.\n- Introduced `sanitizeUserAgent` function to simplify user agent strings to common client types (e.g., curl, browser).\n- Removed redundant `type: 'search'` from analytics payload and restructured payload creation.\n- Cleaned up localhost handling comments.",
+  "generated_title": "Add logging and user agent sanitization for external search analytics",
+  "commits": [
+    "**8b5631c**: Merge pull request #57120 from github/repo-sync (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added logging for external search analytics requests, capturing client details and sanitized user agent.\n- Introduced `sanitizeUserAgent` function to simplify user agent strings to common client types (e.g., curl, browser).\n- Removed redundant `type: 'search'` from analytics payload and restructured payload creation.\n- Cleaned up localhost handling comments.\n\n### Title  \nAdd logging and user agent sanitization for external search analytics"
+}
