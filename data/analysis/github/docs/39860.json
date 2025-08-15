@@ -1,0 +1,27 @@
+{
+  "number": 39860,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-15T09:36:16Z",
+  "url": "https://github.com/github/docs/pull/39860",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-15 10:06:43",
+  "details": [
+    "Added new conceptual article on billing budgets and alerts, explaining usage tracking and controls.",
+    "Updated billing documentation to reference the new concept and restructured setup tutorial.",
+    "Added two new issue search filters: `has:label` and `no:project`.",
+    "Replaced deprecated `pages.github.com` links with updated references in GitHub Pages docs.",
+    "Added three new GuardSquare secret patterns and enabled push protection for Samsara tokens."
+  ],
+  "summary": "- Added new conceptual article on billing budgets and alerts, explaining usage tracking and controls.\n- Updated billing documentation to reference the new concept and restructured setup tutorial.\n- Added two new issue search filters: `has:label` and `no:project`.\n- Replaced deprecated `pages.github.com` links with updated references in GitHub Pages docs.\n- Added three new GuardSquare secret patterns and enabled push protection for Samsara tokens.",
+  "generated_title": "Add billing budgets concept, update Pages docs, expand secret scanning, and issue filters",
+  "commits": [
+    "**a6d7a77**: Sync secret scanning data (#57133) (by docs-bot)",
+    "**9a6d211**: Update filtering-and-searching-issues-and-pull-requests.md (#57139) (by Riley Broughten)",
+    "**00190ad**: Adjust documentation following depreciation of pages.github.com (#57100) (by Yoann Chaudet)",
+    "**e649f04**: [EDI billing] Create conceptual article about budgets (#57108) (by Isaac Brown)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added new conceptual article on billing budgets and alerts, explaining usage tracking and controls.\n- Updated billing documentation to reference the new concept and restructured setup tutorial.\n- Added two new issue search filters: `has:label` and `no:project`.\n- Replaced deprecated `pages.github.com` links with updated references in GitHub Pages docs.\n- Added three new GuardSquare secret patterns and enabled push protection for Samsara tokens.\n\n### Title\nAdd billing budgets concept, update Pages docs, expand secret scanning, and issue filters"
+}
