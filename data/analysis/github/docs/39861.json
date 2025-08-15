@@ -1,0 +1,24 @@
+{
+  "number": 39861,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-15T12:38:04Z",
+  "url": "https://github.com/github/docs/pull/39861",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-15 14:06:17",
+  "details": [
+    "Extended expiration dates for multiple documentation notes (enterprise accounts, billing, usage reporting).",
+    "Prefixed all model references with provider names (e.g., `gpt-4o` → `openai/gpt-4o`).",
+    "Removed deprecated migration tool note (ECI/GraphQL endpoints).",
+    "Minor content tweaks: removed \"Currently\" from enterprise upgrade note, added best practices section, and fixed formatting."
+  ],
+  "summary": "- Extended expiration dates for multiple documentation notes (enterprise accounts, billing, usage reporting).\n- Prefixed all model references with provider names (e.g., `gpt-4o` → `openai/gpt-4o`).\n- Removed deprecated migration tool note (ECI/GraphQL endpoints).\n- Minor content tweaks: removed \"Currently\" from enterprise upgrade note, added best practices section, and fixed formatting.",
+  "generated_title": "Extend doc expirations and prefix model names with providers",
+  "commits": [
+    "**a58436e**: Content linting issues  (#56705) (by Sunbrye Ly)",
+    "**cdd3570**: all models are now prepended with the provider name (#57089) (by Sophie)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Extended expiration dates for multiple documentation notes (enterprise accounts, billing, usage reporting).\n- Prefixed all model references with provider names (e.g., `gpt-4o` → `openai/gpt-4o`).\n- Removed deprecated migration tool note (ECI/GraphQL endpoints).\n- Minor content tweaks: removed \"Currently\" from enterprise upgrade note, added best practices section, and fixed formatting.\n\n### Title\nExtend doc expirations and prefix model names with providers"
+}
