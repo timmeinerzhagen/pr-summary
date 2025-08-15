@@ -1,0 +1,24 @@
+{
+  "number": 39864,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-15T15:34:49Z",
+  "url": "https://github.com/github/docs/pull/39864",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-15 16:07:21",
+  "details": [
+    "Restructured profile contributions documentation: replaced `viewing-contributions-on-your-profile.md` with a new concept file (`contributions-visible-on-your-profile.md`) and moved how-to content to a dedicated guide.",
+    "Enhanced billing documentation: added `cost-centers.md` concept, created `cost-center-allocation.md` reference, and updated tutorials with reusable content.",
+    "Updated OpenAPI schemas: added `issue_field_values` to issue objects and `sha_pinning_required` to actions permissions."
+  ],
+  "summary": "- Restructured profile contributions documentation: replaced `viewing-contributions-on-your-profile.md` with a new concept file (`contributions-visible-on-your-profile.md`) and moved how-to content to a dedicated guide.\n- Enhanced billing documentation: added `cost-centers.md` concept, created `cost-center-allocation.md` reference, and updated tutorials with reusable content.\n- Updated OpenAPI schemas: added `issue_field_values` to issue objects and `sha_pinning_required` to actions permissions.",
+  "generated_title": "Update profile contributions docs, enhance cost centers billing docs, and refresh OpenAPI schemas",
+  "commits": [
+    "**650f471**: EDI-ify \"Viewing contributions on your profile\" (#57119) (by Sam Browning)",
+    "**8285335**: [EDI billing] Break up the cost centers article (#57127) (by Isaac Brown)",
+    "**b447369**: Update OpenAPI Description (#57144) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Restructured profile contributions documentation: replaced `viewing-contributions-on-your-profile.md` with a new concept file (`contributions-visible-on-your-profile.md`) and moved how-to content to a dedicated guide.\n- Enhanced billing documentation: added `cost-centers.md` concept, created `cost-center-allocation.md` reference, and updated tutorials with reusable content.\n- Updated OpenAPI schemas: added `issue_field_values` to issue objects and `sha_pinning_required` to actions permissions.\n\n### Title\nUpdate profile contributions docs, enhance cost centers billing docs, and refresh OpenAPI schemas"
+}
