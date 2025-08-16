@@ -1,0 +1,24 @@
+{
+  "number": 39868,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-16T00:45:14Z",
+  "url": "https://github.com/github/docs/pull/39868",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-16 02:36:06",
+  "details": [
+    "Reset `contentType` in frontmatter processing: recalculates and updates if existing value differs or is missing",
+    "Enhanced Hydro analytics error logging: added detailed error reporting with logger",
+    "Improved external search analytics: enriched payload with request context and replaced `console.error` with logger",
+    "Updated request typing from `any` to `ExtendedRequest` for better type safety"
+  ],
+  "summary": "- Reset `contentType` in frontmatter processing: recalculates and updates if existing value differs or is missing\n- Enhanced Hydro analytics error logging: added detailed error reporting with logger\n- Improved external search analytics: enriched payload with request context and replaced `console.error` with logger\n- Updated request typing from `any` to `ExtendedRequest` for better type safety",
+  "generated_title": "Improve content type handling and analytics logging",
+  "commits": [
+    "**63e69a0**: better analytics error logging (#57138) (by Evan Bonsignori)",
+    "**77ad892**: Reset contentType if already exists (#57132) (by Sarah Schneider)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Reset `contentType` in frontmatter processing: recalculates and updates if existing value differs or is missing\n- Enhanced Hydro analytics error logging: added detailed error reporting with logger\n- Improved external search analytics: enriched payload with request context and replaced `console.error` with logger\n- Updated request typing from `any` to `ExtendedRequest` for better type safety\n\n### Title\nImprove content type handling and analytics logging"
+}
