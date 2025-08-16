@@ -1,0 +1,21 @@
+{
+  "number": 39871,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-16T06:37:16Z",
+  "url": "https://github.com/github/docs/pull/39871",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-16 08:07:17",
+  "details": [
+    "Updated `hasValidityCheck` field for 4 secret providers (Block Protocol, Siemens, WorkOS, xAI) to conditionally set `false` on GitHub.com (fpt) or Enterprise Server (ghes), and `true` otherwise.",
+    "Modified SHA references in `config.json` to reflect updated data file version."
+  ],
+  "summary": "- Updated `hasValidityCheck` field for 4 secret providers (Block Protocol, Siemens, WorkOS, xAI) to conditionally set `false` on GitHub.com (fpt) or Enterprise Server (ghes), and `true` otherwise.\n- Modified SHA references in `config.json` to reflect updated data file version.",
+  "generated_title": "Conditional validity checks for secret scanning providers on GHEC",
+  "commits": [
+    "**9093084**: Sync secret scanning data (#57150) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated `hasValidityCheck` field for 4 secret providers (Block Protocol, Siemens, WorkOS, xAI) to conditionally set `false` on GitHub.com (fpt) or Enterprise Server (ghes), and `true` otherwise.\n- Modified SHA references in `config.json` to reflect updated data file version.\n\n### Title\nConditional validity checks for secret scanning providers on GHEC"
+}
