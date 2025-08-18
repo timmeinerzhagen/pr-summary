@@ -1,0 +1,31 @@
+{
+  "number": 39895,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-18T09:36:51Z",
+  "url": "https://github.com/github/docs/pull/39895",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-18 10:07:02",
+  "details": [
+    "Clarified metadata restrictions behavior for squash merges in branch rulesets documentation.",
+    "Corrected Copilot feature table to indicate Pro+ lacks content exclusions.",
+    "Updated `@primer/octicons` dependency to 19.15.5.",
+    "Added new excluded links for link validation.",
+    "Changed `exec_sponsor` in ownership.yaml to `ahalliop`.",
+    "Synced secret scanning data with new patterns and updated OpenAPI descriptions."
+  ],
+  "summary": "- Clarified metadata restrictions behavior for squash merges in branch rulesets documentation.\n- Corrected Copilot feature table to indicate Pro+ lacks content exclusions.\n- Updated `@primer/octicons` dependency to 19.15.5.\n- Added new excluded links for link validation.\n- Changed `exec_sponsor` in ownership.yaml to `ahalliop`.\n- Synced secret scanning data with new patterns and updated OpenAPI descriptions.",
+  "generated_title": "Update docs, bump octicons, sync secret scanning, and fix ownership",
+  "commits": [
+    "**82ef4a6**: Bump @primer/octicons from 19.14.0 to 19.15.5 (#57147) (by Sophie)",
+    "**47e1dd5**: Sync secret scanning data (#57156) (by docs-bot)",
+    "**5ec0a89**: Update OpenAPI Description (#57157) (by docs-bot)",
+    "**5ae166b**: Correct feature table to reflect that Copilot Pro+ does not have access to content exclusions (#57158) (by Andrew S)",
+    "**14aacbf**: Add working links to `excluded-links.yml` (#57159) (by Sophie)",
+    "**a7c440e**: Update exec_sponsor in ownership.yaml (#57155) (by Andrew Layman)",
+    "**48ad4dd**: Update available-rules-for-rulesets.md (#57152) (by Patrick Knight)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Clarified metadata restrictions behavior for squash merges in branch rulesets documentation.\n- Corrected Copilot feature table to indicate Pro+ lacks content exclusions.\n- Updated `@primer/octicons` dependency to 19.15.5.\n- Added new excluded links for link validation.\n- Changed `exec_sponsor` in ownership.yaml to `ahalliop`.\n- Synced secret scanning data with new patterns and updated OpenAPI descriptions.\n\n### Title\nUpdate docs, bump octicons, sync secret scanning, and fix ownership"
+}
