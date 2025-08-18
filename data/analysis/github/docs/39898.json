@@ -1,0 +1,25 @@
+{
+  "number": 39898,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-18T15:36:14Z",
+  "url": "https://github.com/github/docs/pull/39898",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-18 16:07:08",
+  "details": [
+    "Renamed and restructured personal dashboard documentation for clarity, moving detailed criteria to a new reference file.",
+    "Simplified repository permissions content, adding \"Next steps\" guidance.",
+    "Created new reference file (`personal-dashboard.md`) explaining dashboard display logic.",
+    "Added reusable beta note components for dashboard feeds.",
+    "Updated index files to include new reference content."
+  ],
+  "summary": "- Renamed and restructured personal dashboard documentation for clarity, moving detailed criteria to a new reference file.\n- Simplified repository permissions content, adding \"Next steps\" guidance.\n- Created new reference file (`personal-dashboard.md`) explaining dashboard display logic.\n- Added reusable beta note components for dashboard feeds.\n- Updated index files to include new reference content.",
+  "generated_title": "Refactor personal dashboard and repository permissions documentation",
+  "commits": [
+    "**c846acd**: EDI-ify articles on the personal dashboard and personal account repo perms (#57131) (by Sam Browning)",
+    "**d0582d7**: Creating PR for early access docs staging Empty commit for PR (#57115) (by Courtney Claessens)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Renamed and restructured personal dashboard documentation for clarity, moving detailed criteria to a new reference file.\n- Simplified repository permissions content, adding \"Next steps\" guidance.\n- Created new reference file (`personal-dashboard.md`) explaining dashboard display logic.\n- Added reusable beta note components for dashboard feeds.\n- Updated index files to include new reference content.\n\n### Title\nRefactor personal dashboard and repository permissions documentation"
+}
