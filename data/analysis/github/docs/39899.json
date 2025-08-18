@@ -1,0 +1,21 @@
+{
+  "number": 39899,
+  "title": "docs: alphabetize reason names",
+  "author": "setchy",
+  "state": "closed",
+  "created": "2025-08-18T16:05:04Z",
+  "url": "https://github.com/github/docs/pull/39899",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-18 22:06:34",
+  "details": [
+    "Alphabetized notification reason names in documentation table for consistency.",
+    "Moved `comment` below `ci_activity` and `security_alert` below `security_advisory_credit` to achieve alphabetical order."
+  ],
+  "summary": "- Alphabetized notification reason names in documentation table for consistency.\n- Moved `comment` below `ci_activity` and `security_alert` below `security_advisory_credit` to achieve alphabetical order.",
+  "generated_title": "Alphabetize notification reasons in REST API docs",
+  "commits": [
+    "**5184b45**: docs: alphabetize reason names (by Adam Setch)"
+  ],
+  "original_description": "<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\nTwo reasons were out of order - updated to alphabetize the list\r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\n<!-- Let us know what you are changing. Share anything that could provide the most context.\r\nIf you made changes to the `content` directory, a table will populate in a comment below with links to the review and current production articles. -->\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [x] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Alphabetized notification reason names in documentation table for consistency.\n- Moved `comment` below `ci_activity` and `security_alert` below `security_advisory_credit` to achieve alphabetical order.\n\n### Title  \nAlphabetize notification reasons in REST API docs"
+}

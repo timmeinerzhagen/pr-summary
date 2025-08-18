@@ -1,0 +1,28 @@
+{
+  "number": 39903,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-18T21:32:23Z",
+  "url": "https://github.com/github/docs/pull/39903",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-18 22:06:25",
+  "details": [
+    "Removed outdated Git LFS upgrade/downgrade articles and added redirects to the Git LFS concepts page.",
+    "Updated Advanced Security purchasing documentation to unify steps for organizations and enterprises.",
+    "Moved GHAS trial setup to the code security section and updated trial exploration guides.",
+    "Added a reference for license reports and updated usage reporting documentation.",
+    "General documentation improvements including link updates and permission clarifications."
+  ],
+  "summary": "- Removed outdated Git LFS upgrade/downgrade articles and added redirects to the Git LFS concepts page.\n- Updated Advanced Security purchasing documentation to unify steps for organizations and enterprises.\n- Moved GHAS trial setup to the code security section and updated trial exploration guides.\n- Added a reference for license reports and updated usage reporting documentation.\n- General documentation improvements including link updates and permission clarifications.",
+  "generated_title": "Refactor billing and trial docs for GHAS and Git LFS",
+  "commits": [
+    "**dc06771**:  [EDI] Audit and implement: /billing/how-tos/products/ remove Git LFS articles (#57140) (by Felicity Chapman)",
+    "**56c835b**: [EDI] Audit and implement: /billing/how-tos/products/ generalize downloading and viewing articles  (#57129) (by Felicity Chapman)",
+    "**7bb404d**: empty PR for early access docs  (#57171) (by Courtney Claessens)",
+    "**e5dafd2**: empty PR for early access docs  (#57173) (by Courtney Claessens)",
+    "**cafe8d0**: [EDI] Audit and implement: /billing/how-tos/products/ find a better home for Trialing GHAS (#57141) (by Felicity Chapman)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removed outdated Git LFS upgrade/downgrade articles and added redirects to the Git LFS concepts page.\n- Updated Advanced Security purchasing documentation to unify steps for organizations and enterprises.\n- Moved GHAS trial setup to the code security section and updated trial exploration guides.\n- Added a reference for license reports and updated usage reporting documentation.\n- General documentation improvements including link updates and permission clarifications.\n\n### Title\nRefactor billing and trial docs for GHAS and Git LFS"
+}
