@@ -1,0 +1,26 @@
+{
+  "number": 39910,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-19T09:35:52Z",
+  "url": "https://github.com/github/docs/pull/39910",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-19 10:06:38",
+  "details": [
+    "Updated repository roles documentation:",
+    "Expanded GitHub Actions secrets/variables permissions to include Free/Pro/Team (fpt) alongside Enterprise Cloud (ghec)",
+    "Separated Enterprise Server (ghes) permissions into distinct conditionals",
+    "Billing API documentation:",
+    "Removed \"for an enterprise\" from intro lines to generalize scope"
+  ],
+  "summary": "- Updated repository roles documentation:\n- Expanded GitHub Actions secrets/variables permissions to include Free/Pro/Team (fpt) alongside Enterprise Cloud (ghec)\n- Separated Enterprise Server (ghes) permissions into distinct conditionals\n- Billing API documentation:\n- Removed \"for an enterprise\" from intro lines to generalize scope",
+  "generated_title": "Update Actions secrets permissions and billing API documentation",
+  "commits": [
+    "**9204bfd**: Merge pull request #57178 from github/repo-sync (by docs-bot)",
+    "**5ef5b51**: Remove \"for an enterprise\" from billing API docs intro (#57162) (by Greg Mondello)",
+    "**14f5529**: Update secrets and variables permissions (#57174) (by Yang Cao)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated repository roles documentation: \n  - Expanded GitHub Actions secrets/variables permissions to include Free/Pro/Team (fpt) alongside Enterprise Cloud (ghec)\n  - Separated Enterprise Server (ghes) permissions into distinct conditionals\n- Billing API documentation:\n  - Removed \"for an enterprise\" from intro lines to generalize scope\n\n### Title  \nUpdate Actions secrets permissions and billing API documentation"
+}
