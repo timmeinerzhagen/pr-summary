@@ -1,0 +1,24 @@
+{
+  "number": 39956,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-20T18:36:24Z",
+  "url": "https://github.com/github/docs/pull/39956",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-20 20:06:20",
+  "details": [
+    "Added LDAP limitation: Special characters in user DNs may disrupt group membership determination during authentication/sync.",
+    "Introduced new \"Searching GitHub Models\" section in About page, linking to search documentation.",
+    "Updated version metadata for GitHub Models search page (`feature: github-models`).",
+    "Added cross-reference to search docs in \"Further reading\" section."
+  ],
+  "summary": "- Added LDAP limitation: Special characters in user DNs may disrupt group membership determination during authentication/sync.\n- Introduced new \"Searching GitHub Models\" section in About page, linking to search documentation.\n- Updated version metadata for GitHub Models search page (`feature: github-models`).\n- Added cross-reference to search docs in \"Further reading\" section.",
+  "generated_title": "Documentation updates: LDAP limitations and GitHub Models search features",
+  "commits": [
+    "**ae390f6**: Reference GitHub Models search docs on About GitHub Models page (#57200) (by Sunbrye Ly)",
+    "**e9a5643**: Update using-ldap.md (#55574) (by Stacy Carter)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added LDAP limitation: Special characters in user DNs may disrupt group membership determination during authentication/sync.\n- Introduced new \"Searching GitHub Models\" section in About page, linking to search documentation.\n- Updated version metadata for GitHub Models search page (`feature: github-models`).\n- Added cross-reference to search docs in \"Further reading\" section.\n\n### Title\nDocumentation updates: LDAP limitations and GitHub Models search features"
+}
