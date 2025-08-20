@@ -1,0 +1,25 @@
+{
+  "number": 39958,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-20T21:32:20Z",
+  "url": "https://github.com/github/docs/pull/39958",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-20 22:05:36",
+  "details": [
+    "Added enterprise-managed custom organization roles for GitHub Enterprise Cloud and Server 3.19+, allowing centralized role creation (up to 20 roles).",
+    "Increased custom organization/repository role limits to 20 (from 10/5) for GitHub Enterprise Server 3.19+.",
+    "Updated Gemini 2.5 Pro model status to Generally Available (GA) in GitHub Copilot.",
+    "Added `data-search` attribute to fix search indexing for category landing pages."
+  ],
+  "summary": "- Added enterprise-managed custom organization roles for GitHub Enterprise Cloud and Server 3.19+, allowing centralized role creation (up to 20 roles).\n- Increased custom organization/repository role limits to 20 (from 10/5) for GitHub Enterprise Server 3.19+.\n- Updated Gemini 2.5 Pro model status to Generally Available (GA) in GitHub Copilot.\n- Added `data-search` attribute to fix search indexing for category landing pages.",
+  "generated_title": "Enterprise custom org roles, increased role limits, Gemini 2.5 Pro GA, and search fix",
+  "commits": [
+    "**7303870**: Gemini 2.5 Pro is available in Copilot [GA] #18667 (#56643) (by Anne-Marie)",
+    "**17b94ab**: Fix search indexing for category landing pages (#57213) (by Kevin Heis)",
+    "**125491e**: Enterprise custom org roles (#57170) (by Hirsch Singhal)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added enterprise-managed custom organization roles for GitHub Enterprise Cloud and Server 3.19+, allowing centralized role creation (up to 20 roles).\n- Increased custom organization/repository role limits to 20 (from 10/5) for GitHub Enterprise Server 3.19+.\n- Updated Gemini 2.5 Pro model status to Generally Available (GA) in GitHub Copilot.\n- Added `data-search` attribute to fix search indexing for category landing pages.\n\n### Title\nEnterprise custom org roles, increased role limits, Gemini 2.5 Pro GA, and search fix"
+}
