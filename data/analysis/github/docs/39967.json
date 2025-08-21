@@ -1,0 +1,29 @@
+{
+  "number": 39967,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-21T12:38:03Z",
+  "url": "https://github.com/github/docs/pull/39967",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-21 20:07:10",
+  "details": [
+    "Updated Copilot billing timezone explanation for clarity.",
+    "Extended runner IP address removal period from 30 to 90 days.",
+    "Improved CodeQL CLI documentation regarding terminal size detection on Windows.",
+    "Added new Rust CodeQL query for cleartext database storage vulnerabilities.",
+    "Refined OpenAPI descriptions and fixed `fineGrainedPat` permissions in REST schemas.",
+    "Updated configuration SHAs across documentation components."
+  ],
+  "summary": "- Updated Copilot billing timezone explanation for clarity.\n- Extended runner IP address removal period from 30 to 90 days.\n- Improved CodeQL CLI documentation regarding terminal size detection on Windows.\n- Added new Rust CodeQL query for cleartext database storage vulnerabilities.\n- Refined OpenAPI descriptions and fixed `fineGrainedPat` permissions in REST schemas.\n- Updated configuration SHAs across documentation components.",
+  "generated_title": "Update docs: Copilot billing, runner IP retention, CodeQL CLI, and OpenAPI specs",
+  "commits": [
+    "**345d668**: Updates docs for copilot billing timezone (#57172) (by Gabe D)",
+    "**1bbc381**: Update IP address removal period from 30 to 90 days (#57218) (by oluatosn-dev)",
+    "**30d9a36**: Update OpenAPI Description (#57212) (by docs-bot)",
+    "**9ea5b55**: Update CodeQL query tables (#57165) (by docs-bot)",
+    "**9370d34**: Update CodeQL CLI manual (#57164) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated Copilot billing timezone explanation for clarity.\n- Extended runner IP address removal period from 30 to 90 days.\n- Improved CodeQL CLI documentation regarding terminal size detection on Windows.\n- Added new Rust CodeQL query for cleartext database storage vulnerabilities.\n- Refined OpenAPI descriptions and fixed `fineGrainedPat` permissions in REST schemas.\n- Updated configuration SHAs across documentation components.\n\n### Title  \nUpdate docs: Copilot billing, runner IP retention, CodeQL CLI, and OpenAPI specs"
+}
