@@ -1,0 +1,22 @@
+{
+  "number": 39966,
+  "title": "Added a space between 2 sentences",
+  "author": "saurabhb-dev",
+  "state": "closed",
+  "created": "2025-08-21T10:57:29Z",
+  "url": "https://github.com/github/docs/pull/39966",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-21 22:06:16",
+  "details": [
+    "Fixed a minor documentation formatting issue by adding a missing space between two sentences in GitHub Actions enterprise content.",
+    "The change improves readability without altering technical meaning or functionality."
+  ],
+  "summary": "- Fixed a minor documentation formatting issue by adding a missing space between two sentences in GitHub Actions enterprise content.\n- The change improves readability without altering technical meaning or functionality.",
+  "generated_title": "Fix missing space in GitHub Actions enterprise documentation",
+  "commits": [
+    "**89924df**: Added a space between 2 sentences (by saurabhb-dev)",
+    "**991644a**: Merge branch 'main' into patch-3 (by Sharra-writes)"
+  ],
+  "original_description": "### Why:\r\nSpace was required between 2 sentences\r\n\r\nCloses: NA (No issue created for this)\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\nJust a space\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Fixed a minor documentation formatting issue by adding a missing space between two sentences in GitHub Actions enterprise content.  \n- The change improves readability without altering technical meaning or functionality.  \n\n### Title  \nFix missing space in GitHub Actions enterprise documentation"
+}

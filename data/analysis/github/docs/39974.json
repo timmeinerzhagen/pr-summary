@@ -1,0 +1,21 @@
+{
+  "number": 39974,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-21T21:31:51Z",
+  "url": "https://github.com/github/docs/pull/39974",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-21 22:06:02",
+  "details": [
+    "Fixed a documentation formatting issue by splitting two Liquid tags (`{% data ... %}`) onto separate lines.",
+    "Ensures correct rendering of the numbered list steps for creating custom organization roles in enterprise accounts."
+  ],
+  "summary": "- Fixed a documentation formatting issue by splitting two Liquid tags (`{% data ... %}`) onto separate lines.\n- Ensures correct rendering of the numbered list steps for creating custom organization roles in enterprise accounts.",
+  "generated_title": "Fix numbered list formatting in enterprise custom roles documentation",
+  "commits": [
+    "**06fd149**: Fix numbered list for enterprise custom org roles (#57224) (by Hirsch Singhal)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Fixed a documentation formatting issue by splitting two Liquid tags (`{% data ... %}`) onto separate lines.\n- Ensures correct rendering of the numbered list steps for creating custom organization roles in enterprise accounts.\n\n### Title\nFix numbered list formatting in enterprise custom roles documentation"
+}
