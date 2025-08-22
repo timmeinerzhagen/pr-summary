@@ -1,0 +1,29 @@
+{
+  "number": 39976,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-22T00:44:06Z",
+  "url": "https://github.com/github/docs/pull/39976",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-22 02:35:08",
+  "details": [
+    "Added `NODE_OPTIONS: '--no-experimental-strip-types'` in CI workflows to work around a Node.js bug.",
+    "Updated Node.js engine version to allow 22.18+ (removed `<22.18.0` restriction).",
+    "Fixed routing to avoid 404 errors on `/_build` paths.",
+    "Adjusted Markdown formatting for enterprise roles documentation.",
+    "Removed Node.js version pinning in Dockerfile."
+  ],
+  "summary": "- Added `NODE_OPTIONS: '--no-experimental-strip-types'` in CI workflows to work around a Node.js bug.\n- Updated Node.js engine version to allow 22.18+ (removed `<22.18.0` restriction).\n- Fixed routing to avoid 404 errors on `/_build` paths.\n- Adjusted Markdown formatting for enterprise roles documentation.\n- Removed Node.js version pinning in Dockerfile.",
+  "generated_title": "Node.js 22.18+ compatibility and routing fixes",
+  "commits": [
+    "**d02f000**: Merge pull request #57229 from github/repo-sync (by docs-bot)",
+    "**8987127**: Fix ea bug again (#57228) (by Siara)",
+    "**9574c7c**: set `--no-experimental-strip-types` node option (#57226) (by Robert Sese)",
+    "**abcc34b**: Create docs-internal PR for Early Access preview (#57227) (by Siara)",
+    "**d2728ed**: Copilot api (#57202) (by Shin)",
+    "**2d332d7**: don't 404 on _build (#57231) (by Robert Sese)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added `NODE_OPTIONS: '--no-experimental-strip-types'` in CI workflows to work around a Node.js bug.\n- Updated Node.js engine version to allow 22.18+ (removed `<22.18.0` restriction).\n- Fixed routing to avoid 404 errors on `/_build` paths.\n- Adjusted Markdown formatting for enterprise roles documentation.\n- Removed Node.js version pinning in Dockerfile.\n\n### Title\nNode.js 22.18+ compatibility and routing fixes"
+}
