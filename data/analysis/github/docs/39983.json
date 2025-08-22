@@ -1,0 +1,21 @@
+{
+  "number": 39983,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-22T12:38:48Z",
+  "url": "https://github.com/github/docs/pull/39983",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-22 14:05:56",
+  "details": [
+    "Added GitHub Marketplace URLs (`https://github.com/marketplace`) to `excluded-links.yml` to exclude them from link validation checks."
+  ],
+  "summary": "- Added GitHub Marketplace URLs (`https://github.com/marketplace`) to `excluded-links.yml` to exclude them from link validation checks.",
+  "generated_title": "Exclude GitHub Marketplace links from validation",
+  "commits": [
+    "**49bd9b0**: Create docs-internal PR for Early Access preview for Issue fields (#57206) (by Armağan)",
+    "**bcd00dd**: Add GitHub Marketplace to `excluded-links.yml` (#57234) (by Sophie)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added GitHub Marketplace URLs (`https://github.com/marketplace`) to `excluded-links.yml` to exclude them from link validation checks.\n\n### Title  \nExclude GitHub Marketplace links from validation"
+}
