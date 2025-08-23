@@ -1,0 +1,25 @@
+{
+  "number": 39992,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-23T00:42:15Z",
+  "url": "https://github.com/github/docs/pull/39992",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-23 02:33:25",
+  "details": [
+    "Added links to PAT permissions documentation in Actions and GitHub Apps guides.",
+    "Documented PAT creation via URL parameters with examples and permission tables.",
+    "Extended Copilot metrics retention from 28 to 100 days.",
+    "Added retry logic to fetch calls in scraping scripts."
+  ],
+  "summary": "- Added links to PAT permissions documentation in Actions and GitHub Apps guides.\n- Documented PAT creation via URL parameters with examples and permission tables.\n- Extended Copilot metrics retention from 28 to 100 days.\n- Added retry logic to fetch calls in scraping scripts.",
+  "generated_title": "Add PAT deeplinking, extend Copilot metrics to 100 days, and improve scraping resilience",
+  "commits": [
+    "**d737eb7**: Merge pull request #57243 from github/repo-sync (by docs-bot)",
+    "**24a7d1d**: 28 days to 100 days (#57241) (by Cynthia)",
+    "**5d8710e**: Deeplinking for FG PAT creation details (#57039) (by Hirsch Singhal)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added links to PAT permissions documentation in Actions and GitHub Apps guides.\n- Documented PAT creation via URL parameters with examples and permission tables.\n- Extended Copilot metrics retention from 28 to 100 days.\n- Added retry logic to fetch calls in scraping scripts.\n\n### Title\nAdd PAT deeplinking, extend Copilot metrics to 100 days, and improve scraping resilience"
+}
