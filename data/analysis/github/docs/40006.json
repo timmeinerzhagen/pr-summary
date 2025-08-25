@@ -1,0 +1,24 @@
+{
+  "number": 40006,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-25T09:36:38Z",
+  "url": "https://github.com/github/docs/pull/40006",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-25 10:07:07",
+  "details": [
+    "Renamed REST API parameters from `package_registry_*` to `artifact_registry_*` across multiple endpoints.",
+    "Corrected OAuth scope for adding SSH keys from `write:gpg_key` to `write:public_key`.",
+    "Updated SHA references in config files to reflect latest schema changes.",
+    "Minor schema formatting adjustments (field reordering) without functional impact."
+  ],
+  "summary": "- Renamed REST API parameters from `package_registry_*` to `artifact_registry_*` across multiple endpoints.\n- Corrected OAuth scope for adding SSH keys from `write:gpg_key` to `write:public_key`.\n- Updated SHA references in config files to reflect latest schema changes.\n- Minor schema formatting adjustments (field reordering) without functional impact.",
+  "generated_title": "Update OpenAPI schema: Rename package registry to artifact registry and fix SSH key scope",
+  "commits": [
+    "**751be89**: Merge pull request #57245 from github/repo-sync (by docs-bot)",
+    "**6997049**: Update OpenAPI Description (#57238) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Renamed REST API parameters from `package_registry_*` to `artifact_registry_*` across multiple endpoints.\n- Corrected OAuth scope for adding SSH keys from `write:gpg_key` to `write:public_key`.\n- Updated SHA references in config files to reflect latest schema changes.\n- Minor schema formatting adjustments (field reordering) without functional impact.\n\n### Title\nUpdate OpenAPI schema: Rename package registry to artifact registry and fix SSH key scope"
+}
