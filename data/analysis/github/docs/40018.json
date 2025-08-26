@@ -1,0 +1,25 @@
+{
+  "number": 40018,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-25T21:32:25Z",
+  "url": "https://github.com/github/docs/pull/40018",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-26 00:23:58",
+  "details": [
+    "Added new section \"Default NTP servers\" detailing recommended configurations and default values for AWS/non-AWS environments",
+    "Specified network requirement (UDP port 123) and linked to ports documentation",
+    "Updated NTP server configuration UI labels:",
+    "Added \"(optional)\" to secondary server field",
+    "Added new optional \"NTP pool\" field for GHES > 3.17",
+    "Minor formatting cleanup (removed trailing periods in UI labels)"
+  ],
+  "summary": "- Added new section \"Default NTP servers\" detailing recommended configurations and default values for AWS/non-AWS environments\n- Specified network requirement (UDP port 123) and linked to ports documentation\n- Updated NTP server configuration UI labels:\n- Added \"(optional)\" to secondary server field\n- Added new optional \"NTP pool\" field for GHES > 3.17\n- Minor formatting cleanup (removed trailing periods in UI labels)",
+  "generated_title": "Update NTP server documentation with defaults and optional pool configuration",
+  "commits": [
+    "**1190fff**: Update NTP server configuration instructions (#56998) (by Hao Jiang)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added new section \"Default NTP servers\" detailing recommended configurations and default values for AWS/non-AWS environments\n- Specified network requirement (UDP port 123) and linked to ports documentation\n- Updated NTP server configuration UI labels:  \n  - Added \"(optional)\" to secondary server field  \n  - Added new optional \"NTP pool\" field for GHES > 3.17  \n- Minor formatting cleanup (removed trailing periods in UI labels)\n\n### Title  \nUpdate NTP server documentation with defaults and optional pool configuration"
+}
