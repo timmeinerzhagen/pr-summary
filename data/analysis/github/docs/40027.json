@@ -1,0 +1,26 @@
+{
+  "number": 40027,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-26T12:38:13Z",
+  "url": "https://github.com/github/docs/pull/40027",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-27 10:08:13",
+  "details": [
+    "Fixed broken link for `fhcount` plugin in monitoring docs.",
+    "Added REST API reference for rule insights.",
+    "Updated migration size limits table with GHES version details and compressed archive note.",
+    "Deleted orphaned feature file for custom org roles."
+  ],
+  "summary": "- Fixed broken link for `fhcount` plugin in monitoring docs.\n- Added REST API reference for rule insights.\n- Updated migration size limits table with GHES version details and compressed archive note.\n- Deleted orphaned feature file for custom org roles.",
+  "generated_title": "Docs: Fix links, add API note, update migration limits; remove orphaned feature",
+  "commits": [
+    "**24a9572**: Fix link for 'fhcount' plugin documentation (#57270) (by hubwriter)",
+    "**8fc42f2**: Delete orphaned features (2025-08-25-16-29) (#57254) (by docs-bot)",
+    "**a6ff9b7**: Update about-ruleset-insights.md (#57250) (by Patrick Knight)",
+    "**83956c7**: Update migration size limits and details in documentation (#57263) (by Tomoko Tanaka)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Fixed broken link for `fhcount` plugin in monitoring docs.\n- Added REST API reference for rule insights.\n- Updated migration size limits table with GHES version details and compressed archive note.\n- Deleted orphaned feature file for custom org roles.\n\n### Title\nDocs: Fix links, add API note, update migration limits; remove orphaned feature"
+}

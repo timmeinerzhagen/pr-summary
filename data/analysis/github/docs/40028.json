@@ -1,0 +1,23 @@
+{
+  "number": 40028,
+  "title": "Demote heading in dependabot-options-reference.md",
+  "author": "cmenon12",
+  "state": "closed",
+  "created": "2025-08-26T13:32:36Z",
+  "url": "https://github.com/github/docs/pull/40028",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-27 10:07:47",
+  "details": [
+    "Demoted a section heading from level 2 (`##`) to level 3 (`###`) in the Dependabot options reference documentation",
+    "Changed `## Example` to `### Example` to adjust hierarchical structure",
+    "No functional code changes; purely a documentation formatting update"
+  ],
+  "summary": "- Demoted a section heading from level 2 (`##`) to level 3 (`###`) in the Dependabot options reference documentation\n- Changed `## Example` to `### Example` to adjust hierarchical structure\n- No functional code changes; purely a documentation formatting update",
+  "generated_title": "Adjust heading hierarchy in Dependabot documentation",
+  "commits": [
+    "**42600e5**: Demote heading in dependabot-options-reference.md (by Christopher Menon)",
+    "**8baecd7**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\nThis heading should come under the \"`exclude-paths`\" heading, as it's an example of its syntax. However in its current form, it's adjacent to it. This looks incorrect in the table of contents.\r\n\r\n<img width=\"1299\" height=\"952\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7d5c313e-5046-4b39-9cae-922e138739d4\" />\r\n\r\n\r\n<!-- Paste the issue link or number here -->\r\nCloses:  none\r\n\r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nThe Example heading is demoted from h2 to h3, so that it nests under the h2 \"`exclude-paths`\" heading. This should mean it no longer appears in the table of contents (see screenshot above).\r\n\r\n<!-- Let us know what you are changing. Share anything that could provide the most context.\r\nIf you made changes to the `content` directory, a table will populate in a comment below with links to the review and current production articles. -->\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n\r\n> [!NOTE]\r\n> This is a very very small change. ",
+  "raw_analysis": "### Summary\n- Demoted a section heading from level 2 (`##`) to level 3 (`###`) in the Dependabot options reference documentation  \n- Changed `## Example` to `### Example` to adjust hierarchical structure  \n- No functional code changes; purely a documentation formatting update  \n\n### Title  \nAdjust heading hierarchy in Dependabot documentation"
+}

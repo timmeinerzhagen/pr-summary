@@ -1,0 +1,28 @@
+{
+  "number": 40024,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-26T09:47:23Z",
+  "url": "https://github.com/github/docs/pull/40024",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-27 10:08:33",
+  "details": [
+    "**Documentation clarifications for Copilot Coding Agent (CCA):**",
+    "Specifies that CCA creates a branch from the default repo branch when assigned an issue.",
+    "Notes that `fetch-depth` in `actions/checkout` is overridden for rollback/security.",
+    "Adds troubleshooting entry: CCA ignores issue-attached images >3 MiB.",
+    "**File deletions:**",
+    "Removes orphaned image (`enterprise-premium-request-budget.png`).",
+    "Deletes outdated reusable markdown files (`ghas-trial-availability.md`, `mcp-ide-preview-note.md`)."
+  ],
+  "summary": "- **Documentation clarifications for Copilot Coding Agent (CCA):**\n- Specifies that CCA creates a branch from the default repo branch when assigned an issue.\n- Notes that `fetch-depth` in `actions/checkout` is overridden for rollback/security.\n- Adds troubleshooting entry: CCA ignores issue-attached images >3 MiB.\n- **File deletions:**\n- Removes orphaned image (`enterprise-premium-request-budget.png`).\n- Deletes outdated reusable markdown files (`ghas-trial-availability.md`, `mcp-ide-preview-note.md`).",
+  "generated_title": "Update CCA docs: clarify branch usage, checkout behavior, and image limits; remove orphaned files",
+  "commits": [
+    "**5b8fd55**: Delete orphaned files (2025-08-25-16-29) (#57255) (by docs-bot)",
+    "**08f1bd2**: Add clarifications to CCA docs (#57219) (by Nhu Do)",
+    "**9811bea**: Clarify branch used by CCA when you assign an issue to Copilot (#57142) (by hubwriter)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- **Documentation clarifications for Copilot Coding Agent (CCA):**\n  - Specifies that CCA creates a branch from the default repo branch when assigned an issue.\n  - Notes that `fetch-depth` in `actions/checkout` is overridden for rollback/security.\n  - Adds troubleshooting entry: CCA ignores issue-attached images >3 MiB.\n- **File deletions:**\n  - Removes orphaned image (`enterprise-premium-request-budget.png`).\n  - Deletes outdated reusable markdown files (`ghas-trial-availability.md`, `mcp-ide-preview-note.md`).\n\n### Title\nUpdate CCA docs: clarify branch usage, checkout behavior, and image limits; remove orphaned files"
+}

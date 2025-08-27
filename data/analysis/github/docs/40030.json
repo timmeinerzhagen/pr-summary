@@ -1,0 +1,26 @@
+{
+  "number": 40030,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-26T18:36:37Z",
+  "url": "https://github.com/github/docs/pull/40030",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-27 10:06:36",
+  "details": [
+    "Simplified 404 handling by replacing App Router redirection with minimal HTML response to fix hydration issues causing 500 errors.",
+    "Added test for language-prefixed 404s.",
+    "Added `viewerCanSetFields` to `Issue` and `viewerCanSeeIssueFields` to `Repository` in GraphQL schema (FPT and GHEC).",
+    "Updated GraphQL changelog for FPT.",
+    "Synced secret scanning data: set `hasValidityCheck` to `false` for WorkOS/xAI and updated config SHAs."
+  ],
+  "summary": "- Simplified 404 handling by replacing App Router redirection with minimal HTML response to fix hydration issues causing 500 errors.\n- Added test for language-prefixed 404s.\n- Added `viewerCanSetFields` to `Issue` and `viewerCanSeeIssueFields` to `Repository` in GraphQL schema (FPT and GHEC).\n- Updated GraphQL changelog for FPT.\n- Synced secret scanning data: set `hasValidityCheck` to `false` for WorkOS/xAI and updated config SHAs.",
+  "generated_title": "Fix 404 hydration errors, update GraphQL schema, sync secret scanning data",
+  "commits": [
+    "**c575469**: minimal 404 to fix 500s (#57267) (by Robert Sese)",
+    "**1ebac32**: GraphQL schema update (#57275) (by docs-bot)",
+    "**b10595f**: Sync secret scanning data (#57274) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Simplified 404 handling by replacing App Router redirection with minimal HTML response to fix hydration issues causing 500 errors.\n- Added test for language-prefixed 404s.\n- Added `viewerCanSetFields` to `Issue` and `viewerCanSeeIssueFields` to `Repository` in GraphQL schema (FPT and GHEC).\n- Updated GraphQL changelog for FPT.\n- Synced secret scanning data: set `hasValidityCheck` to `false` for WorkOS/xAI and updated config SHAs.\n\n### Title\nFix 404 hydration errors, update GraphQL schema, sync secret scanning data"
+}

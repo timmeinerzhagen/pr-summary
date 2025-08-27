@@ -1,0 +1,28 @@
+{
+  "number": 40029,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-26T15:34:31Z",
+  "url": "https://github.com/github/docs/pull/40029",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-27 10:07:37",
+  "details": [
+    "Added documentation for immutable releases (preview feature), including enabling, verifying integrity, and preventing changes.",
+    "Updated Actions release management docs to reference immutable releases and adjusted release steps.",
+    "Modified dind configuration in Actions runner controller for Kubernetes versions (>=1.29 uses sidecar container).",
+    "Improved accessibility of AI search copy button with descriptive labels.",
+    "Adjusted REST API permissions for secret scanning and extended Copilot metrics date range."
+  ],
+  "summary": "- Added documentation for immutable releases (preview feature), including enabling, verifying integrity, and preventing changes.\n- Updated Actions release management docs to reference immutable releases and adjusted release steps.\n- Modified dind configuration in Actions runner controller for Kubernetes versions (>=1.29 uses sidecar container).\n- Improved accessibility of AI search copy button with descriptive labels.\n- Adjusted REST API permissions for secret scanning and extended Copilot metrics date range.",
+  "generated_title": "Add immutable releases preview, update dind for K8s 1.29, and improve accessibility",
+  "commits": [
+    "**d4fc48d**: Add change to the dind spec showing spec for K8s before and after 1.29 (#57187) (by Nikola Jokic)",
+    "**58a6545**: Create docs-internal PR for Early Access preview for Issue field values (#57233) (by Armağan)",
+    "**fe14077**: Add content on immutable releases (#57225) (by Sam Browning)",
+    "**1b81cfe**: Update OpenAPI Description (#57256) (by docs-bot)",
+    "**9155e26**: Fix AI search copy button aria-label for better accessibility (#57258) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added documentation for immutable releases (preview feature), including enabling, verifying integrity, and preventing changes.\n- Updated Actions release management docs to reference immutable releases and adjusted release steps.\n- Modified dind configuration in Actions runner controller for Kubernetes versions (>=1.29 uses sidecar container).\n- Improved accessibility of AI search copy button with descriptive labels.\n- Adjusted REST API permissions for secret scanning and extended Copilot metrics date range.\n\n### Title\nAdd immutable releases preview, update dind for K8s 1.29, and improve accessibility"
+}
