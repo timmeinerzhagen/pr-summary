@@ -1,0 +1,27 @@
+{
+  "number": 40033,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-26T21:32:00Z",
+  "url": "https://github.com/github/docs/pull/40033",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-27 06:08:13",
+  "details": [
+    "Added Grok Code AI model to Copilot's supported models and documentation.",
+    "Updated Copilot model comparison and hosting docs with Grok Code details and a promotional note.",
+    "Enhanced Projects documentation with more details on usage, best practices, and quickstart examples.",
+    "Reorganized Issues documentation, added sub-issue and issue type management.",
+    "Added new fields for pull requests and issue types in Projects.",
+    "Updated and added images for help documentation."
+  ],
+  "summary": "- Added Grok Code AI model to Copilot's supported models and documentation.\n- Updated Copilot model comparison and hosting docs with Grok Code details and a promotional note.\n- Enhanced Projects documentation with more details on usage, best practices, and quickstart examples.\n- Reorganized Issues documentation, added sub-issue and issue type management.\n- Added new fields for pull requests and issue types in Projects.\n- Updated and added images for help documentation.",
+  "generated_title": "Add Grok Code to Copilot and update Projects/Issues docs",
+  "commits": [
+    "**d92ffc1**: Updating Quickstart, Best practices, and general Issues & Projects docs (#56734) (by Riley Broughten)",
+    "**0dae493**: Copilot api (#57262) (by Shin)",
+    "**77e6676**: Tented release  (#57247) (by Sunbrye Ly)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added Grok Code AI model to Copilot's supported models and documentation.\n- Updated Copilot model comparison and hosting docs with Grok Code details and a promotional note.\n- Enhanced Projects documentation with more details on usage, best practices, and quickstart examples.\n- Reorganized Issues documentation, added sub-issue and issue type management.\n- Added new fields for pull requests and issue types in Projects.\n- Updated and added images for help documentation.\n\n### Title\nAdd Grok Code to Copilot and update Projects/Issues docs"
+}
