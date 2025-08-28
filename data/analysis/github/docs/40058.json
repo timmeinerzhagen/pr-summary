@@ -1,0 +1,24 @@
+{
+  "number": 40058,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-28T12:37:57Z",
+  "url": "https://github.com/github/docs/pull/40058",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-28 14:06:07",
+  "details": [
+    "Added changelog entry for new AI-powered issue intake tool article.",
+    "Updated existing changelog entry formatting (added colon after \"See\").",
+    "Changed Copilot Spaces access permissions from license requirement to preview feature flag.",
+    "Added new `copilot_preview_features` variable to support permission messaging."
+  ],
+  "summary": "- Added changelog entry for new AI-powered issue intake tool article.\n- Updated existing changelog entry formatting (added colon after \"See\").\n- Changed Copilot Spaces access permissions from license requirement to preview feature flag.\n- Added new `copilot_preview_features` variable to support permission messaging.",
+  "generated_title": "Update docs changelog and Copilot Spaces permissions messaging",
+  "commits": [
+    "**d05f7ce**: Update docs changelog (for PR #57249) (#57310) (by docs-bot)",
+    "**e33fa63**: Updated permissions messaging for Copilot Spaces access (#57302) (by David)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added changelog entry for new AI-powered issue intake tool article.\n- Updated existing changelog entry formatting (added colon after \"See\").\n- Changed Copilot Spaces access permissions from license requirement to preview feature flag.\n- Added new `copilot_preview_features` variable to support permission messaging.\n\n### Title\nUpdate docs changelog and Copilot Spaces permissions messaging"
+}
