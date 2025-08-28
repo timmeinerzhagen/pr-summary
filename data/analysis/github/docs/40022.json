@@ -1,0 +1,22 @@
+{
+  "number": 40022,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-26T03:39:38Z",
+  "url": "https://github.com/github/docs/pull/40022",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-28 08:07:53",
+  "details": [
+    "Updated `actions/upload-pages-artifact` from `v3` to `v4` for Free/Pro/Enterprise Cloud (fpt/ghec) environments in GitHub Pages workflow examples.",
+    "Maintained `v2` usage for GitHub Enterprise Server (ghes) environments.",
+    "Changes applied consistently across three workflow snippets in documentation."
+  ],
+  "summary": "- Updated `actions/upload-pages-artifact` from `v3` to `v4` for Free/Pro/Enterprise Cloud (fpt/ghec) environments in GitHub Pages workflow examples.\n- Maintained `v2` usage for GitHub Enterprise Server (ghes) environments.\n- Changes applied consistently across three workflow snippets in documentation.",
+  "generated_title": "Update GitHub Pages docs to use upload-pages-artifact@v4 for cloud environments",
+  "commits": [
+    "**ff3e6d6**: Merge pull request #57266 from github/repo-sync (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated `actions/upload-pages-artifact` from `v3` to `v4` for Free/Pro/Enterprise Cloud (fpt/ghec) environments in GitHub Pages workflow examples.\n- Maintained `v2` usage for GitHub Enterprise Server (ghes) environments.\n- Changes applied consistently across three workflow snippets in documentation.\n\n### Title\nUpdate GitHub Pages docs to use upload-pages-artifact@v4 for cloud environments"
+}
