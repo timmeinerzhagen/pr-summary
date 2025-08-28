@@ -1,0 +1,26 @@
+{
+  "number": 40021,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-26T00:44:04Z",
+  "url": "https://github.com/github/docs/pull/40021",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-28 12:10:22",
+  "details": [
+    "Added new documentation for system capacity checks before upgrading, including CPU, memory, disk, and queue thresholds.",
+    "Updated upgrade requirements to mandate capacity checks and lifted the pause for versions 3.15, 3.16, and 3.17.",
+    "Patched release notes for versions 3.14.17, 3.15.12, 3.16.8, and 3.17.5 with security fixes, performance improvements, and known issues.",
+    "Removed upgrade pause warnings from release notes and known issues documentation."
+  ],
+  "summary": "- Added new documentation for system capacity checks before upgrading, including CPU, memory, disk, and queue thresholds.\n- Updated upgrade requirements to mandate capacity checks and lifted the pause for versions 3.15, 3.16, and 3.17.\n- Patched release notes for versions 3.14.17, 3.15.12, 3.16.8, and 3.17.5 with security fixes, performance improvements, and known issues.\n- Removed upgrade pause warnings from release notes and known issues documentation.",
+  "generated_title": "Lift upgrade pause for 3.15-3.17 and add pre-upgrade capacity checks",
+  "commits": [
+    "**fdeab04**: Update public docs to include information about pre-upgrade checks and remediations (#57078) (by Pallavi)",
+    "**5b5658a**: Updated warning issued previously to 3.15, 3.16 and 3.17 versions (#57220) (by Pallavi)",
+    "**65bfb49**: Patch release notes for GitHub Enterprise Server (#57040) (by release-controller[bot])",
+    "**c45861d**: Updating \"Known issues with upgrades to your instance\" section to remove upgrade pause.  (#57261) (by Pallavi)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added new documentation for system capacity checks before upgrading, including CPU, memory, disk, and queue thresholds.\n- Updated upgrade requirements to mandate capacity checks and lifted the pause for versions 3.15, 3.16, and 3.17.\n- Patched release notes for versions 3.14.17, 3.15.12, 3.16.8, and 3.17.5 with security fixes, performance improvements, and known issues.\n- Removed upgrade pause warnings from release notes and known issues documentation.\n\n### Title  \nLift upgrade pause for 3.15-3.17 and add pre-upgrade capacity checks"
+}

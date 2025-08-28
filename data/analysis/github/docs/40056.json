@@ -1,0 +1,29 @@
+{
+  "number": 40056,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-28T09:35:02Z",
+  "url": "https://github.com/github/docs/pull/40056",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-28 12:10:03",
+  "details": [
+    "Added Copilot Chat retention policy: conversations kept for 28 days from last activity, max 100 conversations.",
+    "Added troubleshooting note for push protection bypasses without commit details (indicates timeout due to large/complex pushes).",
+    "Updated OpenAPI schemas for GHES 3.14 and 3.16 endpoints, including:",
+    "Reordered `descriptionHTML` and `statusCodes` fields in multiple endpoints",
+    "Added/updated descriptions for Actions, Runner Groups, and Security endpoints",
+    "Fixed schema structure consistency"
+  ],
+  "summary": "- Added Copilot Chat retention policy: conversations kept for 28 days from last activity, max 100 conversations.\n- Added troubleshooting note for push protection bypasses without commit details (indicates timeout due to large/complex pushes).\n- Updated OpenAPI schemas for GHES 3.14 and 3.16 endpoints, including:\n- Reordered `descriptionHTML` and `statusCodes` fields in multiple endpoints\n- Added/updated descriptions for Actions, Runner Groups, and Security endpoints\n- Fixed schema structure consistency",
+  "generated_title": "Update Copilot docs, push protection troubleshooting, and GHES OpenAPI schemas",
+  "commits": [
+    "**ed1228f**: Merge pull request #57308 from github/repo-sync (by docs-bot)",
+    "**7c6d48d**: Document how long copilot chat conversations on dotcom are retained (#55321) (by Andrew S)",
+    "**92d6e86**: Update OpenAPI Description (#57300) (by docs-bot)",
+    "**6638884**: Add to push protection troubleshooting doc (#57304) (by Courtney Claessens)",
+    "**dad091f**: Copilot api (#57306) (by Shin)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added Copilot Chat retention policy: conversations kept for 28 days from last activity, max 100 conversations.\n- Added troubleshooting note for push protection bypasses without commit details (indicates timeout due to large/complex pushes).\n- Updated OpenAPI schemas for GHES 3.14 and 3.16 endpoints, including:\n  - Reordered `descriptionHTML` and `statusCodes` fields in multiple endpoints\n  - Added/updated descriptions for Actions, Runner Groups, and Security endpoints\n  - Fixed schema structure consistency\n\n### Title  \nUpdate Copilot docs, push protection troubleshooting, and GHES OpenAPI schemas"
+}
