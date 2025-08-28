@@ -1,0 +1,25 @@
+{
+  "number": 40052,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-28T00:43:03Z",
+  "url": "https://github.com/github/docs/pull/40052",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-28 02:33:17",
+  "details": [
+    "Updated GitHub Enterprise Cloud trial setup: Copilot for Business now available without GitHub.com restriction.",
+    "Renamed and restructured GraphQL API rate limits documentation to include query limits and added optimization strategies.",
+    "Extended Copilot metrics data retention from 28 to 100 days.",
+    "Adjusted EMU trial content to generalize excluded features."
+  ],
+  "summary": "- Updated GitHub Enterprise Cloud trial setup: Copilot for Business now available without GitHub.com restriction.\n- Renamed and restructured GraphQL API rate limits documentation to include query limits and added optimization strategies.\n- Extended Copilot metrics data retention from 28 to 100 days.\n- Adjusted EMU trial content to generalize excluded features.",
+  "generated_title": "Update trial setup, GraphQL API docs, and Copilot metrics",
+  "commits": [
+    "**60d20ea**: Merge pull request #57307 from github/repo-sync (by docs-bot)",
+    "**7ac472a**: [GraphQL] Update GraphQL API rate limit docs to include new hard limits (#57118) (by Jenny Ly)",
+    "**d87dc33**: Proxima Self-Service Phase 1 (#57248) (by Sophie)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated GitHub Enterprise Cloud trial setup: Copilot for Business now available without GitHub.com restriction.\n- Renamed and restructured GraphQL API rate limits documentation to include query limits and added optimization strategies.\n- Extended Copilot metrics data retention from 28 to 100 days.\n- Adjusted EMU trial content to generalize excluded features.\n\n### Title\nUpdate trial setup, GraphQL API docs, and Copilot metrics"
+}
