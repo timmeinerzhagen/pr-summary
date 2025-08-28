@@ -1,0 +1,28 @@
+{
+  "number": 40043,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-27T12:38:22Z",
+  "url": "https://github.com/github/docs/pull/40043",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-28 04:07:12",
+  "details": [],
+  "summary": "No summary available",
+  "generated_title": "Repo sync",
+  "commits": [
+    "**3ae3962**: Merge pull request #57281 from github/repo-sync (by docs-bot)",
+    "**17a7b64**: Grok promotional period ends 2pm not 1pm (#57280) (by Sunbrye Ly)",
+    "**ff6d6df**: Update security vulnerability description in release notes (#57283) (by Shilpa Kumari)",
+    "**2e243dd**: Update security vulnerability description in release notes (#57284) (by Shilpa Kumari)",
+    "**58a8bfe**: Update security vulnerability description in release notes (#57285) (by Shilpa Kumari)",
+    "**48825da**: Update security vulnerability description in release notes (#57286) (by Shilpa Kumari)",
+    "**733aa4a**: [Improvement]: Remove duplicate sections on issues docs and misc improvements (#57278) (by Riley Broughten)",
+    "**a4d9720**: Update docs changelog (for PR #57247) (#57282) (by docs-bot)",
+    "**aa74afb**: Copilot api (#57279) (by Shin)",
+    "**88e3945**: Attempt to fix a broken link for Pages' supported themes (#57288) (by Yoann Chaudet)",
+    "**66598eb**: The secret risk assessment is generally available [GA] (#57186) (by Sophie)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": ""
+}

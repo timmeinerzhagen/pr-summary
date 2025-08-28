@@ -1,0 +1,23 @@
+{
+  "number": 40031,
+  "title": "Clarify the valid `update-types` values for the ignore block",
+  "author": "yeikel",
+  "state": "closed",
+  "created": "2025-08-26T20:11:07Z",
+  "url": "https://github.com/github/docs/pull/40031",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-28 04:07:31",
+  "details": [
+    "Updated Dependabot documentation to clarify valid `update-types` values in ignore blocks",
+    "Replaced `patch`, `minor`, and `major` with explicit syntax: `version-update:semver-patch` `version-update:semver-minor` `version-update:semver-major`",
+    "Affects SemVer configuration guidance for dependency update rules"
+  ],
+  "summary": "- Updated Dependabot documentation to clarify valid `update-types` values in ignore blocks\n- Replaced `patch`, `minor`, and `major` with explicit syntax:\n`version-update:semver-patch`\n`version-update:semver-minor`\n`version-update:semver-major`\n- Affects SemVer configuration guidance for dependency update rules",
+  "generated_title": "docs: Correct Dependabot ignore block update-types syntax",
+  "commits": [
+    "**0b91aa6**: Clarify the valid `update-types` values for the ignore block (by Yeikel Santana)",
+    "**a383ddb**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "\r\n### Why:\r\n\r\nThe current example is invalid and causes confusion. A few entries above we list configuration options but are using different values in the examples for the specific entry, \r\n\r\nRelevant issue: https://github.com/dependabot/dependabot-core/issues/12953\r\n\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nUpdates the valid values for the `update-types` section of the `ignore` configuration property for Dependabot\r\n\r\n### Check off the following:\r\n\r\n- [x] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [x] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Updated Dependabot documentation to clarify valid `update-types` values in ignore blocks  \n- Replaced `patch`, `minor`, and `major` with explicit syntax:  \n  `version-update:semver-patch`  \n  `version-update:semver-minor`  \n  `version-update:semver-major`  \n- Affects SemVer configuration guidance for dependency update rules  \n\n### Title  \ndocs: Correct Dependabot ignore block update-types syntax"
+}
