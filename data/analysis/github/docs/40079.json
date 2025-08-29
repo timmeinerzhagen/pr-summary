@@ -1,0 +1,23 @@
+{
+  "number": 40079,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-29T21:31:08Z",
+  "url": "https://github.com/github/docs/pull/40079",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-29 22:05:56",
+  "details": [
+    "Fixed typo in cookie policy: changed \"demographical\" to \"demographic\".",
+    "Updated `hasValidityCheck` for secret scanning patterns (SSLMate, Uniwise, Yandex, ZenHub) to conditionally set `false` for FPT/GHES and `true` otherwise.",
+    "Updated SHA references in secret scanning config file."
+  ],
+  "summary": "- Fixed typo in cookie policy: changed \"demographical\" to \"demographic\".\n- Updated `hasValidityCheck` for secret scanning patterns (SSLMate, Uniwise, Yandex, ZenHub) to conditionally set `false` for FPT/GHES and `true` otherwise.\n- Updated SHA references in secret scanning config file.",
+  "generated_title": "Update Secret Scanning Validity Checks and Fix Cookie Policy Typo",
+  "commits": [
+    "**c40bfef**: Merge pull request #57334 from github/repo-sync (by docs-bot)",
+    "**a29ac3f**: Sync secret scanning data (#57328) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Fixed typo in cookie policy: changed \"demographical\" to \"demographic\".\n- Updated `hasValidityCheck` for secret scanning patterns (SSLMate, Uniwise, Yandex, ZenHub) to conditionally set `false` for FPT/GHES and `true` otherwise.\n- Updated SHA references in secret scanning config file.\n\n### Title\nUpdate Secret Scanning Validity Checks and Fix Cookie Policy Typo"
+}

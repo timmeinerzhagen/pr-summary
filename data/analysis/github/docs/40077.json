@@ -1,0 +1,24 @@
+{
+  "number": 40077,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-29T18:37:02Z",
+  "url": "https://github.com/github/docs/pull/40077",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-29 22:06:13",
+  "details": [
+    "Removed outdated Copilot skills section: deleted an image and text about identifying skills via chat UI.",
+    "Updated rollout guide: added example timeline, team onboarding strategies, feedback loops, and success tracking.",
+    "Included practical adoption examples: team sprints, feedback sessions, and metrics celebration.",
+    "Added link to \"Training and Onboarding Developers\" whitepaper."
+  ],
+  "summary": "- Removed outdated Copilot skills section: deleted an image and text about identifying skills via chat UI.\n- Updated rollout guide: added example timeline, team onboarding strategies, feedback loops, and success tracking.\n- Included practical adoption examples: team sprints, feedback sessions, and metrics celebration.\n- Added link to \"Training and Onboarding Developers\" whitepaper.",
+  "generated_title": "Update Copilot docs: Remove outdated skills info and enhance rollout adoption guide",
+  "commits": [
+    "**41f23eb**: Source docs content from \"Training and onboarding developers\" Copilot resource (#57130) (by John Clement)",
+    "**dc2bca0**: Remove image and inaccurate text related to copilot skills (#57322) (by Jenni C)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removed outdated Copilot skills section: deleted an image and text about identifying skills via chat UI.\n- Updated rollout guide: added example timeline, team onboarding strategies, feedback loops, and success tracking.\n- Included practical adoption examples: team sprints, feedback sessions, and metrics celebration.\n- Added link to \"Training and Onboarding Developers\" whitepaper.\n\n### Title\nUpdate Copilot docs: Remove outdated skills info and enhance rollout adoption guide"
+}
