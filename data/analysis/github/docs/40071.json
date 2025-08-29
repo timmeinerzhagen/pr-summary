@@ -1,0 +1,27 @@
+{
+  "number": 40071,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-08-29T09:35:10Z",
+  "url": "https://github.com/github/docs/pull/40071",
+  "repository": "github/docs",
+  "analysis_date": "2025-08-29 10:05:52",
+  "details": [
+    "Added two new PNG images for \"Pay now\" button and invoice download UI elements",
+    "Updated an existing PNG image showing the invoice view link",
+    "Revised documentation content to align with current UI:",
+    "Clarified billing process for enterprise customers",
+    "Simplified invoice viewing/payment steps with new UI labels",
+    "Combined invoice download and payment history sections",
+    "Added tip about paid invoices and \"Past invoices\" section",
+    "Updated screenshot references and instructions"
+  ],
+  "summary": "- Added two new PNG images for \"Pay now\" button and invoice download UI elements\n- Updated an existing PNG image showing the invoice view link\n- Revised documentation content to align with current UI:\n- Clarified billing process for enterprise customers\n- Simplified invoice viewing/payment steps with new UI labels\n- Combined invoice download and payment history sections\n- Added tip about paid invoices and \"Past invoices\" section\n- Updated screenshot references and instructions",
+  "generated_title": "Update enterprise invoice management documentation to match current UI",
+  "commits": [
+    "**ec66762**: Update Managing invoices for your enterprise to align with the current UI (#57317) (by Felicity Chapman)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added two new PNG images for \"Pay now\" button and invoice download UI elements\n- Updated an existing PNG image showing the invoice view link\n- Revised documentation content to align with current UI:\n  - Clarified billing process for enterprise customers\n  - Simplified invoice viewing/payment steps with new UI labels\n  - Combined invoice download and payment history sections\n  - Added tip about paid invoices and \"Past invoices\" section\n  - Updated screenshot references and instructions\n\n### Title\nUpdate enterprise invoice management documentation to match current UI"
+}
