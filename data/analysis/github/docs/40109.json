@@ -1,0 +1,25 @@
+{
+  "number": 40109,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-01T12:37:31Z",
+  "url": "https://github.com/github/docs/pull/40109",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-01 18:07:56",
+  "details": [
+    "Removed expired notice and versioning condition in GitHub Advanced Security billing documentation.",
+    "Enhanced Table of Contents generator to support 5-level article nesting with depth control.",
+    "Updated style guide: replaced \"below\" with \"here\" in licensing guidance and added rules for release references (use \"or later\").",
+    "Added script documentation for ToC generation tool."
+  ],
+  "summary": "- Removed expired notice and versioning condition in GitHub Advanced Security billing documentation.\n- Enhanced Table of Contents generator to support 5-level article nesting with depth control.\n- Updated style guide: replaced \"below\" with \"here\" in licensing guidance and added rules for release references (use \"or later\").\n- Added script documentation for ToC generation tool.",
+  "generated_title": "Enhance ToC nesting, update style guide, and remove expired billing notice",
+  "commits": [
+    "**d0b31a3**: Remove an expiration notice and versioning (#57343) (by Ben Ahmady)",
+    "**6fe837a**: Docs site ToC: Support deeper level of article nesting (#57312) (by hubwriter)",
+    "**3fbee17**: Style guide: Add advice for release number 'or later' (#57298) (by hubwriter)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removed expired notice and versioning condition in GitHub Advanced Security billing documentation.\n- Enhanced Table of Contents generator to support 5-level article nesting with depth control.\n- Updated style guide: replaced \"below\" with \"here\" in licensing guidance and added rules for release references (use \"or later\").\n- Added script documentation for ToC generation tool.\n\n### Title\nEnhance ToC nesting, update style guide, and remove expired billing notice"
+}
