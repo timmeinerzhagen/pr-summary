@@ -1,0 +1,24 @@
+{
+  "number": 40105,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-01T06:37:55Z",
+  "url": "https://github.com/github/docs/pull/40105",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-01 10:07:14",
+  "details": [
+    "Added new tutorial page: \"Synthesizing research\" under \"Communicate effectively\" section.",
+    "Tutorial demonstrates using Copilot Chat to synthesize research findings into cohesive summaries.",
+    "Includes example scenario, prompt, and response for research about a fictional EcoSmart Bottle product.",
+    "Updated index.md to include the new tutorial in the children section."
+  ],
+  "summary": "- Added new tutorial page: \"Synthesizing research\" under \"Communicate effectively\" section.\n- Tutorial demonstrates using Copilot Chat to synthesize research findings into cohesive summaries.\n- Includes example scenario, prompt, and response for research about a fictional EcoSmart Bottle product.\n- Updated index.md to include the new tutorial in the children section.",
+  "generated_title": "Add Copilot Chat tutorial for research synthesis",
+  "commits": [
+    "**9f0346f**: Merge pull request #57337 from github/repo-sync (by docs-bot)",
+    "**01aa906**: Synthesize research with Copilot Chat cookbook article (#57179) (by Jules)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added new tutorial page: \"Synthesizing research\" under \"Communicate effectively\" section.\n- Tutorial demonstrates using Copilot Chat to synthesize research findings into cohesive summaries.\n- Includes example scenario, prompt, and response for research about a fictional EcoSmart Bottle product.\n- Updated index.md to include the new tutorial in the children section.\n\n### Title\nAdd Copilot Chat tutorial for research synthesis"
+}

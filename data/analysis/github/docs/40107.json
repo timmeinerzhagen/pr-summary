@@ -1,0 +1,29 @@
+{
+  "number": 40107,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-01T09:35:46Z",
+  "url": "https://github.com/github/docs/pull/40107",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-01 10:07:04",
+  "details": [
+    "Updated Copilot billing documentation for clarity and removed license reassignment references.",
+    "Changed Dependabot IP allow list instructions to use 'actions' key in meta API.",
+    "Generalized audit log event description for `api.request` across multiple GHES versions.",
+    "Made minor formatting updates to OpenAPI schema descriptions.",
+    "Enabled push protection for Pulumi API tokens in secret scanning."
+  ],
+  "summary": "- Updated Copilot billing documentation for clarity and removed license reassignment references.\n- Changed Dependabot IP allow list instructions to use 'actions' key in meta API.\n- Generalized audit log event description for `api.request` across multiple GHES versions.\n- Made minor formatting updates to OpenAPI schema descriptions.\n- Enabled push protection for Pulumi API tokens in secret scanning.",
+  "generated_title": "Update docs: Copilot billing, Dependabot IPs, Audit logs, and enable Pulumi push protection",
+  "commits": [
+    "**ea9c0df**: Sync secret scanning data (#57340) (by docs-bot)",
+    "**a6a98e0**: Minor update to wording for consistency in cost-center-allocation.md (#57333) (by Greg Mondello)",
+    "**562d6d2**: Remove references to reassigning Copilot licenses (#57336) (by Greg Mondello)",
+    "**078fdbf**: Update OpenAPI Description (#57330) (by docs-bot)",
+    "**fc5a161**: Update Dependabot IP docs (#57335) (by Jurre)",
+    "**1339f68**: Update audit log event data (#57329) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated Copilot billing documentation for clarity and removed license reassignment references.\n- Changed Dependabot IP allow list instructions to use 'actions' key in meta API.\n- Generalized audit log event description for `api.request` across multiple GHES versions.\n- Made minor formatting updates to OpenAPI schema descriptions.\n- Enabled push protection for Pulumi API tokens in secret scanning.\n\n### Title\nUpdate docs: Copilot billing, Dependabot IPs, Audit logs, and enable Pulumi push protection"
+}
