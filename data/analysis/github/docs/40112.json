@@ -1,0 +1,24 @@
+{
+  "number": 40112,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-01T15:33:33Z",
+  "url": "https://github.com/github/docs/pull/40112",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-01 16:06:55",
+  "details": [
+    "Added Xcode to the list of supported platforms for Copilot Code Review.",
+    "Included detailed Xcode usage instructions: review initiation via chat window, change selection, and comment navigation.",
+    "Added two new images (`xcode-ccr-button.png`, `xcode-review-popup.png`) for Xcode UI guidance.",
+    "Updated environment switching references from \"tool switcher\" to \"appropriate tab\" across docs.",
+    "Removed redundant VS Code version note and generalized output formatting descriptions."
+  ],
+  "summary": "- Added Xcode to the list of supported platforms for Copilot Code Review.\n- Included detailed Xcode usage instructions: review initiation via chat window, change selection, and comment navigation.\n- Added two new images (`xcode-ccr-button.png`, `xcode-review-popup.png`) for Xcode UI guidance.\n- Updated environment switching references from \"tool switcher\" to \"appropriate tab\" across docs.\n- Removed redundant VS Code version note and generalized output formatting descriptions.",
+  "generated_title": "Add Xcode support and documentation for Copilot Code Review",
+  "commits": [
+    "**33d9579**: Add details for Xcode CCR support (#57327) (by hubwriter)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added Xcode to the list of supported platforms for Copilot Code Review.\n- Included detailed Xcode usage instructions: review initiation via chat window, change selection, and comment navigation.\n- Added two new images (`xcode-ccr-button.png`, `xcode-review-popup.png`) for Xcode UI guidance.\n- Updated environment switching references from \"tool switcher\" to \"appropriate tab\" across docs.\n- Removed redundant VS Code version note and generalized output formatting descriptions.\n\n### Title\nAdd Xcode support and documentation for Copilot Code Review"
+}
