@@ -1,0 +1,23 @@
+{
+  "number": 40155,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-01T18:35:54Z",
+  "url": "https://github.com/github/docs/pull/40155",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-02 08:08:52",
+  "details": [
+    "Deleted two orphaned markdown files containing public preview notes:",
+    "`issue-dependencies-preview-note.md` (for issue dependencies feature)",
+    "`public-preview-note.md` (for secret risk assessment feature)",
+    "Removed outdated preview messaging indicating these features were subject to change"
+  ],
+  "summary": "- Deleted two orphaned markdown files containing public preview notes:\n- `issue-dependencies-preview-note.md` (for issue dependencies feature)\n- `public-preview-note.md` (for secret risk assessment feature)\n- Removed outdated preview messaging indicating these features were subject to change",
+  "generated_title": "Remove orphaned public preview notes for issue dependencies and secret risk assessment",
+  "commits": [
+    "**6c2bb1b**: Delete orphaned files (2025-09-01-16-29) (#57348) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Deleted two orphaned markdown files containing public preview notes:\n  - `issue-dependencies-preview-note.md` (for issue dependencies feature)\n  - `public-preview-note.md` (for secret risk assessment feature)\n- Removed outdated preview messaging indicating these features were subject to change\n\n### Title\nRemove orphaned public preview notes for issue dependencies and secret risk assessment"
+}
