@@ -1,0 +1,21 @@
+{
+  "number": 40171,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-01T21:31:16Z",
+  "url": "https://github.com/github/docs/pull/40171",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-02 02:34:08",
+  "details": [
+    "Removed preview note for issue dependencies feature (no longer in preview)",
+    "Removed preview note for secret risk assessment report (no longer in preview)"
+  ],
+  "summary": "- Removed preview note for issue dependencies feature (no longer in preview)\n- Removed preview note for secret risk assessment report (no longer in preview)",
+  "generated_title": "Remove public preview notes for issue dependencies and secret risk assessment",
+  "commits": [
+    "**ca607df**: Merge pull request #57349 from github/repo-sync (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removed preview note for issue dependencies feature (no longer in preview)\n- Removed preview note for secret risk assessment report (no longer in preview)\n\n### Title  \nRemove public preview notes for issue dependencies and secret risk assessment"
+}
