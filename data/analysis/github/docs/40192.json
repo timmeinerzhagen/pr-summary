@@ -1,0 +1,26 @@
+{
+  "number": 40192,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-02T18:36:22Z",
+  "url": "https://github.com/github/docs/pull/40192",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-03 00:22:47",
+  "details": [
+    "Added two new calculators for secret protection: ROI calculator for push protection savings and pricing calculator for secret protection costs.",
+    "Updated documentation to include the new calculators in the secret risk assessment section.",
+    "Introduced a customization library for Copilot with examples of custom instructions and prompt files.",
+    "Added path-specific instructions for accessibility, testing, and GitHub Actions workflows."
+  ],
+  "summary": "- Added two new calculators for secret protection: ROI calculator for push protection savings and pricing calculator for secret protection costs.\n- Updated documentation to include the new calculators in the secret risk assessment section.\n- Introduced a customization library for Copilot with examples of custom instructions and prompt files.\n- Added path-specific instructions for accessibility, testing, and GitHub Actions workflows.",
+  "generated_title": "Add secret protection calculators and Copilot customization library",
+  "commits": [
+    "**a903fcb**: Replace got.stream with native fetch streaming (Final Phase) (#57196) (by Kevin Heis)",
+    "**18c7293**: Remove got dependency (#57362) (by Kevin Heis)",
+    "**28d1469**: GHSP ROI calculator in the secret risk assessment page (#57188) (by mc)",
+    "**76d2562**: Customization library (custom instructions and prompt files) (#57137) (by Sarita Iyer)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added two new calculators for secret protection: ROI calculator for push protection savings and pricing calculator for secret protection costs.\n- Updated documentation to include the new calculators in the secret risk assessment section.\n- Introduced a customization library for Copilot with examples of custom instructions and prompt files.\n- Added path-specific instructions for accessibility, testing, and GitHub Actions workflows.\n\n### Title\nAdd secret protection calculators and Copilot customization library"
+}

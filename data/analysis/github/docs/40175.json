@@ -1,0 +1,28 @@
+{
+  "number": 40175,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-02T09:35:42Z",
+  "url": "https://github.com/github/docs/pull/40175",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-03 00:23:30",
+  "details": [
+    "Increased Elasticsearch index repair worker limit upper bound to 16 in GHES 3.13 docs.",
+    "Simplified security campaign notifications: automatic for users with write access.",
+    "Updated Copilot `o4_mini` model status to include Chat support.",
+    "Removed project card-related API endpoints and permissions.",
+    "Added REST endpoint to get parent issue."
+  ],
+  "summary": "- Increased Elasticsearch index repair worker limit upper bound to 16 in GHES 3.13 docs.\n- Simplified security campaign notifications: automatic for users with write access.\n- Updated Copilot `o4_mini` model status to include Chat support.\n- Removed project card-related API endpoints and permissions.\n- Added REST endpoint to get parent issue.",
+  "generated_title": "Update docs, Copilot models, and API permissions; remove project card endpoints",
+  "commits": [
+    "**53c95ff**: Merge pull request #57350 from github/repo-sync (by docs-bot)",
+    "**aff3cf3**: Update OpenAPI Description (#57341) (by docs-bot)",
+    "**933b09b**: [Improvement]: Correct Default Elasticsearch Worker Limits in GHES 3.13 Documentation (#57351) (by Sophie)",
+    "**50a2f7a**: Improve notifications for developers involved in security campaigns #18872 (#57344) (by Anne-Marie)",
+    "**e42f3d5**: Update copilot_o4_mini status in supported models (#56854) (by Sharra-writes)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Increased Elasticsearch index repair worker limit upper bound to 16 in GHES 3.13 docs.\n- Simplified security campaign notifications: automatic for users with write access.\n- Updated Copilot `o4_mini` model status to include Chat support.\n- Removed project card-related API endpoints and permissions.\n- Added REST endpoint to get parent issue.\n\n### Title\nUpdate docs, Copilot models, and API permissions; remove project card endpoints"
+}

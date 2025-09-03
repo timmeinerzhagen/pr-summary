@@ -1,0 +1,23 @@
+{
+  "number": 40185,
+  "title": "fix: typo in manage-policies.md",
+  "author": "AymKh",
+  "state": "closed",
+  "created": "2025-09-02T14:25:39Z",
+  "url": "https://github.com/github/docs/pull/40185",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-03 00:22:58",
+  "details": [
+    "Fixed a typo in the documentation heading: changed \"Opting in to to previews\" to \"Opting in to previews\"",
+    "Removed duplicated word \"to\" in a section title about GitHub Copilot policy management",
+    "No functional code changes; purely a documentation correction"
+  ],
+  "summary": "- Fixed a typo in the documentation heading: changed \"Opting in to to previews\" to \"Opting in to previews\"\n- Removed duplicated word \"to\" in a section title about GitHub Copilot policy management\n- No functional code changes; purely a documentation correction",
+  "generated_title": "Fix typo in Copilot policy management documentation",
+  "commits": [
+    "**944cb5a**: fix: typo in manage-policies.md (by Aymen KHEDHRIYA)",
+    "**11586ac**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "Fixed a typo in manage-policies.md (duplicate word)\r\n\r\n<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\nIssue link: https://github.com/github/docs/issues/40184\r\n\r\nCloses: \r\n\r\nIssue Link: https://github.com/github/docs/issues/40184\r\n\r\nI removed the extra \"to\" word in the section title\r\n<img width=\"899\" height=\"330\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7b0042d9-9864-41ae-801d-3e53e8b94f39\" />\r\n\r\n\r\n### Check off the following:\r\n\r\n- [x] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [x] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Fixed a typo in the documentation heading: changed \"Opting in to to previews\" to \"Opting in to previews\"  \n- Removed duplicated word \"to\" in a section title about GitHub Copilot policy management  \n- No functional code changes; purely a documentation correction  \n\n### Title  \nFix typo in Copilot policy management documentation"
+}
