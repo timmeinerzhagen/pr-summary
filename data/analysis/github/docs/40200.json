@@ -1,0 +1,21 @@
+{
+  "number": 40200,
+  "title": "Update oidc-in-azure.md",
+  "author": "wi5nia",
+  "state": "closed",
+  "created": "2025-09-03T07:09:22Z",
+  "url": "https://github.com/github/docs/pull/40200",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-03 18:07:52",
+  "details": [
+    "Updated the Azure login action in the GitHub Actions workflow example from a specific commit hash (`a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0`) to the stable `v2` tag.",
+    "Ensures the OIDC authentication example uses a maintained version reference for better security and reliability."
+  ],
+  "summary": "- Updated the Azure login action in the GitHub Actions workflow example from a specific commit hash (`a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0`) to the stable `v2` tag.\n- Ensures the OIDC authentication example uses a maintained version reference for better security and reliability.",
+  "generated_title": "Update Azure OIDC example to use azure/login@v2 in workflow",
+  "commits": [
+    "**a395658**: Update oidc-in-azure.md (by Tomasz Wisniewski)"
+  ],
+  "original_description": "<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\n<!-- Paste the issue link or number here -->\r\nCloses: \r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nThe version of the action the docs specify don't work, you should be using the v2\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [ ] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Updated the Azure login action in the GitHub Actions workflow example from a specific commit hash (`a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0`) to the stable `v2` tag.\n- Ensures the OIDC authentication example uses a maintained version reference for better security and reliability.\n\n### Title\nUpdate Azure OIDC example to use azure/login@v2 in workflow"
+}
