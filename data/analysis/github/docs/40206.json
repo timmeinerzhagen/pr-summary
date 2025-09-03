@@ -1,0 +1,27 @@
+{
+  "number": 40206,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-03T18:36:46Z",
+  "url": "https://github.com/github/docs/pull/40206",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-03 20:06:31",
+  "details": [
+    "Updated Next.js from 15.3.3 to 15.4.7",
+    "Bumped related dependencies:",
+    "`@next/swc-*` packages to 15.4.7",
+    "`@playwright/test` to 1.55.0",
+    "`sharp` to 0.34.3 (including platform-specific binaries)",
+    "`@emnapi/runtime` to 1.5.0",
+    "`detect-libc` to 2.0.4",
+    "Added new platform binaries for `sharp` (Linux ppc64, Win32 arm64)"
+  ],
+  "summary": "- Updated Next.js from 15.3.3 to 15.4.7\n- Bumped related dependencies:\n- `@next/swc-*` packages to 15.4.7\n- `@playwright/test` to 1.55.0\n- `sharp` to 0.34.3 (including platform-specific binaries)\n- `@emnapi/runtime` to 1.5.0\n- `detect-libc` to 2.0.4\n- Added new platform binaries for `sharp` (Linux ppc64, Win32 arm64)",
+  "generated_title": "Bump Next.js to 15.4.7 and update related dependencies",
+  "commits": [
+    "**6669cda**: Bump next from 15.3.3 to 15.4.7 in the npm_and_yarn group (#57339) (by dependabot[bot])"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated Next.js from 15.3.3 to 15.4.7\n- Bumped related dependencies:\n  - `@next/swc-*` packages to 15.4.7\n  - `@playwright/test` to 1.55.0\n  - `sharp` to 0.34.3 (including platform-specific binaries)\n  - `@emnapi/runtime` to 1.5.0\n  - `detect-libc` to 2.0.4\n- Added new platform binaries for `sharp` (Linux ppc64, Win32 arm64)\n\n### Title\nBump Next.js to 15.4.7 and update related dependencies"
+}
