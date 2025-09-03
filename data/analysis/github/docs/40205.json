@@ -1,0 +1,27 @@
+{
+  "number": 40205,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-03T15:35:07Z",
+  "url": "https://github.com/github/docs/pull/40205",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-03 16:06:46",
+  "details": [
+    "**CHANGELOG.md**: Updated link formatting for Copilot code review documentation.",
+    "**Enterprise Plan Article**:",
+    "Restructured content to focus on premium requests and business goals.",
+    "Added cost-effectiveness analysis and usage examples.",
+    "Replaced decision guidance with goal-oriented recommendations.",
+    "**Tutorials**: Added \"Communicate effectively\" category to three Copilot Chat cookbook articles."
+  ],
+  "summary": "- **CHANGELOG.md**: Updated link formatting for Copilot code review documentation.\n- **Enterprise Plan Article**:\n- Restructured content to focus on premium requests and business goals.\n- Added cost-effectiveness analysis and usage examples.\n- Replaced decision guidance with goal-oriented recommendations.\n- **Tutorials**: Added \"Communicate effectively\" category to three Copilot Chat cookbook articles.",
+  "generated_title": "Refreshed Copilot enterprise plan guide and categorized tutorials",
+  "commits": [
+    "**6ddbd57**: Adds category to \"communicate effectively\" articles (#57378) (by Jules)",
+    "**37484c6**: Update CHANGELOG.md (by hubwriter)",
+    "**12c18a9**: Refresh the \"Choosing your enterprise's plan for Copilot\" article (#57326) (by Isaac Brown)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- **CHANGELOG.md**: Updated link formatting for Copilot code review documentation.\n- **Enterprise Plan Article**:  \n  - Restructured content to focus on premium requests and business goals.  \n  - Added cost-effectiveness analysis and usage examples.  \n  - Replaced decision guidance with goal-oriented recommendations.  \n- **Tutorials**: Added \"Communicate effectively\" category to three Copilot Chat cookbook articles.\n\n### Title  \nRefreshed Copilot enterprise plan guide and categorized tutorials"
+}

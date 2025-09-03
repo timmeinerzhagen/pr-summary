@@ -1,0 +1,22 @@
+{
+  "number": 40103,
+  "title": "chore: updated using the audit log api for your enterprise file",
+  "author": "clarencepenz",
+  "state": "closed",
+  "created": "2025-08-31T19:36:44Z",
+  "url": "https://github.com/github/docs/pull/40103",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-03 16:08:29",
+  "details": [
+    "Updated audit log API examples by adding the `phrase` parameter to query strings in pagination links and curl commands.",
+    "Corrected the syntax for search queries to include the `phrase` key before date filters."
+  ],
+  "summary": "- Updated audit log API examples by adding the `phrase` parameter to query strings in pagination links and curl commands.\n- Corrected the syntax for search queries to include the `phrase` key before date filters.",
+  "generated_title": "Add 'phrase' parameter to enterprise audit log API examples",
+  "commits": [
+    "**719ef24**: chore: updated using the audit log api for your enterprise file (by clarencepenz)",
+    "**47fbc49**: Merge branch 'main' into patch-5 (by Sharra-writes)"
+  ],
+  "original_description": "<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\n<!-- Paste the issue link or number here -->\r\nCloses: #38566\r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\n<!-- Let us know what you are changing. Share anything that could provide the most context.\r\nIf you made changes to the `content` directory, a table will populate in a comment below with links to the review and current production articles. -->\r\n\r\n### Check off the following:\r\n\r\n- [X] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [X] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [X] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Updated audit log API examples by adding the `phrase` parameter to query strings in pagination links and curl commands.\n- Corrected the syntax for search queries to include the `phrase` key before date filters.\n\n### Title\nAdd 'phrase' parameter to enterprise audit log API examples"
+}

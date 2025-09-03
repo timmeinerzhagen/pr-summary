@@ -1,0 +1,26 @@
+{
+  "number": 40199,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-03T06:36:24Z",
+  "url": "https://github.com/github/docs/pull/40199",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-03 16:07:28",
+  "details": [
+    "Added three new staging environments (balsam, hinoki, yew) with deployment configurations and emoji messages.",
+    "Created a new Copilot Chat tutorial article on template creation with example README template.",
+    "Added three new evergreen PNG images (balsam.png, hinoki.png, yew.png) and excluded them from orphan checks.",
+    "Migrated `convert-markdown-for-docs` script from JavaScript to TypeScript with type annotations.",
+    "Updated GitHub Actions workflow comment to remove DIY docs label reference.",
+    "Renamed test file to TypeScript and added new staging names to app configuration."
+  ],
+  "summary": "- Added three new staging environments (balsam, hinoki, yew) with deployment configurations and emoji messages.\n- Created a new Copilot Chat tutorial article on template creation with example README template.\n- Added three new evergreen PNG images (balsam.png, hinoki.png, yew.png) and excluded them from orphan checks.\n- Migrated `convert-markdown-for-docs` script from JavaScript to TypeScript with type annotations.\n- Updated GitHub Actions workflow comment to remove DIY docs label reference.\n- Renamed test file to TypeScript and added new staging names to app configuration.",
+  "generated_title": "Add staging envs, Copilot template tutorial, and migrate script to TS",
+  "commits": [
+    "**1d87864**: Merge pull request #57377 from github/repo-sync (by docs-bot)",
+    "**05267a8**: Creating templates cookbook article (#57345) (by Jules)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added three new staging environments (balsam, hinoki, yew) with deployment configurations and emoji messages.\n- Created a new Copilot Chat tutorial article on template creation with example README template.\n- Added three new evergreen PNG images (balsam.png, hinoki.png, yew.png) and excluded them from orphan checks.\n- Migrated `convert-markdown-for-docs` script from JavaScript to TypeScript with type annotations.\n- Updated GitHub Actions workflow comment to remove DIY docs label reference.\n- Renamed test file to TypeScript and added new staging names to app configuration.\n\n### Title\nAdd staging envs, Copilot template tutorial, and migrate script to TS"
+}
