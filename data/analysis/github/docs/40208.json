@@ -1,0 +1,25 @@
+{
+  "number": 40208,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-03T21:32:23Z",
+  "url": "https://github.com/github/docs/pull/40208",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-03 22:05:34",
+  "details": [
+    "Updated Azure OIDC guide to use `azure/login@v2` action.",
+    "Enhanced Copilot documentation to support path-specific and organization-level custom instructions for code reviews.",
+    "Restructured repository custom instructions content for clarity, adding new reusable files.",
+    "Fixed GitHub CLI examples for gist endpoints to handle nested file structures."
+  ],
+  "summary": "- Updated Azure OIDC guide to use `azure/login@v2` action.\n- Enhanced Copilot documentation to support path-specific and organization-level custom instructions for code reviews.\n- Restructured repository custom instructions content for clarity, adding new reusable files.\n- Fixed GitHub CLI examples for gist endpoints to handle nested file structures.",
+  "generated_title": "Enhance Copilot custom instructions docs and fix gist CLI examples",
+  "commits": [
+    "**c9b4b03**: Update CCR docs to include support for path-specific custom instructions and custom instructions defined in the org settings (#57237) (by hubwriter)",
+    "**cccb1c4**: Merge pull request #57391 from github/repo-sync (by docs-bot)",
+    "**1e23f84**: Fix GitHub CLI examples for gist endpoints (#57364) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated Azure OIDC guide to use `azure/login@v2` action.\n- Enhanced Copilot documentation to support path-specific and organization-level custom instructions for code reviews.\n- Restructured repository custom instructions content for clarity, adding new reusable files.\n- Fixed GitHub CLI examples for gist endpoints to handle nested file structures.\n\n### Title\nEnhance Copilot custom instructions docs and fix gist CLI examples"
+}
