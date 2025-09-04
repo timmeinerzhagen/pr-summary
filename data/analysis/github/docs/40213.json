@@ -1,0 +1,30 @@
+{
+  "number": 40213,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-04T00:41:58Z",
+  "url": "https://github.com/github/docs/pull/40213",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-04 02:30:36",
+  "details": [
+    "Updated favicon assets to purple.",
+    "Added step to save setup user password in SCIM provisioning docs.",
+    "Restructured GHAS trial planning guide for clarity.",
+    "Clarified Codespaces permissions and access management.",
+    "Added content linter rule (GHD056) for landing page recommended articles.",
+    "Updated artifact attestations availability note."
+  ],
+  "summary": "- Updated favicon assets to purple.\n- Added step to save setup user password in SCIM provisioning docs.\n- Restructured GHAS trial planning guide for clarity.\n- Clarified Codespaces permissions and access management.\n- Added content linter rule (GHD056) for landing page recommended articles.\n- Updated artifact attestations availability note.",
+  "generated_title": "Update favicon, enhance docs (SCIM, GHAS, Codespaces), and add content linter rule",
+  "commits": [
+    "**3353b3b**: Merge pull request #57393 from github/repo-sync (by docs-bot)",
+    "**a292bb3**: Update favicon to purple (#57388) (by Kevin Heis)",
+    "**d01e267**: add content linter rule for carousel `recommended` articles (#57216) (by Robert Sese)",
+    "**92dfc31**: Project: Baseline Readability and Analytics Assessment for Driver Docs Articles (#57190) (by John Clement)",
+    "**bb544f3**: Clarify repository types in all doc versions (#57384) (by Indigo)",
+    "**1fc1e91**: [Improvement]: Update \"Create a built-in setup user\" in the SCIM Provisioning Docs to include step to save its password (#57380) (by Justin Alex)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated favicon assets to purple.\n- Added step to save setup user password in SCIM provisioning docs.\n- Restructured GHAS trial planning guide for clarity.\n- Clarified Codespaces permissions and access management.\n- Added content linter rule (GHD056) for landing page recommended articles.\n- Updated artifact attestations availability note.\n\n### Title\nUpdate favicon, enhance docs (SCIM, GHAS, Codespaces), and add content linter rule"
+}
