@@ -1,0 +1,25 @@
+{
+  "number": 40219,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-04T12:39:08Z",
+  "url": "https://github.com/github/docs/pull/40219",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-04 14:06:19",
+  "details": [
+    "Deprecated Copilot coding guidelines feature and removed associated documentation files.",
+    "Updated references to coding guidelines to use custom instructions instead.",
+    "Added redirects for removed pages to maintain backward compatibility.",
+    "Consolidated code review documentation structure by removing nested directories.",
+    "Removed coding guidelines from feature comparison tables and usage instructions."
+  ],
+  "summary": "- Deprecated Copilot coding guidelines feature and removed associated documentation files.\n- Updated references to coding guidelines to use custom instructions instead.\n- Added redirects for removed pages to maintain backward compatibility.\n- Consolidated code review documentation structure by removing nested directories.\n- Removed coding guidelines from feature comparison tables and usage instructions.",
+  "generated_title": "Deprecate Copilot coding guidelines and consolidate with custom instructions",
+  "commits": [
+    "**09bea7f**: Merge pull request #57394 from github/repo-sync (by docs-bot)",
+    "**2f93ca4**: Remove docs for Copilot coding guidelines (now being fully deprecated) (#57361) (by hubwriter)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Deprecated Copilot coding guidelines feature and removed associated documentation files.\n- Updated references to coding guidelines to use custom instructions instead.\n- Added redirects for removed pages to maintain backward compatibility.\n- Consolidated code review documentation structure by removing nested directories.\n- Removed coding guidelines from feature comparison tables and usage instructions.\n\n### Title\nDeprecate Copilot coding guidelines and consolidate with custom instructions"
+}
