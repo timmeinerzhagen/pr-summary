@@ -1,0 +1,28 @@
+{
+  "number": 40241,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-05T12:37:25Z",
+  "url": "https://github.com/github/docs/pull/40241",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-05 16:06:31",
+  "details": [
+    "Updated CHANGELOG.md:",
+    "Added entries for Copilot guideline deprecation, enterprise plan highlights, and Xcode support.",
+    "Removed `/en/` from all documentation URLs.",
+    "Revised trade controls policy:",
+    "Removed Syria from sanctions lists and updated appeal process instructions.",
+    "Clarified service availability in Iran/Cuba and private repository restrictions."
+  ],
+  "summary": "- Updated CHANGELOG.md:\n- Added entries for Copilot guideline deprecation, enterprise plan highlights, and Xcode support.\n- Removed `/en/` from all documentation URLs.\n- Revised trade controls policy:\n- Removed Syria from sanctions lists and updated appeal process instructions.\n- Clarified service availability in Iran/Cuba and private repository restrictions.",
+  "generated_title": "Update documentation URLs and revise trade controls policy",
+  "commits": [
+    "**891a1c8**: Revise GitHub's trade controls policy language (#57392) (by Dan Velton)",
+    "**e36cc15**: Update docs changelog (for PR #57326) (#57385) (by docs-bot)",
+    "**22663e0**: Update docs changelog (for PR #57361) (#57397) (by docs-bot)",
+    "**dfb5959**: Update CHANGELOG.md (by hubwriter)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated CHANGELOG.md:  \n  - Added entries for Copilot guideline deprecation, enterprise plan highlights, and Xcode support.  \n  - Removed `/en/` from all documentation URLs.  \n- Revised trade controls policy:  \n  - Removed Syria from sanctions lists and updated appeal process instructions.  \n  - Clarified service availability in Iran/Cuba and private repository restrictions.  \n\n### Title  \nUpdate documentation URLs and revise trade controls policy"
+}
