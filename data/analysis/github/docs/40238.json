@@ -1,0 +1,22 @@
+{
+  "number": 40238,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-05T09:34:29Z",
+  "url": "https://github.com/github/docs/pull/40238",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-05 10:06:42",
+  "details": [
+    "Added changelog entry for Copilot Code Review enhancements: path-specific and organization-level custom instructions, plus documentation updates.",
+    "Updated Microsoft Exchange Online SMTP basic auth deprecation date from September 2025 to March-April 2026 across multiple GHES release notes (versions 3.14-3.17), adding an update timestamp."
+  ],
+  "summary": "- Added changelog entry for Copilot Code Review enhancements: path-specific and organization-level custom instructions, plus documentation updates.\n- Updated Microsoft Exchange Online SMTP basic auth deprecation date from September 2025 to March-April 2026 across multiple GHES release notes (versions 3.14-3.17), adding an update timestamp.",
+  "generated_title": "Update Copilot docs and extend SMTP deprecation date in GHES notes",
+  "commits": [
+    "**fb15a1c**: Update docs changelog (for PR #57237) (#57396) (by docs-bot)",
+    "**4c56bc6**: Update Microsoft Exchange Online SMTP basic auth deprecation date in GHES release notes (#57382) (by Patrik Polyak)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added changelog entry for Copilot Code Review enhancements: path-specific and organization-level custom instructions, plus documentation updates.\n- Updated Microsoft Exchange Online SMTP basic auth deprecation date from September 2025 to March-April 2026 across multiple GHES release notes (versions 3.14-3.17), adding an update timestamp.\n\n### Title\nUpdate Copilot docs and extend SMTP deprecation date in GHES notes"
+}
