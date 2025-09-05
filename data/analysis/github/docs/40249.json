@@ -1,0 +1,23 @@
+{
+  "number": 40249,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-05T18:37:31Z",
+  "url": "https://github.com/github/docs/pull/40249",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-05 20:06:27",
+  "details": [
+    "Extended deprecation dates for GHES versions 3.14-3.18 in `enterprise-dates.json` (e.g., 3.14 from 2025-08-27 to 2026-03-17).",
+    "Reactivated deprecation banner tests by removing `.skip` and deleted conditional hiding logic in `DeprecationBanner.tsx`.",
+    "Delayed GraphQL `SearchType.ISSUE_ADVANCED` removal from 2025-09-04 to 2025-11-04 across schema files."
+  ],
+  "summary": "- Extended deprecation dates for GHES versions 3.14-3.18 in `enterprise-dates.json` (e.g., 3.14 from 2025-08-27 to 2026-03-17).\n- Reactivated deprecation banner tests by removing `.skip` and deleted conditional hiding logic in `DeprecationBanner.tsx`.\n- Delayed GraphQL `SearchType.ISSUE_ADVANCED` removal from 2025-09-04 to 2025-11-04 across schema files.",
+  "generated_title": "Update GHES deprecation dates and delay GraphQL ISSUE_ADVANCED removal",
+  "commits": [
+    "**8c960d0**: GraphQL schema update (#57418) (by docs-bot)",
+    "**0df7c29**: Updating new end of support dates for GHES 3.14, 3.15, 3.16 and 3.17. (#57409) (by Pallavi)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Extended deprecation dates for GHES versions 3.14-3.18 in `enterprise-dates.json` (e.g., 3.14 from 2025-08-27 to 2026-03-17).\n- Reactivated deprecation banner tests by removing `.skip` and deleted conditional hiding logic in `DeprecationBanner.tsx`.\n- Delayed GraphQL `SearchType.ISSUE_ADVANCED` removal from 2025-09-04 to 2025-11-04 across schema files.\n\n### Title\nUpdate GHES deprecation dates and delay GraphQL ISSUE_ADVANCED removal"
+}
