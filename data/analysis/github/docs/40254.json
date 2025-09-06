@@ -1,0 +1,26 @@
+{
+  "number": 40254,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-06T00:41:08Z",
+  "url": "https://github.com/github/docs/pull/40254",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-06 02:29:35",
+  "details": [
+    "Added Pages and Actions hostnames for data residency configuration.",
+    "Removed write permission requirement for project insights visibility.",
+    "Fixed release support check by comparing dates instead of versions.",
+    "Updated OpenAPI schema structure and descriptions."
+  ],
+  "summary": "- Added Pages and Actions hostnames for data residency configuration.\n- Removed write permission requirement for project insights visibility.\n- Fixed release support check by comparing dates instead of versions.\n- Updated OpenAPI schema structure and descriptions.",
+  "generated_title": "Update data residency hosts, project insights permissions, and release support logic",
+  "commits": [
+    "**c98fd07**: Add additional hostnames for data residency (#57424) (by Fuzzwah)",
+    "**5595179**: [Improvement]: Update project insights visibility to include read permission (#57421) (by Riley Broughten)",
+    "**352c478**: Fixing check-mark for all supported versions (#57423) (by Pallavi)",
+    "**d025f9b**: Update OpenAPI Description (#57387) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added Pages and Actions hostnames for data residency configuration.\n- Removed write permission requirement for project insights visibility.\n- Fixed release support check by comparing dates instead of versions.\n- Updated OpenAPI schema structure and descriptions.\n\n### Title\nUpdate data residency hosts, project insights permissions, and release support logic"
+}
