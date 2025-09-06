@@ -1,0 +1,23 @@
+{
+  "number": 40258,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-06T03:36:02Z",
+  "url": "https://github.com/github/docs/pull/40258",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-06 04:06:13",
+  "details": [
+    "Added new GitHub Copilot certification section with exam topics: Responsible AI, Copilot features, prompt engineering, and more.",
+    "Updated the certification registration URL to `https://learn.github.com/credentials`.",
+    "Removed Credly badge reference and \"Further reading\" links.",
+    "Minor formatting tweak (trailing space in bullet point)."
+  ],
+  "summary": "- Added new GitHub Copilot certification section with exam topics: Responsible AI, Copilot features, prompt engineering, and more.\n- Updated the certification registration URL to `https://learn.github.com/credentials`.\n- Removed Credly badge reference and \"Further reading\" links.\n- Minor formatting tweak (trailing space in bullet point).",
+  "generated_title": "Add GitHub Copilot certification documentation and update registration links",
+  "commits": [
+    "**4dfc33e**: Merge pull request #57425 from github/repo-sync (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added new GitHub Copilot certification section with exam topics: Responsible AI, Copilot features, prompt engineering, and more.\n- Updated the certification registration URL to `https://learn.github.com/credentials`.\n- Removed Credly badge reference and \"Further reading\" links.\n- Minor formatting tweak (trailing space in bullet point).\n\n### Title\nAdd GitHub Copilot certification documentation and update registration links"
+}

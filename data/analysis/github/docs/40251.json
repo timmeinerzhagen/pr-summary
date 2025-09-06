@@ -1,0 +1,29 @@
+{
+  "number": 40251,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-05T21:30:57Z",
+  "url": "https://github.com/github/docs/pull/40251",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-06 04:06:41",
+  "details": [
+    "Fixed broken link in expressions.md.",
+    "Updated metadata-syntax intro for clarity and searchability.",
+    "Revised enterprise release table to show dynamic support status and deprecation dates.",
+    "Removed outdated extended support references in upgrade troubleshooting.",
+    "Clarified required roles (owners and billing managers) for managing licenses and viewing usage.",
+    "Clarified 5-repository limit per reminder configuration for scheduled reminders."
+  ],
+  "summary": "- Fixed broken link in expressions.md.\n- Updated metadata-syntax intro for clarity and searchability.\n- Revised enterprise release table to show dynamic support status and deprecation dates.\n- Removed outdated extended support references in upgrade troubleshooting.\n- Clarified required roles (owners and billing managers) for managing licenses and viewing usage.\n- Clarified 5-repository limit per reminder configuration for scheduled reminders.",
+  "generated_title": "Clarify permissions, update support status, and fix documentation",
+  "commits": [
+    "**1b17f6d**: Clarify required permissions for updating user licenses (#57406) (by Laura Coursen)",
+    "**8be649c**: Updating the metadata-syntax-reference intro for searchability (#57405) (by Sharra-writes)",
+    "**9f5e5a2**: Remove references to extended support (#57420) (by Pallavi)",
+    "**9322bdf**: Fix broken link (#57422) (by Sam Browning)",
+    "**3e6766d**: Clarify the 5-repository limit for scheduled reminders (#57408) (by Laura Coursen)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Fixed broken link in expressions.md.\n- Updated metadata-syntax intro for clarity and searchability.\n- Revised enterprise release table to show dynamic support status and deprecation dates.\n- Removed outdated extended support references in upgrade troubleshooting.\n- Clarified required roles (owners and billing managers) for managing licenses and viewing usage.\n- Clarified 5-repository limit per reminder configuration for scheduled reminders.\n\n### Title\nClarify permissions, update support status, and fix documentation"
+}
