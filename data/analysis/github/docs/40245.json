@@ -1,0 +1,27 @@
+{
+  "number": 40245,
+  "title": "Fix registration link and clean up content",
+  "author": "AliciaGorriaran",
+  "state": "closed",
+  "created": "2025-09-05T16:03:27Z",
+  "url": "https://github.com/github/docs/pull/40245",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-06 06:07:20",
+  "details": [
+    "Updated GitHub Certifications registration link to `https://learn.github.com/credentials`",
+    "Added new section for **GitHub Copilot Certification** covering:",
+    "Responsible AI, Copilot features, prompt engineering",
+    "AI use cases, testing, privacy",
+    "Removed \"Further reading\" section and associated FAQ/handbook links",
+    "Simplified post-exam credential description (removed \"Credly\" specificity)"
+  ],
+  "summary": "- Updated GitHub Certifications registration link to `https://learn.github.com/credentials`\n- Added new section for **GitHub Copilot Certification** covering:\n- Responsible AI, Copilot features, prompt engineering\n- AI use cases, testing, privacy\n- Removed \"Further reading\" section and associated FAQ/handbook links\n- Simplified post-exam credential description (removed \"Credly\" specificity)",
+  "generated_title": "Add GitHub Copilot Certification docs and update registration links",
+  "commits": [
+    "**ec813e5**: Fix registration link and clean up content (by Alicia Gorriarán)",
+    "**e5a967a**: Update about-github-certifications.md (by Alicia Gorriarán)",
+    "**2c4a745**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "The exam registration page was replaced. I updated the link to the new certification registration page. Additionally the FAQ and handbook have been removed so I removed the \"further reading\" section of this page. \r\n\r\n<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\n<!-- Paste the issue link or number here -->\r\nCloses: \r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nThe exam registration page was replaced. I updated the link to the new certification registration page. Additionally the FAQ and handbook have been removed so I removed the \"further reading\" section of this page. \r\n\r\n\r\n### Check off the following:\r\n\r\n- [ x] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [ x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [x ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Updated GitHub Certifications registration link to `https://learn.github.com/credentials`\n- Added new section for **GitHub Copilot Certification** covering:\n  - Responsible AI, Copilot features, prompt engineering\n  - AI use cases, testing, privacy\n- Removed \"Further reading\" section and associated FAQ/handbook links\n- Simplified post-exam credential description (removed \"Credly\" specificity)\n\n### Title  \nAdd GitHub Copilot Certification docs and update registration links"
+}
