@@ -1,0 +1,24 @@
+{
+  "number": 40289,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-08T12:37:57Z",
+  "url": "https://github.com/github/docs/pull/40289",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-08 14:06:52",
+  "details": [
+    "Updated username normalization docs: clarified that case from IdP is preserved in normalized usernames and adjusted examples to reflect case sensitivity.",
+    "Added new Copilot Chat tutorial article on generating tables for organizing data, including examples and markdown table outputs.",
+    "Updated Copilot Chat Cookbook index to include the new generating tables tutorial."
+  ],
+  "summary": "- Updated username normalization docs: clarified that case from IdP is preserved in normalized usernames and adjusted examples to reflect case sensitivity.\n- Added new Copilot Chat tutorial article on generating tables for organizing data, including examples and markdown table outputs.\n- Updated Copilot Chat Cookbook index to include the new generating tables tutorial.",
+  "generated_title": "Update username normalization rules and add Copilot table generation tutorial",
+  "commits": [
+    "**0fd80d5**: Generating tables cookbook article (#57346) (by Jules)",
+    "**4176832**: Fixes generating tables scenario in cookbook article (#57435) (by Jules)",
+    "**e125cee**: Update the username normalization doc to clearly specify that case of the normalized value would match the letter casing from the IdP. Also updated the examples to reflect the same. (#57430) (by Deepu Issac Martin)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated username normalization docs: clarified that case from IdP is preserved in normalized usernames and adjusted examples to reflect case sensitivity.\n- Added new Copilot Chat tutorial article on generating tables for organizing data, including examples and markdown table outputs.\n- Updated Copilot Chat Cookbook index to include the new generating tables tutorial.\n\n### Title\nUpdate username normalization rules and add Copilot table generation tutorial"
+}
