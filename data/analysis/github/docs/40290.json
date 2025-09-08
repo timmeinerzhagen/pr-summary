@@ -1,0 +1,22 @@
+{
+  "number": 40290,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-08T15:34:32Z",
+  "url": "https://github.com/github/docs/pull/40290",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-08 16:06:05",
+  "details": [
+    "Fixed a dead link to the Actions Runner Controller base image by replacing it with instructions to find the current base image via the `FROM` line in the runner's Dockerfile",
+    "Added an example demonstrating how to locate the base image in the `dotnet/dotnet-docker` repository",
+    "Replaced redundant \"For more information\" phrasing with concise \"See\" in three documentation links for clarity"
+  ],
+  "summary": "- Fixed a dead link to the Actions Runner Controller base image by replacing it with instructions to find the current base image via the `FROM` line in the runner's Dockerfile\n- Added an example demonstrating how to locate the base image in the `dotnet/dotnet-docker` repository\n- Replaced redundant \"For more information\" phrasing with concise \"See\" in three documentation links for clarity",
+  "generated_title": "Fix dead link to ARC base image and streamline documentation phrasing",
+  "commits": [
+    "**ee115ca**: [Improvement]: Dead link to the Actions Runner Controller base image (#57431) (by Sophie)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Fixed a dead link to the Actions Runner Controller base image by replacing it with instructions to find the current base image via the `FROM` line in the runner's Dockerfile\n- Added an example demonstrating how to locate the base image in the `dotnet/dotnet-docker` repository\n- Replaced redundant \"For more information\" phrasing with concise \"See\" in three documentation links for clarity\n\n### Title  \nFix dead link to ARC base image and streamline documentation phrasing"
+}
