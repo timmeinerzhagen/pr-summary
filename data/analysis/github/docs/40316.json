@@ -1,0 +1,22 @@
+{
+  "number": 40316,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-09T21:30:52Z",
+  "url": "https://github.com/github/docs/pull/40316",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-09 22:05:16",
+  "details": [
+    "Updated release status of OpenAI's GPT-5 and GPT-5-mini models from public preview to GA",
+    "Adjusted table formatting for consistent alignment in documentation",
+    "No functional changes to other models' statuses or capabilities"
+  ],
+  "summary": "- Updated release status of OpenAI's GPT-5 and GPT-5-mini models from public preview to GA\n- Adjusted table formatting for consistent alignment in documentation\n- No functional changes to other models' statuses or capabilities",
+  "generated_title": "Promote GPT-5 and GPT-5-mini to General Availability in Copilot",
+  "commits": [
+    "**3f46f38**: GPT-5 and GPT-5-mini GA (#57355) (by Sunbrye Ly)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated release status of OpenAI's GPT-5 and GPT-5-mini models from public preview to GA\n- Adjusted table formatting for consistent alignment in documentation\n- No functional changes to other models' statuses or capabilities\n\n### Title  \nPromote GPT-5 and GPT-5-mini to General Availability in Copilot"
+}
