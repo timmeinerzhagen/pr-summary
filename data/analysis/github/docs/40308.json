@@ -1,0 +1,26 @@
+{
+  "number": 40308,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-09T12:38:19Z",
+  "url": "https://github.com/github/docs/pull/40308",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-09 14:05:37",
+  "details": [
+    "Added critical warning in storage capacity guide: Shutdown appliance before changing Azure disk caching to prevent service disruption and data corruption.",
+    "Enhanced billing budget documentation:",
+    "Clarified budget scopes for personal/organization/enterprise accounts",
+    "Added product/SKU examples (Codespaces, Copilot)",
+    "Emphasized \"Stop usage\" option to block spending at budget limit",
+    "Improved budget type descriptions and alert thresholds"
+  ],
+  "summary": "- Added critical warning in storage capacity guide: Shutdown appliance before changing Azure disk caching to prevent service disruption and data corruption.\n- Enhanced billing budget documentation:\n- Clarified budget scopes for personal/organization/enterprise accounts\n- Added product/SKU examples (Codespaces, Copilot)\n- Emphasized \"Stop usage\" option to block spending at budget limit\n- Improved budget type descriptions and alert thresholds",
+  "generated_title": "Azure disk caching warning and billing budget documentation improvements",
+  "commits": [
+    "**48c11b9**: Billing: Add missing detail to budgets (#57443) (by Felicity Chapman)",
+    "**b92625a**: Adding a warning to shutdown appliances before changing disk caching settings on Azure (#57453) (by Patrik Polyak)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added critical warning in storage capacity guide: Shutdown appliance before changing Azure disk caching to prevent service disruption and data corruption.\n- Enhanced billing budget documentation:\n  - Clarified budget scopes for personal/organization/enterprise accounts\n  - Added product/SKU examples (Codespaces, Copilot)\n  - Emphasized \"Stop usage\" option to block spending at budget limit\n  - Improved budget type descriptions and alert thresholds\n\n### Title\nAzure disk caching warning and billing budget documentation improvements"
+}
