@@ -1,0 +1,26 @@
+{
+  "number": 40307,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-09T09:36:00Z",
+  "url": "https://github.com/github/docs/pull/40307",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-09 10:06:37",
+  "details": [
+    "**Runner Scale Sets**: Clarified `containerMode` configuration for container jobs, added guidance for custom setups and documentation link.",
+    "**Model Costs**: Removed Phi-3 and Phi-3.5 models from the pricing table.",
+    "**Cleanup**: Deleted 9 orphaned files including Copilot configuration notes, fork documentation, and GHAS trial instructions."
+  ],
+  "summary": "- **Runner Scale Sets**: Clarified `containerMode` configuration for container jobs, added guidance for custom setups and documentation link.\n- **Model Costs**: Removed Phi-3 and Phi-3.5 models from the pricing table.\n- **Cleanup**: Deleted 9 orphaned files including Copilot configuration notes, fork documentation, and GHAS trial instructions.",
+  "generated_title": "Update docs: Remove Phi models from pricing, clarify runner container mode, delete unused files",
+  "commits": [
+    "**a2793ca**: Merge pull request #57449 from github/repo-sync (by docs-bot)",
+    "**f6dd692**: Update GitHub Models doc to not include Phi-3 and Phi-3.5 models in costs (#57447) (by Stephanie Giang)",
+    "**95e0522**: Delete orphaned files (2025-09-08-16-29) (#57442) (by docs-bot)",
+    "**9a7d44b**: Early Access preview for Budget API documentation (#57439) (by Barehands)",
+    "**664bd5d**: Update deploy-runner-scale-sets.md (#57398) (by Pantelis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- **Runner Scale Sets**: Clarified `containerMode` configuration for container jobs, added guidance for custom setups and documentation link.\n- **Model Costs**: Removed Phi-3 and Phi-3.5 models from the pricing table.\n- **Cleanup**: Deleted 9 orphaned files including Copilot configuration notes, fork documentation, and GHAS trial instructions.\n\n### Title\nUpdate docs: Remove Phi models from pricing, clarify runner container mode, delete unused files"
+}
