@@ -1,0 +1,23 @@
+{
+  "number": 40276,
+  "title": "Fix environment.url example",
+  "author": "sliekens",
+  "state": "closed",
+  "created": "2025-09-07T09:47:05Z",
+  "url": "https://github.com/github/docs/pull/40276",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-09 00:23:52",
+  "details": [
+    "Fixed YAML syntax in GitHub Actions example for environment configuration.",
+    "Changed from separate `environment` and `url` keys to nested structure under `environment` with `name` and `url` properties.",
+    "Ensures correct formatting for workflow files, aligning with GitHub Actions documentation."
+  ],
+  "summary": "- Fixed YAML syntax in GitHub Actions example for environment configuration.\n- Changed from separate `environment` and `url` keys to nested structure under `environment` with `name` and `url` properties.\n- Ensures correct formatting for workflow files, aligning with GitHub Actions documentation.",
+  "generated_title": "Fix GitHub Actions environment configuration syntax in documentation",
+  "commits": [
+    "**3233aa3**: Fix environment.url example (by Steven)",
+    "**37c8daf**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "### Why:\r\n\r\nThe 'url' example is invalid: `url` cannot be specified as a property of the job, only as a property of its `environment`.\r\n\r\nRelated docs: https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#jobsjob_idenvironment\r\n\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\n``` diff\r\n    jobs:\r\n      JOB-ID:\r\n-        environment: ENVIRONMENT-NAME\r\n-        url: URL\r\n+        environment:\r\n+            name: ENVIRONMENT-NAME\r\n+            url: URL\r\n```\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [ ] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Fixed YAML syntax in GitHub Actions example for environment configuration.\n- Changed from separate `environment` and `url` keys to nested structure under `environment` with `name` and `url` properties.\n- Ensures correct formatting for workflow files, aligning with GitHub Actions documentation.\n\n### Title  \nFix GitHub Actions environment configuration syntax in documentation"
+}
