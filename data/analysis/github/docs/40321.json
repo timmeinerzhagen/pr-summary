@@ -1,0 +1,29 @@
+{
+  "number": 40321,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-10T00:42:19Z",
+  "url": "https://github.com/github/docs/pull/40321",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-10 02:30:10",
+  "details": [
+    "Updated GitHub Actions workflows to use `actions/setup-node@v5.0.0` and `actions/github-script@v8.0.0`.",
+    "Bumped `walk-sync` dependency to v4.0.1 and added Node 24 support in `package.json`.",
+    "Restructured contribution documentation: moved troubleshooting to a how-to guide and added a reference article.",
+    "Marked several GitHub Copilot AI models as GA in the supported models reference."
+  ],
+  "summary": "- Updated GitHub Actions workflows to use `actions/setup-node@v5.0.0` and `actions/github-script@v8.0.0`.\n- Bumped `walk-sync` dependency to v4.0.1 and added Node 24 support in `package.json`.\n- Restructured contribution documentation: moved troubleshooting to a how-to guide and added a reference article.\n- Marked several GitHub Copilot AI models as GA in the supported models reference.",
+  "generated_title": "Update dependencies, restructure contribution docs, and mark Copilot models as GA",
+  "commits": [
+    "**33adb47**: [EDI] Update `Why are my contributions not showing up on my profile?` (#57259) (by Joe Clark)",
+    "**ff6b23d**: Merge pull request #57468 from github/repo-sync (by docs-bot)",
+    "**904f924**: Node 24 time (by Kevin Heis)",
+    "**1117480**: Node 24 time (by Kevin Heis)",
+    "**8ee83b5**: Bump actions/setup-node from 4.0.2 to 5.0.0 (#57472) (by dependabot[bot])",
+    "**febbc5f**: Bump actions/github-script from 7.0.0 to 8.0.0 (#57474) (by dependabot[bot])",
+    "**812dcc7**: Bump walk-sync from 3.0.0 to 4.0.1 (#57473) (by dependabot[bot])"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated GitHub Actions workflows to use `actions/setup-node@v5.0.0` and `actions/github-script@v8.0.0`.\n- Bumped `walk-sync` dependency to v4.0.1 and added Node 24 support in `package.json`.\n- Restructured contribution documentation: moved troubleshooting to a how-to guide and added a reference article.\n- Marked several GitHub Copilot AI models as GA in the supported models reference.\n\n### Title\nUpdate dependencies, restructure contribution docs, and mark Copilot models as GA"
+}
