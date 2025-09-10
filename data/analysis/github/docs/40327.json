@@ -1,0 +1,24 @@
+{
+  "number": 40327,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-10T12:40:27Z",
+  "url": "https://github.com/github/docs/pull/40327",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-10 14:06:03",
+  "details": [
+    "Added new section for Copilot prompts in Markdown files, including syntax for prompt blocks with `copilot` keyword, context references (`id`/`ref`), and inline prompts with Liquid tags.",
+    "Updated multiple Copilot documentation files to use new prompt formatting (e.g., replacing plain text examples with `copilot` code blocks or `{% prompt %}` tags).",
+    "Enabled push protection for several secret scanning patterns (Algolia, Atlassian, etc.) by updating `public-docs.yml` and `config.json`."
+  ],
+  "summary": "- Added new section for Copilot prompts in Markdown files, including syntax for prompt blocks with `copilot` keyword, context references (`id`/`ref`), and inline prompts with Liquid tags.\n- Updated multiple Copilot documentation files to use new prompt formatting (e.g., replacing plain text examples with `copilot` code blocks or `{% prompt %}` tags).\n- Enabled push protection for several secret scanning patterns (Algolia, Atlassian, etc.) by updating `public-docs.yml` and `config.json`.",
+  "generated_title": "Add Copilot prompt formatting and enable push protection for secrets",
+  "commits": [
+    "**6cb5295**: Copilot: Add new prompt formatting to Markdown files (#57347) (by hubwriter)",
+    "**77030dd**: Sync secret scanning data (#57459) (by docs-bot)",
+    "**83b645e**: Update Style Guide with syntax for Copilot prompts (#57482) (by hubwriter)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added new section for Copilot prompts in Markdown files, including syntax for prompt blocks with `copilot` keyword, context references (`id`/`ref`), and inline prompts with Liquid tags.\n- Updated multiple Copilot documentation files to use new prompt formatting (e.g., replacing plain text examples with `copilot` code blocks or `{% prompt %}` tags).\n- Enabled push protection for several secret scanning patterns (Algolia, Atlassian, etc.) by updating `public-docs.yml` and `config.json`.\n\n### Title\nAdd Copilot prompt formatting and enable push protection for secrets"
+}
