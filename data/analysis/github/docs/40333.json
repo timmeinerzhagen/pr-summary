@@ -1,0 +1,23 @@
+{
+  "number": 40333,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-11T06:37:43Z",
+  "url": "https://github.com/github/docs/pull/40333",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-11 08:08:09",
+  "details": [
+    "Updated `ArticleList` styles to apply accent color to both `h3` and `span` elements",
+    "Added new `TableOfContents.module.css` with centralized link styling",
+    "Refactored `TableOfContents` component to use CSS modules instead of inline classes",
+    "Applied consistent styling to parent/child navigation links"
+  ],
+  "summary": "- Updated `ArticleList` styles to apply accent color to both `h3` and `span` elements\n- Added new `TableOfContents.module.css` with centralized link styling\n- Refactored `TableOfContents` component to use CSS modules instead of inline classes\n- Applied consistent styling to parent/child navigation links",
+  "generated_title": "Refactor TableOfContents styling and update ArticleList CSS",
+  "commits": [
+    "**47a969a**: few more link updates post primer react 37 (#57470) (by Robert Sese)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated `ArticleList` styles to apply accent color to both `h3` and `span` elements\n- Added new `TableOfContents.module.css` with centralized link styling\n- Refactored `TableOfContents` component to use CSS modules instead of inline classes\n- Applied consistent styling to parent/child navigation links\n\n### Title\nRefactor TableOfContents styling and update ArticleList CSS"
+}
