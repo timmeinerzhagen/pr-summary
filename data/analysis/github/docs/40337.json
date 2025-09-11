@@ -1,0 +1,26 @@
+{
+  "number": 40337,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-11T09:34:05Z",
+  "url": "https://github.com/github/docs/pull/40337",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-11 10:06:11",
+  "details": [
+    "Backup service: Updated Linux commands for filesystem testing and clarified backup scheduling steps.",
+    "IAM migration: Added note that users are removed from organizations when SCIM groups are deleted during migration.",
+    "GraphQL schema: Added `SY` (Syria) to `SponsorsCountryOrRegionCode` enum.",
+    "Secret scanning: Enabled push protection for Atlassian tokens and updated config metadata."
+  ],
+  "summary": "- Backup service: Updated Linux commands for filesystem testing and clarified backup scheduling steps.\n- IAM migration: Added note that users are removed from organizations when SCIM groups are deleted during migration.\n- GraphQL schema: Added `SY` (Syria) to `SponsorsCountryOrRegionCode` enum.\n- Secret scanning: Enabled push protection for Atlassian tokens and updated config metadata.",
+  "generated_title": "Update backup docs, clarify IdP migration, add Syria to GraphQL, enable push protection for secrets",
+  "commits": [
+    "**80f3733**: Sync secret scanning data (#57485) (by docs-bot)",
+    "**9e767d7**: Update migrating-your-enterprise-to-a-new-identity-provider-or-tenant.md (#57497) (by Ryosuke Nakayama)",
+    "**5c8a133**: Update linux commands and the steps to schedule a backup (#57496) (by Glen Babiano)",
+    "**309d1c0**: GraphQL schema update (#57486) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Backup service: Updated Linux commands for filesystem testing and clarified backup scheduling steps.\n- IAM migration: Added note that users are removed from organizations when SCIM groups are deleted during migration.\n- GraphQL schema: Added `SY` (Syria) to `SponsorsCountryOrRegionCode` enum.\n- Secret scanning: Enabled push protection for Atlassian tokens and updated config metadata.\n\n### Title\nUpdate backup docs, clarify IdP migration, add Syria to GraphQL, enable push protection for secrets"
+}
