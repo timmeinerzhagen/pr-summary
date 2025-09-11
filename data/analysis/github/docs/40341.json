@@ -1,0 +1,24 @@
+{
+  "number": 40341,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-11T15:32:12Z",
+  "url": "https://github.com/github/docs/pull/40341",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-11 16:07:29",
+  "details": [
+    "Updated enterprise account deletion prerequisites and reasons (invoice payment, trial period).",
+    "Added Copilot auto model selection for VS Code to reduce rate limiting and simplify model choice.",
+    "Refactored custom instructions documentation; removed Copilot Code Review (CCR) from supported features."
+  ],
+  "summary": "- Updated enterprise account deletion prerequisites and reasons (invoice payment, trial period).\n- Added Copilot auto model selection for VS Code to reduce rate limiting and simplify model choice.\n- Refactored custom instructions documentation; removed Copilot Code Review (CCR) from supported features.",
+  "generated_title": "Update enterprise deletion docs, add Copilot auto model selection, and adjust custom instructions",
+  "commits": [
+    "**876e719**: Remove CCR from Xcode tab of custom instructions article (#57499) (by hubwriter)",
+    "**c0c4539**: Copilot auto model selection (#57410) (by Jenni C)",
+    "**0e82647**: Update reasons why you can't delete an enterprise account (#57483) (by Felix Guntrip)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated enterprise account deletion prerequisites and reasons (invoice payment, trial period).\n- Added Copilot auto model selection for VS Code to reduce rate limiting and simplify model choice.\n- Refactored custom instructions documentation; removed Copilot Code Review (CCR) from supported features.\n\n### Title\nUpdate enterprise deletion docs, add Copilot auto model selection, and adjust custom instructions"
+}
