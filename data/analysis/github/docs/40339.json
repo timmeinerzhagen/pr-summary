@@ -1,0 +1,23 @@
+{
+  "number": 40339,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-11T12:38:25Z",
+  "url": "https://github.com/github/docs/pull/40339",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-11 14:06:25",
+  "details": [
+    "Added new auto-CCR options: \"Review new pushes\" (reviews every commit) and \"Review draft pull requests\" (reviews before PR is ready).",
+    "Centralized configuration steps into a reusable include file (`auto-code-review-steps.md`) for consistency.",
+    "Updated documentation to clarify trigger conditions and added Visual Studio screenshot for custom instructions.",
+    "Modified image assets to reflect UI changes."
+  ],
+  "summary": "- Added new auto-CCR options: \"Review new pushes\" (reviews every commit) and \"Review draft pull requests\" (reviews before PR is ready).\n- Centralized configuration steps into a reusable include file (`auto-code-review-steps.md`) for consistency.\n- Updated documentation to clarify trigger conditions and added Visual Studio screenshot for custom instructions.\n- Modified image assets to reflect UI changes.",
+  "generated_title": "Add auto-CCR options for push and draft PR reviews, centralize config steps",
+  "commits": [
+    "**99eb884**: New auto-CCR sub-options and docs for org-level custom instructions (#56922) (by hubwriter)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added new auto-CCR options: \"Review new pushes\" (reviews every commit) and \"Review draft pull requests\" (reviews before PR is ready).\n- Centralized configuration steps into a reusable include file (`auto-code-review-steps.md`) for consistency.\n- Updated documentation to clarify trigger conditions and added Visual Studio screenshot for custom instructions.\n- Modified image assets to reflect UI changes.\n\n### Title\nAdd auto-CCR options for push and draft PR reviews, centralize config steps"
+}
