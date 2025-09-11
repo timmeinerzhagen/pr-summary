@@ -1,0 +1,31 @@
+{
+  "number": 40346,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-11T21:30:41Z",
+  "url": "https://github.com/github/docs/pull/40346",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-11 22:06:12",
+  "details": [
+    "Updated GitHub Actions workflows to use `ubuntu-latest` runner consistently across all jobs.",
+    "Improved `get-changed-files.sh` script to use merge-base for accurate git diff comparisons.",
+    "Restructured account and profile documentation, including username changes and contribution settings.",
+    "Added troubleshooting guide for two-factor authentication issues.",
+    "Fixed link checker by adding domain-level rate limiting to prevent excessive retries.",
+    "Added new hero images and assets for landing pages."
+  ],
+  "summary": "- Updated GitHub Actions workflows to use `ubuntu-latest` runner consistently across all jobs.\n- Improved `get-changed-files.sh` script to use merge-base for accurate git diff comparisons.\n- Restructured account and profile documentation, including username changes and contribution settings.\n- Added troubleshooting guide for two-factor authentication issues.\n- Fixed link checker by adding domain-level rate limiting to prevent excessive retries.\n- Added new hero images and assets for landing pages.",
+  "generated_title": "Update workflows, restructure docs, and enhance tooling",
+  "commits": [
+    "**bada255**: Move all workflow runners to ubuntu-latest (#57506) (by Kevin Heis)",
+    "**2056cc2**: Use merge-base for git diff in get-changed-files.sh (#57487) (by Alex Nguyen)",
+    "**aa36330**: Update \"Manage contribution settings\" map topic (#57469) (by Joe Clark)",
+    "**46f0121**: [EDI] Update \"Changing your GitHub username\" (#57489) (by Joe Clark)",
+    "**ce8415e**: Add \"Troubleshooting two-factor authentication issues\" article (#57481) (by Joshua Walker)",
+    "**060ccba**: Fix excessive link checker retries with domain-level rate limiting (#57510) (by Kevin Heis)",
+    "**0b0b308**: Add new landing hero and assets (#57450) (by Evan Bonsignori)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated GitHub Actions workflows to use `ubuntu-latest` runner consistently across all jobs.\n- Improved `get-changed-files.sh` script to use merge-base for accurate git diff comparisons.\n- Restructured account and profile documentation, including username changes and contribution settings.\n- Added troubleshooting guide for two-factor authentication issues.\n- Fixed link checker by adding domain-level rate limiting to prevent excessive retries.\n- Added new hero images and assets for landing pages.\n\n### Title\nUpdate workflows, restructure docs, and enhance tooling"
+}
