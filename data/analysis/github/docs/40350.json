@@ -1,0 +1,23 @@
+{
+  "number": 40350,
+  "title": "Correct which ecosystem is referenced in an example comment",
+  "author": "ferdnyc",
+  "state": "closed",
+  "created": "2025-09-12T02:17:19Z",
+  "url": "https://github.com/github/docs/pull/40350",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-12 22:05:59",
+  "details": [
+    "Corrected a comment in a Dependabot YAML configuration example",
+    "Changed `# Increase the version requirements for npm` to `# Increase the version requirements for pip`",
+    "Fixes inaccurate package manager reference in documentation"
+  ],
+  "summary": "- Corrected a comment in a Dependabot YAML configuration example\n- Changed `# Increase the version requirements for npm` to `# Increase the version requirements for pip`\n- Fixes inaccurate package manager reference in documentation",
+  "generated_title": "Fix Dependabot example comment to reference pip instead of npm",
+  "commits": [
+    "**cfb3d06**: Update controlling-dependencies-updated.md (by Frank Dana)",
+    "**ffe7694**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "\r\n\r\n<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:  \r\n\r\nA comment in a pip-configuration example mentioned 'npm\".\r\n\r\n<!-- Paste the issue link or number here -->\r\n\r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\n```diff\r\ndiff --git a/content/code-security/dependabot/dependabot-version-updates/controlling-dependencies-updated.md b/content/code-security/dependabot/dependabot-version-updates/controlling-dependencies-updated.md\r\nindex c7b9910cff..b92b455d05 100644\r\n--- a/content/code-security/dependabot/dependabot-version-updates/controlling-dependencies-updated.md\r\n+++ b/content/code-security/dependabot/dependabot-version-updates/controlling-dependencies-updated.md\r\n@@ -254,13 +254,13 @@ ## Defining a versioning strategy\r\n - package-ecosystem: pip\r\n   directory: \"/\"\r\n   schedule:\r\n     interval: daily\r\n   open-pull-requests-limit: 20\r\n   rebase-strategy: \"disabled\"\r\n-  # Increase the version requirements for npm\r\n+  # Increase the version requirements for pip\r\n   # only when required\r\n   versioning-strategy: increase-if-necessary\r\n```\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Corrected a comment in a Dependabot YAML configuration example  \n- Changed `# Increase the version requirements for npm` to `# Increase the version requirements for pip`  \n- Fixes inaccurate package manager reference in documentation  \n\n### Title  \nFix Dependabot example comment to reference pip instead of npm"
+}

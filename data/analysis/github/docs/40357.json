@@ -1,0 +1,28 @@
+{
+  "number": 40357,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-12T18:36:07Z",
+  "url": "https://github.com/github/docs/pull/40357",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-12 22:05:50",
+  "details": [
+    "Added Copilot Chat model management documentation in changelog.",
+    "Consolidated cost center limitations in concepts file (max 250 centers, 10k resources, 50 ops/batch, Azure UI-only).",
+    "Clarified dormant user activity: pushes now specify internal repos, added exclusions for token/SSH/app access and private repo Git ops.",
+    "Updated GraphQL schema: added `EXEMPT` enum to `RepositoryRulesetBypassActorBypassMode`, fixed `Discussion.author` description."
+  ],
+  "summary": "- Added Copilot Chat model management documentation in changelog.\n- Consolidated cost center limitations in concepts file (max 250 centers, 10k resources, 50 ops/batch, Azure UI-only).\n- Clarified dormant user activity: pushes now specify internal repos, added exclusions for token/SSH/app access and private repo Git ops.\n- Updated GraphQL schema: added `EXEMPT` enum to `RepositoryRulesetBypassActorBypassMode`, fixed `Discussion.author` description.",
+  "generated_title": "Docs: Copilot model mgmt, cost center limits, dormant user activity; GraphQL update",
+  "commits": [
+    "**72aef5a**: Create copilot metrics docs-internal PR for Early Access preview (#57518) (by Kerry Liu)",
+    "**4ff93b7**: Update docs changelog (for PR #57395) (#57503) (by docs-bot)",
+    "**02557c1**: Update and relocate cost center limitations (#57525) (by Greg Mondello)",
+    "**92023a5**: Explicitly add activities not included in dormancy report (#57467) (by Kathleen)",
+    "**46ebaed**: GraphQL schema update (#57531) (by docs-bot)",
+    "**4a1b8be**: Fix markdown syntax for GitHub App reference (#57533) (by Kathleen)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added Copilot Chat model management documentation in changelog.\n- Consolidated cost center limitations in concepts file (max 250 centers, 10k resources, 50 ops/batch, Azure UI-only).\n- Clarified dormant user activity: pushes now specify internal repos, added exclusions for token/SSH/app access and private repo Git ops.\n- Updated GraphQL schema: added `EXEMPT` enum to `RepositoryRulesetBypassActorBypassMode`, fixed `Discussion.author` description.\n\n### Title\nDocs: Copilot model mgmt, cost center limits, dormant user activity; GraphQL update"
+}
