@@ -1,0 +1,22 @@
+{
+  "number": 40356,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-12T15:32:09Z",
+  "url": "https://github.com/github/docs/pull/40356",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-12 16:07:05",
+  "details": [
+    "Fixed documentation inaccuracies: Clarified that logical OR/AND label filtering applies only to issues (not pull requests) in issue tracking docs.",
+    "Added new `job.check_run_id` property to GitHub Actions context: Provides the check run ID for the current job, available in Free/Pro/Team/Enterprise Cloud plans."
+  ],
+  "summary": "- Fixed documentation inaccuracies: Clarified that logical OR/AND label filtering applies only to issues (not pull requests) in issue tracking docs.\n- Added new `job.check_run_id` property to GitHub Actions context: Provides the check run ID for the current job, available in Free/Pro/Team/Enterprise Cloud plans.",
+  "generated_title": "Fix issue label filtering docs & add job.check_run_id context",
+  "commits": [
+    "**ecfdce7**: Fix inaccurate documentation about logical OR/AND label filtering for pull requests (#57523) (by Copilot)",
+    "**2d8b1f0**: Add Actions `job.check_run_id` expression context (#57502) (by eric sciple)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Fixed documentation inaccuracies: Clarified that logical OR/AND label filtering applies only to issues (not pull requests) in issue tracking docs.\n- Added new `job.check_run_id` property to GitHub Actions context: Provides the check run ID for the current job, available in Free/Pro/Team/Enterprise Cloud plans.\n\n### Title  \nFix issue label filtering docs & add job.check_run_id context"
+}
