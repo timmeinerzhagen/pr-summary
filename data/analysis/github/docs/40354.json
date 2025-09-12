@@ -1,0 +1,25 @@
+{
+  "number": 40354,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-12T12:37:21Z",
+  "url": "https://github.com/github/docs/pull/40354",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-12 14:06:16",
+  "details": [
+    "**Git Credential Manager (GCM) & Enterprise Managed Users (EMU)**: Added documentation on SSO redirect settings affecting GCM behavior. EMU users must disable GCM account filtering if SSO redirect is off to avoid repeated authentication prompts.",
+    "**CodeQL Language Analysis**: Clarified language specification behavior and matrix configuration. Emphasized using the `language` matrix for parallel analysis and avoiding sequential scans. Noted that alternative identifiers (e.g., `javascript`) don't exclude related languages (e.g., TypeScript).",
+    "**Audit Log Streaming**: Enabled region selection for Amazon S3 streaming on GHES versions >3.14.",
+    "**Documentation Updates**: Renamed article from \"Why is Git always asking for my password?\" to \"...credentials\" and added GCM/EMU context."
+  ],
+  "summary": "- **Git Credential Manager (GCM) & Enterprise Managed Users (EMU)**: Added documentation on SSO redirect settings affecting GCM behavior. EMU users must disable GCM account filtering if SSO redirect is off to avoid repeated authentication prompts.\n- **CodeQL Language Analysis**: Clarified language specification behavior and matrix configuration. Emphasized using the `language` matrix for parallel analysis and avoiding sequential scans. Noted that alternative identifiers (e.g., `javascript`) don't exclude related languages (e.g., TypeScript).\n- **Audit Log Streaming**: Enabled region selection for Amazon S3 streaming on GHES versions >3.14.\n- **Documentation Updates**: Renamed article from \"Why is Git always asking for my password?\" to \"...credentials\" and added GCM/EMU context.",
+  "generated_title": "Update docs: GCM for EMU, CodeQL language setup, GHES audit log regions",
+  "commits": [
+    "**8577ed4**: Improve docs for languages in CodeQL advanced setup (#57023) (by Michael B. Gale)",
+    "**7649161**: Add information about the Git Credential Manager and Enterprise Managed Users (#56266) (by erichanson1)",
+    "**a98eac9**: [Improvement]: Audit log streaming on GHES: Region selection in `Setting up streaming to Amazon S3` (#57501) (by Sophie)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- **Git Credential Manager (GCM) & Enterprise Managed Users (EMU)**: Added documentation on SSO redirect settings affecting GCM behavior. EMU users must disable GCM account filtering if SSO redirect is off to avoid repeated authentication prompts.\n- **CodeQL Language Analysis**: Clarified language specification behavior and matrix configuration. Emphasized using the `language` matrix for parallel analysis and avoiding sequential scans. Noted that alternative identifiers (e.g., `javascript`) don't exclude related languages (e.g., TypeScript).\n- **Audit Log Streaming**: Enabled region selection for Amazon S3 streaming on GHES versions >3.14.\n- **Documentation Updates**: Renamed article from \"Why is Git always asking for my password?\" to \"...credentials\" and added GCM/EMU context.\n\n### Title\nUpdate docs: GCM for EMU, CodeQL language setup, GHES audit log regions"
+}
