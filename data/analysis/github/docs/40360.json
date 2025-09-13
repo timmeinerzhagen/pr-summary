@@ -1,0 +1,26 @@
+{
+  "number": 40360,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-13T00:39:35Z",
+  "url": "https://github.com/github/docs/pull/40360",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-13 02:25:42",
+  "details": [
+    "Fixed a comment in Dependabot documentation (changed `npm` to `pip` in versioning example).",
+    "Added new article on configuring MCP server access for GitHub Copilot:",
+    "Defines MCP registry setup and policy enforcement options",
+    "Details enterprise/organization-level configuration steps",
+    "Explains enforcement mechanisms and registry formats",
+    "Updated Copilot how-to index to include the new MCP article."
+  ],
+  "summary": "- Fixed a comment in Dependabot documentation (changed `npm` to `pip` in versioning example).\n- Added new article on configuring MCP server access for GitHub Copilot:\n- Defines MCP registry setup and policy enforcement options\n- Details enterprise/organization-level configuration steps\n- Explains enforcement mechanisms and registry formats\n- Updated Copilot how-to index to include the new MCP article.",
+  "generated_title": "Add MCP server access configuration for Copilot and update Dependabot doc",
+  "commits": [
+    "**390bd2f**: Merge pull request #57537 from github/repo-sync (by docs-bot)",
+    "**9e237d4**: New article on MCP allowlist policy (#57466) (by Sarita Iyer)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Fixed a comment in Dependabot documentation (changed `npm` to `pip` in versioning example).\n- Added new article on configuring MCP server access for GitHub Copilot:\n  - Defines MCP registry setup and policy enforcement options\n  - Details enterprise/organization-level configuration steps\n  - Explains enforcement mechanisms and registry formats\n- Updated Copilot how-to index to include the new MCP article.\n\n### Title\nAdd MCP server access configuration for Copilot and update Dependabot doc"
+}
