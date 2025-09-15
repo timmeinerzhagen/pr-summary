@@ -1,0 +1,30 @@
+{
+  "number": 40381,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-15T18:36:36Z",
+  "url": "https://github.com/github/docs/pull/40381",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-15 20:06:39",
+  "details": [
+    "Restructured profile documentation: added intro article, moved content to reference, and created a tutorial.",
+    "Updated MODA staging environments to use 'staging' secrets instead of 'production'.",
+    "Enhanced billing documentation with license history tracking and internal links.",
+    "Fixed content linter to prevent duplicate issue creation.",
+    "Enabled text selection in article lists via CSS updates.",
+    "Updated privacy policy arbitration link."
+  ],
+  "summary": "- Restructured profile documentation: added intro article, moved content to reference, and created a tutorial.\n- Updated MODA staging environments to use 'staging' secrets instead of 'production'.\n- Enhanced billing documentation with license history tracking and internal links.\n- Fixed content linter to prevent duplicate issue creation.\n- Enabled text selection in article lists via CSS updates.\n- Updated privacy policy arbitration link.",
+  "generated_title": "Profile docs restructure and MODA config update",
+  "commits": [
+    "**63b43cb**: KQ's documentation of license history https://github.com/github/docs-content/issues/19550 (#57492) (by Kathleen)",
+    "**af02006**: Update arbitration link in privacy statement (#57536) (by Dani Brooks)",
+    "**0d8bc2e**: Fix duplicate creation of content linting issues (#57550) (by Kevin Heis)",
+    "**7d2059e**: make different actionlists of articles select-able again (#57505) (by Robert Sese)",
+    "**39e9cf9**: [EDI] Update \"Personalizing your profile\" (#57493) (by Joe Clark)",
+    "**d8f7582**: Update MODA deployment configuration (#57556) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Restructured profile documentation: added intro article, moved content to reference, and created a tutorial.\n- Updated MODA staging environments to use 'staging' secrets instead of 'production'.\n- Enhanced billing documentation with license history tracking and internal links.\n- Fixed content linter to prevent duplicate issue creation.\n- Enabled text selection in article lists via CSS updates.\n- Updated privacy policy arbitration link.\n\n### Title\nProfile docs restructure and MODA config update"
+}
