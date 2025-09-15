@@ -1,0 +1,28 @@
+{
+  "number": 40378,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-15T09:35:43Z",
+  "url": "https://github.com/github/docs/pull/40378",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-15 10:07:12",
+  "details": [
+    "Enhanced Copilot coding agent firewall documentation: detailed recommended allowlist (OS packages, container registries, language packages, CAs, Playwright hosts) and management steps.",
+    "Updated audit log event references: changed \"Showing your private contributions on your profile\" to \"Manage visibility settings for private contributions\" across multiple JSON files.",
+    "Enabled push protection for additional secret patterns (Adobe, Alibaba, Asana, Atlassian) in `public-docs.yml`.",
+    "Fixed trailing whitespace in migration logs documentation."
+  ],
+  "summary": "- Enhanced Copilot coding agent firewall documentation: detailed recommended allowlist (OS packages, container registries, language packages, CAs, Playwright hosts) and management steps.\n- Updated audit log event references: changed \"Showing your private contributions on your profile\" to \"Manage visibility settings for private contributions\" across multiple JSON files.\n- Enabled push protection for additional secret patterns (Adobe, Alibaba, Asana, Atlassian) in `public-docs.yml`.\n- Fixed trailing whitespace in migration logs documentation.",
+  "generated_title": "Update Copilot firewall docs, audit log references, and enable push protection for secrets",
+  "commits": [
+    "**4afb1d8**: Merge pull request #57539 from github/repo-sync (by docs-bot)",
+    "**8b376a1**: Update audit log event data (#57530) (by docs-bot)",
+    "**85f9de7**: Sync secret scanning data (#57528) (by docs-bot)",
+    "**1ccd7c7**: One-liner: Fix one linter issue (#57543) (by Ben Ahmady)",
+    "**058613b**: Sync secret scanning data (#57541) (by docs-bot)",
+    "**eb59857**: Provide more information about what it allowed by Copilot coding agent's recommended firewall allowlist (#57534) (by Tim Rogers)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Enhanced Copilot coding agent firewall documentation: detailed recommended allowlist (OS packages, container registries, language packages, CAs, Playwright hosts) and management steps.\n- Updated audit log event references: changed \"Showing your private contributions on your profile\" to \"Manage visibility settings for private contributions\" across multiple JSON files.\n- Enabled push protection for additional secret patterns (Adobe, Alibaba, Asana, Atlassian) in `public-docs.yml`.\n- Fixed trailing whitespace in migration logs documentation.\n\n### Title\nUpdate Copilot firewall docs, audit log references, and enable push protection for secrets"
+}
