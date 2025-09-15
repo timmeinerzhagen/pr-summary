@@ -1,0 +1,24 @@
+{
+  "number": 40383,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-15T21:32:30Z",
+  "url": "https://github.com/github/docs/pull/40383",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-15 22:05:36",
+  "details": [
+    "Removed preview status and support notes for enterprise access restrictions feature",
+    "Added self-service steps for enterprise owners to enable access restrictions",
+    "Updated prerequisites to reflect feature enablement by enterprise owner",
+    "Fixed broken link in email address documentation"
+  ],
+  "summary": "- Removed preview status and support notes for enterprise access restrictions feature\n- Added self-service steps for enterprise owners to enable access restrictions\n- Updated prerequisites to reflect feature enablement by enterprise owner\n- Fixed broken link in email address documentation",
+  "generated_title": "GA: Self-service enablement for enterprise access restrictions",
+  "commits": [
+    "**c18571c**: Merge pull request #57557 from github/repo-sync (by docs-bot)",
+    "**63eaf0b**: GA for access restriction instructions for GitHub.com (#57519) (by Usha N)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removed preview status and support notes for enterprise access restrictions feature\n- Added self-service steps for enterprise owners to enable access restrictions\n- Updated prerequisites to reflect feature enablement by enterprise owner\n- Fixed broken link in email address documentation\n\n### Title\nGA: Self-service enablement for enterprise access restrictions"
+}
