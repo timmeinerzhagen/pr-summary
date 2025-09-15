@@ -1,0 +1,22 @@
+{
+  "number": 40379,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-15T12:38:11Z",
+  "url": "https://github.com/github/docs/pull/40379",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-15 14:06:59",
+  "details": [
+    "Removed duplicate known issue entries about `ghe-cluster-config-apply` failures during primary node replacement across multiple release note files.",
+    "Standardized the primary node replacement documentation link and description to use \"primary database node\" (replacing \"primary MySQL node\") and removed specific step references.",
+    "Fixed trailing whitespace and ensured consistent newline endings in YAML files."
+  ],
+  "summary": "- Removed duplicate known issue entries about `ghe-cluster-config-apply` failures during primary node replacement across multiple release note files.\n- Standardized the primary node replacement documentation link and description to use \"primary database node\" (replacing \"primary MySQL node\") and removed specific step references.\n- Fixed trailing whitespace and ensured consistent newline endings in YAML files.",
+  "generated_title": "Standardize release notes: remove duplicates and update primary node replacement instructions",
+  "commits": [
+    "**665dd2d**: Patch release note fixes: Remove duplicate notes and standardize all with evergreen instructions (#57414) (by Felicity Chapman)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removed duplicate known issue entries about `ghe-cluster-config-apply` failures during primary node replacement across multiple release note files.\n- Standardized the primary node replacement documentation link and description to use \"primary database node\" (replacing \"primary MySQL node\") and removed specific step references.\n- Fixed trailing whitespace and ensured consistent newline endings in YAML files.\n\n### Title\nStandardize release notes: remove duplicates and update primary node replacement instructions"
+}
