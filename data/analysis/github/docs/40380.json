@@ -1,0 +1,28 @@
+{
+  "number": 40380,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-15T15:36:12Z",
+  "url": "https://github.com/github/docs/pull/40380",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-15 16:07:31",
+  "details": [
+    "**Dependabot**: Added documentation for `goproxy-server` private registry support in Go, including configuration examples and usage guidance.",
+    "**GitHub Actions**: Clarified that the job step timeout maximum is 360 minutes for both GitHub-hosted and self-hosted runners.",
+    "**Copilot**: Added explanations about model usage in Code Review, noting it consumes premium requests and uses a tuned mix of models. Removed the \"Limited scope\" section.",
+    "**Organizations**: Removed the \"last activity\" timestamp from organization member export reports.",
+    "**OpenAPI/Webhooks**: Updated schemas for REST API and webhook events."
+  ],
+  "summary": "- **Dependabot**: Added documentation for `goproxy-server` private registry support in Go, including configuration examples and usage guidance.\n- **GitHub Actions**: Clarified that the job step timeout maximum is 360 minutes for both GitHub-hosted and self-hosted runners.\n- **Copilot**: Added explanations about model usage in Code Review, noting it consumes premium requests and uses a tuned mix of models. Removed the \"Limited scope\" section.\n- **Organizations**: Removed the \"last activity\" timestamp from organization member export reports.\n- **OpenAPI/Webhooks**: Updated schemas for REST API and webhook events.",
+  "generated_title": "Documentation updates: Dependabot Go registry, Actions timeout, Copilot model usage, and member export",
+  "commits": [
+    "**8738116**: Remove the line about the user's last activity in the orgs member export report (#57457) (by Colin Seymour)",
+    "**d3fa8f6**: Add CCR Model Usage Explanation to Responsible Use and About Docs (#57524) (by hubwriter)",
+    "**c497322**: Update OpenAPI Description (#57542) (by docs-bot)",
+    "**a713ff1**: Add Dependabot `goproxy-server` private registry docs (#57407) (by Alhoussein)",
+    "**6f2eb80**: Clarify that the job step timout is 360 minutes for both GitHub-hosted and self-hosted runners (#57546) (by dndirangu)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- **Dependabot**: Added documentation for `goproxy-server` private registry support in Go, including configuration examples and usage guidance.\n- **GitHub Actions**: Clarified that the job step timeout maximum is 360 minutes for both GitHub-hosted and self-hosted runners.\n- **Copilot**: Added explanations about model usage in Code Review, noting it consumes premium requests and uses a tuned mix of models. Removed the \"Limited scope\" section.\n- **Organizations**: Removed the \"last activity\" timestamp from organization member export reports.\n- **OpenAPI/Webhooks**: Updated schemas for REST API and webhook events.\n\n### Title\nDocumentation updates: Dependabot Go registry, Actions timeout, Copilot model usage, and member export"
+}
