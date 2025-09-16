@@ -1,0 +1,21 @@
+{
+  "number": 40386,
+  "title": "Removes rogue \", includes,\"",
+  "author": "rachaelrenk",
+  "state": "closed",
+  "created": "2025-09-16T00:56:02Z",
+  "url": "https://github.com/github/docs/pull/40386",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-16 04:06:53",
+  "details": [
+    "Removed the term \"includes\" from the list of default theme components (layouts, includes, stylesheets) in documentation.",
+    "Corrected the description of theme-provided assets to avoid implying \"includes\" as a distinct component."
+  ],
+  "summary": "- Removed the term \"includes\" from the list of default theme components (layouts, includes, stylesheets) in documentation.\n- Corrected the description of theme-provided assets to avoid implying \"includes\" as a distinct component.",
+  "generated_title": "Remove rogue \"includes\" from Jekyll theme components documentation",
+  "commits": [
+    "**999cb78**: Removes rogue \", includes,\" (by Rachael Rose Renk)"
+  ],
+  "original_description": "There's an orphan-word-typo in this line.\r\n\r\n<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\nThere's a typo in the article \"Adding content to your GitHub Pages site using Jekyll\"\r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nI removed the errant word so that it won't distract other brain-melty learners like myself. 🤠 \r\n\r\n<!-- Let us know what you are changing. Share anything that could provide the most context.\r\nIf you made changes to the `content` directory, a table will populate in a comment below with links to the review and current production articles. -->\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [x] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Removed the term \"includes\" from the list of default theme components (layouts, includes, stylesheets) in documentation.\n- Corrected the description of theme-provided assets to avoid implying \"includes\" as a distinct component.\n\n### Title\nRemove rogue \"includes\" from Jekyll theme components documentation"
+}
