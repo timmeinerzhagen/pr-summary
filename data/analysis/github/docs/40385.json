@@ -1,0 +1,22 @@
+{
+  "number": 40385,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-16T00:42:24Z",
+  "url": "https://github.com/github/docs/pull/40385",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-16 02:30:36",
+  "details": [
+    "Added documentation stating that the Copilot coding agent uses a fixed AI model determined by GitHub, which cannot be changed by users.",
+    "Clarified that this model does not inherit selections made for Copilot Chat, highlighting a key limitation."
+  ],
+  "summary": "- Added documentation stating that the Copilot coding agent uses a fixed AI model determined by GitHub, which cannot be changed by users.\n- Clarified that this model does not inherit selections made for Copilot Chat, highlighting a key limitation.",
+  "generated_title": "Document fixed AI model for Copilot coding agent",
+  "commits": [
+    "**65d407e**: Merge pull request #57561 from github/repo-sync (by docs-bot)",
+    "**579e3e4**: Add AI model selection documentation for Copilot coding agent (#57444) (by Copilot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added documentation stating that the Copilot coding agent uses a fixed AI model determined by GitHub, which cannot be changed by users.\n- Clarified that this model does not inherit selections made for Copilot Chat, highlighting a key limitation.\n\n### Title\nDocument fixed AI model for Copilot coding agent"
+}
