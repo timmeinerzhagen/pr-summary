@@ -1,0 +1,23 @@
+{
+  "number": 40395,
+  "title": "Update description from 'Your organizations' to 'Organizations'",
+  "author": "edv1n",
+  "state": "closed",
+  "created": "2025-09-16T10:15:38Z",
+  "url": "https://github.com/github/docs/pull/40395",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-16 18:08:41",
+  "details": [
+    "Updated text in a reusable documentation snippet for the GitHub profile dropdown.",
+    "Changed \"Your organizations\" to \"Organizations\" in the organization access link.",
+    "Minor localization or UI consistency improvement."
+  ],
+  "summary": "- Updated text in a reusable documentation snippet for the GitHub profile dropdown.\n- Changed \"Your organizations\" to \"Organizations\" in the organization access link.\n- Minor localization or UI consistency improvement.",
+  "generated_title": "Update organization link text in profile dropdown",
+  "commits": [
+    "**2614c04**: Update description from 'Your organizations' to 'Organizations' (by Edwin S)",
+    "**b3256d1**: Merge branch 'main' into edv1n-patch-reusables-profile-access_org (by Sharra-writes)"
+  ],
+  "original_description": "### Why:\r\nThe Github's Profile menu shows \"Organizations\", but the instructions from data/reusables/profile/access_org.md shows \"Your Organizations\".\r\n\r\nAfter clicking the profile picture, the menu shows \"Organizations\" instead of \"Your Organizations\"\r\n\r\nCloses: https://github.com/github/docs/issues/40394\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nReplaced \"Your Organizations\" with \"Organizations\" in `data/reusables/profile/access_org.md`\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [ ] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Updated text in a reusable documentation snippet for the GitHub profile dropdown.\n- Changed \"Your organizations\" to \"Organizations\" in the organization access link.\n- Minor localization or UI consistency improvement.\n\n### Title  \nUpdate organization link text in profile dropdown"
+}
