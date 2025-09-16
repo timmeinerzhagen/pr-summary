@@ -1,0 +1,28 @@
+{
+  "number": 40393,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-16T09:35:39Z",
+  "url": "https://github.com/github/docs/pull/40393",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-16 12:10:26",
+  "details": [
+    "Updated Copilot model version in documentation from `copilot_gpt_4o` to `copilot_gpt_41`.",
+    "Deleted unused image assets (hero-2.png, hero-3.png, etc.) and orphaned feature files (codeql-no-build.yml, secret-scanning-alert-plaid-filters.yml).",
+    "Removed deprecated reusable documentation files (custom-coding-guidelines-prerequisites.md, pull_request_merges_and_contributions.md).",
+    "Adjusted REST API schemas to allow `sha` properties to be `null` across multiple endpoints and versions.",
+    "Updated SHA references in GitHub Apps and REST config files."
+  ],
+  "summary": "- Updated Copilot model version in documentation from `copilot_gpt_4o` to `copilot_gpt_41`.\n- Deleted unused image assets (hero-2.png, hero-3.png, etc.) and orphaned feature files (codeql-no-build.yml, secret-scanning-alert-plaid-filters.yml).\n- Removed deprecated reusable documentation files (custom-coding-guidelines-prerequisites.md, pull_request_merges_and_contributions.md).\n- Adjusted REST API schemas to allow `sha` properties to be `null` across multiple endpoints and versions.\n- Updated SHA references in GitHub Apps and REST config files.",
+  "generated_title": "Update Copilot model, remove orphaned assets/files, and adjust REST schemas",
+  "commits": [
+    "**819af4e**: Merge pull request #57563 from github/repo-sync (by docs-bot)",
+    "**8b6230b**: Update Copilot model version in documentation (by hubwriter)",
+    "**260218b**: Update OpenAPI Description (#57554) (by docs-bot)",
+    "**6bb1c3e**: Delete orphaned files (2025-09-15-16-29) (#57553) (by docs-bot)",
+    "**2f3710c**: Delete orphaned features (2025-09-15-16-29) (#57552) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated Copilot model version in documentation from `copilot_gpt_4o` to `copilot_gpt_41`.\n- Deleted unused image assets (hero-2.png, hero-3.png, etc.) and orphaned feature files (codeql-no-build.yml, secret-scanning-alert-plaid-filters.yml).\n- Removed deprecated reusable documentation files (custom-coding-guidelines-prerequisites.md, pull_request_merges_and_contributions.md).\n- Adjusted REST API schemas to allow `sha` properties to be `null` across multiple endpoints and versions.\n- Updated SHA references in GitHub Apps and REST config files.\n\n### Title\nUpdate Copilot model, remove orphaned assets/files, and adjust REST schemas"
+}
