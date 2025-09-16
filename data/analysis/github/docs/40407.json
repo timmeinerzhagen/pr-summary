@@ -1,0 +1,24 @@
+{
+  "number": 40407,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-16T18:36:55Z",
+  "url": "https://github.com/github/docs/pull/40407",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-16 22:06:16",
+  "details": [
+    "Added GitHub MCP Registry documentation (public preview) with setup instructions and a new image.",
+    "Updated GraphQL schema to include `CopilotCodeReviewParameters` type and `COPILOT_CODE_REVIEW` rule.",
+    "Converted 14 JavaScript files to TypeScript, adding type annotations and interfaces."
+  ],
+  "summary": "- Added GitHub MCP Registry documentation (public preview) with setup instructions and a new image.\n- Updated GraphQL schema to include `CopilotCodeReviewParameters` type and `COPILOT_CODE_REVIEW` rule.\n- Converted 14 JavaScript files to TypeScript, adding type annotations and interfaces.",
+  "generated_title": "Add GitHub MCP Registry docs, update GraphQL schema, and migrate files to TypeScript",
+  "commits": [
+    "**5b7a996**: GitHub MCP Registry (public preview) (#57313) (by Jules)",
+    "**740aea5**: GraphQL schema update (#57569) (by docs-bot)",
+    "**0a0b02f**: Convert 14 JavaScript files to TypeScript (#57464) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added GitHub MCP Registry documentation (public preview) with setup instructions and a new image.\n- Updated GraphQL schema to include `CopilotCodeReviewParameters` type and `COPILOT_CODE_REVIEW` rule.\n- Converted 14 JavaScript files to TypeScript, adding type annotations and interfaces.\n\n### Title\nAdd GitHub MCP Registry docs, update GraphQL schema, and migrate files to TypeScript"
+}
