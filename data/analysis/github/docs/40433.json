@@ -1,0 +1,25 @@
+{
+  "number": 40433,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-18T09:34:10Z",
+  "url": "https://github.com/github/docs/pull/40433",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-18 10:06:51",
+  "details": [
+    "Added changelog entry for Spark \"read-only\" app publishing feature",
+    "Updated enterprise organization management docs to use reusable `click-organizations-tab` snippet",
+    "Added new screenshot for Organizations tab UI",
+    "Removed conditional rendering (`enterprise-readme`) from organization setup steps",
+    "Standardized organization access instructions across documentation files"
+  ],
+  "summary": "- Added changelog entry for Spark \"read-only\" app publishing feature\n- Updated enterprise organization management docs to use reusable `click-organizations-tab` snippet\n- Added new screenshot for Organizations tab UI\n- Removed conditional rendering (`enterprise-readme`) from organization setup steps\n- Standardized organization access instructions across documentation files",
+  "generated_title": "Update enterprise organization docs and Spark changelog",
+  "commits": [
+    "**34c1380**: Update instructions for viewing an enterprise's organizations (#57590) (by Felix Guntrip)",
+    "**c57c902**: Update docs changelog (for PR #57545) (#57589) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added changelog entry for Spark \"read-only\" app publishing feature\n- Updated enterprise organization management docs to use reusable `click-organizations-tab` snippet\n- Added new screenshot for Organizations tab UI\n- Removed conditional rendering (`enterprise-readme`) from organization setup steps\n- Standardized organization access instructions across documentation files\n\n### Title\nUpdate enterprise organization docs and Spark changelog"
+}
