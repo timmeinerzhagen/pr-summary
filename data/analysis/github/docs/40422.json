@@ -1,0 +1,27 @@
+{
+  "number": 40422,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-17T21:29:49Z",
+  "url": "https://github.com/github/docs/pull/40422",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-19 10:07:12",
+  "details": [
+    "Restructured account settings documentation: reordered topics, moved \"default branch name\" to repository settings, simplified content.",
+    "Clarified username change permissions for LDAP on GHES.",
+    "Synced secret scanning data, enabling push protection for several patterns.",
+    "Renamed and expanded reusable workflows to \"reusing workflow configurations\", including YAML anchors and workflow templates.",
+    "Updated workflow template creation to reference-based instructions."
+  ],
+  "summary": "- Restructured account settings documentation: reordered topics, moved \"default branch name\" to repository settings, simplified content.\n- Clarified username change permissions for LDAP on GHES.\n- Synced secret scanning data, enabling push protection for several patterns.\n- Renamed and expanded reusable workflows to \"reusing workflow configurations\", including YAML anchors and workflow templates.\n- Updated workflow template creation to reference-based instructions.",
+  "generated_title": "Docs: Account settings restructure, workflow reusability, and secret scanning update",
+  "commits": [
+    "**7d47ea8**: Clarify username change permissions for LDAP and SSO (#57582) (by Thomas Cole)",
+    "**b0c45ed**: Sync secret scanning data (#57595) (by docs-bot)",
+    "**418969a**: [EDI] Update \"Managing user account settings\" map topic (#57560) (by Joe Clark)",
+    "**0c84db7**: Consolidated PR for YAML anchors & aliases and workflow templates (#57491) (by Salil)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Restructured account settings documentation: reordered topics, moved \"default branch name\" to repository settings, simplified content.\n- Clarified username change permissions for LDAP on GHES.\n- Synced secret scanning data, enabling push protection for several patterns.\n- Renamed and expanded reusable workflows to \"reusing workflow configurations\", including YAML anchors and workflow templates.\n- Updated workflow template creation to reference-based instructions.\n\n### Title\nDocs: Account settings restructure, workflow reusability, and secret scanning update"
+}

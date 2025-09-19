@@ -1,0 +1,28 @@
+{
+  "number": 40421,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-17T18:38:54Z",
+  "url": "https://github.com/github/docs/pull/40421",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-19 10:08:03",
+  "details": [
+    "Updated billing documentation: Minor wording changes and added an icon in licensing section.",
+    "Adjusted .gitignore for early-access symlinks: Removed trailing slashes and added comments.",
+    "Added URL decoding middleware: Fixes SharePoint-encoded `%40` to `@` in versioned docs URLs (e.g., `/enterprise-cloud@latest`).",
+    "Refactored custom properties API endpoints: Renamed and restructured permissions across OpenAPI definitions and GitHub Apps data.",
+    "Added tests for URL decoding middleware to ensure correct handling of encoded `@` symbols."
+  ],
+  "summary": "- Updated billing documentation: Minor wording changes and added an icon in licensing section.\n- Adjusted .gitignore for early-access symlinks: Removed trailing slashes and added comments.\n- Added URL decoding middleware: Fixes SharePoint-encoded `%40` to `@` in versioned docs URLs (e.g., `/enterprise-cloud@latest`).\n- Refactored custom properties API endpoints: Renamed and restructured permissions across OpenAPI definitions and GitHub Apps data.\n- Added tests for URL decoding middleware to ensure correct handling of encoded `@` symbols.",
+  "generated_title": "Fix URL-encoded @ in docs paths and update custom properties API",
+  "commits": [
+    "**8c04221**:  In-product volume <> metered conversion for self-serve customers: Minor updates to accompany early-access docs (#57389) (by Felicity Chapman)",
+    "**a909579**: Update the .gitignore file for early-access symlinks (#57588) (by Felicity Chapman)",
+    "**f794f32**: Modify .gitignore for early access content (#57597) (by Joe Clark)",
+    "**98e3dbe**: Update OpenAPI Description (#57596) (by docs-bot)",
+    "**72dea2b**: Fix URL-encoded @ symbols in versioned docs URLs (#57594) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated billing documentation: Minor wording changes and added an icon in licensing section.\n- Adjusted .gitignore for early-access symlinks: Removed trailing slashes and added comments.\n- Added URL decoding middleware: Fixes SharePoint-encoded `%40` to `@` in versioned docs URLs (e.g., `/enterprise-cloud@latest`).\n- Refactored custom properties API endpoints: Renamed and restructured permissions across OpenAPI definitions and GitHub Apps data.\n- Added tests for URL decoding middleware to ensure correct handling of encoded `@` symbols.\n\n### Title\nFix URL-encoded @ in docs paths and update custom properties API"
+}
