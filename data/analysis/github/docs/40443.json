@@ -1,0 +1,24 @@
+{
+  "number": 40443,
+  "title": "Remove duplicate section from planning-and-tracking-work-for-your-tea…",
+  "author": "d3chapma",
+  "state": "closed",
+  "created": "2025-09-18T19:39:54Z",
+  "url": "https://github.com/github/docs/pull/40443",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-19 08:08:31",
+  "details": [
+    "Removes a duplicate section titled \"Using labels to highlight project goals and status\" from documentation.",
+    "Deletes two paragraphs explaining label creation/usage and filtering by labels.",
+    "Retains the subsequent \"Label example\" section with its screenshot.",
+    "Focuses on eliminating redundant content about GitHub label management."
+  ],
+  "summary": "- Removes a duplicate section titled \"Using labels to highlight project goals and status\" from documentation.\n- Deletes two paragraphs explaining label creation/usage and filtering by labels.\n- Retains the subsequent \"Label example\" section with its screenshot.\n- Focuses on eliminating redundant content about GitHub label management.",
+  "generated_title": "Remove duplicate labels section from project planning documentation",
+  "commits": [
+    "**b3ba0e2**: Remove duplicate section from planning-and-tracking-work-for-your-team-or-project.md (by David Chapman)",
+    "**13bf269**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "### Why:\r\n\r\nCloses: #40442 \r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nFurther down in the document there is exactly the same content duplicated. I decided to remove the one that was further up the document with no particular reasoning. I think removing either is equally valid.\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [ ] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Removes a duplicate section titled \"Using labels to highlight project goals and status\" from documentation.\n- Deletes two paragraphs explaining label creation/usage and filtering by labels.\n- Retains the subsequent \"Label example\" section with its screenshot.\n- Focuses on eliminating redundant content about GitHub label management.\n\n### Title\nRemove duplicate labels section from project planning documentation"
+}

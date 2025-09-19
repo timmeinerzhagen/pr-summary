@@ -1,0 +1,28 @@
+{
+  "number": 40448,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-18T21:31:47Z",
+  "url": "https://github.com/github/docs/pull/40448",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-19 08:08:23",
+  "details": [
+    "**Dependabot reviewers deprecation**:",
+    "Removed `reviewers` property from Dependabot configuration examples and documentation",
+    "Added warnings about upcoming removal of `reviewers` in GitHub Enterprise Server",
+    "Replaced with `assignees` and CODEOWNERS-based assignment guidance",
+    "**Copilot budget updates**:",
+    "Added notices about upcoming removal of $0 budgets for premium requests",
+    "Updated documentation links and reusable content for budget management",
+    "Clarified policy enforcement timelines for premium request spending"
+  ],
+  "summary": "- **Dependabot reviewers deprecation**:\n- Removed `reviewers` property from Dependabot configuration examples and documentation\n- Added warnings about upcoming removal of `reviewers` in GitHub Enterprise Server\n- Replaced with `assignees` and CODEOWNERS-based assignment guidance\n- **Copilot budget updates**:\n- Added notices about upcoming removal of $0 budgets for premium requests\n- Updated documentation links and reusable content for budget management\n- Clarified policy enforcement timelines for premium request spending",
+  "generated_title": "Deprecate Dependabot reviewers and update Copilot budget notices",
+  "commits": [
+    "**0139b48**: Changes for deprecation of dependabot-reviewers feature (#56781) (by Sachin Sandhu)",
+    "**44254fe**: [Copilot-assisted] Add change notices for upcoming $0 budget removal for Copilot premium requests (#57549) (by Felicity Chapman)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- **Dependabot reviewers deprecation**:\n  - Removed `reviewers` property from Dependabot configuration examples and documentation\n  - Added warnings about upcoming removal of `reviewers` in GitHub Enterprise Server\n  - Replaced with `assignees` and CODEOWNERS-based assignment guidance\n- **Copilot budget updates**:\n  - Added notices about upcoming removal of $0 budgets for premium requests\n  - Updated documentation links and reusable content for budget management\n  - Clarified policy enforcement timelines for premium request spending\n\n### Title  \nDeprecate Dependabot reviewers and update Copilot budget notices"
+}

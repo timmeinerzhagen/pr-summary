@@ -1,0 +1,33 @@
+{
+  "number": 40441,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-18T18:37:44Z",
+  "url": "https://github.com/github/docs/pull/40441",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-19 08:09:07",
+  "details": [
+    "**Documentation Updates**:",
+    "Added GitHub Actions reuse features (YAML anchors, workflow templates) to changelog.",
+    "Restructured account settings: moved cookie preferences to how-tos, added job change guide.",
+    "Documented Copilot integration with Microsoft Teams (public preview).",
+    "**Permissions & API**:",
+    "Removed repository-level custom properties endpoints; added organization-level equivalents.",
+    "Updated OpenAPI descriptions and added `search_type=semantic` for code search.",
+    "**UI Improvements**:",
+    "Enhanced landing page carousel with fade animations and responsive layout fixes."
+  ],
+  "summary": "- **Documentation Updates**:\n- Added GitHub Actions reuse features (YAML anchors, workflow templates) to changelog.\n- Restructured account settings: moved cookie preferences to how-tos, added job change guide.\n- Documented Copilot integration with Microsoft Teams (public preview).\n- **Permissions & API**:\n- Removed repository-level custom properties endpoints; added organization-level equivalents.\n- Updated OpenAPI descriptions and added `search_type=semantic` for code search.\n- **UI Improvements**:\n- Enhanced landing page carousel with fade animations and responsive layout fixes.",
+  "generated_title": "Update docs, permissions, and UI; add Copilot Teams integration",
+  "commits": [
+    "**6e83d52**: Update docs changelog (for PR #57491) (#57602) (by docs-bot)",
+    "**0e531f9**: landing page carousel tweaks (#57580) (by Robert Sese)",
+    "**0283167**: [EDI] Update \"Managing your cookie preferences for GitHub's enterprise marketing pages\" (#57600) (by Joe Clark)",
+    "**219ef90**: [EDI] Update \"Best practices for leaving your company\" (#57601) (by Joe Clark)",
+    "**47043a9**: Copilot integration for Microsoft Teams public preview (#57535) (by Steve Ward)",
+    "**51c28fb**: Update OpenAPI Description (#57608) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- **Documentation Updates**:\n  - Added GitHub Actions reuse features (YAML anchors, workflow templates) to changelog.\n  - Restructured account settings: moved cookie preferences to how-tos, added job change guide.\n  - Documented Copilot integration with Microsoft Teams (public preview).\n- **Permissions & API**:\n  - Removed repository-level custom properties endpoints; added organization-level equivalents.\n  - Updated OpenAPI descriptions and added `search_type=semantic` for code search.\n- **UI Improvements**:\n  - Enhanced landing page carousel with fade animations and responsive layout fixes.\n\n### Title\nUpdate docs, permissions, and UI; add Copilot Teams integration"
+}

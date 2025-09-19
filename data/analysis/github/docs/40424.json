@@ -1,0 +1,23 @@
+{
+  "number": 40424,
+  "title": "Restore example of conditional logic in expressions",
+  "author": "Scotchester",
+  "state": "closed",
+  "created": "2025-09-17T21:55:57Z",
+  "url": "https://github.com/github/docs/pull/40424",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-19 08:09:15",
+  "details": [
+    "Added a YAML example demonstrating conditional environment variable assignment using `&&` and `||` operators",
+    "Included explanatory text clarifying the logic: sets `MY_ENV_VAR` to `value_for_main_branch` on `main` branch, else `value_for_other_branches`",
+    "Emphasized requirement for truthy value after `&&` operator to avoid fallthrough to `||` case"
+  ],
+  "summary": "- Added a YAML example demonstrating conditional environment variable assignment using `&&` and `||` operators\n- Included explanatory text clarifying the logic: sets `MY_ENV_VAR` to `value_for_main_branch` on `main` branch, else `value_for_other_branches`\n- Emphasized requirement for truthy value after `&&` operator to avoid fallthrough to `||` case",
+  "generated_title": "Add conditional logic example to GitHub Actions expressions documentation",
+  "commits": [
+    "**5794693**: Restore example of conditional logic in expressions (by Scott Cranfill)",
+    "**182a577**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "### Why:\r\n\r\nCloses: #40423\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nRestores the example that I believe was accidentally removed.\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [ ] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Added a YAML example demonstrating conditional environment variable assignment using `&&` and `||` operators\n- Included explanatory text clarifying the logic: sets `MY_ENV_VAR` to `value_for_main_branch` on `main` branch, else `value_for_other_branches`\n- Emphasized requirement for truthy value after `&&` operator to avoid fallthrough to `||` case\n\n### Title  \nAdd conditional logic example to GitHub Actions expressions documentation"
+}
