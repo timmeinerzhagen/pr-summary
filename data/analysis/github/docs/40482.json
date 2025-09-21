@@ -1,0 +1,24 @@
+{
+  "number": 40482,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-19T18:36:14Z",
+  "url": "https://github.com/github/docs/pull/40482",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-21 10:05:38",
+  "details": [
+    "Restructured and updated profile documentation for clarity, moving detailed explanations to a reference guide.",
+    "Added a new reusable `profile-visibility.md` for consistent visibility warnings.",
+    "Simplified how-to guides to focus on actionable steps, linking to concept and reference docs.",
+    "Consolidated information about private profiles into the concept doc and reference.",
+    "Updated pinning instructions and added reference details."
+  ],
+  "summary": "- Restructured and updated profile documentation for clarity, moving detailed explanations to a reference guide.\n- Added a new reusable `profile-visibility.md` for consistent visibility warnings.\n- Simplified how-to guides to focus on actionable steps, linking to concept and reference docs.\n- Consolidated information about private profiles into the concept doc and reference.\n- Updated pinning instructions and added reference details.",
+  "generated_title": "Restructure profile documentation and enhance reference guide",
+  "commits": [
+    "**f313d7b**: [EDI] Update the `Customize your profile` map topic and other profile docs (#57613) (by Joe Clark)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Restructured and updated profile documentation for clarity, moving detailed explanations to a reference guide.\n- Added a new reusable `profile-visibility.md` for consistent visibility warnings.\n- Simplified how-to guides to focus on actionable steps, linking to concept and reference docs.\n- Consolidated information about private profiles into the concept doc and reference.\n- Updated pinning instructions and added reference details.\n\n### Title\nRestructure profile documentation and enhance reference guide"
+}
