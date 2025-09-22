@@ -1,0 +1,24 @@
+{
+  "number": 40502,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-22T12:38:00Z",
+  "url": "https://github.com/github/docs/pull/40502",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-22 14:07:01",
+  "details": [
+    "Linter cleanup: Removed trailing spaces and blank lines in two documentation files (`restricting-access-to-githubcom-using-a-corporate-proxy.md`, `easy-apps-with-spark.md`).",
+    "GHES release update: Adjusted dates for version 3.18 in `enterprise-dates.json` (release and release candidate moved to September 2025).",
+    "Secret scanning enhancements: Added `ghes: '>=3.19'` to ~50+ secret patterns in `public-docs.yml`, enabling them for GHES 3.19+. Enabled push protection for several patterns (e.g., Algolia, Alibaba keys) and updated config SHAs."
+  ],
+  "summary": "- Linter cleanup: Removed trailing spaces and blank lines in two documentation files (`restricting-access-to-githubcom-using-a-corporate-proxy.md`, `easy-apps-with-spark.md`).\n- GHES release update: Adjusted dates for version 3.18 in `enterprise-dates.json` (release and release candidate moved to September 2025).\n- Secret scanning enhancements: Added `ghes: '>=3.19'` to ~50+ secret patterns in `public-docs.yml`, enabling them for GHES 3.19+. Enabled push protection for several patterns (e.g., Algolia, Alibaba keys) and updated config SHAs.",
+  "generated_title": "GHES 3.19 secret scanning support, release date updates, and lint fixes",
+  "commits": [
+    "**d6230f3**: Remove trailing spaces and blank line for linter (#57628) (by Felicity Chapman)",
+    "**77ef299**: 🤖 src/ghes-releases/lib/enterprise-dates.json update (#57567) (by docs-bot)",
+    "**552f02f**: Sync secret scanning data (#57627) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Linter cleanup: Removed trailing spaces and blank lines in two documentation files (`restricting-access-to-githubcom-using-a-corporate-proxy.md`, `easy-apps-with-spark.md`).\n- GHES release update: Adjusted dates for version 3.18 in `enterprise-dates.json` (release and release candidate moved to September 2025).\n- Secret scanning enhancements: Added `ghes: '>=3.19'` to ~50+ secret patterns in `public-docs.yml`, enabling them for GHES 3.19+. Enabled push protection for several patterns (e.g., Algolia, Alibaba keys) and updated config SHAs.\n\n### Title\nGHES 3.19 secret scanning support, release date updates, and lint fixes"
+}
