@@ -1,0 +1,26 @@
+{
+  "number": 40537,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-25T00:43:20Z",
+  "url": "https://github.com/github/docs/pull/40537",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-25 04:07:01",
+  "details": [
+    "Updated base image tag in Dockerfile to `ghcr.io/github/gh-base-image/gh-base-noble:20250924-191915-gc04d4a50b`.",
+    "Changed \"Agents panel/page\" to lowercase \"agents panel/page\" across Copilot documentation files for consistency.",
+    "Removed a screenshot from the README documentation about table of contents.",
+    "Fixed JSON field ordering (`descriptionHTML`/`statusCodes`) in OpenAPI schema files."
+  ],
+  "summary": "- Updated base image tag in Dockerfile to `ghcr.io/github/gh-base-image/gh-base-noble:20250924-191915-gc04d4a50b`.\n- Changed \"Agents panel/page\" to lowercase \"agents panel/page\" across Copilot documentation files for consistency.\n- Removed a screenshot from the README documentation about table of contents.\n- Fixed JSON field ordering (`descriptionHTML`/`statusCodes`) in OpenAPI schema files.",
+  "generated_title": "Update base image and standardize Copilot agents references to lowercase",
+  "commits": [
+    "**fb96565**: Merge pull request #57684 from github/repo-sync (by docs-bot)",
+    "**f1a2cb5**: Refer to the agents page and agents panel with a lower-case `a` (#57649) (by Tim Rogers)",
+    "**1acd8db**: Update OpenAPI Description (#57676) (by docs-bot)",
+    "**556e690**: Bump github/gh-base-image/gh-base-noble from 20250917-225833-g09a8eb42d to 20250924-191915-gc04d4a50b in the baseimages group (#57685) (by dependabot[bot])"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated base image tag in Dockerfile to `ghcr.io/github/gh-base-image/gh-base-noble:20250924-191915-gc04d4a50b`.\n- Changed \"Agents panel/page\" to lowercase \"agents panel/page\" across Copilot documentation files for consistency.\n- Removed a screenshot from the README documentation about table of contents.\n- Fixed JSON field ordering (`descriptionHTML`/`statusCodes`) in OpenAPI schema files.\n\n### Title\nUpdate base image and standardize Copilot agents references to lowercase"
+}
