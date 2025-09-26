@@ -1,0 +1,29 @@
+{
+  "number": 40563,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-26T12:38:42Z",
+  "url": "https://github.com/github/docs/pull/40563",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-26 14:05:52",
+  "details": [
+    "Added GitHub Mobile support for Copilot agents: assign issues, create PRs, track sessions. Fixed Copilot icon aria-labels.",
+    "Documented self-deletion of Stripe Connect accounts for Sponsors, including screenshots.",
+    "Added warning to shut down or delete old appliances after HA failover to prevent conflicts.",
+    "Updated changelog with Copilot agent flexibility (cross-repo assignments) and MCP Registry details.",
+    "Redirected old Copilot agent enabling path to updated article."
+  ],
+  "summary": "- Added GitHub Mobile support for Copilot agents: assign issues, create PRs, track sessions. Fixed Copilot icon aria-labels.\n- Documented self-deletion of Stripe Connect accounts for Sponsors, including screenshots.\n- Added warning to shut down or delete old appliances after HA failover to prevent conflicts.\n- Updated changelog with Copilot agent flexibility (cross-repo assignments) and MCP Registry details.\n- Redirected old Copilot agent enabling path to updated article.",
+  "generated_title": "Mobile Copilot agents, Stripe deletion docs, and HA appliance cleanup",
+  "commits": [
+    "**de3f8c4**: Redirect old `../enabling-copilot-coding-agent` path to relevant \"About GitHub Copilot coding agent for business and enterprise\" article (#57708) (by Tim Rogers)",
+    "**7da6d29**: Add Stripe Connect account self-deletion instructions and screenshots (#57658) (by Laurie)",
+    "**646eb8f**: Require shutdown or deletion of appliance after failover (#57702) (by Hao Jiang)",
+    "**94e4252**: Update docs changelog (for PR #57413) (#57673) (by docs-bot)",
+    "**ace142a**: Document agents experience on GitHub Mobile (#57629) (by hubwriter)",
+    "**4e101df**: Update docs changelog (for PR #57313) (#57585) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added GitHub Mobile support for Copilot agents: assign issues, create PRs, track sessions. Fixed Copilot icon aria-labels.\n- Documented self-deletion of Stripe Connect accounts for Sponsors, including screenshots.\n- Added warning to shut down or delete old appliances after HA failover to prevent conflicts.\n- Updated changelog with Copilot agent flexibility (cross-repo assignments) and MCP Registry details.\n- Redirected old Copilot agent enabling path to updated article.\n\n### Title\nMobile Copilot agents, Stripe deletion docs, and HA appliance cleanup"
+}
