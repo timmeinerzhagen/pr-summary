@@ -1,0 +1,26 @@
+{
+  "number": 40569,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-26T21:31:33Z",
+  "url": "https://github.com/github/docs/pull/40569",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-27 08:06:49",
+  "details": [
+    "Updated OIDC guide to use `ACTIONS_ID_TOKEN_REQUEST_TOKEN` instead of `ACTIONS_RUNTIME_TOKEN`.",
+    "Added new audit log events for billing budgets, Azure subscriptions, Copilot configurations, issue dependencies, repository settings, team management, social identities, and sub-issues.",
+    "Updated existing audit log events with improved descriptions and fields.",
+    "Added OpenVSX Access Token to secret scanning patterns."
+  ],
+  "summary": "- Updated OIDC guide to use `ACTIONS_ID_TOKEN_REQUEST_TOKEN` instead of `ACTIONS_RUNTIME_TOKEN`.\n- Added new audit log events for billing budgets, Azure subscriptions, Copilot configurations, issue dependencies, repository settings, team management, social identities, and sub-issues.\n- Updated existing audit log events with improved descriptions and fields.\n- Added OpenVSX Access Token to secret scanning patterns.",
+  "generated_title": "Update audit log events, OIDC guide, and secret scanning patterns",
+  "commits": [
+    "**b1a8b43**: Update token environment variable in OIDC guide (#57719) (by Jamie Magee)",
+    "**472cc8c**: Sync secret scanning data (#57717) (by docs-bot)",
+    "**f579f10**: Update OpenAPI Description (#57720) (by docs-bot)",
+    "**d5f0399**: Update audit log event data (#57718) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated OIDC guide to use `ACTIONS_ID_TOKEN_REQUEST_TOKEN` instead of `ACTIONS_RUNTIME_TOKEN`.\n- Added new audit log events for billing budgets, Azure subscriptions, Copilot configurations, issue dependencies, repository settings, team management, social identities, and sub-issues.\n- Updated existing audit log events with improved descriptions and fields.\n- Added OpenVSX Access Token to secret scanning patterns.\n\n### Title\nUpdate audit log events, OIDC guide, and secret scanning patterns"
+}

@@ -1,0 +1,24 @@
+{
+  "number": 40568,
+  "title": "Correct unzip command path in `workflow_run` docs",
+  "author": "jjonescz",
+  "state": "closed",
+  "created": "2025-09-26T20:06:54Z",
+  "url": "https://github.com/github/docs/pull/40568",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-27 08:06:57",
+  "details": [
+    "Fixed the `unzip` command path in a GitHub Actions workflow example",
+    "Corrected the source path from `pr_number.zip` to `${{ runner.temp }}/artifacts/pr_number.zip`",
+    "Ensures artifact unzipping uses the proper temp directory location",
+    "Documentation-only change for `workflow_run` event examples"
+  ],
+  "summary": "- Fixed the `unzip` command path in a GitHub Actions workflow example\n- Corrected the source path from `pr_number.zip` to `${{ runner.temp }}/artifacts/pr_number.zip`\n- Ensures artifact unzipping uses the proper temp directory location\n- Documentation-only change for `workflow_run` event examples",
+  "generated_title": "Fix artifact unzip path in workflow_run documentation",
+  "commits": [
+    "**eb2a26d**: docs: Correct unzip command path in `workflow_run` docs (by Jan Jones)",
+    "**c9e39d3**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\nThe example code has a mistake, I've just tried it in my repo.\r\n\r\n### Check off the following:\r\n\r\n- [x] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Fixed the `unzip` command path in a GitHub Actions workflow example\n- Corrected the source path from `pr_number.zip` to `${{ runner.temp }}/artifacts/pr_number.zip`\n- Ensures artifact unzipping uses the proper temp directory location\n- Documentation-only change for `workflow_run` event examples\n\n### Title\nFix artifact unzip path in workflow_run documentation"
+}
