@@ -1,0 +1,24 @@
+{
+  "number": 40550,
+  "title": "Replace outdated hardcoded GitHub SHA links for SARIF schemas with HTTP links",
+  "author": "TWiStErRob",
+  "state": "closed",
+  "created": "2025-09-25T22:06:56Z",
+  "url": "https://github.com/github/docs/pull/40550",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-29 14:08:38",
+  "details": [
+    "Updated SARIF schema links in documentation files to point to official OASIS sources",
+    "Replaced GitHub repository links with standardized OASIS documentation URLs",
+    "Affected files: `sarif-support-for-code-scanning.md` and `sarif-output.md`",
+    "Changes ensure references use authoritative schema locations"
+  ],
+  "summary": "- Updated SARIF schema links in documentation files to point to official OASIS sources\n- Replaced GitHub repository links with standardized OASIS documentation URLs\n- Affected files: `sarif-support-for-code-scanning.md` and `sarif-output.md`\n- Changes ensure references use authoritative schema locations",
+  "generated_title": "Update SARIF documentation links to official OASIS sources",
+  "commits": [
+    "**ff0b411**: Update sarif docs and schema links (by Róbert Papp)",
+    "**da6fa02**: Update schema link (by Róbert Papp)"
+  ],
+  "original_description": "### Why:\r\n\r\n1. The links pointing to the specific SHA and file path are outdated. The files have been moved around. See https://github.com/oasis-tcs/sarif-spec/issues/646 for more details. Note: because the links were using specific SHA they were still working, they are just pointing to an old version. There is one actual meaningful difference (language regex is wrong).\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nOnly the pointed links changed:\r\n * The link `SARIF specfication documentation` now points to the docs, not the schema. This is the same URL to where the `OASIS Standard` link points.\r\n * The schema links using SHA has been replaced to point to the link used in the spec.\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [ ] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Updated SARIF schema links in documentation files to point to official OASIS sources\n- Replaced GitHub repository links with standardized OASIS documentation URLs\n- Affected files: `sarif-support-for-code-scanning.md` and `sarif-output.md`\n- Changes ensure references use authoritative schema locations\n\n### Title\nUpdate SARIF documentation links to official OASIS sources"
+}

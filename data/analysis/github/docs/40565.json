@@ -1,0 +1,23 @@
+{
+  "number": 40565,
+  "title": "Fix outdated Copilot Settings branding",
+  "author": "dandykong",
+  "state": "closed",
+  "created": "2025-09-26T13:38:00Z",
+  "url": "https://github.com/github/docs/pull/40565",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-29 14:06:40",
+  "details": [
+    "Updated the navigation instruction for accessing GitHub Copilot settings in documentation.",
+    "Changed the menu item text from \"Your GitHub Copilot\" to \"GitHub Copilot settings\" for clarity and accuracy."
+  ],
+  "summary": "- Updated the navigation instruction for accessing GitHub Copilot settings in documentation.\n- Changed the menu item text from \"Your GitHub Copilot\" to \"GitHub Copilot settings\" for clarity and accuracy.",
+  "generated_title": "Update Copilot settings menu item in documentation",
+  "commits": [
+    "**caa4790**: Update your-copilot.md (by dandykong)",
+    "**e130ec2**: Update your-copilot.md (by dandykong)",
+    "**fe0eebd**: Merge branch 'main' into patch-1 (by Sharra-writes)"
+  ],
+  "original_description": "<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\n<!-- Paste the issue link or number here -->\r\nCloses: #40564\r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\n<!-- Let us know what you are changing. Share anything that could provide the most context.\r\nIf you made changes to the `content` directory, a table will populate in a comment below with links to the review and current production articles. -->\r\nFixes a reusable incorrectly referring to the Copilot settings link as \"Your Copilot\".\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Updated the navigation instruction for accessing GitHub Copilot settings in documentation.\n- Changed the menu item text from \"Your GitHub Copilot\" to \"GitHub Copilot settings\" for clarity and accuracy.\n\n### Title\nUpdate Copilot settings menu item in documentation"
+}

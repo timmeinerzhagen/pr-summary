@@ -1,0 +1,22 @@
+{
+  "number": 40551,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-26T00:42:56Z",
+  "url": "https://github.com/github/docs/pull/40551",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-29 14:08:23",
+  "details": [
+    "Reordered \"descriptionHTML\" property to appear after \"statusCodes\" in multiple REST API schema files for consistency.",
+    "Updated `fineGrainedPat` from `false` to `true` for enterprise administration endpoints in GHEC and GHES schemas.",
+    "Standardized schema structures across GitHub versions (FPT, GHEC, GHES 3.14-3.17)."
+  ],
+  "summary": "- Reordered \"descriptionHTML\" property to appear after \"statusCodes\" in multiple REST API schema files for consistency.\n- Updated `fineGrainedPat` from `false` to `true` for enterprise administration endpoints in GHEC and GHES schemas.\n- Standardized schema structures across GitHub versions (FPT, GHEC, GHES 3.14-3.17).",
+  "generated_title": "Standardize schema property order and enable fine-grained PAT for enterprise admin",
+  "commits": [
+    "**28c665d**: Merge pull request #57703 from github/repo-sync (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Reordered \"descriptionHTML\" property to appear after \"statusCodes\" in multiple REST API schema files for consistency.\n- Updated `fineGrainedPat` from `false` to `true` for enterprise administration endpoints in GHEC and GHES schemas.\n- Standardized schema structures across GitHub versions (FPT, GHEC, GHES 3.14-3.17).\n\n### Title\nStandardize schema property order and enable fine-grained PAT for enterprise admin"
+}

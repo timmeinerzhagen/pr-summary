@@ -1,0 +1,20 @@
+{
+  "number": 40553,
+  "title": "Replace Apple Developer broken link",
+  "author": "iqfareez",
+  "state": "closed",
+  "created": "2025-09-26T01:10:17Z",
+  "url": "https://github.com/github/docs/pull/40553",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-29 14:07:49",
+  "details": [
+    "Fixed a broken Apple Developer documentation link in the macOS runner limitations file by updating the URL path from `/manage-profiles/` to `/provisioning-profiles/` for creating development provisioning profiles."
+  ],
+  "summary": "- Fixed a broken Apple Developer documentation link in the macOS runner limitations file by updating the URL path from `/manage-profiles/` to `/provisioning-profiles/` for creating development provisioning profiles.",
+  "generated_title": "Fix broken Apple Developer link in macOS runner docs",
+  "commits": [
+    "**2a397a3**: docs: replace Apple Developer broken link (by Fareez Iqmal)"
+  ],
+  "original_description": "<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\n<!-- Paste the issue link or number here -->\r\nCloses: #40552\r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nI've updated the link to point to the correct one.\r\n\r\n<img width=\"1405\" height=\"647\" alt=\"image\" src=\"https://github.com/user-attachments/assets/44001387-a3a2-4f34-b19f-439acd72c66a\" />\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [ ] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Fixed a broken Apple Developer documentation link in the macOS runner limitations file by updating the URL path from `/manage-profiles/` to `/provisioning-profiles/` for creating development provisioning profiles.\n\n### Title  \nFix broken Apple Developer link in macOS runner docs"
+}
