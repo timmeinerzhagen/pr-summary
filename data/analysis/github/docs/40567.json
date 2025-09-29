@@ -1,0 +1,25 @@
+{
+  "number": 40567,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-26T18:37:15Z",
+  "url": "https://github.com/github/docs/pull/40567",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-29 04:07:27",
+  "details": [
+    "Simplified local-dev CI workflow: replaced complex tests with a basic server smoke test using curl.",
+    "Updated Copilot coding agent docs: added plan availability details and access management steps.",
+    "Renamed Copilot Spaces article for clarity and adjusted intro to focus on organizing/sharing context.",
+    "Removed obsolete test scripts (`test-local-dev.ts`, `playwright-local-dev.spec.ts`)."
+  ],
+  "summary": "- Simplified local-dev CI workflow: replaced complex tests with a basic server smoke test using curl.\n- Updated Copilot coding agent docs: added plan availability details and access management steps.\n- Renamed Copilot Spaces article for clarity and adjusted intro to focus on organizing/sharing context.\n- Removed obsolete test scripts (`test-local-dev.ts`, `playwright-local-dev.spec.ts`).",
+  "generated_title": "Update Copilot docs and streamline local-dev testing",
+  "commits": [
+    "**d921547**: Improve documentation around Copilot coding agent enablement (#57710) (by Tim Rogers)",
+    "**7d18e60**: Simplify Copilot Spaces conceptual article title + adjust intro (#57715) (by Sarita Iyer)",
+    "**60feaff**: Streamline flaky local-dev test suite (#57716) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Simplified local-dev CI workflow: replaced complex tests with a basic server smoke test using curl.\n- Updated Copilot coding agent docs: added plan availability details and access management steps.\n- Renamed Copilot Spaces article for clarity and adjusted intro to focus on organizing/sharing context.\n- Removed obsolete test scripts (`test-local-dev.ts`, `playwright-local-dev.spec.ts`).\n\n### Title\nUpdate Copilot docs and streamline local-dev testing"
+}
