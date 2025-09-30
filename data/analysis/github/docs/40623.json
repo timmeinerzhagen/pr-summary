@@ -1,0 +1,28 @@
+{
+  "number": 40623,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-30T18:40:57Z",
+  "url": "https://github.com/github/docs/pull/40623",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-30 20:07:12",
+  "details": [
+    "Added Spark enterprise management documentation and data residency note.",
+    "Updated coding agent to use Claude Sonnet 4.5 for Pro/Pro+ subscribers and retain context across PR sessions.",
+    "Added billing cycle change guidance for Copilot and volume plans.",
+    "Updated Windows runner links and OpenAPI descriptions."
+  ],
+  "summary": "- Added Spark enterprise management documentation and data residency note.\n- Updated coding agent to use Claude Sonnet 4.5 for Pro/Pro+ subscribers and retain context across PR sessions.\n- Added billing cycle change guidance for Copilot and volume plans.\n- Updated Windows runner links and OpenAPI descriptions.",
+  "generated_title": "Spark enterprise management, coding agent updates, and billing docs",
+  "commits": [
+    "**33687f2**: Update links for windows-latest in documentation (#57682) (by Larissa Fortuna)",
+    "**e0e97f9**: GitHub Spark rollout to CE users (#57630) (by Sophie)",
+    "**5834114**: Update OpenAPI Description (#57747) (by docs-bot)",
+    "**c13e46c**: [2025-10-01] Copilot coding agent remembers context between sessions for the same pull request (#57651) (by Tim Rogers)",
+    "**f42e169**: Add information on changing your billing period monthly/yearly for Copilot and GitHub volume plans (#57749) (by Felicity Chapman)",
+    "**722c7c5**: [2025-09-30] Anthropic Claude Sonnet 4.5 is available in Copilot coding agent (#57746) (by Tim Rogers)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added Spark enterprise management documentation and data residency note.\n- Updated coding agent to use Claude Sonnet 4.5 for Pro/Pro+ subscribers and retain context across PR sessions.\n- Added billing cycle change guidance for Copilot and volume plans.\n- Updated Windows runner links and OpenAPI descriptions.\n\n### Title\nSpark enterprise management, coding agent updates, and billing docs"
+}
