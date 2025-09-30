@@ -1,0 +1,23 @@
+{
+  "number": 40612,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-09-29T21:32:07Z",
+  "url": "https://github.com/github/docs/pull/40612",
+  "repository": "github/docs",
+  "analysis_date": "2025-09-30 00:24:01",
+  "details": [
+    "Unified the model used by Coding Agent for all users to `cca_current_model`, removing distinctions between Business/Enterprise and Pro/Pro+ tiers.",
+    "Removed references to Claude Sonnet 4.5 as the model for Pro/Pro+ users and its public preview status.",
+    "Updated the models reference table to mark Claude Opus 4.1 as unsupported in agent mode."
+  ],
+  "summary": "- Unified the model used by Coding Agent for all users to `cca_current_model`, removing distinctions between Business/Enterprise and Pro/Pro+ tiers.\n- Removed references to Claude Sonnet 4.5 as the model for Pro/Pro+ users and its public preview status.\n- Updated the models reference table to mark Claude Opus 4.1 as unsupported in agent mode.",
+  "generated_title": "Remove Sonnet 4.5 and disable Opus 4.1 for Coding Agent model",
+  "commits": [
+    "**427d930**: Mark Claude Opus 4.1 as not supported in agent mode (#57738) (by Nick Trogh)",
+    "**2c01177**: Remove Sonnet 4.5 from CCA (#57739) (by Sunbrye Ly)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Unified the model used by Coding Agent for all users to `cca_current_model`, removing distinctions between Business/Enterprise and Pro/Pro+ tiers.\n- Removed references to Claude Sonnet 4.5 as the model for Pro/Pro+ users and its public preview status.\n- Updated the models reference table to mark Claude Opus 4.1 as unsupported in agent mode.\n\n### Title\nRemove Sonnet 4.5 and disable Opus 4.1 for Coding Agent model"
+}
