@@ -1,0 +1,23 @@
+{
+  "number": 40633,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-01T06:37:09Z",
+  "url": "https://github.com/github/docs/pull/40633",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-01 08:08:41",
+  "details": [
+    "Updated linter rule to prioritize absolute paths for recommended articles and added tests.",
+    "Added middleware to resolve recommended articles to page data (title, intro, href, category).",
+    "Modified landing page components to use resolved article data.",
+    "Added unit and fixture tests for new behavior."
+  ],
+  "summary": "- Updated linter rule to prioritize absolute paths for recommended articles and added tests.\n- Added middleware to resolve recommended articles to page data (title, intro, href, category).\n- Modified landing page components to use resolved article data.\n- Added unit and fixture tests for new behavior.",
+  "generated_title": "Resolve recommended articles with absolute path priority and middleware",
+  "commits": [
+    "**96b8468**: Merge pull request #57758 from github/repo-sync (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated linter rule to prioritize absolute paths for recommended articles and added tests.\n- Added middleware to resolve recommended articles to page data (title, intro, href, category).\n- Modified landing page components to use resolved article data.\n- Added unit and fixture tests for new behavior.\n\n### Title\nResolve recommended articles with absolute path priority and middleware"
+}
