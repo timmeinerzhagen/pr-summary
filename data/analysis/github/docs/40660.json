@@ -1,0 +1,27 @@
+{
+  "number": 40660,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-02T21:30:31Z",
+  "url": "https://github.com/github/docs/pull/40660",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-02 22:05:32",
+  "details": [
+    "Updated Copilot CLI installation command to use `@prerelease` in devcontainer setup.",
+    "Enhanced Copilot issue creation: added code snippet examples in tutorials and documentation.",
+    "Added UTM parameter preservation for Copilot links in specific pages.",
+    "Introduced reusable warning for self-hosted runner updates and added troubleshooting guidance.",
+    "Updated CodeQL query tables workflow PR description for clearer review instructions."
+  ],
+  "summary": "- Updated Copilot CLI installation command to use `@prerelease` in devcontainer setup.\n- Enhanced Copilot issue creation: added code snippet examples in tutorials and documentation.\n- Added UTM parameter preservation for Copilot links in specific pages.\n- Introduced reusable warning for self-hosted runner updates and added troubleshooting guidance.\n- Updated CodeQL query tables workflow PR description for clearer review instructions.",
+  "generated_title": "Copilot: issue snippets, CLI install, UTM; Runner update warnings; CodeQL workflow update",
+  "commits": [
+    "**40a47c4**: Merge pull request #57780 from github/repo-sync (by docs-bot)",
+    "**1506c45**: Copilot Creates Issues includes codes snippets in its drafts [Public Preview] (#57733) (by Sunbrye Ly)",
+    "**d3eb448**: Update Copilot CLI installation command (#57779) (by Devraj Mehta)",
+    "**1289d9c**: Added additional troubleshooting recommendations for self-hosted ARC runners (#57755) (by Cory Calahan)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated Copilot CLI installation command to use `@prerelease` in devcontainer setup.\n- Enhanced Copilot issue creation: added code snippet examples in tutorials and documentation.\n- Added UTM parameter preservation for Copilot links in specific pages.\n- Introduced reusable warning for self-hosted runner updates and added troubleshooting guidance.\n- Updated CodeQL query tables workflow PR description for clearer review instructions.\n\n### Title\nCopilot: issue snippets, CLI install, UTM; Runner update warnings; CodeQL workflow update"
+}
