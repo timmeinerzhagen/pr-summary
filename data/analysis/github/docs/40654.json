@@ -1,0 +1,25 @@
+{
+  "number": 40654,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-02T15:33:43Z",
+  "url": "https://github.com/github/docs/pull/40654",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-03 14:05:52",
+  "details": [
+    "Added changelog entries for Claude Sonnet 4.5 release (public preview) and Copilot coding agent updates for GitHub Mobile.",
+    "Made Visual Studio subscription billing documentation available for GitHub Enterprise Server (GHES) by adding `ghes: '*'` version flags.",
+    "Updated GHES documentation links to point to enterprise-cloud@latest with conditional rendering notes."
+  ],
+  "summary": "- Added changelog entries for Claude Sonnet 4.5 release (public preview) and Copilot coding agent updates for GitHub Mobile.\n- Made Visual Studio subscription billing documentation available for GitHub Enterprise Server (GHES) by adding `ghes: '*'` version flags.\n- Updated GHES documentation links to point to enterprise-cloud@latest with conditional rendering notes.",
+  "generated_title": "Update changelog with Claude 4.5 and Copilot Mobile, enable VS billing docs for GHES",
+  "commits": [
+    "**d0f05a9**: Update docs changelog (for PR #57629) (#57712) (by docs-bot)",
+    "**65e0b21**: Update docs changelog (for PR #57729) (#57737) (by docs-bot)",
+    "**47a8b8c**: Early access companion PR (#57776) (by Laura Coursen)",
+    "**bf43f58**: Make article visible to GHES users (#57616) (by Felicity Chapman)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added changelog entries for Claude Sonnet 4.5 release (public preview) and Copilot coding agent updates for GitHub Mobile.\n- Made Visual Studio subscription billing documentation available for GitHub Enterprise Server (GHES) by adding `ghes: '*'` version flags.\n- Updated GHES documentation links to point to enterprise-cloud@latest with conditional rendering notes.\n\n### Title\nUpdate changelog with Claude 4.5 and Copilot Mobile, enable VS billing docs for GHES"
+}
