@@ -1,0 +1,26 @@
+{
+  "number": 40679,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-03T15:34:13Z",
+  "url": "https://github.com/github/docs/pull/40679",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-03 16:06:45",
+  "details": [
+    "Updated Copilot issue assignment dialog image.",
+    "Restructured billing documentation:",
+    "Enhanced content on usage-based licenses and plan changes.",
+    "Added new Azure billing reference.",
+    "Simplified Copilot billing docs by removing redundant billing details and referencing centralized billing docs."
+  ],
+  "summary": "- Updated Copilot issue assignment dialog image.\n- Restructured billing documentation:\n- Enhanced content on usage-based licenses and plan changes.\n- Added new Azure billing reference.\n- Simplified Copilot billing docs by removing redundant billing details and referencing centralized billing docs.",
+  "generated_title": "Centralize billing documentation and update Copilot references",
+  "commits": [
+    "**4762586**: Merge pull request #57789 from github/repo-sync (by docs-bot)",
+    "**1f414f2**: [Improvement]: Move information about the general billing platform from Copilot docs to Billing docs (#57762) (by Sophie)",
+    "**7fbc49e**: Updated Copilot issue assignment dialog image (#57688) (by Tadas Labudis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated Copilot issue assignment dialog image.\n- Restructured billing documentation: \n  - Enhanced content on usage-based licenses and plan changes.\n  - Added new Azure billing reference.\n- Simplified Copilot billing docs by removing redundant billing details and referencing centralized billing docs.\n\n### Title\nCentralize billing documentation and update Copilot references"
+}
