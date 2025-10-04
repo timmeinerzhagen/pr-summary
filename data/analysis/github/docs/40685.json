@@ -1,0 +1,25 @@
+{
+  "number": 40685,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-03T21:30:25Z",
+  "url": "https://github.com/github/docs/pull/40685",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-04 02:27:58",
+  "details": [
+    "Updated Dockerfile base image to newer version.",
+    "Added note in billing docs: detailed usage reports not available via REST API.",
+    "Fixed formatting in Dependabot and Secret Scanning docs.",
+    "Copilot: Added pricing for premium requests, moved public preview label to CLI, added CLI preview note.",
+    "Fixed trailing space in Terms of Service.",
+    "Created reusable file for billing API limitation note."
+  ],
+  "summary": "- Updated Dockerfile base image to newer version.\n- Added note in billing docs: detailed usage reports not available via REST API.\n- Fixed formatting in Dependabot and Secret Scanning docs.\n- Copilot: Added pricing for premium requests, moved public preview label to CLI, added CLI preview note.\n- Fixed trailing space in Terms of Service.\n- Created reusable file for billing API limitation note.",
+  "generated_title": "Update billing API note and Copilot docs with pricing/feature adjustments",
+  "commits": [
+    "**976db1b**: Merge pull request #57799 from github/repo-sync (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated Dockerfile base image to newer version.\n- Added note in billing docs: detailed usage reports not available via REST API.\n- Fixed formatting in Dependabot and Secret Scanning docs.\n- Copilot: Added pricing for premium requests, moved public preview label to CLI, added CLI preview note.\n- Fixed trailing space in Terms of Service.\n- Created reusable file for billing API limitation note.\n\n### Title\nUpdate billing API note and Copilot docs with pricing/feature adjustments"
+}
