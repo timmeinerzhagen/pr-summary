@@ -1,0 +1,26 @@
+{
+  "number": 40739,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-07T06:37:12Z",
+  "url": "https://github.com/github/docs/pull/40739",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-07 08:08:02",
+  "details": [
+    "Updated base image in Dockerfile to `ghcr.io/github/gh-base-image/gh-base-noble:20251006-204801-gaa06a8885`",
+    "Replaced hardcoded \"GitHub\", \"github.com\", and \"Github\" references in Copilot CLI documentation with Liquid variables:",
+    "Standardized to `{% data variables.product.github %}` and `{% data variables.product.prodname_dotcom_the_website %}`",
+    "Corrected \"github actions\" → `{% data variables.product.prodname_actions %}` branding",
+    "Fixed inconsistent capitalization of GitHub product names"
+  ],
+  "summary": "- Updated base image in Dockerfile to `ghcr.io/github/gh-base-image/gh-base-noble:20251006-204801-gaa06a8885`\n- Replaced hardcoded \"GitHub\", \"github.com\", and \"Github\" references in Copilot CLI documentation with Liquid variables:\n- Standardized to `{% data variables.product.github %}` and `{% data variables.product.prodname_dotcom_the_website %}`\n- Corrected \"github actions\" → `{% data variables.product.prodname_actions %}` branding\n- Fixed inconsistent capitalization of GitHub product names",
+  "generated_title": "Update base image and standardize GitHub branding in Copilot docs",
+  "commits": [
+    "**7f1ab38**: Merge pull request #57827 from github/repo-sync (by docs-bot)",
+    "**dd6e7d9**: Bump github/gh-base-image/gh-base-noble from 20251003-000207-g33acdaa18 to 20251006-204801-gaa06a8885 in the baseimages group (#57822) (by dependabot[bot])",
+    "**2b8d935**: GitHub - fix capitalization issue and replace various instances with relevant variable (#57808) (by mc)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated base image in Dockerfile to `ghcr.io/github/gh-base-image/gh-base-noble:20251006-204801-gaa06a8885`\n- Replaced hardcoded \"GitHub\", \"github.com\", and \"Github\" references in Copilot CLI documentation with Liquid variables:\n  - Standardized to `{% data variables.product.github %}` and `{% data variables.product.prodname_dotcom_the_website %}`\n  - Corrected \"github actions\" → `{% data variables.product.prodname_actions %}` branding\n- Fixed inconsistent capitalization of GitHub product names\n\n### Title\nUpdate base image and standardize GitHub branding in Copilot docs"
+}
