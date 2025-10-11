@@ -1,0 +1,34 @@
+{
+  "number": 40800,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-10T21:31:17Z",
+  "url": "https://github.com/github/docs/pull/40800",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-11 10:05:50",
+  "details": [
+    "Added new secret scanning pattern for `ec_private_key`.",
+    "Updated CTA parameters in style guide and added `cta-builder` helper tool.",
+    "Added `INPUT_FILES` env var to `get-changed-files` GitHub Action.",
+    "Converted JavaScript files to TypeScript (e.g., `utils.js` → `utils.ts`).",
+    "Allow-listed hero images for orphaned file deletion checks.",
+    "Made data table schemas dynamically registered.",
+    "Added carousel component to bespoke landing pages."
+  ],
+  "summary": "- Added new secret scanning pattern for `ec_private_key`.\n- Updated CTA parameters in style guide and added `cta-builder` helper tool.\n- Added `INPUT_FILES` env var to `get-changed-files` GitHub Action.\n- Converted JavaScript files to TypeScript (e.g., `utils.js` → `utils.ts`).\n- Allow-listed hero images for orphaned file deletion checks.\n- Made data table schemas dynamically registered.\n- Added carousel component to bespoke landing pages.",
+  "generated_title": "Add secret scanning pattern, update CTA schema, and migrate JS to TS",
+  "commits": [
+    "**fce976c**: Merge pull request #57925 from github/repo-sync (by docs-bot)",
+    "**530a0d5**: Add new secret scanning patterns for Generic provider (#57904) (by Michael Badgett)",
+    "**29ac867**: Update style guide with new CTA params (#57922) (by Sarah Schneider)",
+    "**10eac91**: Linter and helper tool to standardize CTAs (#57826) (by Sarah Schneider)",
+    "**58f8bdb**: add INPUT_FILES env var for get-files-changed action (#57924) (by Robert Sese)",
+    "**37a2754**: Convert 21 JavaScript files to TypeScript (#57896) (by Kevin Heis)",
+    "**75b1694**: allow-list hero images for the orphaned files deletions (#57926) (by Evan Bonsignori)",
+    "**1c681bf**: Dynamically register data/tables schemas (#57905) (by Sarah Schneider)",
+    "**9fc9f5f**: add carousel to bespoke pages (#57927) (by Evan Bonsignori)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added new secret scanning pattern for `ec_private_key`.\n- Updated CTA parameters in style guide and added `cta-builder` helper tool.\n- Added `INPUT_FILES` env var to `get-changed-files` GitHub Action.\n- Converted JavaScript files to TypeScript (e.g., `utils.js` → `utils.ts`).\n- Allow-listed hero images for orphaned file deletion checks.\n- Made data table schemas dynamically registered.\n- Added carousel component to bespoke landing pages.\n\n### Title\nAdd secret scanning pattern, update CTA schema, and migrate JS to TS"
+}

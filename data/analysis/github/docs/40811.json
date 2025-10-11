@@ -1,0 +1,25 @@
+{
+  "number": 40811,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-11T09:32:21Z",
+  "url": "https://github.com/github/docs/pull/40811",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-11 10:05:22",
+  "details": [
+    "Added three new base64-encoded secret patterns to `public-docs.yml`:",
+    "Azure Storage Account Access Key (Base64)",
+    "Hugging Face User Access Token (Base64)",
+    "Twilio Account SID (Base64)",
+    "Updated SHA references in `config.json` to reflect changes",
+    "All new entries support public/private repositories and push protection"
+  ],
+  "summary": "- Added three new base64-encoded secret patterns to `public-docs.yml`:\n- Azure Storage Account Access Key (Base64)\n- Hugging Face User Access Token (Base64)\n- Twilio Account SID (Base64)\n- Updated SHA references in `config.json` to reflect changes\n- All new entries support public/private repositories and push protection",
+  "generated_title": "Add base64-encoded secret patterns for Azure, Hugging Face, and Twilio",
+  "commits": [
+    "**68e34b0**: Sync secret scanning data (#57916) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added three new base64-encoded secret patterns to `public-docs.yml`:\n  - Azure Storage Account Access Key (Base64)\n  - Hugging Face User Access Token (Base64)\n  - Twilio Account SID (Base64)\n- Updated SHA references in `config.json` to reflect changes\n- All new entries support public/private repositories and push protection\n\n### Title\nAdd base64-encoded secret patterns for Azure, Hugging Face, and Twilio"
+}
