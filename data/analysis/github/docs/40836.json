@@ -1,0 +1,25 @@
+{
+  "number": 40836,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-13T12:38:23Z",
+  "url": "https://github.com/github/docs/pull/40836",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-13 14:06:39",
+  "details": [
+    "Added changelog entry for new tutorial on automating GitHub App installations in enterprises.",
+    "Created new documentation section \"Managing GitHub Apps for your enterprise\".",
+    "Moved and updated existing app management docs to new section.",
+    "Added detailed tutorial (`automate-installations.md`) for programmatic app installation and automation.",
+    "Removed moved docs from enterprise account management section."
+  ],
+  "summary": "- Added changelog entry for new tutorial on automating GitHub App installations in enterprises.\n- Created new documentation section \"Managing GitHub Apps for your enterprise\".\n- Moved and updated existing app management docs to new section.\n- Added detailed tutorial (`automate-installations.md`) for programmatic app installation and automation.\n- Removed moved docs from enterprise account management section.",
+  "generated_title": "Add tutorial for automating GitHub App installations in enterprises",
+  "commits": [
+    "**4191daf**: Tutorial for programmatic GitHub App installations (#57873) (by Isaac Brown)",
+    "**91a7ba2**: Update docs changelog (for PR #57873) (#57937) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added changelog entry for new tutorial on automating GitHub App installations in enterprises.\n- Created new documentation section \"Managing GitHub Apps for your enterprise\".\n- Moved and updated existing app management docs to new section.\n- Added detailed tutorial (`automate-installations.md`) for programmatic app installation and automation.\n- Removed moved docs from enterprise account management section.\n\n### Title\nAdd tutorial for automating GitHub App installations in enterprises"
+}
