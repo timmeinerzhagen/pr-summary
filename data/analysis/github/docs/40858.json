@@ -1,0 +1,26 @@
+{
+  "number": 40858,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-14T21:34:18Z",
+  "url": "https://github.com/github/docs/pull/40858",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-14 22:05:48",
+  "details": [
+    "Promoted Immutable Releases from preview to GA, updating documentation and removing preview notes.",
+    "Updated Copilot's auto model selection to include Sonnet 4.5 instead of Sonnet 4.",
+    "Fixed test workflow by updating file extension for TypeScript migration.",
+    "Migrated 10 JavaScript files to TypeScript with type annotations."
+  ],
+  "summary": "- Promoted Immutable Releases from preview to GA, updating documentation and removing preview notes.\n- Updated Copilot's auto model selection to include Sonnet 4.5 instead of Sonnet 4.\n- Fixed test workflow by updating file extension for TypeScript migration.\n- Migrated 10 JavaScript files to TypeScript with type annotations.",
+  "generated_title": "Immutable Releases GA, Copilot model update, and TypeScript migration",
+  "commits": [
+    "**98da48c**: Immutable Releases GA docs update (#57912) (by Tina Heidinger)",
+    "**f109c3c**: Update Auto model list to include Sonnet 4.5 rather than Sonnet 4 (#57942) (by Nhu Do)",
+    "**0cf4aab**: fix test-changed-content workflow (#57970) (by Robert Sese)",
+    "**a79730e**: Migrate 10 JavaScript files to TypeScript (#57971) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Promoted Immutable Releases from preview to GA, updating documentation and removing preview notes.\n- Updated Copilot's auto model selection to include Sonnet 4.5 instead of Sonnet 4.\n- Fixed test workflow by updating file extension for TypeScript migration.\n- Migrated 10 JavaScript files to TypeScript with type annotations.\n\n### Title\nImmutable Releases GA, Copilot model update, and TypeScript migration"
+}
