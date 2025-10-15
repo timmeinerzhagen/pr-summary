@@ -1,0 +1,27 @@
+{
+  "number": 40866,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-15T15:32:53Z",
+  "url": "https://github.com/github/docs/pull/40866",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-15 16:06:48",
+  "details": [
+    "Removed preview status note for C/C++ no-build mode in CodeQL documentation",
+    "Added detailed explanation of C/C++ no-build analysis:",
+    "Source file extension-based compilation unit inference",
+    "Accuracy limitations (custom macros, dependencies)",
+    "Recommendations for improved analysis",
+    "Extended no-build C/C++ support to GHES 3.20+ (general availability)"
+  ],
+  "summary": "- Removed preview status note for C/C++ no-build mode in CodeQL documentation\n- Added detailed explanation of C/C++ no-build analysis:\n- Source file extension-based compilation unit inference\n- Accuracy limitations (custom macros, dependencies)\n- Recommendations for improved analysis\n- Extended no-build C/C++ support to GHES 3.20+ (general availability)",
+  "generated_title": "Promote C/C++ no-build analysis to GA with updated documentation",
+  "commits": [
+    "**905bebc**: Revert \"Add 'social_csrf_token' cookie info\" (#57987) (by Felicity Chapman)",
+    "**fdd1e72**: Remove note that C/C++ BMN is in preview, and add GHES 3.20 as fully … (#57790) (by Anders Peter Fugmann)",
+    "**b554742**: Recreate  \"Add 'social_csrf_token' cookie info\"\" (#57988) (by Felicity Chapman)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removed preview status note for C/C++ no-build mode in CodeQL documentation  \n- Added detailed explanation of C/C++ no-build analysis:  \n  - Source file extension-based compilation unit inference  \n  - Accuracy limitations (custom macros, dependencies)  \n  - Recommendations for improved analysis  \n- Extended no-build C/C++ support to GHES 3.20+ (general availability)  \n\n### Title  \nPromote C/C++ no-build analysis to GA with updated documentation"
+}
