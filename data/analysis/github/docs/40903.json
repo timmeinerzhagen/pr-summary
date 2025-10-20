@@ -1,0 +1,27 @@
+{
+  "number": 40903,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-18T03:36:35Z",
+  "url": "https://github.com/github/docs/pull/40903",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-20 20:07:12",
+  "details": [
+    "Made entire article cards clickable by converting from `div` to `a` tags in carousel and grid components",
+    "Added hover effects (shadow, transform) and transition animations to article cards",
+    "Removed category tags from carousel cards for cleaner UI",
+    "Improved mobile responsiveness: adjusted hero layout, background opacity, and button styling",
+    "Enhanced pagination UX with smooth scrolling to grid header on page change",
+    "Updated Playwright tests to reflect DOM changes (card selectors)",
+    "Reduced carousel transition duration from 0.3s to 0.1s"
+  ],
+  "summary": "- Made entire article cards clickable by converting from `div` to `a` tags in carousel and grid components\n- Added hover effects (shadow, transform) and transition animations to article cards\n- Removed category tags from carousel cards for cleaner UI\n- Improved mobile responsiveness: adjusted hero layout, background opacity, and button styling\n- Enhanced pagination UX with smooth scrolling to grid header on page change\n- Updated Playwright tests to reflect DOM changes (card selectors)\n- Reduced carousel transition duration from 0.3s to 0.1s",
+  "generated_title": "Landing page UI enhancements: interactive cards, responsive improvements, and animation tweaks",
+  "commits": [
+    "**ab3e689**: Merge pull request #58050 from github/repo-sync (by docs-bot)",
+    "**e5d1588**: landing page UI tweaks (#57996) (by Evan Bonsignori)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Made entire article cards clickable by converting from `div` to `a` tags in carousel and grid components\n- Added hover effects (shadow, transform) and transition animations to article cards\n- Removed category tags from carousel cards for cleaner UI\n- Improved mobile responsiveness: adjusted hero layout, background opacity, and button styling\n- Enhanced pagination UX with smooth scrolling to grid header on page change\n- Updated Playwright tests to reflect DOM changes (card selectors)\n- Reduced carousel transition duration from 0.3s to 0.1s\n\n### Title\nLanding page UI enhancements: interactive cards, responsive improvements, and animation tweaks"
+}
