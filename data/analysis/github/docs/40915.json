@@ -1,0 +1,23 @@
+{
+  "number": 40915,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-20T06:37:29Z",
+  "url": "https://github.com/github/docs/pull/40915",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-20 18:10:01",
+  "details": [
+    "Updated `base64Supported` from `false` to `true` for multiple secret patterns (Anthropic, Azure services, Brevo, Datadog, etc.)",
+    "Set `isduplicate` to `true` for the same patterns",
+    "Updated SHA references in `config.json` to new values"
+  ],
+  "summary": "- Updated `base64Supported` from `false` to `true` for multiple secret patterns (Anthropic, Azure services, Brevo, Datadog, etc.)\n- Set `isduplicate` to `true` for the same patterns\n- Updated SHA references in `config.json` to new values",
+  "generated_title": "Enable base64 support and mark duplicates for multiple secret patterns",
+  "commits": [
+    "**18d63eb**: Merge pull request #58054 from github/repo-sync (by docs-bot)",
+    "**b4efe21**: Sync secret scanning data (#58052) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated `base64Supported` from `false` to `true` for multiple secret patterns (Anthropic, Azure services, Brevo, Datadog, etc.)  \n- Set `isduplicate` to `true` for the same patterns  \n- Updated SHA references in `config.json` to new values  \n\n### Title  \nEnable base64 support and mark duplicates for multiple secret patterns"
+}

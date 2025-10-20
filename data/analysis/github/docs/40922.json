@@ -1,0 +1,27 @@
+{
+  "number": 40922,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-20T15:34:21Z",
+  "url": "https://github.com/github/docs/pull/40922",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-20 18:09:04",
+  "details": [
+    "Updated references from `allowed-topics.js` to `allowed-topics.ts` across content files.",
+    "Modified Copilot landing page to show version-specific links for FPT and GHEC.",
+    "Renamed REST API artifact metadata page title for clarity.",
+    "Converted `allowed-topics.js` and 6 other files to TypeScript with type annotations."
+  ],
+  "summary": "- Updated references from `allowed-topics.js` to `allowed-topics.ts` across content files.\n- Modified Copilot landing page to show version-specific links for FPT and GHEC.\n- Renamed REST API artifact metadata page title for clarity.\n- Converted `allowed-topics.js` and 6 other files to TypeScript with type annotations.",
+  "generated_title": "Migrate files to TypeScript and update Copilot landing page",
+  "commits": [
+    "**5657392**: Empty PR (#58045) (by a1exmozz)",
+    "**4f8c877**: Old-style landing page: Show Copilot driver-focused articles for GHEC version of the page (#57918) (by Felicity Chapman)",
+    "**3e3a82e**: Update artifact metadata subcategory title format to match other subcategory titles (#58039) (by Meredith Lancaster)",
+    "**7cd719d**: Convert allowed-topics.js to TypeScript (#58011) (by Kevin Heis)",
+    "**5ae4ec0**: Migrate 6 files from JavaScript to TypeScript (#58002) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated references from `allowed-topics.js` to `allowed-topics.ts` across content files.\n- Modified Copilot landing page to show version-specific links for FPT and GHEC.\n- Renamed REST API artifact metadata page title for clarity.\n- Converted `allowed-topics.js` and 6 other files to TypeScript with type annotations.\n\n### Title\nMigrate files to TypeScript and update Copilot landing page"
+}
