@@ -1,0 +1,28 @@
+{
+  "number": 40925,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-21T00:44:39Z",
+  "url": "https://github.com/github/docs/pull/40925",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-21 08:08:46",
+  "details": [
+    "Removed note about 2FA exemption for education coupons.",
+    "Differentiated Dependabot `interval` options between GitHub.com (fpt/ghec) and Enterprise Server (ghes).",
+    "Added Copilot-generated commit messages to policy conflicts documentation.",
+    "Updated Playwright dependency from 1.55.0 to 1.56.1.",
+    "Fixed journey timeline line color in dark mode using CSS variable."
+  ],
+  "summary": "- Removed note about 2FA exemption for education coupons.\n- Differentiated Dependabot `interval` options between GitHub.com (fpt/ghec) and Enterprise Server (ghes).\n- Added Copilot-generated commit messages to policy conflicts documentation.\n- Updated Playwright dependency from 1.55.0 to 1.56.1.\n- Fixed journey timeline line color in dark mode using CSS variable.",
+  "generated_title": "Update docs (Dependabot, Copilot, 2FA), bump Playwright, fix dark mode UI",
+  "commits": [
+    "**1becb1f**: Enhance documentation for Dependabot interval options (#58055) (by Andy Barnes)",
+    "**4930028**: Include Copilot-generated commit message policy in policy-conflicts.md (#57611) (by Sheena Ganju)",
+    "**0e144cd**: Bump playwright from 1.55.0 to 1.56.1 in the npm_and_yarn group across 1 directory (#58070) (by dependabot[bot])",
+    "**33f3dbe**: [Improvement] Removing note for 2FA exception per PM feedback (#58038) (by Claire W)",
+    "**671fd37**: fix journey timeline line color in dark mode (#58071) (by Robert Sese)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removed note about 2FA exemption for education coupons.\n- Differentiated Dependabot `interval` options between GitHub.com (fpt/ghec) and Enterprise Server (ghes).\n- Added Copilot-generated commit messages to policy conflicts documentation.\n- Updated Playwright dependency from 1.55.0 to 1.56.1.\n- Fixed journey timeline line color in dark mode using CSS variable.\n\n### Title\nUpdate docs (Dependabot, Copilot, 2FA), bump Playwright, fix dark mode UI"
+}
