@@ -1,0 +1,23 @@
+{
+  "number": 40938,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-22T03:41:23Z",
+  "url": "https://github.com/github/docs/pull/40938",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-22 12:10:19",
+  "details": [
+    "Added documentation on authorization holds: temporary payment method holds during subscription/trial initiation, with troubleshooting steps if holds persist or fail.",
+    "Updated locked account troubleshooting: added a section for failed authorization holds and generalized a declined payment section to cover all account types.",
+    "Fixed journey page links by including current version and locale, ensuring correct path formatting."
+  ],
+  "summary": "- Added documentation on authorization holds: temporary payment method holds during subscription/trial initiation, with troubleshooting steps if holds persist or fail.\n- Updated locked account troubleshooting: added a section for failed authorization holds and generalized a declined payment section to cover all account types.\n- Fixed journey page links by including current version and locale, ensuring correct path formatting.",
+  "generated_title": "Add auth hold docs and fix journey links",
+  "commits": [
+    "**364e9f8**: Adding additional details re: Authorization Holds (#58051) (by Eboni)",
+    "**156000f**: fix link back to journey page href (#58103) (by Robert Sese)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added documentation on authorization holds: temporary payment method holds during subscription/trial initiation, with troubleshooting steps if holds persist or fail.\n- Updated locked account troubleshooting: added a section for failed authorization holds and generalized a declined payment section to cover all account types.\n- Fixed journey page links by including current version and locale, ensuring correct path formatting.\n\n### Title\nAdd auth hold docs and fix journey links"
+}
