@@ -1,0 +1,30 @@
+{
+  "number": 40963,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-23T15:35:40Z",
+  "url": "https://github.com/github/docs/pull/40963",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-23 18:08:52",
+  "details": [
+    "Added budget alerts documentation section explaining email notifications at 75%, 90%, and 100% thresholds.",
+    "Created reusable file for Copilot MCP limitations and integrated it into two documentation files.",
+    "Enhanced multi-line PR comment functionality by adding shift+click selection option.",
+    "Deleted 5 orphaned webhook reusable files related to sponsorship and PR threads.",
+    "Updated AI tools script to use `gh auth token` as fallback authentication method.",
+    "Added new audit log events for Actions cache retention policies and expanded budget event fields."
+  ],
+  "summary": "- Added budget alerts documentation section explaining email notifications at 75%, 90%, and 100% thresholds.\n- Created reusable file for Copilot MCP limitations and integrated it into two documentation files.\n- Enhanced multi-line PR comment functionality by adding shift+click selection option.\n- Deleted 5 orphaned webhook reusable files related to sponsorship and PR threads.\n- Updated AI tools script to use `gh auth token` as fallback authentication method.\n- Added new audit log events for Actions cache retention policies and expanded budget event fields.",
+  "generated_title": "Add budget alerts, improve Copilot docs, multi-line comments, audit logs, and tooling",
+  "commits": [
+    "**916e56e**: Use gh auth token for the ai-tools script (#58121) (by Sarah Schneider)",
+    "**4aefc15**: Add reusable for MCP limitations note in coding agent documentation (#58022) (by Copilot)",
+    "**18c6c7e**: Update audit log event data (#58063) (by docs-bot)",
+    "**732a6b7**: Add budget alerts section to documentation (#58114) (by Greg Mondello)",
+    "**57f6443**: Delete orphaned files (2025-10-20-16-29) (#58062) (by docs-bot)",
+    "**7fc4953**: Add shift+click option for multi-line PR comments (#58113) (by vaindil)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added budget alerts documentation section explaining email notifications at 75%, 90%, and 100% thresholds.\n- Created reusable file for Copilot MCP limitations and integrated it into two documentation files.\n- Enhanced multi-line PR comment functionality by adding shift+click selection option.\n- Deleted 5 orphaned webhook reusable files related to sponsorship and PR threads.\n- Updated AI tools script to use `gh auth token` as fallback authentication method.\n- Added new audit log events for Actions cache retention policies and expanded budget event fields.\n\n### Title\nAdd budget alerts, improve Copilot docs, multi-line comments, audit logs, and tooling"
+}
