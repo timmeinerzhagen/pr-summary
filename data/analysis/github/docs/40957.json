@@ -1,0 +1,24 @@
+{
+  "number": 40957,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-23T06:36:35Z",
+  "url": "https://github.com/github/docs/pull/40957",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-23 12:10:56",
+  "details": [
+    "Updated documentation on internal repositories: clarified access permissions for organization members.",
+    "Added a link for Rust built-in queries in the code scanning documentation.",
+    "Introduced a new content-linter rule (GHD062) to validate `introLinks` keys in frontmatter against `ui.yml`."
+  ],
+  "summary": "- Updated documentation on internal repositories: clarified access permissions for organization members.\n- Added a link for Rust built-in queries in the code scanning documentation.\n- Introduced a new content-linter rule (GHD062) to validate `introLinks` keys in frontmatter against `ui.yml`.",
+  "generated_title": "Update docs and add content linter rule for introLinks",
+  "commits": [
+    "**2a603b1**: add content-linter rule to validate that `introLinks`  keys exist in `ui.yml` (#58137) (by Evan Bonsignori)",
+    "**a59e5e8**: Update \"about internal repositories\" (#58140) (by Brendan Scott-Smith)",
+    "**5d66d1d**: Add link for Rust built-in queries (#58133) (by Chad Bentz)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated documentation on internal repositories: clarified access permissions for organization members.\n- Added a link for Rust built-in queries in the code scanning documentation.\n- Introduced a new content-linter rule (GHD062) to validate `introLinks` keys in frontmatter against `ui.yml`.\n\n### Title\nUpdate docs and add content linter rule for introLinks"
+}

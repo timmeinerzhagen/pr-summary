@@ -1,0 +1,22 @@
+{
+  "number": 40958,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-23T09:35:29Z",
+  "url": "https://github.com/github/docs/pull/40958",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-23 12:10:35",
+  "details": [
+    "Added a note to migration documentation clarifying that GitHub Importer doesn't support migrations from specific data residency sites",
+    "Updated reusable content file for enterprise migration tool paths",
+    "No changes to existing supported migration sources (Bitbucket Server/DC, GitHub.com, GHES)"
+  ],
+  "summary": "- Added a note to migration documentation clarifying that GitHub Importer doesn't support migrations from specific data residency sites\n- Updated reusable content file for enterprise migration tool paths\n- No changes to existing supported migration sources (Bitbucket Server/DC, GitHub.com, GHES)",
+  "generated_title": "Document unsupported data residency migrations for GitHub Importer",
+  "commits": [
+    "**a85d081**: Update GEI migration paths reusable (#58141) (by Brendan Scott-Smith)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added a note to migration documentation clarifying that GitHub Importer doesn't support migrations from specific data residency sites\n- Updated reusable content file for enterprise migration tool paths\n- No changes to existing supported migration sources (Bitbucket Server/DC, GitHub.com, GHES)\n\n### Title\nDocument unsupported data residency migrations for GitHub Importer"
+}
