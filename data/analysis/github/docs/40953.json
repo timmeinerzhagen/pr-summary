@@ -1,0 +1,23 @@
+{
+  "number": 40953,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-23T03:38:46Z",
+  "url": "https://github.com/github/docs/pull/40953",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-23 06:08:35",
+  "details": [
+    "Added version compatibility check for recommended articles in the carousel. Articles must now match the current site version (e.g., `free-pro-team@latest`).",
+    "Implemented filtering to exclude articles not available in the current version context.",
+    "Added test case verifying articles are filtered correctly when unavailable in the current version (e.g., GHEC context)."
+  ],
+  "summary": "- Added version compatibility check for recommended articles in the carousel. Articles must now match the current site version (e.g., `free-pro-team@latest`).\n- Implemented filtering to exclude articles not available in the current version context.\n- Added test case verifying articles are filtered correctly when unavailable in the current version (e.g., GHEC context).",
+  "generated_title": "Filter recommended articles by current version compatibility",
+  "commits": [
+    "**d7f195c**: Merge pull request #58136 from github/repo-sync (by docs-bot)",
+    "**a1ed181**: add carousel item version check (#58134) (by Robert Sese)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added version compatibility check for recommended articles in the carousel. Articles must now match the current site version (e.g., `free-pro-team@latest`).\n- Implemented filtering to exclude articles not available in the current version context.\n- Added test case verifying articles are filtered correctly when unavailable in the current version (e.g., GHEC context).\n\n### Title\nFilter recommended articles by current version compatibility"
+}
