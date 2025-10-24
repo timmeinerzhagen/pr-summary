@@ -1,0 +1,26 @@
+{
+  "number": 40967,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-24T00:41:16Z",
+  "url": "https://github.com/github/docs/pull/40967",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-24 06:09:07",
+  "details": [
+    "Added `category` frontmatter to multiple Copilot tutorials for better organization.",
+    "Configured bespoke landing page for Copilot tutorials with hero image and recommended articles.",
+    "Updated enterprise onboarding to use journey landing layout.",
+    "Fixed conditional image paths in code scanning documentation.",
+    "Simplified DPA-covered previews table to \"Coming Soon!\"."
+  ],
+  "summary": "- Added `category` frontmatter to multiple Copilot tutorials for better organization.\n- Configured bespoke landing page for Copilot tutorials with hero image and recommended articles.\n- Updated enterprise onboarding to use journey landing layout.\n- Fixed conditional image paths in code scanning documentation.\n- Simplified DPA-covered previews table to \"Coming Soon!\".",
+  "generated_title": "Set up Copilot tutorial landing pages and update content",
+  "commits": [
+    "**769b58f**: Merge pull request #58172 from github/repo-sync (by docs-bot)",
+    "**56f74eb**: Set up tutorial landing page and enable Journey and Bespoke landing pages (#58072) (by Siara)",
+    "**d02a668**: Partial rewind: empty table of DPA-Covered Previews (#58166) (by T. Greg Doucette)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added `category` frontmatter to multiple Copilot tutorials for better organization.\n- Configured bespoke landing page for Copilot tutorials with hero image and recommended articles.\n- Updated enterprise onboarding to use journey landing layout.\n- Fixed conditional image paths in code scanning documentation.\n- Simplified DPA-covered previews table to \"Coming Soon!\".\n\n### Title\nSet up Copilot tutorial landing pages and update content"
+}
