@@ -1,0 +1,24 @@
+{
+  "number": 40975,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-24T21:32:27Z",
+  "url": "https://github.com/github/docs/pull/40975",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-25 22:05:22",
+  "details": [
+    "Added new GraphQL types for organization property conditions: `OrganizationPropertyConditionTarget`, `OrganizationPropertyConditionTargetInput`, `OrganizationPropertyTargetDefinition`, and `OrganizationPropertyTargetDefinitionInput`.",
+    "Extended `RepositoryRuleConditions` and `RepositoryRuleConditionsInput` with `organizationProperty` fields for repository rule configuration.",
+    "Added `INCONCLUSIVE` enum value to `RepositoryVulnerabilityAlertDependencyRelationship`.",
+    "Updated documentation for `UpdateProjectV2FieldInput` to clarify partial update behavior for `ITERATION` and `SINGLE_SELECT` field configurations.",
+    "Recorded changes in `changelog.json` for schema updates."
+  ],
+  "summary": "- Added new GraphQL types for organization property conditions: `OrganizationPropertyConditionTarget`, `OrganizationPropertyConditionTargetInput`, `OrganizationPropertyTargetDefinition`, and `OrganizationPropertyTargetDefinitionInput`.\n- Extended `RepositoryRuleConditions` and `RepositoryRuleConditionsInput` with `organizationProperty` fields for repository rule configuration.\n- Added `INCONCLUSIVE` enum value to `RepositoryVulnerabilityAlertDependencyRelationship`.\n- Updated documentation for `UpdateProjectV2FieldInput` to clarify partial update behavior for `ITERATION` and `SINGLE_SELECT` field configurations.\n- Recorded changes in `changelog.json` for schema updates.",
+  "generated_title": "Add organization property conditions to repository rules and update project field docs",
+  "commits": [
+    "**eeb2a2a**: GraphQL schema update (#58195) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added new GraphQL types for organization property conditions: `OrganizationPropertyConditionTarget`, `OrganizationPropertyConditionTargetInput`, `OrganizationPropertyTargetDefinition`, and `OrganizationPropertyTargetDefinitionInput`.\n- Extended `RepositoryRuleConditions` and `RepositoryRuleConditionsInput` with `organizationProperty` fields for repository rule configuration.\n- Added `INCONCLUSIVE` enum value to `RepositoryVulnerabilityAlertDependencyRelationship`.\n- Updated documentation for `UpdateProjectV2FieldInput` to clarify partial update behavior for `ITERATION` and `SINGLE_SELECT` field configurations.\n- Recorded changes in `changelog.json` for schema updates.\n\n### Title\nAdd organization property conditions to repository rules and update project field docs"
+}
