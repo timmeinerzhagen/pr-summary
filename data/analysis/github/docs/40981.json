@@ -1,0 +1,27 @@
+{
+  "number": 40981,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-25T00:43:23Z",
+  "url": "https://github.com/github/docs/pull/40981",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-25 10:07:20",
+  "details": [
+    "Updated GitHub Marketplace app listing requirements: replaced specific Terms of Service link requirement with broader rules for all additional links.",
+    "Added `code-quality` as an allowed value for CTA `ref_product` in the style guide.",
+    "Added tracking query parameters (`ref_product`, `ref_type`, etc.) to numerous internal and external URLs.",
+    "Reordered content in the \"create a PR\" article, moving the \"New repository\" entrypoint lower.",
+    "Added an example configuration for GitHub MCP in Coding Agent documentation to enable wider access."
+  ],
+  "summary": "- Updated GitHub Marketplace app listing requirements: replaced specific Terms of Service link requirement with broader rules for all additional links.\n- Added `code-quality` as an allowed value for CTA `ref_product` in the style guide.\n- Added tracking query parameters (`ref_product`, `ref_type`, etc.) to numerous internal and external URLs.\n- Reordered content in the \"create a PR\" article, moving the \"New repository\" entrypoint lower.\n- Added an example configuration for GitHub MCP in Coding Agent documentation to enable wider access.",
+  "generated_title": "Update app listing rules, CTAs, tracking, PR content, and MCP config",
+  "commits": [
+    "**02951af**: Update CTAs for links part 1 (#58177) (by Joe Clark)",
+    "**138075e**: Re-order \"Asking GitHub Copilot to create a pull request\" article to move \"New repository\" entrypoint down (#58190) (by Tim Rogers)",
+    "**7e6c9c8**: Add example to configure the GitHub MCP in CCA with wider access (#58151) (by Nhu Do)",
+    "**f3e8505**: Clarify link requirements for app listings (#58184) (by Jye Horan)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "Here's a concise summary of the Pull Request changes:\n\n### Summary\n- Updated GitHub Marketplace app listing requirements: replaced specific Terms of Service link requirement with broader rules for all additional links.\n- Added `code-quality` as an allowed value for CTA `ref_product` in the style guide.\n- Added tracking query parameters (`ref_product`, `ref_type`, etc.) to numerous internal and external URLs.\n- Reordered content in the \"create a PR\" article, moving the \"New repository\" entrypoint lower.\n- Added an example configuration for GitHub MCP in Coding Agent documentation to enable wider access.\n\n### Title\nUpdate app listing rules, CTAs, tracking, PR content, and MCP config"
+}
