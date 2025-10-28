@@ -1,0 +1,25 @@
+{
+  "number": 41018,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-28T00:43:31Z",
+  "url": "https://github.com/github/docs/pull/41018",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-28 14:06:40",
+  "details": [
+    "**ESLint Configuration Update**: Overhauled ESLint rules, enabling specific rules (e.g., `import/extensions`, `no-empty`, `prefer-const`) and disabling others for review with occurrence counts. Adjusted npm scripts to target only TypeScript files.",
+    "**File Deletions**: Removed unused assets (`copilot-action.png`) and markdown files (`repository-cust-instr-code-review.md`, `ent-ownership-recommendation.md`).",
+    "**Code Refactoring**: Improved type safety, fixed potential bugs (e.g., null checks, unused variables), and updated React components across multiple files. Refactored imports (e.g., `import * as github` → `import github`).",
+    "**Landing Page Enhancements**: Added category filtering for article grids in landing pages via `includedCategories` frontmatter.",
+    "**Search Improvements**: Updated AI search and autocomplete logic, including caching and error handling."
+  ],
+  "summary": "- **ESLint Configuration Update**: Overhauled ESLint rules, enabling specific rules (e.g., `import/extensions`, `no-empty`, `prefer-const`) and disabling others for review with occurrence counts. Adjusted npm scripts to target only TypeScript files.\n- **File Deletions**: Removed unused assets (`copilot-action.png`) and markdown files (`repository-cust-instr-code-review.md`, `ent-ownership-recommendation.md`).\n- **Code Refactoring**: Improved type safety, fixed potential bugs (e.g., null checks, unused variables), and updated React components across multiple files. Refactored imports (e.g., `import * as github` → `import github`).\n- **Landing Page Enhancements**: Added category filtering for article grids in landing pages via `includedCategories` frontmatter.\n- **Search Improvements**: Updated AI search and autocomplete logic, including caching and error handling.",
+  "generated_title": "ESLint config update, code refactoring, and landing page improvements",
+  "commits": [
+    "**f57c6ec**: Merge pull request #58219 from github/repo-sync (by docs-bot)",
+    "**232a0f8**: Eslint review, round 1 (#58168) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- **ESLint Configuration Update**: Overhauled ESLint rules, enabling specific rules (e.g., `import/extensions`, `no-empty`, `prefer-const`) and disabling others for review with occurrence counts. Adjusted npm scripts to target only TypeScript files.\n- **File Deletions**: Removed unused assets (`copilot-action.png`) and markdown files (`repository-cust-instr-code-review.md`, `ent-ownership-recommendation.md`).\n- **Code Refactoring**: Improved type safety, fixed potential bugs (e.g., null checks, unused variables), and updated React components across multiple files. Refactored imports (e.g., `import * as github` → `import github`).\n- **Landing Page Enhancements**: Added category filtering for article grids in landing pages via `includedCategories` frontmatter.\n- **Search Improvements**: Updated AI search and autocomplete logic, including caching and error handling.\n\n### Title\nESLint config update, code refactoring, and landing page improvements"
+}
