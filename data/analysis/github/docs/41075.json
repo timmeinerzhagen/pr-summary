@@ -1,0 +1,31 @@
+{
+  "number": 41075,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-10-31T09:36:06Z",
+  "url": "https://github.com/github/docs/pull/41075",
+  "repository": "github/docs",
+  "analysis_date": "2025-10-31 10:07:29",
+  "details": [
+    "Added network requirements table for GHES SCIM configuration.",
+    "Removed language restrictions for Code Scanning default setup, now supporting all CodeQL languages automatically.",
+    "Recommended setting enterprise policies to prevent future GHAS enablement.",
+    "Restructured Secret Risk Assessment results interpretation into a tutorial.",
+    "Fixed typo and clarified Visual Studio version in Copilot extension setup.",
+    "Added deprecation notice for Copilot Extensions."
+  ],
+  "summary": "- Added network requirements table for GHES SCIM configuration.\n- Removed language restrictions for Code Scanning default setup, now supporting all CodeQL languages automatically.\n- Recommended setting enterprise policies to prevent future GHAS enablement.\n- Restructured Secret Risk Assessment results interpretation into a tutorial.\n- Fixed typo and clarified Visual Studio version in Copilot extension setup.\n- Added deprecation notice for Copilot Extensions.",
+  "generated_title": "Enhance SCIM docs, broaden Code Scanning support, update security policies, and improve Copilot docs",
+  "commits": [
+    "**3eaad97**: Add information on policy settings to prevent future ghas enablement (#58090) (by Alex Augustine)",
+    "**e1ead9e**: Fix typo in Visual Studio docs for Copilot (#58222) (by hubwriter)",
+    "**3bea960**: Revise default setup language configuration details (#58267) (by Florin Coada)",
+    "**1d8f219**: Add deprecation notice for Copilot Extensions Developer Policy (#57940) (by Jules)",
+    "**d4691af**: Damienbutler GHES SCIM table network requirements for configuring SCIM provisioning (#57991) (by Damien Butler)",
+    "**d521734**: Mention character limit for CIs in CCR (#58269) (by hubwriter)",
+    "**fca7373**: Convert \"Interpreting secret risk assessment results\" into a tutorial  (#58120) (by mc)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added network requirements table for GHES SCIM configuration.\n- Removed language restrictions for Code Scanning default setup, now supporting all CodeQL languages automatically.\n- Recommended setting enterprise policies to prevent future GHAS enablement.\n- Restructured Secret Risk Assessment results interpretation into a tutorial.\n- Fixed typo and clarified Visual Studio version in Copilot extension setup.\n- Added deprecation notice for Copilot Extensions.\n\n### Title\nEnhance SCIM docs, broaden Code Scanning support, update security policies, and improve Copilot docs"
+}
