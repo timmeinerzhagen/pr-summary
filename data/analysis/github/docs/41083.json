@@ -1,0 +1,21 @@
+{
+  "number": 41083,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-11-01T03:41:58Z",
+  "url": "https://github.com/github/docs/pull/41083",
+  "repository": "github/docs",
+  "analysis_date": "2025-11-01 16:06:07",
+  "details": [
+    "Updated content exclusion note to clarify lack of support in VS Code *and other editors* (previously only mentioned VS Code)",
+    "Fixed broken documentation link for Copilot customizations by adding `/docs` to the repository path"
+  ],
+  "summary": "- Updated content exclusion note to clarify lack of support in VS Code *and other editors* (previously only mentioned VS Code)\n- Fixed broken documentation link for Copilot customizations by adding `/docs` to the repository path",
+  "generated_title": "Update Copilot docs: Expand editor exclusion note and fix example link",
+  "commits": [
+    "**82fcd1e**: Merge pull request #58307 from github/repo-sync (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated content exclusion note to clarify lack of support in VS Code *and other editors* (previously only mentioned VS Code)\n- Fixed broken documentation link for Copilot customizations by adding `/docs` to the repository path\n\n### Title\nUpdate Copilot docs: Expand editor exclusion note and fix example link"
+}
