@@ -1,0 +1,22 @@
+{
+  "number": 41150,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-11-06T15:35:53Z",
+  "url": "https://github.com/github/docs/pull/41150",
+  "repository": "github/docs",
+  "analysis_date": "2025-11-06 16:07:48",
+  "details": [
+    "Removed \"Chat participants\" section from chat-in-ide.md documentation.",
+    "Deleted JetBrains-specific \"Chat participants\" table from cheat-sheet.md.",
+    "Minor whitespace fix in metadata (trailing space removal)."
+  ],
+  "summary": "- Removed \"Chat participants\" section from chat-in-ide.md documentation.\n- Deleted JetBrains-specific \"Chat participants\" table from cheat-sheet.md.\n- Minor whitespace fix in metadata (trailing space removal).",
+  "generated_title": "Remove JetBrains chat participants documentation",
+  "commits": [
+    "**dbec8e4**: Remove chat participants for JetBrains IDEs from cheat sheet (#58371) (by Vanessa)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removed \"Chat participants\" section from chat-in-ide.md documentation.\n- Deleted JetBrains-specific \"Chat participants\" table from cheat-sheet.md.\n- Minor whitespace fix in metadata (trailing space removal).\n\n### Title\nRemove JetBrains chat participants documentation"
+}
