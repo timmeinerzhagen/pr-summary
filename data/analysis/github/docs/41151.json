@@ -1,0 +1,33 @@
+{
+  "number": 41151,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-11-06T18:37:10Z",
+  "url": "https://github.com/github/docs/pull/41151",
+  "repository": "github/docs",
+  "analysis_date": "2025-11-06 20:08:17",
+  "details": [
+    "Added GitHub Actions workflow to prompt non-Docs contributors for feedback on merged PRs.",
+    "Enhanced storage capacity instructions with filesystem error recovery steps.",
+    "Updated Copilot custom agents: new `/agents` path for org/enterprise agents, visibility options (Internal/Private), and added testing/release guide.",
+    "Projects: Added default repository setting and updated quickstart guide.",
+    "Scheduled reminders now supported on GHES 3.17.",
+    "GraphQL schema: Added `projectV2Ids` to `CreateIssueInput`.",
+    "Redesigned home page hero with new image and styles."
+  ],
+  "summary": "- Added GitHub Actions workflow to prompt non-Docs contributors for feedback on merged PRs.\n- Enhanced storage capacity instructions with filesystem error recovery steps.\n- Updated Copilot custom agents: new `/agents` path for org/enterprise agents, visibility options (Internal/Private), and added testing/release guide.\n- Projects: Added default repository setting and updated quickstart guide.\n- Scheduled reminders now supported on GHES 3.17.\n- GraphQL schema: Added `projectV2Ids` to `CreateIssueInput`.\n- Redesigned home page hero with new image and styles.",
+  "generated_title": "Enhance Copilot agents, project defaults, storage docs, and home hero; update schemas",
+  "commits": [
+    "**e1e38bc**: Raise visibility to the requirement to use `/agents` for org/enterprise custom agents (#58301) (by Chuck Lantz)",
+    "**a3fc9e7**: New home hero design (#58364) (by Kevin Heis)",
+    "**47c3692**: Adds workflow to ask for contributor feedback (from non-Docs team) (#58376) (by Ben Ahmady)",
+    "**7f56ca8**: Enhance instructions for increasing storage capacity (#57819) (by Brice)",
+    "**b39f828**: Update versioning for Scheduled Reminders for GHES on Microsoft Teams and Slack [GA] (#58380) (by John Clement)",
+    "**c9f68d1**: GraphQL schema update (#58385) (by docs-bot)",
+    "**25cb3e0**: Improved projects onboarding flow [GA] (#58155) (by John Clement)",
+    "**83732e8**: Update OpenAPI Description (#58386) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added GitHub Actions workflow to prompt non-Docs contributors for feedback on merged PRs.\n- Enhanced storage capacity instructions with filesystem error recovery steps.\n- Updated Copilot custom agents: new `/agents` path for org/enterprise agents, visibility options (Internal/Private), and added testing/release guide.\n- Projects: Added default repository setting and updated quickstart guide.\n- Scheduled reminders now supported on GHES 3.17.\n- GraphQL schema: Added `projectV2Ids` to `CreateIssueInput`.\n- Redesigned home page hero with new image and styles.\n\n### Title\nEnhance Copilot agents, project defaults, storage docs, and home hero; update schemas"
+}
