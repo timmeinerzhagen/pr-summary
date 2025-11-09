@@ -1,0 +1,23 @@
+{
+  "number": 41179,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-11-08T03:38:05Z",
+  "url": "https://github.com/github/docs/pull/41179",
+  "repository": "github/docs",
+  "analysis_date": "2025-11-09 06:08:16",
+  "details": [
+    "Updated URLs for Awesome GitHub Copilot Customizations repository in documentation files",
+    "Changed path from `/main/README.prompts.md` to `/main/docs/README.prompts.md` in both files",
+    "Affected files: `prompt-files-further-reading.md` and `prompt-files-preview-note.md`",
+    "Maintains community resource links while correcting path structure"
+  ],
+  "summary": "- Updated URLs for Awesome GitHub Copilot Customizations repository in documentation files\n- Changed path from `/main/README.prompts.md` to `/main/docs/README.prompts.md` in both files\n- Affected files: `prompt-files-further-reading.md` and `prompt-files-preview-note.md`\n- Maintains community resource links while correcting path structure",
+  "generated_title": "Update Awesome Copilot Customizations URL path to include /docs",
+  "commits": [
+    "**d3dc1e0**: Merge pull request #58414 from github/repo-sync (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated URLs for Awesome GitHub Copilot Customizations repository in documentation files\n- Changed path from `/main/README.prompts.md` to `/main/docs/README.prompts.md` in both files\n- Affected files: `prompt-files-further-reading.md` and `prompt-files-preview-note.md`\n- Maintains community resource links while correcting path structure\n\n### Title\nUpdate Awesome Copilot Customizations URL path to include /docs"
+}
