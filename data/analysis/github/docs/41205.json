@@ -1,0 +1,26 @@
+{
+  "number": 41205,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-11-10T21:32:48Z",
+  "url": "https://github.com/github/docs/pull/41205",
+  "repository": "github/docs",
+  "analysis_date": "2025-11-11 00:26:03",
+  "details": [
+    "Added new AI model \"Raptor mini\" (fine-tuned by Microsoft) to Copilot's supported models",
+    "Updated documentation tables for model comparison, hosting, multipliers, release status, and client/plan support",
+    "Created new use-case documentation for Raptor mini",
+    "Removed 7 outdated image assets and 3 orphaned documentation files (feature flags and billing content)"
+  ],
+  "summary": "- Added new AI model \"Raptor mini\" (fine-tuned by Microsoft) to Copilot's supported models\n- Updated documentation tables for model comparison, hosting, multipliers, release status, and client/plan support\n- Created new use-case documentation for Raptor mini\n- Removed 7 outdated image assets and 3 orphaned documentation files (feature flags and billing content)",
+  "generated_title": "Add Raptor mini AI model support and remove deprecated assets",
+  "commits": [
+    "**6acf871**: Add Copilot SWE to supported models (#58359) (by Nhu Do)",
+    "**d0d305f**: Update Copilot-SWE mini to Raptor mini (#58428) (by Sunbrye Ly)",
+    "**fd64d5c**: Delete orphaned features (2025-11-10-16-30) (#58422) (by docs-bot)",
+    "**a5db857**: Delete orphaned files (2025-11-10-16-30) (#58423) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added new AI model \"Raptor mini\" (fine-tuned by Microsoft) to Copilot's supported models\n- Updated documentation tables for model comparison, hosting, multipliers, release status, and client/plan support\n- Created new use-case documentation for Raptor mini\n- Removed 7 outdated image assets and 3 orphaned documentation files (feature flags and billing content)\n\n### Title\nAdd Raptor mini AI model support and remove deprecated assets"
+}
