@@ -1,0 +1,25 @@
+{
+  "number": 41218,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-11-11T15:35:40Z",
+  "url": "https://github.com/github/docs/pull/41218",
+  "repository": "github/docs",
+  "analysis_date": "2025-11-11 20:07:13",
+  "details": [
+    "Removed embedded GraphQL Explorer from documentation pages and navigation.",
+    "Deleted GraphQL Explorer page (`explorer.md`) and associated React components.",
+    "Updated guides to replace \"Explorer\" references with \"GUI client\" terminology.",
+    "Added deprecation warnings about Explorer removal in relevant files.",
+    "Removed Explorer links from sidebar, index pages, and troubleshooting docs.",
+    "Updated redirect handling and tests to remove Explorer-specific logic."
+  ],
+  "summary": "- Removed embedded GraphQL Explorer from documentation pages and navigation.\n- Deleted GraphQL Explorer page (`explorer.md`) and associated React components.\n- Updated guides to replace \"Explorer\" references with \"GUI client\" terminology.\n- Added deprecation warnings about Explorer removal in relevant files.\n- Removed Explorer links from sidebar, index pages, and troubleshooting docs.\n- Updated redirect handling and tests to remove Explorer-specific logic.",
+  "generated_title": "Remove GraphQL Explorer embed and references from documentation",
+  "commits": [
+    "**aa87852**: feat(graphql): Remove GraphQL Explorer embed (#58109) (by Johanan)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removed embedded GraphQL Explorer from documentation pages and navigation.\n- Deleted GraphQL Explorer page (`explorer.md`) and associated React components.\n- Updated guides to replace \"Explorer\" references with \"GUI client\" terminology.\n- Added deprecation warnings about Explorer removal in relevant files.\n- Removed Explorer links from sidebar, index pages, and troubleshooting docs.\n- Updated redirect handling and tests to remove Explorer-specific logic.\n\n### Title\nRemove GraphQL Explorer embed and references from documentation"
+}
