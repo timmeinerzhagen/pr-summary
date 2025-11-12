@@ -1,0 +1,24 @@
+{
+  "number": 41221,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-11-11T21:41:23Z",
+  "url": "https://github.com/github/docs/pull/41221",
+  "repository": "github/docs",
+  "analysis_date": "2025-11-12 02:36:13",
+  "details": [
+    "Updated auto model selection availability to public preview in VS Code and Visual Studio.",
+    "Added \"Auto\" option explanation in model picker for VS Code and Visual Studio.",
+    "Removed outdated rollout note and adjusted IDE-specific instructions.",
+    "Created new reusable snippet for \"Auto\" option description.",
+    "Added note about extensions potentially overriding model selection in web UI."
+  ],
+  "summary": "- Updated auto model selection availability to public preview in VS Code and Visual Studio.\n- Added \"Auto\" option explanation in model picker for VS Code and Visual Studio.\n- Removed outdated rollout note and adjusted IDE-specific instructions.\n- Created new reusable snippet for \"Auto\" option description.\n- Added note about extensions potentially overriding model selection in web UI.",
+  "generated_title": "Expand Copilot auto model selection to Visual Studio and update documentation",
+  "commits": [
+    "**e7978e7**: Auto in Visual Studio (#58417) (by Jules)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated auto model selection availability to public preview in VS Code and Visual Studio.\n- Added \"Auto\" option explanation in model picker for VS Code and Visual Studio.\n- Removed outdated rollout note and adjusted IDE-specific instructions.\n- Created new reusable snippet for \"Auto\" option description.\n- Added note about extensions potentially overriding model selection in web UI.\n\n### Title\nExpand Copilot auto model selection to Visual Studio and update documentation"
+}
