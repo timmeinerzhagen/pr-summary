@@ -1,0 +1,26 @@
+{
+  "number": 41326,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-11-18T12:38:19Z",
+  "url": "https://github.com/github/docs/pull/41326",
+  "repository": "github/docs",
+  "analysis_date": "2025-11-18 14:06:23",
+  "details": [
+    "Added marketplace publishing capability note for composite actions in workflows documentation.",
+    "Renamed `image_version_ready` event to `image_version` in workflow triggers.",
+    "Fixed typo (`coooldown` → `cooldown`) in Dependabot configuration reference.",
+    "Updated Copilot model hosting details: generalized provider info, extended Grok Code Fast 1 access period.",
+    "Removed Copilot Extensions feature: deleted related documentation files and feature flag."
+  ],
+  "summary": "- Added marketplace publishing capability note for composite actions in workflows documentation.\n- Renamed `image_version_ready` event to `image_version` in workflow triggers.\n- Fixed typo (`coooldown` → `cooldown`) in Dependabot configuration reference.\n- Updated Copilot model hosting details: generalized provider info, extended Grok Code Fast 1 access period.\n- Removed Copilot Extensions feature: deleted related documentation files and feature flag.",
+  "generated_title": "Update docs: Actions events, Dependabot typo, Copilot models; remove Copilot Extensions",
+  "commits": [
+    "**94b658e**: Merge pull request #58527 from github/repo-sync (by docs-bot)",
+    "**f1d22de**: Delete orphaned files (2025-11-17-16-30) (#58513) (by docs-bot)",
+    "**78682e0**: Delete orphaned features (2025-11-17-16-30) (#58512) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added marketplace publishing capability note for composite actions in workflows documentation.\n- Renamed `image_version_ready` event to `image_version` in workflow triggers.\n- Fixed typo (`coooldown` → `cooldown`) in Dependabot configuration reference.\n- Updated Copilot model hosting details: generalized provider info, extended Grok Code Fast 1 access period.\n- Removed Copilot Extensions feature: deleted related documentation files and feature flag.\n\n### Title\nUpdate docs: Actions events, Dependabot typo, Copilot models; remove Copilot Extensions"
+}
