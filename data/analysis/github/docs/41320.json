@@ -1,0 +1,24 @@
+{
+  "number": 41320,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-11-18T03:42:54Z",
+  "url": "https://github.com/github/docs/pull/41320",
+  "repository": "github/docs",
+  "analysis_date": "2025-11-18 04:08:34",
+  "details": [
+    "Actions: Set nested workflow limits to 10 levels for fpt/ghec and 4 for others; max unique reusable workflows to 50 for fpt/ghec and 20 for others.",
+    "GHES Backup: Document automatic `backup-server` role assignment during storage initialization in clustered environments.",
+    "GraphQL: Fix changelog heading slugs using github-slugger and add regression test for minitoc links."
+  ],
+  "summary": "- Actions: Set nested workflow limits to 10 levels for fpt/ghec and 4 for others; max unique reusable workflows to 50 for fpt/ghec and 20 for others.\n- GHES Backup: Document automatic `backup-server` role assignment during storage initialization in clustered environments.\n- GraphQL: Fix changelog heading slugs using github-slugger and add regression test for minitoc links.",
+  "generated_title": "Adjust Actions workflow limits, update GHES backup docs, fix GraphQL changelog slugs",
+  "commits": [
+    "**32c1990**: docs: note that initialized node is set as the backup-server (#58493) (by Tyler Chong)",
+    "**a4e750c**: fix changelog heading slugs (#58455) (by Robert Sese)",
+    "**e08d204**: Reusable workflow limits ghes (#58433) (by Salil)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Actions: Set nested workflow limits to 10 levels for fpt/ghec and 4 for others; max unique reusable workflows to 50 for fpt/ghec and 20 for others.\n- GHES Backup: Document automatic `backup-server` role assignment during storage initialization in clustered environments.\n- GraphQL: Fix changelog heading slugs using github-slugger and add regression test for minitoc links.\n\n### Title\nAdjust Actions workflow limits, update GHES backup docs, fix GraphQL changelog slugs"
+}
