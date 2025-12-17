@@ -1,0 +1,22 @@
+{
+  "number": 41910,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-12-17T15:36:34Z",
+  "url": "https://github.com/github/docs/pull/41910",
+  "repository": "github/docs",
+  "analysis_date": "2025-12-17 16:07:52",
+  "details": [
+    "Moved enterprise policy recommendations for disabling GitHub Advanced Security (GHAS) features below a tip and configuration links.",
+    "Added version condition (`ghec or ghes`) to the policy recommendations block.",
+    "Improved document flow by placing configuration instructions before enterprise-level settings."
+  ],
+  "summary": "- Moved enterprise policy recommendations for disabling GitHub Advanced Security (GHAS) features below a tip and configuration links.\n- Added version condition (`ghec or ghes`) to the policy recommendations block.\n- Improved document flow by placing configuration instructions before enterprise-level settings.",
+  "generated_title": "Reorder GHAS disabling recommendations with version condition",
+  "commits": [
+    "**35d4d68**: Reorder recommendations for disabling features (#58942) (by Laurie)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Moved enterprise policy recommendations for disabling GitHub Advanced Security (GHAS) features below a tip and configuration links.\n- Added version condition (`ghec or ghes`) to the policy recommendations block.\n- Improved document flow by placing configuration instructions before enterprise-level settings.\n\n### Title\nReorder GHAS disabling recommendations with version condition"
+}
