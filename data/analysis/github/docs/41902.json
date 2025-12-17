@@ -1,0 +1,27 @@
+{
+  "number": 41902,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-12-17T09:38:24Z",
+  "url": "https://github.com/github/docs/pull/41902",
+  "repository": "github/docs",
+  "analysis_date": "2025-12-17 10:07:22",
+  "details": [
+    "**Actions Billing Updates**:",
+    "Clarified free GitHub-hosted runners remain for public repos, Pages, Dependabot, and Copilot agentic features.",
+    "Updated macOS runner spec from \"6-core (M1)\" to \"5-core (M2 Pro)\" in pricing table.",
+    "**Copilot CLI Installation**:",
+    "Added multiple installation methods: WinGet (Windows), Homebrew (macOS/Linux), npm, install script, and direct downloads.",
+    "Included prerelease version instructions and PAT authentication steps.",
+    "Prerequisites now specify PowerShell v6+ for Windows; removed Node.js/npm requirements."
+  ],
+  "summary": "- **Actions Billing Updates**:\n- Clarified free GitHub-hosted runners remain for public repos, Pages, Dependabot, and Copilot agentic features.\n- Updated macOS runner spec from \"6-core (M1)\" to \"5-core (M2 Pro)\" in pricing table.\n- **Copilot CLI Installation**:\n- Added multiple installation methods: WinGet (Windows), Homebrew (macOS/Linux), npm, install script, and direct downloads.\n- Included prerelease version instructions and PAT authentication steps.\n- Prerequisites now specify PowerShell v6+ for Windows; removed Node.js/npm requirements.",
+  "generated_title": "Update Actions Pricing and Revamp Copilot CLI Installation Docs",
+  "commits": [
+    "**6df9825**: Update installation instructions for Copilot CLI (#58928) (by Devraj Mehta)",
+    "**7069248**: Update Actions pricing docs (#58941) (by Sophie)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- **Actions Billing Updates**:\n  - Clarified free GitHub-hosted runners remain for public repos, Pages, Dependabot, and Copilot agentic features.\n  - Updated macOS runner spec from \"6-core (M1)\" to \"5-core (M2 Pro)\" in pricing table.\n- **Copilot CLI Installation**:\n  - Added multiple installation methods: WinGet (Windows), Homebrew (macOS/Linux), npm, install script, and direct downloads.\n  - Included prerelease version instructions and PAT authentication steps.\n  - Prerequisites now specify PowerShell v6+ for Windows; removed Node.js/npm requirements.\n\n### Title\nUpdate Actions Pricing and Revamp Copilot CLI Installation Docs"
+}
