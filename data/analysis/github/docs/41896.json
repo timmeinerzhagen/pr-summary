@@ -1,0 +1,28 @@
+{
+  "number": 41896,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-12-16T21:35:36Z",
+  "url": "https://github.com/github/docs/pull/41896",
+  "repository": "github/docs",
+  "analysis_date": "2025-12-17 00:25:48",
+  "details": [
+    "Fixed syntax error in Azure Pipelines migration guide (`fanin:` → `fanin`).",
+    "Updated secret scanning docs: clarified table purpose and added Base64 detection support.",
+    "Reduced replication downtime by removing maintenance mode requirement for newer versions.",
+    "Added comprehensive README for `src/journeys` detailing journey tracks architecture.",
+    "Expanded `src/landings` README with landing page types and dependencies."
+  ],
+  "summary": "- Fixed syntax error in Azure Pipelines migration guide (`fanin:` → `fanin`).\n- Updated secret scanning docs: clarified table purpose and added Base64 detection support.\n- Reduced replication downtime by removing maintenance mode requirement for newer versions.\n- Added comprehensive README for `src/journeys` detailing journey tracks architecture.\n- Expanded `src/landings` README with landing page types and dependencies.",
+  "generated_title": "Fix docs typos, enhance secret scanning, reduce replication downtime, and expand READMEs",
+  "commits": [
+    "**0369bfe**: Merge pull request #58930 from github/repo-sync (by docs-bot)",
+    "**649cf05**: Add comprehensive README for src/journeys (#58876) (by Kevin Heis)",
+    "**1bc06d9**: Expand README for src/landings (#58881) (by Kevin Heis)",
+    "**4ae3650**: Reducing downtime on starting replication (#58362) (by Pallavi)",
+    "**d3a61e5**: Expanded Base64 detection coverage for secret scanning [GA] (#58920) (by mc)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Fixed syntax error in Azure Pipelines migration guide (`fanin:` → `fanin`).\n- Updated secret scanning docs: clarified table purpose and added Base64 detection support.\n- Reduced replication downtime by removing maintenance mode requirement for newer versions.\n- Added comprehensive README for `src/journeys` detailing journey tracks architecture.\n- Expanded `src/landings` README with landing page types and dependencies.\n\n### Title  \nFix docs typos, enhance secret scanning, reduce replication downtime, and expand READMEs"
+}
