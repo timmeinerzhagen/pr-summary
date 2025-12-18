@@ -1,0 +1,26 @@
+{
+  "number": 41950,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-12-18T21:32:50Z",
+  "url": "https://github.com/github/docs/pull/41950",
+  "repository": "github/docs",
+  "analysis_date": "2025-12-18 22:06:36",
+  "details": [
+    "Updated GitHub Actions: Bumped `actions/upload-artifact` from v4.3.3 to v6.0.0 and `actions/download-artifact` from v4.1.7 to v7.0.0 in code scanning workflows.",
+    "Enhanced GHES 3.19.0 release notes: Added note about YJIT (Ruby's JIT compiler) being enabled by default for improved performance.",
+    "Modified Copilot model statuses: Changed GPT-5.2 (OpenAI) and Claude Opus 4.5 (Anthropic) from \"Public preview\" to \"GA\" (General Availability)."
+  ],
+  "summary": "- Updated GitHub Actions: Bumped `actions/upload-artifact` from v4.3.3 to v6.0.0 and `actions/download-artifact` from v4.1.7 to v7.0.0 in code scanning workflows.\n- Enhanced GHES 3.19.0 release notes: Added note about YJIT (Ruby's JIT compiler) being enabled by default for improved performance.\n- Modified Copilot model statuses: Changed GPT-5.2 (OpenAI) and Claude Opus 4.5 (Anthropic) from \"Public preview\" to \"GA\" (General Availability).",
+  "generated_title": "Update GHES release notes, bump GitHub Actions versions, and promote Copilot models to GA",
+  "commits": [
+    "**45dc5ef**: Update 3.19.0 release notes to include yjit (#58946) (by Pallavi)",
+    "**9681311**: do not merge - Change GPT-5.2 release status to GA (#58934) (by Mia Arts)",
+    "**66c15be**: Bump actions/upload-artifact from 4.3.3 to 6.0.0 (#58938) (by dependabot[bot])",
+    "**2d0ab0b**: Bump actions/download-artifact from 4.1.7 to 7.0.0 (#58939) (by dependabot[bot])",
+    "**ca6a460**: Change release status of Claude Opus 4.5 to GA (#58913) (by Mia Arts)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated GitHub Actions: Bumped `actions/upload-artifact` from v4.3.3 to v6.0.0 and `actions/download-artifact` from v4.1.7 to v7.0.0 in code scanning workflows.\n- Enhanced GHES 3.19.0 release notes: Added note about YJIT (Ruby's JIT compiler) being enabled by default for improved performance.\n- Modified Copilot model statuses: Changed GPT-5.2 (OpenAI) and Claude Opus 4.5 (Anthropic) from \"Public preview\" to \"GA\" (General Availability).\n\n### Title  \nUpdate GHES release notes, bump GitHub Actions versions, and promote Copilot models to GA"
+}
