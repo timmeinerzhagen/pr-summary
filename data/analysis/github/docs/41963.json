@@ -1,0 +1,21 @@
+{
+  "number": 41963,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-12-19T12:38:49Z",
+  "url": "https://github.com/github/docs/pull/41963",
+  "repository": "github/docs",
+  "analysis_date": "2025-12-19 14:07:06",
+  "details": [
+    "Removes duplicate section \"Security considerations for self-hosted runners\" from Copilot agent environment documentation",
+    "Deletes redundant network endpoint list and security guidance for self-hosted runners"
+  ],
+  "summary": "- Removes duplicate section \"Security considerations for self-hosted runners\" from Copilot agent environment documentation\n- Deletes redundant network endpoint list and security guidance for self-hosted runners",
+  "generated_title": "Remove duplicate security section in Copilot agent environment documentation",
+  "commits": [
+    "**231286a**: Remove duplicate security section in customize-the-agent-environment.md (#58969) (by Copilot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removes duplicate section \"Security considerations for self-hosted runners\" from Copilot agent environment documentation  \n- Deletes redundant network endpoint list and security guidance for self-hosted runners  \n\n### Title  \nRemove duplicate security section in Copilot agent environment documentation"
+}
