@@ -1,0 +1,23 @@
+{
+  "number": 41953,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-12-19T00:47:43Z",
+  "url": "https://github.com/github/docs/pull/41953",
+  "repository": "github/docs",
+  "analysis_date": "2025-12-19 02:39:39",
+  "details": [
+    "Added detailed example workflow template using `$default-branch` placeholder and GHES `runs-on` replacements",
+    "Created reusable metadata documentation snippets (`workflow-templates-metadata-example.md` and `workflow-templates-metadata-keys.md`)",
+    "Standardized metadata guidance across documentation files",
+    "Clarified metadata file naming convention and structure"
+  ],
+  "summary": "- Added detailed example workflow template using `$default-branch` placeholder and GHES `runs-on` replacements\n- Created reusable metadata documentation snippets (`workflow-templates-metadata-example.md` and `workflow-templates-metadata-keys.md`)\n- Standardized metadata guidance across documentation files\n- Clarified metadata file naming convention and structure",
+  "generated_title": "Enhance workflow template documentation with examples and reusable metadata guidance",
+  "commits": [
+    "**e255333**: Add examples and metadata guidance to \"Creating workflow templates\" doc (#58161) (by Salman Chishti)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added detailed example workflow template using `$default-branch` placeholder and GHES `runs-on` replacements\n- Created reusable metadata documentation snippets (`workflow-templates-metadata-example.md` and `workflow-templates-metadata-keys.md`)\n- Standardized metadata guidance across documentation files\n- Clarified metadata file naming convention and structure\n\n### Title\nEnhance workflow template documentation with examples and reusable metadata guidance"
+}
