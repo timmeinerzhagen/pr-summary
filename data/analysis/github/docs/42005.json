@@ -1,0 +1,26 @@
+{
+  "number": 42005,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2025-12-22T15:36:53Z",
+  "url": "https://github.com/github/docs/pull/42005",
+  "repository": "github/docs",
+  "analysis_date": "2025-12-22 16:07:18",
+  "details": [
+    "Updated autofix LLM version from `copilot_gpt_41` to `copilot_gpt_51` in code scanning documentation.",
+    "Enhanced GitHub App installation restrictions:",
+    "Added organization-level control to restrict installations to owners only.",
+    "Consolidated reusable documentation snippets (`repo-admin-install-restriction`).",
+    "Expanded app access policies to include outside collaborators in requests.",
+    "Renamed and updated policy documentation for clarity (`limiting-oauth-app-and-github-app-access-requests-and-installations.md`)."
+  ],
+  "summary": "- Updated autofix LLM version from `copilot_gpt_41` to `copilot_gpt_51` in code scanning documentation.\n- Enhanced GitHub App installation restrictions:\n- Added organization-level control to restrict installations to owners only.\n- Consolidated reusable documentation snippets (`repo-admin-install-restriction`).\n- Expanded app access policies to include outside collaborators in requests.\n- Renamed and updated policy documentation for clarity (`limiting-oauth-app-and-github-app-access-requests-and-installations.md`).",
+  "generated_title": "Update autofix LLM version and enhance GitHub App installation policies",
+  "commits": [
+    "**1f1ef28**: Update LLM version in autofix code scanning documentation (#58933) (by Jon Janego)",
+    "**7ca1ea2**: GitHub App installation restrictions (#58668) (by Hirsch Singhal)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated autofix LLM version from `copilot_gpt_41` to `copilot_gpt_51` in code scanning documentation.\n- Enhanced GitHub App installation restrictions:\n  - Added organization-level control to restrict installations to owners only.\n  - Consolidated reusable documentation snippets (`repo-admin-install-restriction`).\n  - Expanded app access policies to include outside collaborators in requests.\n  - Renamed and updated policy documentation for clarity (`limiting-oauth-app-and-github-app-access-requests-and-installations.md`).\n\n### Title\nUpdate autofix LLM version and enhance GitHub App installation policies"
+}
