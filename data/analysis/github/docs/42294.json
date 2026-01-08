@@ -1,0 +1,29 @@
+{
+  "number": 42294,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-08T12:45:09Z",
+  "url": "https://github.com/github/docs/pull/42294",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-08 14:08:16",
+  "details": [
+    "Added permissions section to Copilot CLI docs detailing path and URL access controls.",
+    "Documented global setting for expanding CodeQL analysis coverage via model packs.",
+    "Revised custom instructions tutorial examples, adding \"copy\" to code blocks.",
+    "Enhanced enterprise offboarding documentation with clarity and relevant links.",
+    "Updated Dependabot support for 'uv' to show security updates are supported."
+  ],
+  "summary": "- Added permissions section to Copilot CLI docs detailing path and URL access controls.\n- Documented global setting for expanding CodeQL analysis coverage via model packs.\n- Revised custom instructions tutorial examples, adding \"copy\" to code blocks.\n- Enhanced enterprise offboarding documentation with clarity and relevant links.\n- Updated Dependabot support for 'uv' to show security updates are supported.",
+  "generated_title": "Documentation updates for Copilot CLI permissions, CodeQL analysis, and Dependabot uv support",
+  "commits": [
+    "**8673743**: Add Permissions Section for Using Copilot CLI Doc (#59007) (by Matthew Rayermann)",
+    "**52aba14**: Add documentation for Expand CodeQL analysis global setting (#59020) (by Copilot)",
+    "**c976f53**: Revise custom instructions tutorial examples (by hubwriter)",
+    "**129d888**: Update control-offboarding.md for clarity (#58236) (by Stacy Carter)",
+    "**f48250a**: Update docs changelog (for PR #59007) (#59052) (by docs-bot)",
+    "**f9496db**: Fix support status for 'uv' Security Updates for package manager (#59021) (by Fernando Ruiz Diaz)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added permissions section to Copilot CLI docs detailing path and URL access controls.\n- Documented global setting for expanding CodeQL analysis coverage via model packs.\n- Revised custom instructions tutorial examples, adding \"copy\" to code blocks.\n- Enhanced enterprise offboarding documentation with clarity and relevant links.\n- Updated Dependabot support for 'uv' to show security updates are supported.\n\n### Title\nDocumentation updates for Copilot CLI permissions, CodeQL analysis, and Dependabot uv support"
+}
