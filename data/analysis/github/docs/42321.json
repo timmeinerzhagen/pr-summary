@@ -1,0 +1,24 @@
+{
+  "number": 42321,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-09T21:35:01Z",
+  "url": "https://github.com/github/docs/pull/42321",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-09 22:07:05",
+  "details": [
+    "Added a \"View page as Markdown\" button to article pages, including translations, styling, and analytics tracking.",
+    "Updated dependencies: Added `@primer/primitives@11.3.1` to fix Primer spinner functionality.",
+    "Exposed `currentPath` in article context for the new button.",
+    "Adjusted `peer` flags in `package-lock.json` for dependency resolution."
+  ],
+  "summary": "- Added a \"View page as Markdown\" button to article pages, including translations, styling, and analytics tracking.\n- Updated dependencies: Added `@primer/primitives@11.3.1` to fix Primer spinner functionality.\n- Exposed `currentPath` in article context for the new button.\n- Adjusted `peer` flags in `package-lock.json` for dependency resolution.",
+  "generated_title": "Add View Markdown button and update Primer dependencies",
+  "commits": [
+    "**2bdb367**: fix Primer spinner with primitive import (#58819) (by Evan Bonsignori)",
+    "**260f0a1**: Add a \"view page as markdown\" button (#58578) (by Sarah Schneider)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added a \"View page as Markdown\" button to article pages, including translations, styling, and analytics tracking.\n- Updated dependencies: Added `@primer/primitives@11.3.1` to fix Primer spinner functionality.\n- Exposed `currentPath` in article context for the new button.\n- Adjusted `peer` flags in `package-lock.json` for dependency resolution.\n\n### Title  \nAdd View Markdown button and update Primer dependencies"
+}
