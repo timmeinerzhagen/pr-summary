@@ -5,6 +5,7 @@ import SearchBox from './components/SearchBox';
 import PRGrid from './components/PRGrid';
 import { PR } from './types/PR';
 import { PRDataService } from './services/PRDataService';
+import { SeenPRService } from './services/SeenPRService';
 import { ThemeProvider } from './contexts/ThemeContext';
 
 function App() {
@@ -41,6 +42,14 @@ function App() {
 
     loadData();
   }, []);
+
+  // Update the last seen timestamp when the app loads and data is available
+  useEffect(() => {
+    if (allPRs.length > 0) {
+      // Update the last seen timestamp to mark this visit
+      SeenPRService.updateLastSeenTimestamp();
+    }
+  }, [allPRs]);
 
   useEffect(() => {
     const performSearch = async () => {
