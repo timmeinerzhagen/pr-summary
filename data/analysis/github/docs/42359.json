@@ -1,0 +1,24 @@
+{
+  "number": 42359,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-12T15:36:41Z",
+  "url": "https://github.com/github/docs/pull/42359",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-12 16:09:29",
+  "details": [
+    "Moved \"Trialing GitHub Advanced Security\" documentation section from top-level to \"Tutorials\" directory.",
+    "Updated navigation links in `index.md` files to reflect the new location.",
+    "Added redirects (`redirect_from`) for all relocated files to preserve URLs.",
+    "Changed `contentType` to `tutorials` for consistency.",
+    "Minor formatting adjustments (removed quotes from `intro` fields)."
+  ],
+  "summary": "- Moved \"Trialing GitHub Advanced Security\" documentation section from top-level to \"Tutorials\" directory.\n- Updated navigation links in `index.md` files to reflect the new location.\n- Added redirects (`redirect_from`) for all relocated files to preserve URLs.\n- Changed `contentType` to `tutorials` for consistency.\n- Minor formatting adjustments (removed quotes from `intro` fields).",
+  "generated_title": "Relocate \"Trialing GitHub Advanced Security\" docs to Tutorials section",
+  "commits": [
+    "**5c891ba**: [EDI] Move the \"Try GitHub Advanced Security\" map topic into \"Tutorials\" (#59114) (by Felix Guntrip)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Moved \"Trialing GitHub Advanced Security\" documentation section from top-level to \"Tutorials\" directory.\n- Updated navigation links in `index.md` files to reflect the new location.\n- Added redirects (`redirect_from`) for all relocated files to preserve URLs.\n- Changed `contentType` to `tutorials` for consistency.\n- Minor formatting adjustments (removed quotes from `intro` fields).\n\n### Title\nRelocate \"Trialing GitHub Advanced Security\" docs to Tutorials section"
+}
