@@ -1,0 +1,29 @@
+{
+  "number": 42361,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-12T18:37:22Z",
+  "url": "https://github.com/github/docs/pull/42361",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-12 20:07:34",
+  "details": [
+    "Updated Dockerfile to use newer base image tag `20260109-173439-g06c82aab1`.",
+    "Deprecated user-to-org conversion flow for GHES >=3.21, replacing it with \"move work to organization\" functionality.",
+    "Added new guide `moving-your-work-to-an-organization.md` for transferring repositories/projects.",
+    "Enhanced Copilot custom instructions documentation:",
+    "Added wildcard support (`*.instructions.md`) for path-specific instructions.",
+    "Created new reference article `custom-instructions-support.md` detailing environment/feature compatibility.",
+    "Added GHES 3.19.1 known issue about invalid secret size during upgrades."
+  ],
+  "summary": "- Updated Dockerfile to use newer base image tag `20260109-173439-g06c82aab1`.\n- Deprecated user-to-org conversion flow for GHES >=3.21, replacing it with \"move work to organization\" functionality.\n- Added new guide `moving-your-work-to-an-organization.md` for transferring repositories/projects.\n- Enhanced Copilot custom instructions documentation:\n- Added wildcard support (`*.instructions.md`) for path-specific instructions.\n- Created new reference article `custom-instructions-support.md` detailing environment/feature compatibility.\n- Added GHES 3.19.1 known issue about invalid secret size during upgrades.",
+  "generated_title": "Update base image, deprecate user-to-org conversion for GHES 3.21+, and enhance Copilot docs",
+  "commits": [
+    "**a1c7efa**: Deprecate User to Org Transformation Flow (#59046) (by John Clement)",
+    "**537d753**: Create new reference article for custom instructions support (#59040) (by hubwriter)",
+    "**b965d3e**: Bump github/gh-base-image/gh-base-noble from 20251217-105955-g05726ec4c to 20260109-173439-g06c82aab1 in the baseimages group (#59107) (by dependabot[bot])",
+    "**fbccb77**: Add a 3.19.1 known issue about invalid secret: #{secret.bytesize}, must be >=64 (#59047) (by Pallavi)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated Dockerfile to use newer base image tag `20260109-173439-g06c82aab1`.\n- Deprecated user-to-org conversion flow for GHES >=3.21, replacing it with \"move work to organization\" functionality.\n- Added new guide `moving-your-work-to-an-organization.md` for transferring repositories/projects.\n- Enhanced Copilot custom instructions documentation:\n  - Added wildcard support (`*.instructions.md`) for path-specific instructions.\n  - Created new reference article `custom-instructions-support.md` detailing environment/feature compatibility.\n- Added GHES 3.19.1 known issue about invalid secret size during upgrades.\n\n### Title\nUpdate base image, deprecate user-to-org conversion for GHES 3.21+, and enhance Copilot docs"
+}
