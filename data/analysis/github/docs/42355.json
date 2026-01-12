@@ -1,0 +1,24 @@
+{
+  "number": 42355,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-12T09:38:06Z",
+  "url": "https://github.com/github/docs/pull/42355",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-12 10:08:48",
+  "details": [
+    "Added recommendation for weekly scheduled workflows in custom image generation to maintain dependency updates and security",
+    "Revised GHAS cost allocation rules to prioritize user-level assignment and fallback to organization billing",
+    "Consolidated Enterprise/Copilot/GHAS license allocation logic into unified rules",
+    "Added reference to detailed usage reports for license cost verification"
+  ],
+  "summary": "- Added recommendation for weekly scheduled workflows in custom image generation to maintain dependency updates and security\n- Revised GHAS cost allocation rules to prioritize user-level assignment and fallback to organization billing\n- Consolidated Enterprise/Copilot/GHAS license allocation logic into unified rules\n- Added reference to detailed usage reports for license cost verification",
+  "generated_title": "Update docs: Scheduled image generation workflows and GHAS cost allocation",
+  "commits": [
+    "**00ec4ba**: Recommend scheduled workflows for image generation (#59090) (by Lawrence Gripper)",
+    "**b5975fa**: Revise cost center allocation for GHAS (#58847) (by Greg Mondello)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added recommendation for weekly scheduled workflows in custom image generation to maintain dependency updates and security\n- Revised GHAS cost allocation rules to prioritize user-level assignment and fallback to organization billing\n- Consolidated Enterprise/Copilot/GHAS license allocation logic into unified rules\n- Added reference to detailed usage reports for license cost verification\n\n### Title\nUpdate docs: Scheduled image generation workflows and GHAS cost allocation"
+}
