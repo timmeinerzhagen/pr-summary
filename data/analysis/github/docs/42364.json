@@ -1,0 +1,27 @@
+{
+  "number": 42364,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-13T03:54:20Z",
+  "url": "https://github.com/github/docs/pull/42364",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-13 04:20:37",
+  "details": [
+    "Added `ProductGuidesTransformer` class to handle pages with `layout: product-guides`",
+    "Processes curated guides (`includeGuides`) and learning tracks (`learningTracks`) into link groups",
+    "Renders content using `landing-page.template.md` with organized sections",
+    "Registered transformer in `transformers/index.ts`",
+    "Added test suite verifying:",
+    "Basic rendering of product guides pages",
+    "Inclusion of guide cards",
+    "Rendering of learning track sections"
+  ],
+  "summary": "- Added `ProductGuidesTransformer` class to handle pages with `layout: product-guides`\n- Processes curated guides (`includeGuides`) and learning tracks (`learningTracks`) into link groups\n- Renders content using `landing-page.template.md` with organized sections\n- Registered transformer in `transformers/index.ts`\n- Added test suite verifying:\n- Basic rendering of product guides pages\n- Inclusion of guide cards\n- Rendering of learning track sections",
+  "generated_title": "feat: Add product guides transformer for Article API",
+  "commits": [
+    "**fd67821**: feat: add product guides transformer for Article API (#59077) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added `ProductGuidesTransformer` class to handle pages with `layout: product-guides`\n- Processes curated guides (`includeGuides`) and learning tracks (`learningTracks`) into link groups\n- Renders content using `landing-page.template.md` with organized sections\n- Registered transformer in `transformers/index.ts`\n- Added test suite verifying:\n  - Basic rendering of product guides pages\n  - Inclusion of guide cards\n  - Rendering of learning track sections\n\n### Title\nfeat: Add product guides transformer for Article API"
+}
