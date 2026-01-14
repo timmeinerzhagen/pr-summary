@@ -1,0 +1,27 @@
+{
+  "number": 42391,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-14T15:36:36Z",
+  "url": "https://github.com/github/docs/pull/42391",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-14 16:09:40",
+  "details": [
+    "Created a new \"Secret security\" reference topic, moving 3 articles into it:",
+    "`understanding-github-secret-types`",
+    "`supported-secret-scanning-patterns`",
+    "`risk-report-csv-contents`",
+    "Moved \"Dependabot updates stopped\" article from troubleshooting to \"How-tos\" section",
+    "Added redirects for all moved content",
+    "Updated index files and learning tracks to reflect new structure"
+  ],
+  "summary": "- Created a new \"Secret security\" reference topic, moving 3 articles into it:\n- `understanding-github-secret-types`\n- `supported-secret-scanning-patterns`\n- `risk-report-csv-contents`\n- Moved \"Dependabot updates stopped\" article from troubleshooting to \"How-tos\" section\n- Added redirects for all moved content\n- Updated index files and learning tracks to reflect new structure",
+  "generated_title": "Reorganize secret security and Dependabot documentation",
+  "commits": [
+    "**39d5d47**: [EDI] Create a new \"Secret security\" map topic within \"Reference\" (#59134) (by Sophie)",
+    "**2b07845**: Move a Dependabot troubleshooting article into the \"How-tos\" map topic (#59161) (by Sam Browning)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Created a new \"Secret security\" reference topic, moving 3 articles into it:\n  - `understanding-github-secret-types`\n  - `supported-secret-scanning-patterns`\n  - `risk-report-csv-contents`\n- Moved \"Dependabot updates stopped\" article from troubleshooting to \"How-tos\" section\n- Added redirects for all moved content\n- Updated index files and learning tracks to reflect new structure\n\n### Title\nReorganize secret security and Dependabot documentation"
+}
