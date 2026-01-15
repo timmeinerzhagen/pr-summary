@@ -1,0 +1,26 @@
+{
+  "number": 42415,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-15T21:36:01Z",
+  "url": "https://github.com/github/docs/pull/42415",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-15 22:07:18",
+  "details": [
+    "Added documentation for Copilot Memory, a new public preview feature enabling GitHub Copilot to store and utilize repository-specific knowledge.",
+    "Updated BYOK (Bring Your Own Key) documentation to include new providers: AWS Bedrock, Google AI Studio, and OpenAI-compatible providers.",
+    "Enhanced existing Copilot agent documentation (coding agent, code review) with sections on utilizing Copilot Memory for improved context.",
+    "Added a new image asset (`copilot-memory-list.png`) and integrated Copilot Memory into feature lists and setup guides.",
+    "Updated audit log event data and Dependabot security events documentation."
+  ],
+  "summary": "- Added documentation for Copilot Memory, a new public preview feature enabling GitHub Copilot to store and utilize repository-specific knowledge.\n- Updated BYOK (Bring Your Own Key) documentation to include new providers: AWS Bedrock, Google AI Studio, and OpenAI-compatible providers.\n- Enhanced existing Copilot agent documentation (coding agent, code review) with sections on utilizing Copilot Memory for improved context.\n- Added a new image asset (`copilot-memory-list.png`) and integrated Copilot Memory into feature lists and setup guides.\n- Updated audit log event data and Dependabot security events documentation.",
+  "generated_title": "Introduce Copilot Memory and expand BYOK provider support",
+  "commits": [
+    "**ef164b6**: Update audit log event data (#59181) (by docs-bot)",
+    "**3df1c7b**: Updated Copilot BYOK docs with new providers (#59182) (by Jaryl Williams)",
+    "**26ef021**: Docs for Copilot Memory public preview (#58860) (by hubwriter)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added documentation for Copilot Memory, a new public preview feature enabling GitHub Copilot to store and utilize repository-specific knowledge.\n- Updated BYOK (Bring Your Own Key) documentation to include new providers: AWS Bedrock, Google AI Studio, and OpenAI-compatible providers.\n- Enhanced existing Copilot agent documentation (coding agent, code review) with sections on utilizing Copilot Memory for improved context.\n- Added a new image asset (`copilot-memory-list.png`) and integrated Copilot Memory into feature lists and setup guides.\n- Updated audit log event data and Dependabot security events documentation.\n\n### Title\nIntroduce Copilot Memory and expand BYOK provider support"
+}
