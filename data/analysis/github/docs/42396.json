@@ -1,0 +1,23 @@
+{
+  "number": 42396,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-15T00:47:30Z",
+  "url": "https://github.com/github/docs/pull/42396",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-15 02:44:08",
+  "details": [
+    "Added `SearchPageTransformer` for `/en/search` pages, generating minimal markdown with title and API example",
+    "Registered new transformer in global registry",
+    "Expanded `TocTransformer` to support homepage and product pages (in addition to categories/subcategories)",
+    "Updated `canTransform` logic in TOC handler to include `product` and `homepage` doctypes"
+  ],
+  "summary": "- Added `SearchPageTransformer` for `/en/search` pages, generating minimal markdown with title and API example\n- Registered new transformer in global registry\n- Expanded `TocTransformer` to support homepage and product pages (in addition to categories/subcategories)\n- Updated `canTransform` logic in TOC handler to include `product` and `homepage` doctypes",
+  "generated_title": "Fix 403 errors by adding search transformer and extending TOC support",
+  "commits": [
+    "**867535b**: Article API: Fix 403 errors for homepage, product, and search pages (#59148) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added `SearchPageTransformer` for `/en/search` pages, generating minimal markdown with title and API example\n- Registered new transformer in global registry\n- Expanded `TocTransformer` to support homepage and product pages (in addition to categories/subcategories)\n- Updated `canTransform` logic in TOC handler to include `product` and `homepage` doctypes\n\n### Title\nFix 403 errors by adding search transformer and extending TOC support"
+}
