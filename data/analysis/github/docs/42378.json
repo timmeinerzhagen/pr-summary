@@ -1,0 +1,37 @@
+{
+  "number": 42378,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-14T00:51:47Z",
+  "url": "https://github.com/github/docs/pull/42378",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-16 22:10:16",
+  "details": [
+    "Updated dev container setup to install dependencies on start.",
+    "Added Copilot requests token documentation and permission.",
+    "Removed outdated CodeQL and security advisories pages.",
+    "Updated Copilot model names, retirement dates, and examples.",
+    "Documented Management Console issue in GitHub Enterprise Server 3.19.1.",
+    "Enhanced Article API with new transformers for GraphQL, landing pages, and updated tests.",
+    "Improved migration documentation with repository bypass instructions."
+  ],
+  "summary": "- Updated dev container setup to install dependencies on start.\n- Added Copilot requests token documentation and permission.\n- Removed outdated CodeQL and security advisories pages.\n- Updated Copilot model names, retirement dates, and examples.\n- Documented Management Console issue in GitHub Enterprise Server 3.19.1.\n- Enhanced Article API with new transformers for GraphQL, landing pages, and updated tests.\n- Improved migration documentation with repository bypass instructions.",
+  "generated_title": "Update Copilot models, migration bypass, and Article API transformers",
+  "commits": [
+    "**20c8391**: Adds step to install dependencies (#59143) (by Ben Ahmady)",
+    "**8a6fee3**: Merge pull request #59145 from github/repo-sync (by docs-bot)",
+    "**9716088**: feat: add journey landing transformer for Article API (#59076) (by Kevin Heis)",
+    "**4fcfdae**: Document copilot_requests fine-grained PAT permission (#59130) (by Copilot)",
+    "**ef7a3ab**: Document repository migrations bypass for rulesets (#59102) (by Copilot)",
+    "**a95d9c3**: feat: add bespoke landing transformer for Article API (#59079) (by Kevin Heis)",
+    "**4b2d104**: Document issue with Backups and Updates tabs in 3.19.1 (#59059) (by Linda Rodgers)",
+    "**a7926bb**: Article API: Add title/intro consistency and refactor transformers (#59103) (by Kevin Heis)",
+    "**0882c4f**: Merge branch 'main' into repo-sync (by Kevin Heis)",
+    "**8f4ab79**: Repo sync (#59151) (by Kevin Heis)",
+    "**d2669d3**: Delete orphaned map topics, add redirects (#59150) (by Sam Browning)",
+    "**0f42e82**: Prepping models for deprecation (#59152) (by Sunbrye Ly)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated dev container setup to install dependencies on start.\n- Added Copilot requests token documentation and permission.\n- Removed outdated CodeQL and security advisories pages.\n- Updated Copilot model names, retirement dates, and examples.\n- Documented Management Console issue in GitHub Enterprise Server 3.19.1.\n- Enhanced Article API with new transformers for GraphQL, landing pages, and updated tests.\n- Improved migration documentation with repository bypass instructions.\n\n### Title\nUpdate Copilot models, migration bypass, and Article API transformers"
+}

@@ -1,0 +1,29 @@
+{
+  "number": 42412,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-15T12:38:53Z",
+  "url": "https://github.com/github/docs/pull/42412",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-16 22:07:37",
+  "details": [
+    "Removed `type` frontmatter property from multiple code security articles across concepts, how-tos, and references.",
+    "Restructured Code Quality documentation:",
+    "Deleted old reference files (`codeql-queries/index.md`, `index.md`).",
+    "Created new \"Code Quality\" map topic under \"Reference\" with updated structure.",
+    "Added redirects from old paths to new locations."
+  ],
+  "summary": "- Removed `type` frontmatter property from multiple code security articles across concepts, how-tos, and references.\n- Restructured Code Quality documentation:\n- Deleted old reference files (`codeql-queries/index.md`, `index.md`).\n- Created new \"Code Quality\" map topic under \"Reference\" with updated structure.\n- Added redirects from old paths to new locations.",
+  "generated_title": "Remove type frontmatter and restructure Code Quality reference docs",
+  "commits": [
+    "**dc6ee12**: Update audit log event data (#59166) (by docs-bot)",
+    "**3d39092**: HA scale out private preview documentation (#59039) (by Pallavi)",
+    "**746cb90**: [EDI] - delete `type` frontmatter property in code security articles (#59179) (by mc)",
+    "**89e56b9**: Update docs for managing secrets for collaborators of user-owned repos (#59164) (by Sneha Kripanandan)",
+    "**5d10287**: GraphQL schema update (#59167) (by docs-bot)",
+    "**2a0a31f**: [EDI] Create a new \"Code Quality\" map topic within \"Reference\" (#59160) (by Sophie)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removed `type` frontmatter property from multiple code security articles across concepts, how-tos, and references.\n- Restructured Code Quality documentation:\n  - Deleted old reference files (`codeql-queries/index.md`, `index.md`).\n  - Created new \"Code Quality\" map topic under \"Reference\" with updated structure.\n  - Added redirects from old paths to new locations.\n\n### Title\nRemove type frontmatter and restructure Code Quality reference docs"
+}

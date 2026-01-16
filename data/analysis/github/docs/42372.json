@@ -1,0 +1,30 @@
+{
+  "number": 42372,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-13T15:39:29Z",
+  "url": "https://github.com/github/docs/pull/42372",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-16 22:12:32",
+  "details": [
+    "Reorganized documentation structure, creating new topics for \"Scan code for vulnerabilities\" and \"Customize code scanning\".",
+    "Moved \"Secret scanning partner program\" and \"End-to-end supply chain\" into \"Tutorials\".",
+    "Consolidated RAI articles under \"Responsible use\".",
+    "Updated recommended versions for GitHub Enterprise Server and runners.",
+    "Relocated CodeQL CLI manual pages to reference section."
+  ],
+  "summary": "- Reorganized documentation structure, creating new topics for \"Scan code for vulnerabilities\" and \"Customize code scanning\".\n- Moved \"Secret scanning partner program\" and \"End-to-end supply chain\" into \"Tutorials\".\n- Consolidated RAI articles under \"Responsible use\".\n- Updated recommended versions for GitHub Enterprise Server and runners.\n- Relocated CodeQL CLI manual pages to reference section.",
+  "generated_title": "Restructure documentation for code scanning and security features",
+  "commits": [
+    "**707751b**: [EDI] Create a new \"Scan code for vulnerabilities\" map topic within \"How-tos\" (#59097) (by Sophie)",
+    "**e38c14d**: [EDI] Move \"Secret scanning partner program\" into \"Tutorials\" (#59096) (by Melanie Yarbrough)",
+    "**1c1dba0**: Update recommended versions for GHE and runners (#59117) (by Felix Guntrip)",
+    "**435d76b**: [EDI] Create a new \"Customize code scanning\" map topic within \"Tutorials\" (#59119) (by Sophie)",
+    "**f97ad0e**: Relocate the CodeQL CLI manual pages in the EDI-fied docs structure (#59121) (by Sam Browning)",
+    "**b686626**: [EDI] Move RAI articles into the \"Responsible use\" map topic (#59132) (by Sophie)",
+    "**a1dd687**: [EDI] Move the \"End-to-end supply chain\" map topic into \"Tutorials\" (#59098) (by Melanie Yarbrough)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Reorganized documentation structure, creating new topics for \"Scan code for vulnerabilities\" and \"Customize code scanning\".\n- Moved \"Secret scanning partner program\" and \"End-to-end supply chain\" into \"Tutorials\".\n- Consolidated RAI articles under \"Responsible use\".\n- Updated recommended versions for GitHub Enterprise Server and runners.\n- Relocated CodeQL CLI manual pages to reference section.\n\n### Title\nRestructure documentation for code scanning and security features"
+}

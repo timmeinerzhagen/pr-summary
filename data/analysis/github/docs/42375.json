@@ -1,0 +1,32 @@
+{
+  "number": 42375,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-13T18:37:35Z",
+  "url": "https://github.com/github/docs/pull/42375",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-16 22:11:15",
+  "details": [
+    "Added documentation for viewing job condition expression logs in GitHub Actions workflows.",
+    "Reorganized GitHub Enterprise Cloud data residency features, distinguishing permanently unavailable features.",
+    "Restructured secret scanning documentation into \"Secure your secrets\" how-tos with new guides for leak detection and prevention.",
+    "Consolidated Dependabot ecosystem documentation into the reference section.",
+    "Updated Copilot model comparison table with a data-driven approach.",
+    "Added Article API transformers for category and discovery landing pages."
+  ],
+  "summary": "- Added documentation for viewing job condition expression logs in GitHub Actions workflows.\n- Reorganized GitHub Enterprise Cloud data residency features, distinguishing permanently unavailable features.\n- Restructured secret scanning documentation into \"Secure your secrets\" how-tos with new guides for leak detection and prevention.\n- Consolidated Dependabot ecosystem documentation into the reference section.\n- Updated Copilot model comparison table with a data-driven approach.\n- Added Article API transformers for category and discovery landing pages.",
+  "generated_title": "Document job condition logs, restructure secret scanning docs, and update Copilot model table",
+  "commits": [
+    "**dd56557**: Document permanently unavailable features on GHE.com (#58676) (by Isaac Brown)",
+    "**c7ecf7d**: Document expression evaluation logs for job conditions (#59100) (by eric sciple)",
+    "**fc888b8**: [EDI] Create a new \"Supply chain security\" map topic within \"Reference\" (#59139) (by Sophie)",
+    "**7206b3a**: feat: add discovery landing transformer for Article API (#59074) (by Kevin Heis)",
+    "**d4980bd**: [EDI] Create a new \"Secure your secrets\" map topic within \"How-tos\" (#59064) (by mc)",
+    "**40991e6**: Clarify support package duration for special events (#59137) (by Emma Hayles)",
+    "**c269a9d**: feat: add category landing transformer for Article API (#59075) (by Kevin Heis)",
+    "**b09f0be**: Updating model comparison table for recent model ships (#58557) (by Jenni C)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added documentation for viewing job condition expression logs in GitHub Actions workflows.\n- Reorganized GitHub Enterprise Cloud data residency features, distinguishing permanently unavailable features.\n- Restructured secret scanning documentation into \"Secure your secrets\" how-tos with new guides for leak detection and prevention.\n- Consolidated Dependabot ecosystem documentation into the reference section.\n- Updated Copilot model comparison table with a data-driven approach.\n- Added Article API transformers for category and discovery landing pages.\n\n### Title\nDocument job condition logs, restructure secret scanning docs, and update Copilot model table"
+}
