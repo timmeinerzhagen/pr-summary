@@ -1,0 +1,24 @@
+{
+  "number": 42460,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-19T18:39:00Z",
+  "url": "https://github.com/github/docs/pull/42460",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-19 20:07:06",
+  "details": [
+    "Added release note entries for GitHub Enterprise Server 3.19.0 and 3.19.1",
+    "Introduced public preview for configuring multiple data disks to host MySQL and repository data",
+    "Applicable to standalone and high availability topologies (excludes clusters)",
+    "Included documentation link: `/admin/monitoring-and-managing-your-instance/multiple-data-disks/configuring-multiple-data-disks`",
+    "Updated timestamps to 2026-01-19"
+  ],
+  "summary": "- Added release note entries for GitHub Enterprise Server 3.19.0 and 3.19.1\n- Introduced public preview for configuring multiple data disks to host MySQL and repository data\n- Applicable to standalone and high availability topologies (excludes clusters)\n- Included documentation link: `/admin/monitoring-and-managing-your-instance/multiple-data-disks/configuring-multiple-data-disks`\n- Updated timestamps to 2026-01-19",
+  "generated_title": "Add multi-data disk public preview documentation to release notes",
+  "commits": [
+    "**348f284**: Update release notes about multi data disk public preview (#59192) (by Pallavi)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added release note entries for GitHub Enterprise Server 3.19.0 and 3.19.1\n- Introduced public preview for configuring multiple data disks to host MySQL and repository data\n- Applicable to standalone and high availability topologies (excludes clusters)\n- Included documentation link: `/admin/monitoring-and-managing-your-instance/multiple-data-disks/configuring-multiple-data-disks`\n- Updated timestamps to 2026-01-19\n\n### Title\nAdd multi-data disk public preview documentation to release notes"
+}
