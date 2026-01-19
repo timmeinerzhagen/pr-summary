@@ -1,0 +1,23 @@
+{
+  "number": 42455,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-19T09:38:46Z",
+  "url": "https://github.com/github/docs/pull/42455",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-19 10:09:39",
+  "details": [
+    "Added detailed section explaining differences between Copilot API resources, including a comparison table highlighting scope and capabilities.",
+    "Fixed grammar in code scanning documentation: changed \"Actions are\" to \"Actions is\"."
+  ],
+  "summary": "- Added detailed section explaining differences between Copilot API resources, including a comparison table highlighting scope and capabilities.\n- Fixed grammar in code scanning documentation: changed \"Actions are\" to \"Actions is\".",
+  "generated_title": "Expand Copilot metrics docs and fix grammar in code scanning note",
+  "commits": [
+    "**718f54a**: Matching commit for early-access PR#494 (#59153) (by Eric Sorenson)",
+    "**07f054d**: Update require-actions-ghcs.md, change \"are\" to \"is\" (#55370) (by Sharra-writes)",
+    "**a62ca9d**: [Improvement]: Update the Copilot Usage Metrics docs with additional PAI comparison info (#59180) (by Sophie)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added detailed section explaining differences between Copilot API resources, including a comparison table highlighting scope and capabilities.\n- Fixed grammar in code scanning documentation: changed \"Actions are\" to \"Actions is\".\n\n### Title\nExpand Copilot metrics docs and fix grammar in code scanning note"
+}
