@@ -1,0 +1,23 @@
+{
+  "number": 42461,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-19T21:40:51Z",
+  "url": "https://github.com/github/docs/pull/42461",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-20 14:13:26",
+  "details": [
+    "Added a new documentation page `copilot-feature-matrix.md` displaying GitHub Copilot feature support across IDEs using a YAML-driven table.",
+    "Updated `index.md` to include the new feature matrix page in the reference section.",
+    "Created `copilot-matrix.yml` containing IDE version groups and feature support data (✓/✗/P).",
+    "Added `copilot-matrix.ts` schema for validating the YAML structure and data integrity."
+  ],
+  "summary": "- Added a new documentation page `copilot-feature-matrix.md` displaying GitHub Copilot feature support across IDEs using a YAML-driven table.\n- Updated `index.md` to include the new feature matrix page in the reference section.\n- Created `copilot-matrix.yml` containing IDE version groups and feature support data (✓/✗/P).\n- Added `copilot-matrix.ts` schema for validating the YAML structure and data integrity.",
+  "generated_title": "Add YAML-driven Copilot feature matrix documentation and validation schema",
+  "commits": [
+    "**19dff7c**: Add YAML-driven table for Copilot feature matrix (#58405) (by Sunbrye Ly)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary  \n- Added a new documentation page `copilot-feature-matrix.md` displaying GitHub Copilot feature support across IDEs using a YAML-driven table.  \n- Updated `index.md` to include the new feature matrix page in the reference section.  \n- Created `copilot-matrix.yml` containing IDE version groups and feature support data (✓/✗/P).  \n- Added `copilot-matrix.ts` schema for validating the YAML structure and data integrity.  \n\n### Title  \nAdd YAML-driven Copilot feature matrix documentation and validation schema"
+}
