@@ -1,0 +1,23 @@
+{
+  "number": 42463,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-20T09:39:09Z",
+  "url": "https://github.com/github/docs/pull/42463",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-20 10:09:34",
+  "details": [
+    "Fixed indentation in a JavaScript code block example for MCP configuration",
+    "Removed an extra blank line after the code block",
+    "Adjusted formatting for the toolsets documentation link"
+  ],
+  "summary": "- Fixed indentation in a JavaScript code block example for MCP configuration\n- Removed an extra blank line after the code block\n- Adjusted formatting for the toolsets documentation link",
+  "generated_title": "Refactor MCP configuration documentation formatting",
+  "commits": [
+    "**e84796b**: Merge pull request #59202 from github/repo-sync (by docs-bot)",
+    "**011dbf0**: Refactor MCP configuration instructions to have contiguous numbering (#59200) (by Belal Taher)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Fixed indentation in a JavaScript code block example for MCP configuration\n- Removed an extra blank line after the code block\n- Adjusted formatting for the toolsets documentation link\n\n### Title\nRefactor MCP configuration documentation formatting"
+}
