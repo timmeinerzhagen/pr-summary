@@ -1,0 +1,29 @@
+{
+  "number": 42483,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-21T18:39:11Z",
+  "url": "https://github.com/github/docs/pull/42483",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-21 20:11:09",
+  "details": [
+    "Added linter rule GHD063 to validate children paths in frontmatter, supporting relative and absolute `/content/` paths for cross-product inclusion.",
+    "Updated tree creation logic to handle `/content/` prefixed paths, marking them as `crossProductChild` and excluding from sidebar.",
+    "Added tests for non-child page resolution and updated fixtures.",
+    "Adjusted GHES script for secret-scanning's directory structure and synced secret data.",
+    "Extended GraphQL schema with `query` argument in `PullRequest.suggestedReviewerActors`.",
+    "Enhanced Moda secrets schema with `owner` and `externally_usable` fields."
+  ],
+  "summary": "- Added linter rule GHD063 to validate children paths in frontmatter, supporting relative and absolute `/content/` paths for cross-product inclusion.\n- Updated tree creation logic to handle `/content/` prefixed paths, marking them as `crossProductChild` and excluding from sidebar.\n- Added tests for non-child page resolution and updated fixtures.\n- Adjusted GHES script for secret-scanning's directory structure and synced secret data.\n- Extended GraphQL schema with `query` argument in `PullRequest.suggestedReviewerActors`.\n- Enhanced Moda secrets schema with `owner` and `externally_usable` fields.",
+  "generated_title": "Enable cross-product page inclusion via children frontmatter",
+  "commits": [
+    "**96e8b98**: Attempt at supporting non-child directories via `children` in index pages, or non-child articles via `articles` (#59183) (by Evan Bonsignori)",
+    "**a12c135**: Support new secret-scanning directory structure in GHES script (#59227) (by Sarah Schneider)",
+    "**0a25221**: Fix moda-linter secrets schema validation errors (#59230) (by Kevin Heis)",
+    "**afbba6c**: GraphQL schema update (#59233) (by docs-bot)",
+    "**650d266**: Sync secret scanning data (#59232) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added linter rule GHD063 to validate children paths in frontmatter, supporting relative and absolute `/content/` paths for cross-product inclusion.\n- Updated tree creation logic to handle `/content/` prefixed paths, marking them as `crossProductChild` and excluding from sidebar.\n- Added tests for non-child page resolution and updated fixtures.\n- Adjusted GHES script for secret-scanning's directory structure and synced secret data.\n- Extended GraphQL schema with `query` argument in `PullRequest.suggestedReviewerActors`.\n- Enhanced Moda secrets schema with `owner` and `externally_usable` fields.\n\n### Title\nEnable cross-product page inclusion via children frontmatter"
+}
