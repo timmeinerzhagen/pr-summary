@@ -1,0 +1,24 @@
+{
+  "number": 42487,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-21T21:38:07Z",
+  "url": "https://github.com/github/docs/pull/42487",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-21 22:08:30",
+  "details": [],
+  "summary": "No summary available",
+  "generated_title": "Repo sync",
+  "commits": [
+    "**fa68b9e**: Include deprecation banner on all versions that share the oldest deprecation date (#59218) (by Sarah Schneider)",
+    "**deadfce**: Fix TypeError when childPages is undefined in generic-toc middleware (#59169) (by Kevin Heis)",
+    "**f306535**: Run article-api tests serially (#59193) (by Kevin Heis)",
+    "**3674ab8**: Delete unused environment secret configs (#59173) (by Kevin Heis)",
+    "**c728720**: Refine transformers section in README.md (#59174) (by Kevin Heis)",
+    "**89e5b46**: Ensure index files have children (#59194) (by Sarah Schneider)",
+    "**9d54880**: secret scanning: add 'Manual_submission` to secret scanning partner program token sources (#59223) (by Stevie)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": ""
+}
