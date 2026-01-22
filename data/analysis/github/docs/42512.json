@@ -1,0 +1,27 @@
+{
+  "number": 42512,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-22T21:36:21Z",
+  "url": "https://github.com/github/docs/pull/42512",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-22 22:07:29",
+  "details": [
+    "Added a new Copilot agent profile (`copilot-readability-editor-2.md`) for article readability improvements.",
+    "Fixed race condition in search indexing workflow by modifying concurrency grouping and job conditions (`index-general-search.yml`).",
+    "Updated audit log event descriptions and fields (typo fix in billing manager event, added fields for SSO events).",
+    "Removed outdated links and streamlined content in security documentation files.",
+    "Applied readability enhancements to Copilot custom agents documentation (simplified language, split long sentences)."
+  ],
+  "summary": "- Added a new Copilot agent profile (`copilot-readability-editor-2.md`) for article readability improvements.\n- Fixed race condition in search indexing workflow by modifying concurrency grouping and job conditions (`index-general-search.yml`).\n- Updated audit log event descriptions and fields (typo fix in billing manager event, added fields for SSO events).\n- Removed outdated links and streamlined content in security documentation files.\n- Applied readability enhancements to Copilot custom agents documentation (simplified language, split long sentences).",
+  "generated_title": "Add readability agent, fix search index race condition, and update audit logs",
+  "commits": [
+    "**46e3f3b**: Update audit log event data (#59273) (by docs-bot)",
+    "**ba3c870**: Fix race condition in search index workflow triggering (#59276) (by Kevin Heis)",
+    "**2b9ceae**: Apply readability improvements using updated agent instructions (by jclement136)",
+    "**a5dbb6a**: Add updated (experimental) agent and another article test (by jclement136)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added a new Copilot agent profile (`copilot-readability-editor-2.md`) for article readability improvements.\n- Fixed race condition in search indexing workflow by modifying concurrency grouping and job conditions (`index-general-search.yml`).\n- Updated audit log event descriptions and fields (typo fix in billing manager event, added fields for SSO events).\n- Removed outdated links and streamlined content in security documentation files.\n- Applied readability enhancements to Copilot custom agents documentation (simplified language, split long sentences).\n\n### Title\nAdd readability agent, fix search index race condition, and update audit logs"
+}
