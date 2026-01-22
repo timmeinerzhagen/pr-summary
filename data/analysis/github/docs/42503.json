@@ -1,0 +1,39 @@
+{
+  "number": 42503,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-22T15:38:41Z",
+  "url": "https://github.com/github/docs/pull/42503",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-22 16:10:44",
+  "details": [
+    "Added clarification that repository traffic metrics are unavailable on Proxima via UI/REST API.",
+    "Introduced a new tutorial for monitoring costs using soft budgets.",
+    "Removed Gemini 2.5 Pro deprecation and updated its status to GA.",
+    "Clarified REST API billing usage reporting levels and Copilot billing scenarios.",
+    "Updated team sync usage limits documentation to clarify feature-specific constraints.",
+    "Enhanced Dependabot configuration guides with restructured content.",
+    "Added conceptual article on GitHub secret types and updated secret scanning resolution steps.",
+    "Noted build modes when filtering CodeQL analysis."
+  ],
+  "summary": "- Added clarification that repository traffic metrics are unavailable on Proxima via UI/REST API.\n- Introduced a new tutorial for monitoring costs using soft budgets.\n- Removed Gemini 2.5 Pro deprecation and updated its status to GA.\n- Clarified REST API billing usage reporting levels and Copilot billing scenarios.\n- Updated team sync usage limits documentation to clarify feature-specific constraints.\n- Enhanced Dependabot configuration guides with restructured content.\n- Added conceptual article on GitHub secret types and updated secret scanning resolution steps.\n- Noted build modes when filtering CodeQL analysis.",
+  "generated_title": "**Documentation updates: Clarify billing, data residency, security features, and deprecations**",
+  "commits": [
+    "**9c32d33**:  Add a clarification note to the REST API billing usage documentation (#59209) (by Sophie)",
+    "**c35addc**: Add a tutorial about monitoring costs with soft budgets (#59226) (by Sophie)",
+    "**9fb7907**: Remove Gemini 2.5 Pro deprecation (#59243) (by Copilot)",
+    "**9b24086**: add clarity around breaking changes (#59177) (by Jen Carlucci)",
+    "**f88bde1**: Update team-sync-usage-limits.md (#59176) (by Hirsch Singhal)",
+    "**69923d4**: [EDI] About the dependency graph (#59252) (by mc)",
+    "**6d4e43b**: [EDI] Configuring Dependabot alerts (#59231) (by Isaac Brown)",
+    "**75ed67d**:  [EDI] Configuring Dependabot version updates (#59228) (by Isaac Brown)",
+    "**435ad1c**: Clarify that traffic metrics are not available on Proxima (#59235) (by vaindil)",
+    "**e44731c**: When describing filtering code out of CodeQL analysis, mention build modes (#59255) (by Chris Smowton)",
+    "**893da02**: [EDI] About code scanning (#59208) (by mc)",
+    "**b06dbb6**: [EDI] Create a brief conceptual article on GitHub secrets (#59240) (by Sam Browning)",
+    "**7e91cc8**: [EDI] Make \"Resolving alerts from secret scanning\" a how-to article (#59242) (by Sam Browning)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added clarification that repository traffic metrics are unavailable on Proxima via UI/REST API.\n- Introduced a new tutorial for monitoring costs using soft budgets.\n- Removed Gemini 2.5 Pro deprecation and updated its status to GA.\n- Clarified REST API billing usage reporting levels and Copilot billing scenarios.\n- Updated team sync usage limits documentation to clarify feature-specific constraints.\n- Enhanced Dependabot configuration guides with restructured content.\n- Added conceptual article on GitHub secret types and updated secret scanning resolution steps.\n- Noted build modes when filtering CodeQL analysis.\n\n### Title\n**Documentation updates: Clarify billing, data residency, security features, and deprecations**"
+}
