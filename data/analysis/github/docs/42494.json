@@ -1,0 +1,22 @@
+{
+  "number": 42494,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-22T09:38:54Z",
+  "url": "https://github.com/github/docs/pull/42494",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-22 10:09:08",
+  "details": [
+    "Added a redirect path `/administering-a-repository/keeping-your-dependencies-updated-automatically` to Dependabot documentation",
+    "Resolves a broken link in GitHub's UI by ensuring correct redirection to the current article"
+  ],
+  "summary": "- Added a redirect path `/administering-a-repository/keeping-your-dependencies-updated-automatically` to Dependabot documentation\n- Resolves a broken link in GitHub's UI by ensuring correct redirection to the current article",
+  "generated_title": "Add missing redirect for Dependabot article",
+  "commits": [
+    "**486cdb1**: Merge pull request #59251 from github/repo-sync (by docs-bot)",
+    "**145cafc**: Add missing redirect for Dependabot article that's linked to on GitHub's UI (#59239) (by mc)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added a redirect path `/administering-a-repository/keeping-your-dependencies-updated-automatically` to Dependabot documentation  \n- Resolves a broken link in GitHub's UI by ensuring correct redirection to the current article  \n\n### Title  \nAdd missing redirect for Dependabot article"
+}
