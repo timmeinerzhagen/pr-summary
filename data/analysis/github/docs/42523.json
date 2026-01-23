@@ -1,0 +1,34 @@
+{
+  "number": 42523,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-23T18:37:43Z",
+  "url": "https://github.com/github/docs/pull/42523",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-23 20:07:45",
+  "details": [
+    "Added changelog entry for GitHub Copilot feature matrix.",
+    "Moved billing tutorial \"Setting up budgets\" to how-tos and updated content.",
+    "Restructured security overview permissions into a dedicated reference section.",
+    "Added guide for excluding folders/files from secret scanning.",
+    "Simplified troubleshooting introduction for Dependabot errors.",
+    "Fixed REST API links for code scanning endpoints.",
+    "Updated GraphQL schema with input field changes."
+  ],
+  "summary": "- Added changelog entry for GitHub Copilot feature matrix.\n- Moved billing tutorial \"Setting up budgets\" to how-tos and updated content.\n- Restructured security overview permissions into a dedicated reference section.\n- Added guide for excluding folders/files from secret scanning.\n- Simplified troubleshooting introduction for Dependabot errors.\n- Fixed REST API links for code scanning endpoints.\n- Updated GraphQL schema with input field changes.",
+  "generated_title": "Documentation updates: billing restructuring, security permissions, secret scanning exclusions, and GraphQL schema changes",
+  "commits": [
+    "**36687c1**: [EDI] About security overview (#59266) (by Sophie)",
+    "**bcf192f**: Move \"Setting up budgets to control spending on metered products\" to How-tos (#59272) (by Sophie)",
+    "**d22212d**: Create docs-internal PR for Early Access preview (#59203) (by Pallavi)",
+    "**cb7cc03**: [EDI] Custom configurations (#59270) (by Isaac Brown)",
+    "**6ba65ff**: [EDI] Excluding folders and files from secret scanning (#59303) (by mc)",
+    "**66a701c**: Fix code scanning REST API links to use correct path (#59279) (by Jon Janego)",
+    "**6945536**: Update docs changelog (for PR #58405) (#59212) (by docs-bot)",
+    "**062a5c6**: [EDI] Troubleshooting Dependabot errors  (#59302) (by mc)",
+    "**4b03251**: GraphQL schema update (#59311) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added changelog entry for GitHub Copilot feature matrix.\n- Moved billing tutorial \"Setting up budgets\" to how-tos and updated content.\n- Restructured security overview permissions into a dedicated reference section.\n- Added guide for excluding folders/files from secret scanning.\n- Simplified troubleshooting introduction for Dependabot errors.\n- Fixed REST API links for code scanning endpoints.\n- Updated GraphQL schema with input field changes.\n\n### Title\nDocumentation updates: billing restructuring, security permissions, secret scanning exclusions, and GraphQL schema changes"
+}
