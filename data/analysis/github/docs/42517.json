@@ -1,0 +1,27 @@
+{
+  "number": 42517,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-23T09:38:43Z",
+  "url": "https://github.com/github/docs/pull/42517",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-23 10:08:06",
+  "details": [
+    "Added `{% data variables.enterprise.data_residency_domain %}` to required TCP ports documentation for GitHub IP addresses.",
+    "Created new documentation file (`about-the-dependabot-yml-file.md`) explaining `dependabot.yml` configuration.",
+    "Updated Dependabot documentation to reference the new file and clarify:",
+    "Role of `dependabot.yml` in security/version updates",
+    "Configuration options and workflows",
+    "Added the new file to the supply chain security index."
+  ],
+  "summary": "- Added `{% data variables.enterprise.data_residency_domain %}` to required TCP ports documentation for GitHub IP addresses.\n- Created new documentation file (`about-the-dependabot-yml-file.md`) explaining `dependabot.yml` configuration.\n- Updated Dependabot documentation to reference the new file and clarify:\n- Role of `dependabot.yml` in security/version updates\n- Configuration options and workflows\n- Added the new file to the supply chain security index.",
+  "generated_title": "Add Proxima domain to IP docs and centralize Dependabot configuration documentation",
+  "commits": [
+    "**2bc14f3**: Merge pull request #59301 from github/repo-sync (by docs-bot)",
+    "**28f1495**: Add proxima domain to the port numbers/protocol description in our docs (#59178) (by Junko Suzuki)",
+    "**4321408**: [EDI] Dependabot options reference (#59259) (by mc)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added `{% data variables.enterprise.data_residency_domain %}` to required TCP ports documentation for GitHub IP addresses.\n- Created new documentation file (`about-the-dependabot-yml-file.md`) explaining `dependabot.yml` configuration.\n- Updated Dependabot documentation to reference the new file and clarify:\n  - Role of `dependabot.yml` in security/version updates\n  - Configuration options and workflows\n- Added the new file to the supply chain security index.\n\n### Title\nAdd Proxima domain to IP docs and centralize Dependabot configuration documentation"
+}
