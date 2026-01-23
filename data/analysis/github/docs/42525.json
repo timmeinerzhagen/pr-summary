@@ -1,0 +1,28 @@
+{
+  "number": 42525,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-23T21:35:46Z",
+  "url": "https://github.com/github/docs/pull/42525",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-23 22:06:07",
+  "details": [
+    "Added Copilot feature matrix documentation and trial limit note (3 per payment method).",
+    "Moved budget setup from tutorials to how-tos and updated content.",
+    "Updated REST API links across code security docs for accuracy.",
+    "Restructured security permissions documentation, adding new reference pages.",
+    "Fixed a title typo in CodeQL troubleshooting docs.",
+    "Enhanced GraphQL schema: added `actorLogins` and made `actorIds` optional.",
+    "Introduced `LiquidError` class for better type safety in rendering."
+  ],
+  "summary": "- Added Copilot feature matrix documentation and trial limit note (3 per payment method).\n- Moved budget setup from tutorials to how-tos and updated content.\n- Updated REST API links across code security docs for accuracy.\n- Restructured security permissions documentation, adding new reference pages.\n- Fixed a title typo in CodeQL troubleshooting docs.\n- Enhanced GraphQL schema: added `actorLogins` and made `actorIds` optional.\n- Introduced `LiquidError` class for better type safety in rendering.",
+  "generated_title": "Update docs: Copilot features, security permissions, API links; enhance GraphQL schema and Liquid error handling",
+  "commits": [
+    "**3cc2d76**: Merge pull request #59316 from github/repo-sync (by docs-bot)",
+    "**fe296a0**: Document trial limit per payment method for Copilot (#59278) (by Copilot)",
+    "**511825e**: Add LiquidError class for better type safety (#59315) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added Copilot feature matrix documentation and trial limit note (3 per payment method).\n- Moved budget setup from tutorials to how-tos and updated content.\n- Updated REST API links across code security docs for accuracy.\n- Restructured security permissions documentation, adding new reference pages.\n- Fixed a title typo in CodeQL troubleshooting docs.\n- Enhanced GraphQL schema: added `actorLogins` and made `actorIds` optional.\n- Introduced `LiquidError` class for better type safety in rendering.\n\n### Title\nUpdate docs: Copilot features, security permissions, API links; enhance GraphQL schema and Liquid error handling"
+}
