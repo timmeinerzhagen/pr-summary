@@ -1,0 +1,29 @@
+{
+  "number": 42521,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-23T15:36:48Z",
+  "url": "https://github.com/github/docs/pull/42521",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-23 16:09:21",
+  "details": [
+    "Added expiry note (7 days) for push protection bypass requests.",
+    "Introduced new conceptual doc for push protection from CLI.",
+    "Expanded private vulnerability reporting benefits explanation.",
+    "Restructured Dependabot alerts guide with prioritization tips.",
+    "Moved security policy details to community health docs.",
+    "Added reference docs for Dependabot alerts filters and dependency scope."
+  ],
+  "summary": "- Added expiry note (7 days) for push protection bypass requests.\n- Introduced new conceptual doc for push protection from CLI.\n- Expanded private vulnerability reporting benefits explanation.\n- Restructured Dependabot alerts guide with prioritization tips.\n- Moved security policy details to community health docs.\n- Added reference docs for Dependabot alerts filters and dependency scope.",
+  "generated_title": "Enhance security docs: push protection, vulnerability reporting, and Dependabot alerts",
+  "commits": [
+    "**c822f53**: [EDI] Privately reporting a security vulnerability (#59256) (by Sophie)",
+    "**f1eda4a**: [EDI] Viewing and updating Dependabot alerts (#59257) (by Sophie)",
+    "**714525a**: [EDI] Setting up the CodeQL CLI (#59263) (by Sophie)",
+    "**828f808**: EDI-fy \"Working with push protection from the command line\" (#59216) (by Sam Browning)",
+    "**7809435**: [EDI] Adding a security policy to your repository (#59264) (by Sophie)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added expiry note (7 days) for push protection bypass requests.\n- Introduced new conceptual doc for push protection from CLI.\n- Expanded private vulnerability reporting benefits explanation.\n- Restructured Dependabot alerts guide with prioritization tips.\n- Moved security policy details to community health docs.\n- Added reference docs for Dependabot alerts filters and dependency scope.\n\n### Title\nEnhance security docs: push protection, vulnerability reporting, and Dependabot alerts"
+}
