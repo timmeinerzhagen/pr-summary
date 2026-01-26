@@ -1,0 +1,25 @@
+{
+  "number": 42569,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-26T18:38:25Z",
+  "url": "https://github.com/github/docs/pull/42569",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-26 20:08:29",
+  "details": [],
+  "summary": "No summary available",
+  "generated_title": "Repo sync",
+  "commits": [
+    "**2ad9ee4**: Readability experiment - \"About custom agents\" (#59300) (by John Clement)",
+    "**bdbc204**: Readability experiment \"What is GitHub Copilot?\"  (#59219) (by John Clement)",
+    "**cf3639f**: [EDI] CodeQL query packs (#59269) (by Isaac Brown)",
+    "**0793333**: [EDI] Concepts article on Dependabot PRs (#59265) (by Isaac Brown)",
+    "**434787e**: Add case function documentation (#58868) (by Allan Guigou)",
+    "**7abf80d**: Rebuild link checker system (#59317) (by Kevin Heis)",
+    "**da3cdfc**: Bump github/gh-base-image/gh-base-noble from 20260113-125234-g605df3bee to 20260123-171033-gd75f3193f in the baseimages group (#59326) (by dependabot[bot])",
+    "**b358bac**: add multiple carousel pattern (#59184) (by Evan Bonsignori)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": ""
+}
