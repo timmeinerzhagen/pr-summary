@@ -1,0 +1,26 @@
+{
+  "number": 42571,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-26T21:36:22Z",
+  "url": "https://github.com/github/docs/pull/42571",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-26 22:07:26",
+  "details": [
+    "**Docker Security**: Pinned Docker images to SHA256 digests in multiple Dockerfiles to enhance security.",
+    "**Copilot Documentation**: Restructured Copilot feature matrix to display features by IDE and version group, improving clarity and maintainability.",
+    "**Copilot Data**: Updated supported clients for GPT-5.2-Codex model to include VS, Eclipse, Xcode, and JetBrains. Restructured version data for Copilot features.",
+    "**Content Linter**: Fixed crash by ignoring unknown markdownlint rules in linter output."
+  ],
+  "summary": "- **Docker Security**: Pinned Docker images to SHA256 digests in multiple Dockerfiles to enhance security.\n- **Copilot Documentation**: Restructured Copilot feature matrix to display features by IDE and version group, improving clarity and maintainability.\n- **Copilot Data**: Updated supported clients for GPT-5.2-Codex model to include VS, Eclipse, Xcode, and JetBrains. Restructured version data for Copilot features.\n- **Content Linter**: Fixed crash by ignoring unknown markdownlint rules in linter output.",
+  "generated_title": "Enhance Copilot docs, fix Docker security, and improve content linter",
+  "commits": [
+    "**1df518a**: Fix content linter crash when markdownlint returns unknown rules (#59335) (by Kevin Heis)",
+    "**429dc3b**: Update model-supported-clients.yml to support more clients (#59338) (by Brian)",
+    "**feabe97**: Fix Docker security issues: pin images to SHA256 and update base image (#59343) (by Kevin Heis)",
+    "**d461c1d**: Update Copilot feature ide matrix (#59294) (by Sunbrye Ly)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- **Docker Security**: Pinned Docker images to SHA256 digests in multiple Dockerfiles to enhance security.\n- **Copilot Documentation**: Restructured Copilot feature matrix to display features by IDE and version group, improving clarity and maintainability.\n- **Copilot Data**: Updated supported clients for GPT-5.2-Codex model to include VS, Eclipse, Xcode, and JetBrains. Restructured version data for Copilot features.\n- **Content Linter**: Fixed crash by ignoring unknown markdownlint rules in linter output.\n\n### Title\nEnhance Copilot docs, fix Docker security, and improve content linter"
+}
