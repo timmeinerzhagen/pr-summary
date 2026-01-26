@@ -1,0 +1,25 @@
+{
+  "number": 42568,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-26T15:49:15Z",
+  "url": "https://github.com/github/docs/pull/42568",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-26 16:10:29",
+  "details": [
+    "Updated CodeQL CLI command documentation with corrected links and added `--include` option to `database bundle`.",
+    "Clarified Code Scanning setup types: default setup explicitly uses CodeQL, advanced setup distinguishes between GitHub Actions and external CI systems.",
+    "Streamlined external CI integration docs by removing redundant details now covered in setup types.",
+    "Updated C# query table: reordered entries and improved a query title for clarity."
+  ],
+  "summary": "- Updated CodeQL CLI command documentation with corrected links and added `--include` option to `database bundle`.\n- Clarified Code Scanning setup types: default setup explicitly uses CodeQL, advanced setup distinguishes between GitHub Actions and external CI systems.\n- Streamlined external CI integration docs by removing redundant details now covered in setup types.\n- Updated C# query table: reordered entries and improved a query title for clarity.",
+  "generated_title": "Update CodeQL CLI docs and query tables, clarify Code Scanning setup",
+  "commits": [
+    "**4a3d0f9**: Update CodeQL CLI manual (#59204) (by docs-bot)",
+    "**2b83aa6**: Update CodeQL query tables (#59205) (by docs-bot)",
+    "**0be0c6d**: [EDI] Using code scanning with your existing CI system (#59307) (by Isaac Brown)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated CodeQL CLI command documentation with corrected links and added `--include` option to `database bundle`.\n- Clarified Code Scanning setup types: default setup explicitly uses CodeQL, advanced setup distinguishes between GitHub Actions and external CI systems.\n- Streamlined external CI integration docs by removing redundant details now covered in setup types.\n- Updated C# query table: reordered entries and improved a query title for clarity.\n\n### Title\nUpdate CodeQL CLI docs and query tables, clarify Code Scanning setup"
+}
