@@ -1,0 +1,26 @@
+{
+  "number": 42601,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-27T21:35:02Z",
+  "url": "https://github.com/github/docs/pull/42601",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-27 22:08:02",
+  "details": [],
+  "summary": "No summary available",
+  "generated_title": "Repo sync",
+  "commits": [
+    "**f802032**: Merge pull request #59361 from github/repo-sync (by docs-bot)",
+    "**15f46fa**: [EDI] Managing requests to bypass push protection (#59351) (by mc)",
+    "**d84243b**: [2026-01-27] Mission Control in the repo (#59207) (by Steve Ward)",
+    "**e5d9629**: Fix typo (by hubwriter)",
+    "**d371058**: Correct card metrics definition (#59345) (by Kerry Liu)",
+    "**7829a05**: Fix link checker: validate assets on disk, compact redirects, no alerts (#59358) (by Kevin Heis)",
+    "**9f22159**: Update favicon and touch icons for 2025 brand refresh (#59348) (by Kevin Heis)",
+    "**37e2c41**: Copilot CLI Week of Jan 21 Updates (#59295) (by Steve Ward)",
+    "**8271e18**: Updates auto model pool (#59346) (by Nhu Do)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": ""
+}
