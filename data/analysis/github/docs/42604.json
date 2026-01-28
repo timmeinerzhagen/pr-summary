@@ -1,0 +1,30 @@
+{
+  "number": 42604,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-28T00:49:56Z",
+  "url": "https://github.com/github/docs/pull/42604",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-28 02:47:33",
+  "details": [
+    "Updated Anthropic prompt caching URL in Copilot documentation",
+    "Upgraded npm dependencies:",
+    "`@elastic/elasticsearch` from 8.13.1 to 8.19.1",
+    "`next` from 16.0.10 to 16.1.5",
+    "`@actions/github` from 7.0.0 to 8.0.1",
+    "Updated transitive dependencies including:",
+    "`@octokit/core`",
+    "`@octokit/plugin-paginate-rest`",
+    "`@octokit/plugin-rest-endpoint-methods`",
+    "`undici`"
+  ],
+  "summary": "- Updated Anthropic prompt caching URL in Copilot documentation\n- Upgraded npm dependencies:\n- `@elastic/elasticsearch` from 8.13.1 to 8.19.1\n- `next` from 16.0.10 to 16.1.5\n- `@actions/github` from 7.0.0 to 8.0.1\n- Updated transitive dependencies including:\n- `@octokit/core`\n- `@octokit/plugin-paginate-rest`\n- `@octokit/plugin-rest-endpoint-methods`\n- `undici`",
+  "generated_title": "Update Anthropic docs link and upgrade npm dependencies",
+  "commits": [
+    "**2a71e29**: Merge pull request #59368 from github/repo-sync (by docs-bot)",
+    "**8092035**: Bump the npm_and_yarn group across 1 directory with 2 updates (#59367) (by dependabot[bot])"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "Based on the provided git diff, here's a concise summary:\n\n### Summary\n- Updated Anthropic prompt caching URL in Copilot documentation\n- Upgraded npm dependencies:\n  - `@elastic/elasticsearch` from 8.13.1 to 8.19.1\n  - `next` from 16.0.10 to 16.1.5\n  - `@actions/github` from 7.0.0 to 8.0.1\n- Updated transitive dependencies including:\n  - `@octokit/core`\n  - `@octokit/plugin-paginate-rest`\n  - `@octokit/plugin-rest-endpoint-methods`\n  - `undici`\n\n### Title\nUpdate Anthropic docs link and upgrade npm dependencies"
+}
