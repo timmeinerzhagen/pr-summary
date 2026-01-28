@@ -1,0 +1,32 @@
+{
+  "number": 42612,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-28T21:37:30Z",
+  "url": "https://github.com/github/docs/pull/42612",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-28 22:09:54",
+  "details": [
+    "Updated GitHub Actions: `actions/upload-artifact` to v6.0.0, `actions/download-artifact` to v7.0.0, `tj-actions/changed-files` to v47.0.1",
+    "Upgraded `hot-shots` dependency from 12.0.0 to 13.1.0",
+    "Added custom ESLint rule to enforce internal logger usage instead of `console`",
+    "Enhanced archived enterprise middleware: increased timeout to 3000ms and added response logging",
+    "Added `hasExtendedMetadata` field to Secret Scanning schema",
+    "Fixed header handling in search middleware to prevent \"headers already sent\" errors"
+  ],
+  "summary": "- Updated GitHub Actions: `actions/upload-artifact` to v6.0.0, `actions/download-artifact` to v7.0.0, `tj-actions/changed-files` to v47.0.1\n- Upgraded `hot-shots` dependency from 12.0.0 to 13.1.0\n- Added custom ESLint rule to enforce internal logger usage instead of `console`\n- Enhanced archived enterprise middleware: increased timeout to 3000ms and added response logging\n- Added `hasExtendedMetadata` field to Secret Scanning schema\n- Fixed header handling in search middleware to prevent \"headers already sent\" errors",
+  "generated_title": "Update dependencies, add logging ESLint rule, and improve middleware observability",
+  "commits": [
+    "**f215dc1**: Bump hot-shots from 12.0.0 to 13.1.0 (#59374) (by dependabot[bot])",
+    "**99a07d4**: Bump actions/upload-artifact from 4.6.2 to 6.0.0 (#59371) (by dependabot[bot])",
+    "**afd3ca0**: Bump tj-actions/changed-files from 45.0.2 to 47.0.1 (#59370) (by dependabot[bot])",
+    "**676fc70**: Bump actions/download-artifact from 4.2.1 to 7.0.0 (#59369) (by dependabot[bot])",
+    "**2849f8b**: [Sentry Auto-Fix] DOCS-2JX: Error: Request timed out after 1500ms (#59286) (by Evan Bonsignori)",
+    "**53fc17e**: [Sentry Auto-Fix] DOCS-G4: Error: Cannot set headers after they are sent to the client (#59285) (by Evan Bonsignori)",
+    "**7cc5a9e**: add custom eslint rule to enforce use of our logger (#59032) (by Evan Bonsignori)",
+    "**d087bfe**: Add hasExtendedMetadata as an optional field for Secret Scanning public-docs.yml (#58524) (by Aaron Waggener)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated GitHub Actions: `actions/upload-artifact` to v6.0.0, `actions/download-artifact` to v7.0.0, `tj-actions/changed-files` to v47.0.1\n- Upgraded `hot-shots` dependency from 12.0.0 to 13.1.0\n- Added custom ESLint rule to enforce internal logger usage instead of `console`\n- Enhanced archived enterprise middleware: increased timeout to 3000ms and added response logging\n- Added `hasExtendedMetadata` field to Secret Scanning schema\n- Fixed header handling in search middleware to prevent \"headers already sent\" errors\n\n### Title\nUpdate dependencies, add logging ESLint rule, and improve middleware observability"
+}
