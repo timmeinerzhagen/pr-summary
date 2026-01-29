@@ -1,0 +1,27 @@
+{
+  "number": 42632,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-29T21:37:17Z",
+  "url": "https://github.com/github/docs/pull/42632",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-29 22:08:56",
+  "details": [
+    "Added ARM64 runners for Linux/Windows and increased memory for existing runners.",
+    "Fixed external link checker: always upload artifacts, conditionally create issues, and corrected token reference.",
+    "Updated internal link checker to use correct token.",
+    "Removed Copilot Metrics API from unavailable features list.",
+    "Clarified team hierarchy rules: moving a team removes it from previous parent."
+  ],
+  "summary": "- Added ARM64 runners for Linux/Windows and increased memory for existing runners.\n- Fixed external link checker: always upload artifacts, conditionally create issues, and corrected token reference.\n- Updated internal link checker to use correct token.\n- Removed Copilot Metrics API from unavailable features list.\n- Clarified team hierarchy rules: moving a team removes it from previous parent.",
+  "generated_title": "Add ARM runners, fix link checker workflows, update docs",
+  "commits": [
+    "**1a4f0ec**: added arm runners to standard runner availability for private/interna… (#59394) (by cmuto09)",
+    "**9793a81**: Fix external link checker alert and wrong pat name (#59386) (by Kevin Heis)",
+    "**cca754a**: Removing copilot metrics api from the table of unavailable features (#59392) (by Kathleen)",
+    "**2c0f6a6**: Update team hierarchy rules in documentation (#59341) (by astropedrito)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added ARM64 runners for Linux/Windows and increased memory for existing runners.\n- Fixed external link checker: always upload artifacts, conditionally create issues, and corrected token reference.\n- Updated internal link checker to use correct token.\n- Removed Copilot Metrics API from unavailable features list.\n- Clarified team hierarchy rules: moving a team removes it from previous parent.\n\n### Title\nAdd ARM runners, fix link checker workflows, update docs"
+}
