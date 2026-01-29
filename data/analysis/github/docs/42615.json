@@ -1,0 +1,21 @@
+{
+  "number": 42615,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-29T04:08:27Z",
+  "url": "https://github.com/github/docs/pull/42615",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-29 04:36:00",
+  "details": [
+    "Fixed a missing comma in `about-github-cli.md` for grammatical correctness.",
+    "Removed duplicated phrase (\"allow you\") in `using-multiple-accounts.md`."
+  ],
+  "summary": "- Fixed a missing comma in `about-github-cli.md` for grammatical correctness.\n- Removed duplicated phrase (\"allow you\") in `using-multiple-accounts.md`.",
+  "generated_title": "Fix documentation typos in GitHub CLI guides",
+  "commits": [
+    "**5c0b49b**: Merge pull request #59396 from github/repo-sync (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Fixed a missing comma in `about-github-cli.md` for grammatical correctness.\n- Removed duplicated phrase (\"allow you\") in `using-multiple-accounts.md`.\n\n### Title  \nFix documentation typos in GitHub CLI guides"
+}
