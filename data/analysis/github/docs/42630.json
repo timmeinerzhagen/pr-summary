@@ -1,0 +1,23 @@
+{
+  "number": 42630,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-29T18:38:56Z",
+  "url": "https://github.com/github/docs/pull/42630",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-29 20:09:58",
+  "details": [
+    "Rewrote Copilot CLI ACP documentation: Removed detailed protocol explanations, simplified content to focus on starting the server and integration example. Added public preview note.",
+    "Removed plan availability note from GitHub Actions reusable file, eliminating restrictions for private repositories.",
+    "Updated package-lock.json with license metadata for eslint-plugin-custom-rules."
+  ],
+  "summary": "- Rewrote Copilot CLI ACP documentation: Removed detailed protocol explanations, simplified content to focus on starting the server and integration example. Added public preview note.\n- Removed plan availability note from GitHub Actions reusable file, eliminating restrictions for private repositories.\n- Updated package-lock.json with license metadata for eslint-plugin-custom-rules.",
+  "generated_title": "Simplify Copilot ACP docs and remove Actions plan restrictions",
+  "commits": [
+    "**5478cfd**: Remove plan availability note from allow-specific-actions-intro reusable (#59390) (by Copilot)",
+    "**2482284**: Rewrite copilot CLI ACP docs (#59400) (by William Martin)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Rewrote Copilot CLI ACP documentation: Removed detailed protocol explanations, simplified content to focus on starting the server and integration example. Added public preview note.\n- Removed plan availability note from GitHub Actions reusable file, eliminating restrictions for private repositories.\n- Updated package-lock.json with license metadata for eslint-plugin-custom-rules.\n\n### Title\nSimplify Copilot ACP docs and remove Actions plan restrictions"
+}
