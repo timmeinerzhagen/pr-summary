@@ -1,0 +1,26 @@
+{
+  "number": 42637,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-30T00:59:59Z",
+  "url": "https://github.com/github/docs/pull/42637",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-30 03:00:45",
+  "details": [
+    "Added shell script `_convert-svgs.sh` to generate social card PNGs from SVG templates using `rsvg-convert` and `zopflipng`",
+    "Created SVG templates (`_default.svg`, `_template.svg`) for social card generation",
+    "Generated 30+ product-specific social card PNGs (e.g., `account-and-profile.png`, `actions.png`)",
+    "Updated `find-orphaned-assets.ts` to include new social card PNGs in exceptions list",
+    "Expanded `DefaultLayout.tsx` to support social cards for additional product categories",
+    "Clarified Copilot agent only responds in open pull requests in troubleshooting docs"
+  ],
+  "summary": "- Added shell script `_convert-svgs.sh` to generate social card PNGs from SVG templates using `rsvg-convert` and `zopflipng`\n- Created SVG templates (`_default.svg`, `_template.svg`) for social card generation\n- Generated 30+ product-specific social card PNGs (e.g., `account-and-profile.png`, `actions.png`)\n- Updated `find-orphaned-assets.ts` to include new social card PNGs in exceptions list\n- Expanded `DefaultLayout.tsx` to support social cards for additional product categories\n- Clarified Copilot agent only responds in open pull requests in troubleshooting docs",
+  "generated_title": "Add social card generation script and product-specific images",
+  "commits": [
+    "**6c2f69a**: Merge pull request #59410 from github/repo-sync (by docs-bot)",
+    "**54eeb51**: Add social card PNGs for each product, SVG-based template and script to generate (#59404) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added shell script `_convert-svgs.sh` to generate social card PNGs from SVG templates using `rsvg-convert` and `zopflipng`\n- Created SVG templates (`_default.svg`, `_template.svg`) for social card generation\n- Generated 30+ product-specific social card PNGs (e.g., `account-and-profile.png`, `actions.png`)\n- Updated `find-orphaned-assets.ts` to include new social card PNGs in exceptions list\n- Expanded `DefaultLayout.tsx` to support social cards for additional product categories\n- Clarified Copilot agent only responds in open pull requests in troubleshooting docs\n\n### Title\nAdd social card generation script and product-specific images"
+}
