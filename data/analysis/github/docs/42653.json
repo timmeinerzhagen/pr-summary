@@ -1,0 +1,24 @@
+{
+  "number": 42653,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-30T18:38:35Z",
+  "url": "https://github.com/github/docs/pull/42653",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-30 20:09:56",
+  "details": [],
+  "summary": "No summary available",
+  "generated_title": "Repo sync",
+  "commits": [
+    "**d89bc6a**: [EDI] Dependabot on Actions content (#59271) (by Sam Browning)",
+    "**9227de7**: Fix Invalid YAML (#59420) (by Allan Guigou)",
+    "**f97f617**: Updating backup service docs to clarity it is available at no cost (#59415) (by Pallavi)",
+    "**7204116**: Clarify \"Out of sync due to insufficient licenses\" error and how group/team/org synchronization works in an EMU enterprise (#59389) (by Stacy Carter)",
+    "**63c3584**: Fix article count on landing pages to count recursively (#59423) (by Kevin Heis)",
+    "**bef8231**: Expanded required reviewers section in rulesets documentation (#59406) (by Daryl)",
+    "**40cc528**: Clarify MCP server configuration instructions (#59412) (by Belal Taher)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": ""
+}
