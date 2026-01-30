@@ -1,0 +1,23 @@
+{
+  "number": 42646,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-30T15:37:42Z",
+  "url": "https://github.com/github/docs/pull/42646",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-30 16:12:54",
+  "details": [
+    "Added new guide \"Migrating from LDAP to SAML with SCIM\" detailing migration steps, planning considerations, and user management differences.",
+    "Updated documentation indexes (`guides.md` and `index.md`) to include the new migration guide.",
+    "Added references to the migration guide in existing LDAP and authentication method documentation.",
+    "Included prerequisites, migration phases, and username normalization details in the new guide."
+  ],
+  "summary": "- Added new guide \"Migrating from LDAP to SAML with SCIM\" detailing migration steps, planning considerations, and user management differences.\n- Updated documentation indexes (`guides.md` and `index.md`) to include the new migration guide.\n- Added references to the migration guide in existing LDAP and authentication method documentation.\n- Included prerequisites, migration phases, and username normalization details in the new guide.",
+  "generated_title": "Add LDAP to SAML/SCIM Migration Guide",
+  "commits": [
+    "**5cedbf5**: GHES LDAP to SCIM Migration Guide (#58593) (by Taylor Reis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added new guide \"Migrating from LDAP to SAML with SCIM\" detailing migration steps, planning considerations, and user management differences.\n- Updated documentation indexes (`guides.md` and `index.md`) to include the new migration guide.\n- Added references to the migration guide in existing LDAP and authentication method documentation.\n- Included prerequisites, migration phases, and username normalization details in the new guide.\n\n### Title\nAdd LDAP to SAML/SCIM Migration Guide"
+}
