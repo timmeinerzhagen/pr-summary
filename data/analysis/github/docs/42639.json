@@ -1,0 +1,24 @@
+{
+  "number": 42639,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-01-30T09:39:11Z",
+  "url": "https://github.com/github/docs/pull/42639",
+  "repository": "github/docs",
+  "analysis_date": "2026-01-30 10:12:42",
+  "details": [
+    "Added new guide for configuring OIDC authentication with Octopus Deploy.",
+    "Removed `{% raw %}` tags from Azure, Google Cloud Platform, and JFrog OIDC documentation to fix YAML rendering.",
+    "Updated index file to include the Octopus Deploy guide."
+  ],
+  "summary": "- Added new guide for configuring OIDC authentication with Octopus Deploy.\n- Removed `{% raw %}` tags from Azure, Google Cloud Platform, and JFrog OIDC documentation to fix YAML rendering.\n- Updated index file to include the Octopus Deploy guide.",
+  "generated_title": "Add Octopus Deploy OIDC guide and fix raw tag rendering",
+  "commits": [
+    "**7c14d28**: Merge pull request #59414 from github/repo-sync (by docs-bot)",
+    "**d10604c**: Raw tag rendering fix (#59339) (by Ben Ahmady)",
+    "**1e23324**: Adds OIDC Octopus Deploy guide (#59340) (by Ben Ahmady)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added new guide for configuring OIDC authentication with Octopus Deploy.\n- Removed `{% raw %}` tags from Azure, Google Cloud Platform, and JFrog OIDC documentation to fix YAML rendering.\n- Updated index file to include the Octopus Deploy guide.\n\n### Title  \nAdd Octopus Deploy OIDC guide and fix raw tag rendering"
+}
