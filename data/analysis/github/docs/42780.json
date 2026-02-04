@@ -1,0 +1,19 @@
+{
+  "number": 42780,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-04T18:39:52Z",
+  "url": "https://github.com/github/docs/pull/42780",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-04 20:11:57",
+  "details": [],
+  "summary": "No summary available",
+  "generated_title": "Repo sync",
+  "commits": [
+    "**a182006**: [2026-02-04] Public Preview: 3p Coding Agents on GitHub (#58924) (by Steve Ward)",
+    "**9453553**: New tutorial: Embedding Copilot in your workflow (#59334) (by hubwriter)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": ""
+}
