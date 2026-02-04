@@ -1,0 +1,21 @@
+{
+  "number": 42689,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-02T09:41:02Z",
+  "url": "https://github.com/github/docs/pull/42689",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-04 14:31:02",
+  "details": [
+    "Improved formatting of existing note on squash merge metadata requirements by adding line breaks.",
+    "Added a new note explaining regex anchor usage (`\\n?$` instead of `$`) to handle trailing newlines consistently across Git workflows (CLI/web UI/API)."
+  ],
+  "summary": "- Improved formatting of existing note on squash merge metadata requirements by adding line breaks.\n- Added a new note explaining regex anchor usage (`\\n?$` instead of `$`) to handle trailing newlines consistently across Git workflows (CLI/web UI/API).",
+  "generated_title": "Enhance rulesets metadata notes with regex anchor guidance",
+  "commits": [
+    "**1eaf3b3**: Update rulesets-metadata-restrictions-notes.md (#59425) (by Patrick Knight)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Improved formatting of existing note on squash merge metadata requirements by adding line breaks.\n- Added a new note explaining regex anchor usage (`\\n?$` instead of `$`) to handle trailing newlines consistently across Git workflows (CLI/web UI/API).\n\n### Title\nEnhance rulesets metadata notes with regex anchor guidance"
+}

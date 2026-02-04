@@ -1,0 +1,19 @@
+{
+  "number": 42762,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-04T00:54:43Z",
+  "url": "https://github.com/github/docs/pull/42762",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-04 14:22:24",
+  "details": [],
+  "summary": "No summary available",
+  "generated_title": "Repo sync",
+  "commits": [
+    "**f30661c**: Builder readability with gemini, take 2 (#59453) (by Jenni C)",
+    "**c81a74b**: Fix documentation on restoration of release attachments (#59465) (by Indigo)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": ""
+}

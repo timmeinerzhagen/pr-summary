@@ -1,0 +1,18 @@
+{
+  "number": 42672,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-01T06:40:00Z",
+  "url": "https://github.com/github/docs/pull/42672",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-04 14:32:05",
+  "details": [],
+  "summary": "No summary available",
+  "generated_title": "Repo sync",
+  "commits": [
+    "**940c345**: Update audit log event data (#59422) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": ""
+}

@@ -1,0 +1,18 @@
+{
+  "number": 42734,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-03T09:39:36Z",
+  "url": "https://github.com/github/docs/pull/42734",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-04 14:27:05",
+  "details": [],
+  "summary": "No summary available",
+  "generated_title": "Repo sync",
+  "commits": [
+    "**1bfc481**: Mentions are not rewritten by GitHub Enterprise Importer (#59122) (by gohana)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": ""
+}

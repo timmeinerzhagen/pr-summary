@@ -1,0 +1,22 @@
+{
+  "number": 42748,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-03T15:40:57Z",
+  "url": "https://github.com/github/docs/pull/42748",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-04 14:25:00",
+  "details": [
+    "Replaced a TIP box with a structured \"Next steps\" section for clearer guidance.",
+    "Updated the internal link path to include `/tutorials/` for accuracy.",
+    "Maintained the same content intent but improved document flow."
+  ],
+  "summary": "- Replaced a TIP box with a structured \"Next steps\" section for clearer guidance.\n- Updated the internal link path to include `/tutorials/` for accuracy.\n- Maintained the same content intent but improved document flow.",
+  "generated_title": "Enhance documentation structure and fix link in Advanced Security tutorial",
+  "commits": [
+    "**8e93df4**: [EDI] Introduction to adopting GitHub Advanced Security at scale (#59417) (by mc)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Replaced a TIP box with a structured \"Next steps\" section for clearer guidance.\n- Updated the internal link path to include `/tutorials/` for accuracy.\n- Maintained the same content intent but improved document flow.\n\n### Title  \nEnhance documentation structure and fix link in Advanced Security tutorial"
+}
