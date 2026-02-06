@@ -1,0 +1,22 @@
+{
+  "number": 42798,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-06T04:10:23Z",
+  "url": "https://github.com/github/docs/pull/42798",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-06 04:37:49",
+  "details": [
+    "Added HockeyStack analytics cookie (`HockeyStack_Website_Tracking_Fingerprint`) to privacy policy documentation for tracking visits across GitHub Resource sites",
+    "Updated Copilot billing note to explicitly state that premium requests are blocked if no billing entity is selected when multiple licenses exist"
+  ],
+  "summary": "- Added HockeyStack analytics cookie (`HockeyStack_Website_Tracking_Fingerprint`) to privacy policy documentation for tracking visits across GitHub Resource sites\n- Updated Copilot billing note to explicitly state that premium requests are blocked if no billing entity is selected when multiple licenses exist",
+  "generated_title": "Add HockeyStack tracking cookie and clarify Copilot billing enforcement",
+  "commits": [
+    "**e89c89a**: Add HockeyStack cookie for analytics tracking (#59522) (by Dani Brooks)",
+    "**a725427**: Update note on premium request billing selection (#59536) (by fluffyf-x)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added HockeyStack analytics cookie (`HockeyStack_Website_Tracking_Fingerprint`) to privacy policy documentation for tracking visits across GitHub Resource sites\n- Updated Copilot billing note to explicitly state that premium requests are blocked if no billing entity is selected when multiple licenses exist\n\n### Title\nAdd HockeyStack tracking cookie and clarify Copilot billing enforcement"
+}
