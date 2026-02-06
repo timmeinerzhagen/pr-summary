@@ -1,0 +1,30 @@
+{
+  "number": 42811,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-06T18:39:20Z",
+  "url": "https://github.com/github/docs/pull/42811",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-06 20:11:03",
+  "details": [
+    "Added conceptual documentation for SARIF files and updated related guides",
+    "Enhanced SARIF upload documentation with details on multiple files and troubleshooting",
+    "Updated CodeQL pack creation and advanced setup guides",
+    "Improved global security settings documentation",
+    "Introduced reference for secret scanning pattern configuration",
+    "Added new API endpoints for retrieving versions and languages"
+  ],
+  "summary": "- Added conceptual documentation for SARIF files and updated related guides\n- Enhanced SARIF upload documentation with details on multiple files and troubleshooting\n- Updated CodeQL pack creation and advanced setup guides\n- Improved global security settings documentation\n- Introduced reference for secret scanning pattern configuration\n- Added new API endpoints for retrieving versions and languages",
+  "generated_title": "Enhance SARIF Support and Update CodeQL Documentation",
+  "commits": [
+    "**d4a72f9**: [EDI] Creating and working with CodeQL packs (#59444) (by Isaac Brown)",
+    "**df74bd2**: [EDI] Configuring advanced setup for code scanning with CodeQL at scale (#59533) (by Sam Browning)",
+    "**afb5b37**: Remove sentence from map topic page (#59544) (by Laura Coursen)",
+    "**4dd7be4**: [EDI] Configuring global security settings for your organization (#59362) (by John Clement)",
+    "**f66bda2**: [EDI] Conceptual article on SARIF files (#59456) (by Isaac Brown)",
+    "**545c69c**: 🚀✨ Add /api/pagelist/versions and /api/pagelist/languages endpoints 🎉📋 (#59521) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "Based on the git diff output and commit messages, here's a concise summary:\n\n### Summary\n- Added conceptual documentation for SARIF files and updated related guides\n- Enhanced SARIF upload documentation with details on multiple files and troubleshooting\n- Updated CodeQL pack creation and advanced setup guides\n- Improved global security settings documentation\n- Introduced reference for secret scanning pattern configuration\n- Added new API endpoints for retrieving versions and languages\n\n### Title\nEnhance SARIF Support and Update CodeQL Documentation"
+}
