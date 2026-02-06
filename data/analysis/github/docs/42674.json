@@ -1,0 +1,22 @@
+{
+  "number": 42674,
+  "title": "Fix grammar error in Actions support documentation",
+  "author": "Nsanjayboruds",
+  "state": "closed",
+  "created": "2026-02-01T10:39:19Z",
+  "url": "https://github.com/github/docs/pull/42674",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-06 18:20:05",
+  "details": [
+    "Fixed a grammatical error in GitHub Actions support documentation by removing an extraneous \"be\" from a sentence describing log file naming conventions.",
+    "Updated the line: `Self-hosted runner log file names are be formatted...` → `Self-hosted runner log file names are formatted...`"
+  ],
+  "summary": "- Fixed a grammatical error in GitHub Actions support documentation by removing an extraneous \"be\" from a sentence describing log file naming conventions.\n- Updated the line:\n`Self-hosted runner log file names are be formatted...` →\n`Self-hosted runner log file names are formatted...`",
+  "generated_title": "Fix grammar in Actions support documentation",
+  "commits": [
+    "**91ed10e**: Fix grammar error in Actions support documentation (by Nsanjayboruds)",
+    "**994a81c**: Trigger CI re-run (by Nsanjayboruds)"
+  ],
+  "original_description": "## Fix grammar error in Actions support documentation\r\n\r\n### Description\r\nThis pull request fixes a grammatical error in the GitHub Actions support documentation. The sentence contained a duplicate verb that has been corrected for clarity and professionalism.\r\n\r\n### Changes Made\r\nFixed a double verb error in the self-hosted runner log file names documentation:\r\n- **Changed from:** \"are be formatted\"\r\n- **Changed to:** \"are formatted\"\r\n\r\n### Files Modified\r\n- `content/actions/how-tos/get-support.md`\r\n\r\n### Specific Change\r\n**Location:** Line 40\r\n\r\n**Before:**\r\nSelf-hosted runner log file names are be formatted: Runner_YYYY####-xxxxxx-utc.log and Worker_YYYY####-xxxxxx-utc.log.\r\n\r\n**After:**\r\nSelf-hosted runner log file names are formatted: Runner_YYYY####-xxxxxx-utc.log and Worker_YYYY####-xxxxxx-utc.log.\r\n\r\n\r\n### Why This Change Is Important\r\n- ✅ Improves documentation clarity and readability\r\n- ✅ Enhances professionalism of the GitHub Docs\r\n- ✅ Prevents confusion, especially for non-native English speakers\r\n- ✅ Maintains consistent grammar throughout the documentation\r\n\r\n### Type of Change\r\n- [ ] Bug fix (non-breaking change which fixes an issue)\r\n- [x] Documentation update\r\n- [ ] New feature\r\n- [ ] Breaking change\r\n\r\n### Testing\r\nThis is a documentation-only change with no code impact. The fix has been verified to be accurate and grammatically correct.\r\n\r\n### Checklist\r\n- [x] My changes follow the style guidelines of this project\r\n- [x] I have performed a self-review of my own changes\r\n- [x] I have corrected any grammar/spelling errors\r\n- [x] My changes improve the documentation quality",
+  "raw_analysis": "### Summary\n- Fixed a grammatical error in GitHub Actions support documentation by removing an extraneous \"be\" from a sentence describing log file naming conventions.\n- Updated the line:  \n  `Self-hosted runner log file names are be formatted...` →  \n  `Self-hosted runner log file names are formatted...`\n\n### Title  \nFix grammar in Actions support documentation"
+}
