@@ -1,0 +1,22 @@
+{
+  "number": 42796,
+  "title": "Blur out example username belonging to a real user",
+  "author": "CourteousCoder",
+  "state": "closed",
+  "created": "2026-02-06T02:07:23Z",
+  "url": "https://github.com/github/docs/pull/42796",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-06 22:08:40",
+  "details": [
+    "Updated a PNG image (`list-of-members-selected-bulk.png`) to blur a real user's username",
+    "No code changes; only visual content modification for privacy"
+  ],
+  "summary": "- Updated a PNG image (`list-of-members-selected-bulk.png`) to blur a real user's username\n- No code changes; only visual content modification for privacy",
+  "generated_title": "Blur real username in team member selection example image",
+  "commits": [
+    "**b9cc0d5**: Blur out example username belonging to a real user (by Chloe Shetreet)",
+    "**eca698c**: Merge branch 'main' into enhancement/blur-example-username-that-belongs-to-real-user (by Sharra-writes)"
+  ],
+  "original_description": "In `list-of-members-selected-bulk.png`, blur out the username `jsmith` of example member \"John Smith\".\r\n\r\n<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\n- That username belongs to [a real GitHub user](https://github.com/jsmith) who, as of this writing, appears to be an active user.\r\n- Obscuring the username does not detract from the helpfulness of the screenshot in its context. In each of its uses, the purpose of the screenshot is to demonstrate how to perform bulk actions on members of a GitHub Organization.\r\n\r\n\r\n<!-- Paste the issue link or number here -->\r\nCloses:  #42795\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\nJust the one image. I downloaded the PNG currently being used, opened it up in [GIMP](https://www.gimp.org/downloads),  and just added a blurring slight mosaic effect over the text to obscure the username. Then I replaced the old image. You can see the before- and after-images in the diff of this PR.\r\n\r\n<!-- Let us know what you are changing. Share anything that could provide the most context.\r\nIf you made changes to the `content` directory, a table will populate in a comment below with links to the review and current production articles. -->\r\n\r\n### Check off the following:\r\n\r\n- [x] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [x] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Updated a PNG image (`list-of-members-selected-bulk.png`) to blur a real user's username  \n- No code changes; only visual content modification for privacy  \n\n### Title  \nBlur real username in team member selection example image"
+}

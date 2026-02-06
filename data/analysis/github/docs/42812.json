@@ -1,0 +1,26 @@
+{
+  "number": 42812,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-06T21:38:00Z",
+  "url": "https://github.com/github/docs/pull/42812",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-06 22:08:19",
+  "details": [
+    "Updated Copilot terminology: Replaced \"Copilot Chat\" with \"GitHub Copilot\" and \"LLM\" with \"GitHub Copilot\" across documentation.",
+    "Clarified CLI instructions: Emphasized escaping backticks in `gh` CLI usage and added MCP as an alternative tool.",
+    "Fixed content typos: Corrected \"are be formatted\" to \"are formatted\" in support docs.",
+    "Improved type safety: Replaced explicit `any` types with proper TypeScript interfaces (e.g., `unknown`, specific error shapes) in multiple files.",
+    "Updated LICENSE copyright year from 2025 to 2026."
+  ],
+  "summary": "- Updated Copilot terminology: Replaced \"Copilot Chat\" with \"GitHub Copilot\" and \"LLM\" with \"GitHub Copilot\" across documentation.\n- Clarified CLI instructions: Emphasized escaping backticks in `gh` CLI usage and added MCP as an alternative tool.\n- Fixed content typos: Corrected \"are be formatted\" to \"are formatted\" in support docs.\n- Improved type safety: Replaced explicit `any` types with proper TypeScript interfaces (e.g., `unknown`, specific error shapes) in multiple files.\n- Updated LICENSE copyright year from 2025 to 2026.",
+  "generated_title": "Update Copilot docs and replace `any` with strict TypeScript types",
+  "commits": [
+    "**e8caac8**: Merge pull request #59553 from github/repo-sync (by docs-bot)",
+    "**5de57dd**: Update copilot instructions (#59550) (by Kevin Heis)",
+    "**290d60c**: Replace explicit `any` types with proper TypeScript types (#59127) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated Copilot terminology: Replaced \"Copilot Chat\" with \"GitHub Copilot\" and \"LLM\" with \"GitHub Copilot\" across documentation.\n- Clarified CLI instructions: Emphasized escaping backticks in `gh` CLI usage and added MCP as an alternative tool.\n- Fixed content typos: Corrected \"are be formatted\" to \"are formatted\" in support docs.\n- Improved type safety: Replaced explicit `any` types with proper TypeScript interfaces (e.g., `unknown`, specific error shapes) in multiple files.\n- Updated LICENSE copyright year from 2025 to 2026.\n\n### Title\nUpdate Copilot docs and replace `any` with strict TypeScript types"
+}
