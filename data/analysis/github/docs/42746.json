@@ -1,0 +1,23 @@
+{
+  "number": 42746,
+  "title": "Fix grammar: pluralize user accounts",
+  "author": "ritik35k",
+  "state": "closed",
+  "created": "2026-02-03T14:08:11Z",
+  "url": "https://github.com/github/docs/pull/42746",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-07 00:31:34",
+  "details": [
+    "Fixed grammatical error by pluralizing \"user account\" to \"user accounts\" in documentation.",
+    "Updated line in `types-of-github-accounts.md` to correctly reflect multiple account types.",
+    "No functional changes; purely a language correction."
+  ],
+  "summary": "- Fixed grammatical error by pluralizing \"user account\" to \"user accounts\" in documentation.\n- Updated line in `types-of-github-accounts.md` to correctly reflect multiple account types.\n- No functional changes; purely a language correction.",
+  "generated_title": "Fix grammar: Pluralize \"user accounts\" in documentation",
+  "commits": [
+    "**b315eed**: Fix grammar: pluralize user accounts (by Ritik Kumar)",
+    "**2c2e174**: Merge branch 'main' into main (by Sharra-writes)"
+  ],
+  "original_description": "<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\n<!-- Paste the issue link or number here -->\r\nCloses: \r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\n<!-- Let us know what you are changing. Share anything that could provide the most context.\r\nIf you made changes to the `content` directory, a table will populate in a comment below with links to the review and current production articles. -->\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [ ] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Fixed grammatical error by pluralizing \"user account\" to \"user accounts\" in documentation.\n- Updated line in `types-of-github-accounts.md` to correctly reflect multiple account types.\n- No functional changes; purely a language correction.\n\n### Title  \nFix grammar: Pluralize \"user accounts\" in documentation"
+}
