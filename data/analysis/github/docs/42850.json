@@ -1,0 +1,23 @@
+{
+  "number": 42850,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-08T21:38:25Z",
+  "url": "https://github.com/github/docs/pull/42850",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-08 22:08:07",
+  "details": [
+    "Added endpoints for pinning and unpinning issue comments across multiple GitHub Apps and REST API configuration files.",
+    "Introduced `has_pull_requests` field in repository schemas to indicate PR enablement status.",
+    "Defined `Pinned Issue Comment` schema with `pinned_at` and `pinned_by` fields.",
+    "Updated SHA references in configuration files."
+  ],
+  "summary": "- Added endpoints for pinning and unpinning issue comments across multiple GitHub Apps and REST API configuration files.\n- Introduced `has_pull_requests` field in repository schemas to indicate PR enablement status.\n- Defined `Pinned Issue Comment` schema with `pinned_at` and `pinned_by` fields.\n- Updated SHA references in configuration files.",
+  "generated_title": "Add pin/unpin issue comment endpoints and repository schema updates",
+  "commits": [
+    "**d1eecfc**: Update OpenAPI Description (#59562) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added endpoints for pinning and unpinning issue comments across multiple GitHub Apps and REST API configuration files.\n- Introduced `has_pull_requests` field in repository schemas to indicate PR enablement status.\n- Defined `Pinned Issue Comment` schema with `pinned_at` and `pinned_by` fields.\n- Updated SHA references in configuration files.\n\n### Title  \nAdd pin/unpin issue comment endpoints and repository schema updates"
+}
