@@ -1,0 +1,24 @@
+{
+  "number": 42859,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-09T12:41:52Z",
+  "url": "https://github.com/github/docs/pull/42859",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-09 14:27:07",
+  "details": [
+    "Added changelog entry for new GitHub Copilot tutorial.",
+    "Introduced new documentation on premium request management methods (organization-based vs user-based) for enterprises.",
+    "Updated policy and budget constraint explanations for premium request allowances.",
+    "Detailed setup steps for cost centers in both management approaches."
+  ],
+  "summary": "- Added changelog entry for new GitHub Copilot tutorial.\n- Introduced new documentation on premium request management methods (organization-based vs user-based) for enterprises.\n- Updated policy and budget constraint explanations for premium request allowances.\n- Detailed setup steps for cost centers in both management approaches.",
+  "generated_title": "Add Copilot premium request management docs and update changelog",
+  "commits": [
+    "**a007303**: Update docs changelog (for PR #59334) (#59487) (by docs-bot)",
+    "**daca4b1**: Clarify premium request management policies and budget constraints (#58452) (by ElizabethBarrord)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added changelog entry for new GitHub Copilot tutorial.\n- Introduced new documentation on premium request management methods (organization-based vs user-based) for enterprises.\n- Updated policy and budget constraint explanations for premium request allowances.\n- Detailed setup steps for cost centers in both management approaches.\n\n### Title\nAdd Copilot premium request management docs and update changelog"
+}
