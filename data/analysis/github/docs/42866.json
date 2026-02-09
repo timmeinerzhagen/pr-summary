@@ -1,0 +1,28 @@
+{
+  "number": 42866,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-09T21:40:23Z",
+  "url": "https://github.com/github/docs/pull/42866",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-09 22:14:55",
+  "details": [
+    "Added support for the `uv` package manager in Dependabot, including conditional documentation and configuration updates.",
+    "Enhanced Dependabot guidance by updating links and adding `uv`-specific registry configuration details.",
+    "Updated Copilot documentation to include the new `GPT-5.3-Codex` model across various tables and references.",
+    "Enabled `@typescript-eslint/no-explicit-any` ESLint rule with exceptions for legacy files.",
+    "Merged global fields from `fields.json` into audit log events for consistency."
+  ],
+  "summary": "- Added support for the `uv` package manager in Dependabot, including conditional documentation and configuration updates.\n- Enhanced Dependabot guidance by updating links and adding `uv`-specific registry configuration details.\n- Updated Copilot documentation to include the new `GPT-5.3-Codex` model across various tables and references.\n- Enabled `@typescript-eslint/no-explicit-any` ESLint rule with exceptions for legacy files.\n- Merged global fields from `fields.json` into audit log events for consistency.",
+  "generated_title": "Add UV support and enhance Dependabot guidance, update Copilot models, and refine linting rules",
+  "commits": [
+    "**7cd47fc**: Enable `no-explicit-any` eslint rule with legacy file exceptions (#59554) (by Kevin Heis)",
+    "**0018750**: Merge global fields from fields.json into audit log events (#59466) (by Kevin Heis)",
+    "**5433f3d**: Tented model release 0021 (#59565) (by Claire W)",
+    "**7569c2f**: Merge pull request #59574 from github/repo-sync (by docs-bot)",
+    "**a6472f7**: Add UV support and enhance Dependabot guidance (#59555) (by Rob Aiken)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added support for the `uv` package manager in Dependabot, including conditional documentation and configuration updates.\n- Enhanced Dependabot guidance by updating links and adding `uv`-specific registry configuration details.\n- Updated Copilot documentation to include the new `GPT-5.3-Codex` model across various tables and references.\n- Enabled `@typescript-eslint/no-explicit-any` ESLint rule with exceptions for legacy files.\n- Merged global fields from `fields.json` into audit log events for consistency.\n\n### Title\nAdd UV support and enhance Dependabot guidance, update Copilot models, and refine linting rules"
+}
