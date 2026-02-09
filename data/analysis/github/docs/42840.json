@@ -1,0 +1,23 @@
+{
+  "number": 42840,
+  "title": "Revise intro to clarify it only applies to organization members",
+  "author": "jsoref",
+  "state": "closed",
+  "created": "2026-02-08T01:29:23Z",
+  "url": "https://github.com/github/docs/pull/42840",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-09 18:22:57",
+  "details": [
+    "Updated the introductory text to clarify that organization avatar display applies specifically to organization members",
+    "Simplified language for conciseness (\"Show avatars for organizations where you’re an organization member\" replaces longer explanation)",
+    "Maintained existing redirects and document title"
+  ],
+  "summary": "- Updated the introductory text to clarify that organization avatar display applies specifically to organization members\n- Simplified language for conciseness (\"Show avatars for organizations where you’re an organization member\" replaces longer explanation)\n- Maintained existing redirects and document title",
+  "generated_title": "Clarify organization membership publicization applies to members",
+  "commits": [
+    "**fefbcc9**: Revise intro to clarify it only applies to organization members (by Josh Soref)",
+    "**7808fa1**: Merge branch 'main' into issue-42696 (by Sharra-writes)"
+  ],
+  "original_description": "<!--\r\nThank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to an issue) and what changes you've made, we can triage your pull request to the best possible team for review.\r\n-->\r\n\r\n### Why:\r\n\r\n<!-- Paste the issue link or number here -->\r\n- Closes: #42696\r\n\r\n<!-- If there's an existing issue for your change, please link to it above.\r\nIf there's _not_ an existing issue, please open one first to make it more likely that this update will be accepted: https://github.com/github/docs/issues/new/choose. -->\r\n\r\n### What's being changed (if available, include any code snippets, screenshots, or gifs):\r\n\r\n<!-- Let us know what you are changing. Share anything that could provide the most context.\r\nIf you made changes to the `content` directory, a table will populate in a comment below with links to the review and current production articles. -->\r\n\r\n### Check off the following:\r\n\r\n- [ ] A subject matter expert (SME) has reviewed the technical accuracy of the content in this PR. In most cases, the author can be the SME. Open source contributions may require an SME review from GitHub staff.\r\n- [ ] The changes in this PR meet [the docs fundamentals that are required for all content](http://docs.github.com/en/contributing/writing-for-github-docs/about-githubs-documentation-fundamentals).\r\n- [ ] All CI checks are passing and the changes look good in the review environment.\r\n",
+  "raw_analysis": "### Summary\n- Updated the introductory text to clarify that organization avatar display applies specifically to organization members\n- Simplified language for conciseness (\"Show avatars for organizations where you’re an organization member\" replaces longer explanation)\n- Maintained existing redirects and document title\n\n### Title  \nClarify organization membership publicization applies to members"
+}
