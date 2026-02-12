@@ -1,0 +1,26 @@
+{
+  "number": 42923,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-12T17:47:20Z",
+  "url": "https://github.com/github/docs/pull/42923",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-12 18:25:50",
+  "details": [
+    "Added `mdast-util-gfm` and `micromark-extension-gfm` for GitHub Flavored Markdown support.",
+    "Replaced HTML scraping with Article API-based search indexing using markdown AST parsing.",
+    "Moved `typescript` from devDependencies to dependencies for runtime use.",
+    "Updated `package-lock.json` with peer flags and dependency adjustments.",
+    "Added tests for new API-based indexing; removed old scraping modules."
+  ],
+  "summary": "- Added `mdast-util-gfm` and `micromark-extension-gfm` for GitHub Flavored Markdown support.\n- Replaced HTML scraping with Article API-based search indexing using markdown AST parsing.\n- Moved `typescript` from devDependencies to dependencies for runtime use.\n- Updated `package-lock.json` with peer flags and dependency adjustments.\n- Added tests for new API-based indexing; removed old scraping modules.",
+  "generated_title": "Add Article API-based search indexing with GFM support",
+  "commits": [
+    "**325ea86**: Merge pull request #59607 from github/repo-sync (by docs-bot)",
+    "**fa748a6**: patch to fix failing production builds (#59623) (by Joshua Moody)",
+    "**95c4cf2**: Add Article API-based search indexing module (#59497) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added `mdast-util-gfm` and `micromark-extension-gfm` for GitHub Flavored Markdown support.\n- Replaced HTML scraping with Article API-based search indexing using markdown AST parsing.\n- Moved `typescript` from devDependencies to dependencies for runtime use.\n- Updated `package-lock.json` with peer flags and dependency adjustments.\n- Added tests for new API-based indexing; removed old scraping modules.\n\n### Title\nAdd Article API-based search indexing with GFM support"
+}
