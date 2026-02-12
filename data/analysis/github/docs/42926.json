@@ -1,0 +1,41 @@
+{
+  "number": 42926,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-12T20:37:21Z",
+  "url": "https://github.com/github/docs/pull/42926",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-12 22:12:07",
+  "details": [
+    "Updated readability editor agent guidelines to replace \"You can\" with active verbs in instructions.",
+    "Upgraded GitHub Actions (`upload-artifact`, `download-artifact`) and npm dependencies (`axios`, `glob`).",
+    "Replaced deprecated macOS-13/Ubuntu-20.04 runners with Ubuntu-24.04/macOS-26; noted `ubuntu-slim` unprivileged mode.",
+    "Added EMU organization removal restriction and preserved security defaults for new repos.",
+    "Updated Copilot models list and Visual Studio support in MCP Registry.",
+    "Configured private vulnerability reporting and edited security advisories.",
+    "Addressed Copilot survey feedback and deleted orphaned files."
+  ],
+  "summary": "- Updated readability editor agent guidelines to replace \"You can\" with active verbs in instructions.\n- Upgraded GitHub Actions (`upload-artifact`, `download-artifact`) and npm dependencies (`axios`, `glob`).\n- Replaced deprecated macOS-13/Ubuntu-20.04 runners with Ubuntu-24.04/macOS-26; noted `ubuntu-slim` unprivileged mode.\n- Added EMU organization removal restriction and preserved security defaults for new repos.\n- Updated Copilot models list and Visual Studio support in MCP Registry.\n- Configured private vulnerability reporting and edited security advisories.\n- Addressed Copilot survey feedback and deleted orphaned files.",
+  "generated_title": "Update agent guidelines, dependencies, runners, and docs",
+  "commits": [
+    "**90ffd24**: feat: A/B test framework for content readability experiment (#59592) (by Kevin Heis)",
+    "**cb779ca**: Bump actions/download-artifact from 4.3.0 to 7.0.0 (#59597) (by dependabot[bot])",
+    "**9b7358b**: Bump actions/upload-artifact from 4.6.2 to 6.0.0 (#59596) (by dependabot[bot])",
+    "**b5ca26d**: Delete orphaned files (2026-02-11-16-43) (#59603) (by docs-bot)",
+    "**40c32fc**: Re-add info on preserving default repo settings for security configs (#59604) (by Sam Browning)",
+    "**d3b0bea**: Correct Auto models list for Copilot coding agent (#59514) (by Tim Rogers)",
+    "**74f661b**: Bump axios from 1.12.1 to 1.13.5 in the npm_and_yarn group across 1 directory (#59605) (by dependabot[bot])",
+    "**343af81**: Bump glob from 11.1.0 to 13.0.2 (#59598) (by dependabot[bot])",
+    "**28ce104**: Update audit log event data (#59602) (by docs-bot)",
+    "**3b6fd2f**: [EDI] Configuring private vulnerability reporting for a repository (#59584) (by mc)",
+    "**f1d891c**: macOS-13, Ubuntu-20.04 were deprecated; Ubuntu-slim runs in unprivileged mode (#59590) (by Erik Bershel)",
+    "**eac7bec**: Address survey comment on \"Data available in Copilot usage metrics\" (#59580) (by Sophie)",
+    "**79f9bf1**: Add that removing organizations is not possible with EMU (#59579) (by Brendan Scott-Smith)",
+    "**5c9cdff**: Update support status for Visual Studio in documentation for MCP Registry (#59583) (by Jonathan Celestin)",
+    "**f1ec15a**: Update readability agent file - add line on active verbs (#59578) (by John Clement)",
+    "**3b1bff9**: [EDI] Editing security advisories in the GitHub Advisory Database (#59577) (by Sam Browning)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated readability editor agent guidelines to replace \"You can\" with active verbs in instructions.\n- Upgraded GitHub Actions (`upload-artifact`, `download-artifact`) and npm dependencies (`axios`, `glob`).\n- Replaced deprecated macOS-13/Ubuntu-20.04 runners with Ubuntu-24.04/macOS-26; noted `ubuntu-slim` unprivileged mode.\n- Added EMU organization removal restriction and preserved security defaults for new repos.\n- Updated Copilot models list and Visual Studio support in MCP Registry.\n- Configured private vulnerability reporting and edited security advisories.\n- Addressed Copilot survey feedback and deleted orphaned files.\n\n### Title\nUpdate agent guidelines, dependencies, runners, and docs"
+}
