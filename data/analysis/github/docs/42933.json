@@ -1,0 +1,32 @@
+{
+  "number": 42933,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-13T14:38:32Z",
+  "url": "https://github.com/github/docs/pull/42933",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-13 22:15:03",
+  "details": [
+    "Copilot agent: Clarified context access limitations and task repository scope.",
+    "Added Raycast (Windows/macOS) support for assigning issues to Copilot.",
+    "Fixed broken links: Added redirect for code security tutorial, corrected Windows runner image path capitalization.",
+    "Updated secret risk assessment CTA links to new paths.",
+    "Bumped `qs` dependency to 6.14.2.",
+    "Added secondary rate limits for OAuth token requests (2,000/hour)."
+  ],
+  "summary": "- Copilot agent: Clarified context access limitations and task repository scope.\n- Added Raycast (Windows/macOS) support for assigning issues to Copilot.\n- Fixed broken links: Added redirect for code security tutorial, corrected Windows runner image path capitalization.\n- Updated secret risk assessment CTA links to new paths.\n- Bumped `qs` dependency to 6.14.2.\n- Added secondary rate limits for OAuth token requests (2,000/hour).",
+  "generated_title": "Update Copilot agent docs, fix links, and bump qs dependency",
+  "commits": [
+    "**e49830f**: Bump qs from 6.14.1 to 6.14.2 in the npm_and_yarn group across 1 directory (#59631) (by dependabot[bot])",
+    "**57d2358**: Add secondary rate limits for OAuth token requests (#59566) (by MikaelaMcGrath)",
+    "**f79e0a8**: [EDI] Testing custom queries (#59571) (by mc)",
+    "**4f39eb0**: Revert \"[EDI] Testing custom queries\" (#59640) (by mc)",
+    "**458eecc**: fix typo in link that was leading to a 404 (#59633) (by Peter Shepherd)",
+    "**73ac86c**: [2026-02-10] Assign issues to Copilot coding agent from Raycast (#59572) (by Tim Rogers)",
+    "**4c79668**: Clarify what context Copilot coding agent can access (#59511) (by Tim Rogers)",
+    "**d46abec**: Update the CTA link for generating an initial SRA (#59634) (by Sam Browning)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Copilot agent: Clarified context access limitations and task repository scope.\n- Added Raycast (Windows/macOS) support for assigning issues to Copilot.\n- Fixed broken links: Added redirect for code security tutorial, corrected Windows runner image path capitalization.\n- Updated secret risk assessment CTA links to new paths.\n- Bumped `qs` dependency to 6.14.2.\n- Added secondary rate limits for OAuth token requests (2,000/hour).\n\n### Title\nUpdate Copilot agent docs, fix links, and bump qs dependency"
+}
