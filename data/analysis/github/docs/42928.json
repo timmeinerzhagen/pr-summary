@@ -1,0 +1,34 @@
+{
+  "number": 42928,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-12T23:36:19Z",
+  "url": "https://github.com/github/docs/pull/42928",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-13 00:37:23",
+  "details": [
+    "Added documentation for code scanning merge protection and Dependabot job logs.",
+    "Enhanced delegated bypass configuration with enterprise support and reusable snippets.",
+    "Provided OIDC authentication examples for AWS/Azure/JFrog in Dependabot.",
+    "Simplified path queries documentation and Copilot Azure Boards integration.",
+    "Added ARM64 runner pricing and updated Grok promo end date.",
+    "Fixed duplicate search indexes by excluding cross-product children."
+  ],
+  "summary": "- Added documentation for code scanning merge protection and Dependabot job logs.\n- Enhanced delegated bypass configuration with enterprise support and reusable snippets.\n- Provided OIDC authentication examples for AWS/Azure/JFrog in Dependabot.\n- Simplified path queries documentation and Copilot Azure Boards integration.\n- Added ARM64 runner pricing and updated Grok promo end date.\n- Fixed duplicate search indexes by excluding cross-product children.",
+  "generated_title": "Expand security features, Copilot integrations, and fix search indexing",
+  "commits": [
+    "**473aa11**: [EDI] Set code scanning merge protection (#59575) (by Sam Browning)",
+    "**90120e7**: provide examples for all OIDC providers (#59570) (by Brett V. Forsgren)",
+    "**703239d**: [EDI] Exploring data flow with path queries (#59585) (by Sam Browning)",
+    "**9eeb81e**: [EDI] Viewing Dependabot job logs (#59581) (by mc)",
+    "**e0249f8**: Push protection delegated bypass support at the enterprise level [GA] (#59509) (by John Clement)",
+    "**6d1eb11**: Add arm64 standard runners pricing (#59542) (by Kensuke Nagae)",
+    "**af2aeba**: [2026-02-10] Copilot coding agent support in Visual Studio (#59512) (by Tim Rogers)",
+    "**85f4aec**: Integrating CCA with Azure Boards (#59245) (by Steve Ward)",
+    "**8c71b29**: Update grok promo period (#59635) (by Sunbrye Ly)",
+    "**fad61e5**: fix: exclude cross-product children from flat page list to prevent duplicate search objectIDs (#59587) (by Kevin Heis)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "Based on the git diff output and commit messages, here's a concise summary:\n\n### Summary\n- Added documentation for code scanning merge protection and Dependabot job logs.\n- Enhanced delegated bypass configuration with enterprise support and reusable snippets.\n- Provided OIDC authentication examples for AWS/Azure/JFrog in Dependabot.\n- Simplified path queries documentation and Copilot Azure Boards integration.\n- Added ARM64 runner pricing and updated Grok promo end date.\n- Fixed duplicate search indexes by excluding cross-product children.\n\n### Title\nExpand security features, Copilot integrations, and fix search indexing"
+}
