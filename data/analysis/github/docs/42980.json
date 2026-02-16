@@ -1,0 +1,31 @@
+{
+  "number": 42980,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-16T14:39:47Z",
+  "url": "https://github.com/github/docs/pull/42980",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-16 16:20:06",
+  "details": [
+    "Added documentation for testing custom CodeQL queries, including a new page and sidebar updates.",
+    "Updated Copilot CLI documentation: restructured content, added feature comparison, and customization guides.",
+    "Simplified Copilot agent skills content, removed detailed creation steps, and added CLI/VS Code support notes.",
+    "Extended Copilot hooks with two new types (`agentStop`, `subagentStop`).",
+    "Updated custom agent documentation and tutorials with new terminology and variables.",
+    "Removed Grok model promotional period note from AI model references.",
+    "Added new audit log events for custom image management in GitHub Actions."
+  ],
+  "summary": "- Added documentation for testing custom CodeQL queries, including a new page and sidebar updates.\n- Updated Copilot CLI documentation: restructured content, added feature comparison, and customization guides.\n- Simplified Copilot agent skills content, removed detailed creation steps, and added CLI/VS Code support notes.\n- Extended Copilot hooks with two new types (`agentStop`, `subagentStop`).\n- Updated custom agent documentation and tutorials with new terminology and variables.\n- Removed Grok model promotional period note from AI model references.\n- Added new audit log events for custom image management in GitHub Actions.",
+  "generated_title": "Enhance CodeQL testing docs and restructure Copilot CLI customization",
+  "commits": [
+    "**a880483**: [EDI] Testing custom queries (take 2) (#59644) (by mc)",
+    "**9e75c55**: [Copilot] Remove note about Grok model promo period (#59658) (by Claire W)",
+    "**d6cb36c**: Update audit log event data (#59648) (by docs-bot)",
+    "**099ca12**: Copilot CLI: Add new CLI article comparing features (#59558) (by hubwriter)",
+    "**76bb4d0**: Copilot CLI: add Customization map topic and articles (#59601) (by hubwriter)",
+    "**6a7766b**: Update title for customizing Copilot CLI overview (by hubwriter)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added documentation for testing custom CodeQL queries, including a new page and sidebar updates.\n- Updated Copilot CLI documentation: restructured content, added feature comparison, and customization guides.\n- Simplified Copilot agent skills content, removed detailed creation steps, and added CLI/VS Code support notes.\n- Extended Copilot hooks with two new types (`agentStop`, `subagentStop`).\n- Updated custom agent documentation and tutorials with new terminology and variables.\n- Removed Grok model promotional period note from AI model references.\n- Added new audit log events for custom image management in GitHub Actions.\n\n### Title\nEnhance CodeQL testing docs and restructure Copilot CLI customization"
+}
