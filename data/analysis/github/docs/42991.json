@@ -1,0 +1,25 @@
+{
+  "number": 42991,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-16T20:37:23Z",
+  "url": "https://github.com/github/docs/pull/42991",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-16 22:10:33",
+  "details": [
+    "Removed plan-specific restrictions (Pro/Pro+) for selecting Copilot Coding Agent AI models.",
+    "Generalized model selection availability to supported entrypoints (issue assignment, agents tab/panel, GitHub Mobile, Raycast).",
+    "Added fallback to Auto model when picker isn't available.",
+    "Removed outdated notes about upcoming support for Business/Enterprise plans."
+  ],
+  "summary": "- Removed plan-specific restrictions (Pro/Pro+) for selecting Copilot Coding Agent AI models.\n- Generalized model selection availability to supported entrypoints (issue assignment, agents tab/panel, GitHub Mobile, Raycast).\n- Added fallback to Auto model when picker isn't available.\n- Removed outdated notes about upcoming support for Business/Enterprise plans.",
+  "generated_title": "Generalize Copilot Coding Agent model selection across plans and entrypoints",
+  "commits": [
+    "**7f63763**: Merge pull request #59666 from github/repo-sync (by docs-bot)",
+    "**f664440**: Merge pull request #59667 from github/repo-sync (by docs-bot)",
+    "**8f62cae**: Update information on CCA model picker (#59620) (by Tim Rogers)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removed plan-specific restrictions (Pro/Pro+) for selecting Copilot Coding Agent AI models.\n- Generalized model selection availability to supported entrypoints (issue assignment, agents tab/panel, GitHub Mobile, Raycast).\n- Added fallback to Auto model when picker isn't available.\n- Removed outdated notes about upcoming support for Business/Enterprise plans.\n\n### Title\nGeneralize Copilot Coding Agent model selection across plans and entrypoints"
+}
