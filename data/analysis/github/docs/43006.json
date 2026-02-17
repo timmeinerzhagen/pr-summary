@@ -1,0 +1,40 @@
+{
+  "number": 43006,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-17T17:46:01Z",
+  "url": "https://github.com/github/docs/pull/43006",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-17 18:25:35",
+  "details": [
+    "Added Copilot CLI hooks tutorial for policy enforcement and auditing.",
+    "Documented new cache download rate limit (1500/min) and billing details.",
+    "Improved multi-disk log migration docs for GitHub Enterprise Server.",
+    "Clarified Python JWT example and updated dependency best practices.",
+    "Added GPT 5.3 Codex to Copilot Auto model pool.",
+    "Updated Copilot CLI configuration and setup guides.",
+    "Noted OIDC audit log streaming unavailability in GitHub Enterprise Cloud.",
+    "Required explicit values for repository custom properties."
+  ],
+  "summary": "- Added Copilot CLI hooks tutorial for policy enforcement and auditing.\n- Documented new cache download rate limit (1500/min) and billing details.\n- Improved multi-disk log migration docs for GitHub Enterprise Server.\n- Clarified Python JWT example and updated dependency best practices.\n- Added GPT 5.3 Codex to Copilot Auto model pool.\n- Updated Copilot CLI configuration and setup guides.\n- Noted OIDC audit log streaming unavailability in GitHub Enterprise Cloud.\n- Required explicit values for repository custom properties.",
+  "generated_title": "Enhance Copilot CLI with hooks, update caching limits, and improve Enterprise docs",
+  "commits": [
+    "**db4dd39**: Remove promotional pricing, update multiplier [Opus 4.6 (fast)] (#59615) (by Anne-Marie)",
+    "**44ece47**: Clarify Python JWT example uses client ID or app ID (#59668) (by Justin Alex)",
+    "**a475709**: Add note about OIDC audit log streaming unavailability with ghe (#59643) (by Damien Butler)",
+    "**499c5ac**: Added documentation for multi-disk log migrations (#59652) (by Benedict Ng)",
+    "**129f0b6**: Talk about cache billing a little more in cache docs (#59480) (by Ryan Ghadimi)",
+    "**aded6c9**: Create \"Set up Copilot CLI\" map topic #21272 (#59543) (by Anne-Marie)",
+    "**621cdf7**: Add more fields to table in \"Data available in Copilot usage metrics\" (#59642) (by Sophie)",
+    "**e229c79**: [EDI] Best practices for maintaining dependencies 2 (#59641) (by mc)",
+    "**cf42f4a**: Write a driver tutorial about using hooks to lock down agentic execution in a deterministic way (#59479) (by Sophie)",
+    "**f697df2**: Add required explicit values for repo custom properties (#59618) (by Calvin Childs)",
+    "**cdc487a**: Bump github/gh-base-image/gh-base-noble from 20260128-000359-ga6d0dc7c0 to 20260213-184502-g77a9fd0b0 in the baseimages group (#59663) (by dependabot[bot])",
+    "**d9234cb**: Rename MySQL connection string to connection URL (#59673) (by Daniel Dunn)",
+    "**38d6da1**: Adds GPT 5.3 Codex to Auto model pool (#59672) (by Nhu Do)",
+    "**26205f3**: Update docs changelog (for PR #59479) (#59674) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added Copilot CLI hooks tutorial for policy enforcement and auditing.\n- Documented new cache download rate limit (1500/min) and billing details.\n- Improved multi-disk log migration docs for GitHub Enterprise Server.\n- Clarified Python JWT example and updated dependency best practices.\n- Added GPT 5.3 Codex to Copilot Auto model pool.\n- Updated Copilot CLI configuration and setup guides.\n- Noted OIDC audit log streaming unavailability in GitHub Enterprise Cloud.\n- Required explicit values for repository custom properties.\n\n### Title\nEnhance Copilot CLI with hooks, update caching limits, and improve Enterprise docs"
+}
