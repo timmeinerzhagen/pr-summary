@@ -1,0 +1,24 @@
+{
+  "number": 43010,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-17T23:36:16Z",
+  "url": "https://github.com/github/docs/pull/43010",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-18 00:35:10",
+  "details": [
+    "Removed \"Benefits\" section and reorganized content flow.",
+    "Updated intro to focus on downloading/installing dependencies instead of writing/editing packs.",
+    "Simplified instructions: combined steps, removed redundant lines.",
+    "Corrected \"Intellisense\" to \"IntelliSense\".",
+    "Replaced \"Working with model packs\" section with concise \"Next steps\" linking to detailed docs."
+  ],
+  "summary": "- Removed \"Benefits\" section and reorganized content flow.\n- Updated intro to focus on downloading/installing dependencies instead of writing/editing packs.\n- Simplified instructions: combined steps, removed redundant lines.\n- Corrected \"Intellisense\" to \"IntelliSense\".\n- Replaced \"Working with model packs\" section with concise \"Next steps\" linking to detailed docs.",
+  "generated_title": "Refactor CodeQL packs documentation for clarity and flow",
+  "commits": [
+    "**2162ee3**: [EDI] Managing CodeQL query packs and library packs (#59677) (by Sam Browning)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Removed \"Benefits\" section and reorganized content flow.\n- Updated intro to focus on downloading/installing dependencies instead of writing/editing packs.\n- Simplified instructions: combined steps, removed redundant lines.\n- Corrected \"Intellisense\" to \"IntelliSense\".\n- Replaced \"Working with model packs\" section with concise \"Next steps\" linking to detailed docs.\n\n### Title\nRefactor CodeQL packs documentation for clarity and flow"
+}
