@@ -1,0 +1,28 @@
+{
+  "number": 43026,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-18T20:37:11Z",
+  "url": "https://github.com/github/docs/pull/43026",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-18 22:16:51",
+  "details": [
+    "Added Windows development environment support for Copilot coding agent.",
+    "Implemented code referencing annotations in Copilot coding agent session logs.",
+    "Documented new Goldeneye AI model for complex problem-solving.",
+    "Updated Copilot environment customization guides for self-hosted/larger runners.",
+    "Added GitHub Enterprise Server patch release notes for versions 3.14-3.19."
+  ],
+  "summary": "- Added Windows development environment support for Copilot coding agent.\n- Implemented code referencing annotations in Copilot coding agent session logs.\n- Documented new Goldeneye AI model for complex problem-solving.\n- Updated Copilot environment customization guides for self-hosted/larger runners.\n- Added GitHub Enterprise Server patch release notes for versions 3.14-3.19.",
+  "generated_title": "Copilot agent: Windows env, code ref annotations, Goldeneye model docs",
+  "commits": [
+    "**cd45fc4**: Merge pull request #59694 from github/repo-sync (by docs-bot)",
+    "**24706c5**: [2026-02-17] Copilot coding agent can spin up a Windows development environment (#59510) (by Tim Rogers)",
+    "**f9852af**: [2026-02-18] Copilot code referencing annotations in Copilot coding agent (#59622) (by Tim Rogers)",
+    "**f064178**: Goldeneye documentation (#59573) (by Nhu Do)",
+    "**1c860e0**: Patch release notes for GitHub Enterprise Server (#59529) (by release-controller[bot])"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added Windows development environment support for Copilot coding agent.\n- Implemented code referencing annotations in Copilot coding agent session logs.\n- Documented new Goldeneye AI model for complex problem-solving.\n- Updated Copilot environment customization guides for self-hosted/larger runners.\n- Added GitHub Enterprise Server patch release notes for versions 3.14-3.19.\n\n### Title\nCopilot agent: Windows env, code ref annotations, Goldeneye model docs"
+}
