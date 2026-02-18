@@ -1,0 +1,22 @@
+{
+  "number": 43021,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-18T17:45:47Z",
+  "url": "https://github.com/github/docs/pull/43021",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-18 18:21:58",
+  "details": [
+    "Updated product name references from `{% data variables.product.prodname_dotcom %}` to `{% data variables.product.github %}` or \"GitHub\" across documentation files.",
+    "Simplified intro text on GitHub Support page for clarity.",
+    "Ensured consistent terminology in GitHub Developer Program descriptions."
+  ],
+  "summary": "- Updated product name references from `{% data variables.product.prodname_dotcom %}` to `{% data variables.product.github %}` or \"GitHub\" across documentation files.\n- Simplified intro text on GitHub Support page for clarity.\n- Ensured consistent terminology in GitHub Developer Program descriptions.",
+  "generated_title": "Standardize GitHub product name references in docs",
+  "commits": [
+    "**a7d9f32**: Merge pull request #59688 from github/repo-sync (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated product name references from `{% data variables.product.prodname_dotcom %}` to `{% data variables.product.github %}` or \"GitHub\" across documentation files.\n- Simplified intro text on GitHub Support page for clarity.\n- Ensured consistent terminology in GitHub Developer Program descriptions.\n\n### Title\nStandardize GitHub product name references in docs"
+}

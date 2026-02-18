@@ -1,0 +1,26 @@
+{
+  "number": 43016,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-18T14:41:18Z",
+  "url": "https://github.com/github/docs/pull/43016",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-18 18:26:16",
+  "details": [
+    "Added comprehensive documentation for Copilot CLI plugins, including concepts, creation, installation, and marketplace setup.",
+    "Removed deprecated text completion feature for PR descriptions and associated content.",
+    "Adjusted REST API rate limit for Search code endpoint to 9 requests per minute.",
+    "Fixed broken DevOps solutions comparison links."
+  ],
+  "summary": "- Added comprehensive documentation for Copilot CLI plugins, including concepts, creation, installation, and marketplace setup.\n- Removed deprecated text completion feature for PR descriptions and associated content.\n- Adjusted REST API rate limit for Search code endpoint to 9 requests per minute.\n- Fixed broken DevOps solutions comparison links.",
+  "generated_title": "Add Copilot CLI plugin docs and remove text completion feature",
+  "commits": [
+    "**ee2dd75**: Adjust rate limit for Search code endpoint (#56942) (by Kynan Ware)",
+    "**8d3072b**: Fix comparison link for GitHub DevOps solutions (#59678) (by Phil Ernst)",
+    "**a64eef9**: Copilot CLI: plugin docs (#59650) (by hubwriter)",
+    "**ff4c8a0**: Delete content on Copilot text completion for PR descriptions (#59681) (by Sam Browning)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added comprehensive documentation for Copilot CLI plugins, including concepts, creation, installation, and marketplace setup.\n- Removed deprecated text completion feature for PR descriptions and associated content.\n- Adjusted REST API rate limit for Search code endpoint to 9 requests per minute.\n- Fixed broken DevOps solutions comparison links.\n\n### Title\nAdd Copilot CLI plugin docs and remove text completion feature"
+}
