@@ -1,0 +1,25 @@
+{
+  "number": 43030,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-18T23:36:24Z",
+  "url": "https://github.com/github/docs/pull/43030",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-19 06:28:25",
+  "details": [
+    "Revamped secret scanning documentation for clarity and conciseness, focusing on credential exposure prevention.",
+    "Clarified availability: free for public repos; requires GHAS for private/org/user-owned repos.",
+    "Added REST API endpoints for billing usage reports (`/usage-reports`).",
+    "Enabled Claude Opus 4.6 support in Eclipse, Xcode, and JetBrains IDEs."
+  ],
+  "summary": "- Revamped secret scanning documentation for clarity and conciseness, focusing on credential exposure prevention.\n- Clarified availability: free for public repos; requires GHAS for private/org/user-owned repos.\n- Added REST API endpoints for billing usage reports (`/usage-reports`).\n- Enabled Claude Opus 4.6 support in Eclipse, Xcode, and JetBrains IDEs.",
+  "generated_title": "Update Secret Scanning Docs, Add Billing Usage Reports, Enable Copilot in IDEs",
+  "commits": [
+    "**1568e1a**: Show availability in Eclipse, Xcode, and JetBrains for Claude Opus 4.6 (#59588) (by Brian)",
+    "**81609b4**: Update OpenAPI Description (#59698) (by docs-bot)",
+    "**12b8fad**: Improve \"About secret scanning\" for user value (#59036) (by Joe Clark)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary  \n- Revamped secret scanning documentation for clarity and conciseness, focusing on credential exposure prevention.  \n- Clarified availability: free for public repos; requires GHAS for private/org/user-owned repos.  \n- Added REST API endpoints for billing usage reports (`/usage-reports`).  \n- Enabled Claude Opus 4.6 support in Eclipse, Xcode, and JetBrains IDEs.  \n\n### Title  \nUpdate Secret Scanning Docs, Add Billing Usage Reports, Enable Copilot in IDEs"
+}
