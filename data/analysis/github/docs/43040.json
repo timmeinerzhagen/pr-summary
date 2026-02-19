@@ -1,0 +1,28 @@
+{
+  "number": 43040,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-19T14:43:08Z",
+  "url": "https://github.com/github/docs/pull/43040",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-19 16:24:28",
+  "details": [
+    "Added note about audit log streaming unavailability for GitHub Enterprise Cloud with data residency.",
+    "Added troubleshooting guide for SSH agent conflicts in Windows environments.",
+    "Updated cost center allocation example to include GHSP charges.",
+    "Restructured Dependabot security updates documentation and added reference file.",
+    "Overhauled Azure DevOps migration guide into a six-phase process with supporting articles."
+  ],
+  "summary": "- Added note about audit log streaming unavailability for GitHub Enterprise Cloud with data residency.\n- Added troubleshooting guide for SSH agent conflicts in Windows environments.\n- Updated cost center allocation example to include GHSP charges.\n- Restructured Dependabot security updates documentation and added reference file.\n- Overhauled Azure DevOps migration guide into a six-phase process with supporting articles.",
+  "generated_title": "Documentation updates: Audit logs, SSH troubleshooting, cost allocation, Dependabot, and Azure DevOps migration guide",
+  "commits": [
+    "**db4994a**: Merge pull request #59702 from github/repo-sync (by docs-bot)",
+    "**33b8e9e**: Correct cost center allocation example for GHAS (#59699) (by Greg Mondello)",
+    "**ecad6bd**: Migrating from ADO to GitHub (#59459) (by Felix Guntrip)",
+    "**69622f9**: Update note on S3 streaming with OpenID Connect (#59686) (by Damien Butler)",
+    "**b8e0429**: EDI-fy \"Configuring Dependabot security updates\" (#59214) (by Sam Browning)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added note about audit log streaming unavailability for GitHub Enterprise Cloud with data residency.\n- Added troubleshooting guide for SSH agent conflicts in Windows environments.\n- Updated cost center allocation example to include GHSP charges.\n- Restructured Dependabot security updates documentation and added reference file.\n- Overhauled Azure DevOps migration guide into a six-phase process with supporting articles.\n\n### Title\nDocumentation updates: Audit logs, SSH troubleshooting, cost allocation, Dependabot, and Azure DevOps migration guide"
+}
