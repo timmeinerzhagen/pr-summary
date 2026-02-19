@@ -1,0 +1,33 @@
+{
+  "number": 43042,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-19T17:43:35Z",
+  "url": "https://github.com/github/docs/pull/43042",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-19 18:26:23",
+  "details": [
+    "Updated Docker base image to a newer version.",
+    "Minor documentation fixes: removed extra line in SSH guide, added line in CodeQL CLI intro.",
+    "Enhanced CodeQL CLI documentation: added section on extractor options and clarified commands.",
+    "Restructured global security advisories content for clarity and scannability.",
+    "Deprecated Copilot code review static analysis tools (CodeQL, ESLint, PMD) and removed related content.",
+    "Added pull request lifecycle metrics (merge count, cycle time) for Copilot coding agent.",
+    "Clarified Copilot CLI plugin installation from Git repositories and updated plugin reference."
+  ],
+  "summary": "- Updated Docker base image to a newer version.\n- Minor documentation fixes: removed extra line in SSH guide, added line in CodeQL CLI intro.\n- Enhanced CodeQL CLI documentation: added section on extractor options and clarified commands.\n- Restructured global security advisories content for clarity and scannability.\n- Deprecated Copilot code review static analysis tools (CodeQL, ESLint, PMD) and removed related content.\n- Added pull request lifecycle metrics (merge count, cycle time) for Copilot coding agent.\n- Clarified Copilot CLI plugin installation from Git repositories and updated plugin reference.",
+  "generated_title": "Update Docker image, enhance docs, deprecate Copilot static analysis, add PR metrics",
+  "commits": [
+    "**ba8ad51**: [EDI] Extractor options (#59691) (by Sam Browning)",
+    "**57edd7c**: Merge pull request #59708 from github/repo-sync (by docs-bot)",
+    "**d7d8ba3**: Clarify copilot-setup-steps.yml execution model in documentation (#59687) (by Copilot)",
+    "**e61d38a**: Copilot CLI: tiny additions to plugin docs (#59692) (by hubwriter)",
+    "**b616098**: Deprecate content for Copilot code review deterministic static analysis tools  (#59683) (by Copilot)",
+    "**1e1a1ee**: Make \"About global security advisories\" scannable (#59651) (by Laura Coursen)",
+    "**cd6a7fe**: Bump github/gh-base-image/gh-base-noble from 20260213-184502-g77a9fd0b0 to 20260218-111945-g0ef8bb15f in the baseimages group (#59703) (by dependabot[bot])",
+    "**2a0e939**: Introduce CCA PR merge count, cycle time, and acceptance rate (Enterprise-level API only) (#59671) (by Sophie)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Updated Docker base image to a newer version.\n- Minor documentation fixes: removed extra line in SSH guide, added line in CodeQL CLI intro.\n- Enhanced CodeQL CLI documentation: added section on extractor options and clarified commands.\n- Restructured global security advisories content for clarity and scannability.\n- Deprecated Copilot code review static analysis tools (CodeQL, ESLint, PMD) and removed related content.\n- Added pull request lifecycle metrics (merge count, cycle time) for Copilot coding agent.\n- Clarified Copilot CLI plugin installation from Git repositories and updated plugin reference.\n\n### Title\nUpdate Docker image, enhance docs, deprecate Copilot static analysis, add PR metrics"
+}
