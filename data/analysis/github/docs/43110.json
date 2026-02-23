@@ -1,0 +1,27 @@
+{
+  "number": 43110,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-23T20:44:53Z",
+  "url": "https://github.com/github/docs/pull/43110",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-23 22:22:20",
+  "details": [
+    "Added user-level IP allow list enforcement for Enterprise Managed Users, extending restrictions to user-owned resources.",
+    "Documented new `assignee` filter and assignment feature for Dependabot alerts.",
+    "Removed MCP server restrictions for Copilot custom agents, enabling broader configuration.",
+    "Added Copilot customization cheat sheet comparing features and IDE support."
+  ],
+  "summary": "- Added user-level IP allow list enforcement for Enterprise Managed Users, extending restrictions to user-owned resources.\n- Documented new `assignee` filter and assignment feature for Dependabot alerts.\n- Removed MCP server restrictions for Copilot custom agents, enabling broader configuration.\n- Added Copilot customization cheat sheet comparing features and IDE support.",
+  "generated_title": "Document IP allow list user enforcement, Dependabot assignees, and Copilot customization",
+  "commits": [
+    "**c2b6f1b**: Update docs for ip allow list user level enforcement (#59695) (by erikaxu)",
+    "**cceb800**: Remove explicit `any` types from multiple files (#59576) (by Kevin Heis)",
+    "**1a87bd1**: Add Copilot customization cheat sheet (#59720) (by Sarita Iyer)",
+    "**417fa59**: Document the new `assignee` filter and feature for Dependabot alerts. (#59755) (by Jeff Widman)",
+    "**ccf9942**: Remove MCP only available for org/enterprise custom agents (#59704) (by Belal Taher)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added user-level IP allow list enforcement for Enterprise Managed Users, extending restrictions to user-owned resources.\n- Documented new `assignee` filter and assignment feature for Dependabot alerts.\n- Removed MCP server restrictions for Copilot custom agents, enabling broader configuration.\n- Added Copilot customization cheat sheet comparing features and IDE support.\n\n### Title\nDocument IP allow list user enforcement, Dependabot assignees, and Copilot customization"
+}
