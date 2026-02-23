@@ -1,0 +1,25 @@
+{
+  "number": 43106,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-23T14:42:31Z",
+  "url": "https://github.com/github/docs/pull/43106",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-23 18:32:17",
+  "details": [],
+  "summary": "No summary available",
+  "generated_title": "Repo sync",
+  "commits": [
+    "**0660e9c**: [EDI] Using custom queries with the CodeQL CLI (#59665) (by mc)",
+    "**0098702**: Clarify 2FA and recovery code behavior for EMU setup user (#59725) (by Justin Alex)",
+    "**169b547**: Update IP allow lists documentation for public resources (#58344) (by Stacy Carter)",
+    "**ddc3730**: Fix bespoke landing page duplicate articles and flat sidebar (#59750) (by Evan Bonsignori)",
+    "**97a03c3**:  Secret scanning metadata checks in security configurations, enabled for repos with validity [public preview] (#59312) (by mc)",
+    "**09b5900**: Copilot CLI: add autopilot documentation (#59736) (by hubwriter)",
+    "**cc235ce**: [EDI] About the tool status page for code scanning (#59706) (by mc)",
+    "**2f875d2**: [EDI] Troubleshooting the detection of vulnerable dependencies / Troubleshooting Dependabot errors (#59710) (by mc)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": ""
+}

@@ -1,0 +1,24 @@
+{
+  "number": 43109,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-23T17:48:32Z",
+  "url": "https://github.com/github/docs/pull/43109",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-23 18:28:04",
+  "details": [
+    "Added `fund=false` to `.npmrc` to silence funding messages during `npm ci`.",
+    "Updated documentation links for `GITHUB_TOKEN` permissions across multiple files to point to correct sections.",
+    "Added new GraphQL enum values (`ISSUE_COMMENT_PINNED_EVENT`, `ISSUE_COMMENT_UNPINNED_EVENT`) for issue and pull request timelines."
+  ],
+  "summary": "- Added `fund=false` to `.npmrc` to silence funding messages during `npm ci`.\n- Updated documentation links for `GITHUB_TOKEN` permissions across multiple files to point to correct sections.\n- Added new GraphQL enum values (`ISSUE_COMMENT_PINNED_EVENT`, `ISSUE_COMMENT_UNPINNED_EVENT`) for issue and pull request timelines.",
+  "generated_title": "Silence npm funding, update token docs links, and extend GraphQL schema",
+  "commits": [
+    "**a8de5c4**: Merge pull request #59764 from github/repo-sync (by docs-bot)",
+    "**4433767**: GraphQL schema update (#59766) (by docs-bot)",
+    "**b1ecaf6**: Silence funding message in npm logs for `npm ci` (#59754) (by Jeff Widman)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added `fund=false` to `.npmrc` to silence funding messages during `npm ci`.\n- Updated documentation links for `GITHUB_TOKEN` permissions across multiple files to point to correct sections.\n- Added new GraphQL enum values (`ISSUE_COMMENT_PINNED_EVENT`, `ISSUE_COMMENT_UNPINNED_EVENT`) for issue and pull request timelines.\n\n### Title  \nSilence npm funding, update token docs links, and extend GraphQL schema"
+}
