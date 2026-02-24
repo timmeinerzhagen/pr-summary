@@ -1,0 +1,26 @@
+{
+  "number": 43111,
+  "title": "Repo sync",
+  "author": "docs-bot",
+  "state": "closed",
+  "created": "2026-02-23T23:37:16Z",
+  "url": "https://github.com/github/docs/pull/43111",
+  "repository": "github/docs",
+  "analysis_date": "2026-02-24 00:33:58",
+  "details": [
+    "Added documentation for automating Copilot CLI in GitHub Actions workflows, including authentication and a daily summary example.",
+    "Updated changelog and index to include the new Copilot CLI automation guide.",
+    "Marked enterprise-defined custom organization roles as generally available (GA) and updated related documentation.",
+    "Enabled public documentation for Mapbox Secret Access Token pattern in secret scanning."
+  ],
+  "summary": "- Added documentation for automating Copilot CLI in GitHub Actions workflows, including authentication and a daily summary example.\n- Updated changelog and index to include the new Copilot CLI automation guide.\n- Marked enterprise-defined custom organization roles as generally available (GA) and updated related documentation.\n- Enabled public documentation for Mapbox Secret Access Token pattern in secret scanning.",
+  "generated_title": "Add Copilot CLI automation guide, GA for enterprise custom roles, and public Mapbox secret pattern",
+  "commits": [
+    "**d22b44d**: Document using Copilot CLI within an Actions workflow  (#59639) (by Sunbrye Ly)",
+    "**c8a5b66**: Enterprise defined custom organization roles [GA] (#59707) (by Isaac Brown)",
+    "**cf38658**: Sync secret scanning data (#59765) (by docs-bot)",
+    "**9574312**: Update docs changelog (for PR #59639) (#59773) (by docs-bot)"
+  ],
+  "original_description": "\nThis is an automated pull request to sync changes between the public and private repos.\nOur bot will merge this pull request automatically.\nTo preserve continuity across repos, _do not squash_ this pull request.\n",
+  "raw_analysis": "### Summary\n- Added documentation for automating Copilot CLI in GitHub Actions workflows, including authentication and a daily summary example.\n- Updated changelog and index to include the new Copilot CLI automation guide.\n- Marked enterprise-defined custom organization roles as generally available (GA) and updated related documentation.\n- Enabled public documentation for Mapbox Secret Access Token pattern in secret scanning.\n\n### Title\nAdd Copilot CLI automation guide, GA for enterprise custom roles, and public Mapbox secret pattern"
+}
