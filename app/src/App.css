@@ -409,6 +409,22 @@ h1 {
   font-weight: 600;
 }
 
+.commit-link {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  transition: color 0.2s ease;
+}
+
+.commit-link:hover {
+  color: var(--accent-primary);
+  text-decoration: none;
+}
+
+.commit-link:hover .markdown-content strong {
+  color: var(--accent-primary);
+}
+
 .pr-summary ul {
   margin-left: 20px;
   margin-bottom: 10px;

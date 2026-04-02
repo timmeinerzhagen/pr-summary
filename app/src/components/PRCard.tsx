@@ -21,6 +21,18 @@ const PRCard: React.FC<PRCardProps> = ({ pr }) => {
     });
   };
 
+  const parseCommitSha = (commitString: string): string | null => {
+    const match = commitString.match(/^\*\*([a-f0-9]+)\*\*/);
+    return match ? match[1] : null;
+  };
+
+  const generateCommitUrl = (commitString: string): string | null => {
+    const sha = parseCommitSha(commitString);
+    if (!sha) return null;
+    
+    return `${pr.url}/commits/${sha}`;
+  };
+
   // Clean up the summary text
   let summary = pr.summary || 'No summary available';
   if (summary.includes('Based on the git diff')) {
@@ -63,13 +75,32 @@ const PRCard: React.FC<PRCardProps> = ({ pr }) => {
               <div className="commits-section">
                 <h4>Commits</h4>
                 <div className="commits-list">
-                  {pr.commits.map((commit, index) => (
-                    <div 
-                      key={index} 
-                      className="commit-item markdown-content"
-                      dangerouslySetInnerHTML={{ __html: renderMarkdown(commit) }}
-                    />
-                  ))}
+                  {pr.commits.map((commit, index) => {
+                    const commitUrl = generateCommitUrl(commit);
+                    return (
+                      <div key={index} className="commit-item">
+                        {commitUrl ? (
+                          <a 
+                            href={commitUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="commit-link"
+                            onClick={(e) => e.stopPropagation()}
+                          >
+                            <div 
+                              className="markdown-content"
+                              dangerouslySetInnerHTML={{ __html: renderMarkdown(commit) }}
+                            />
+                          </a>
+                        ) : (
+                          <div 
+                            className="markdown-content"
+                            dangerouslySetInnerHTML={{ __html: renderMarkdown(commit) }}
+                          />
+                        )}
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             )}
